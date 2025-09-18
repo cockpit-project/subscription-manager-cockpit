@@ -43,12 +43,12 @@
     "sizzle": "^2.3.10"
   },
   "dependencies": {
-    "@patternfly/patternfly": "6.2.3",
-    "@patternfly/react-core": "6.2.2",
-    "@patternfly/react-icons": "6.2.2",
-    "@patternfly/react-styles": "6.2.2",
-    "@patternfly/react-table": "6.2.2",
-    "@patternfly/react-tokens": "6.2.2",
+    "@patternfly/patternfly": "6.3.1",
+    "@patternfly/react-core": "6.3.1",
+    "@patternfly/react-icons": "6.3.1",
+    "@patternfly/react-styles": "6.3.1",
+    "@patternfly/react-table": "6.3.1",
+    "@patternfly/react-tokens": "6.3.1",
     "moment": "^2.19.3"
   },
   "engines": {
