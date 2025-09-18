@@ -24,7 +24,8 @@ import re
 import ssl
 import subprocess
 
-systems = {}
+# NOTE: ignore this line temporarily. This file is not typed and mypy has complaints.
+systems = {}  # type: ignore
 
 
 class handler(BaseHTTPRequestHandler):
