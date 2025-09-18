@@ -220,6 +220,9 @@ vm: $(VM_IMAGE)
 print-vm:
 	@echo $(VM_IMAGE)
 
+codecheck: test/common $(NODE_MODULES_TEST)
+	test/common/static-code
+
 # convenience target to setup all the bits needed for the integration tests
 # without actually running them
 prepare-check: $(NODE_MODULES_TEST) $(VM_IMAGE) test/common
