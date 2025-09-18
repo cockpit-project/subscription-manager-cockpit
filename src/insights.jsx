@@ -33,7 +33,6 @@ import {
     ExpandableSection,
     Icon,
     Spinner,
-    Stack, StackItem,
 } from '@patternfly/react-core';
 
 import subscriptionsClient from './subscriptions-client';
