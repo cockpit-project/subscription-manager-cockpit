@@ -2,6 +2,40 @@
 line-length = 110
 include = '(\.py|^/test/check-.*|^/test/files/mock-insights)$'
 
+[tool.mypy]
+scripts_are_modules = true  # allow checking all scripts in one invocation
+explicit_package_bases = true
+# TODO: remove this when adding mypy config from other cockpit projects
+ignore_missing_imports = true
+
+[tool.pyright]
+strict = ["**"]
+extraPaths = ["test/common", "bots"]
+
+[tool.ruff]
+exclude = [
+    ".git/",
+    "modules/",
+    "node_modules/",
+]
+line-length = 118
+preview = true
+src = []
+
+[tool.ruff.lint]
+# TODO: fix ruff config when fixing python static checks
+ignore = [
+    "F403",
+    "F405",
+]
+
+[tool.ruff.lint.flake8-pytest-style]
+fixture-parentheses = false
+
+[tool.vulture]
+# TODO: fix vulture config when fixing python static checks
+exclude = [ "**" ]
+
 [tool.codespell]
 skip = './node_modules,./dist'
 ignore-words-list = 'doubleclick'
