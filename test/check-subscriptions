@@ -1,4 +1,4 @@
-#!/usr/bin/python3 -cimport os, sys; os.execv(os.path.dirname(sys.argv[1]) + "/../test/common/pywrap", sys.argv)
+#!/usr/bin/python3 -cimport os, sys; os.execv(os.path.dirname(sys.argv[1]) + "/common/pywrap", sys.argv)
 # This file is part of Cockpit.
 #
 # Copyright (C) 2016 Red Hat, Inc.
@@ -20,8 +20,8 @@ import os
 import time
 import uuid
 
-from packagelib import *
-from testlib import *
+import packagelib
+import testlib
 
 # candlepin on the services image has a lot of demo data preloaded
 # useful info/commands:
@@ -65,7 +65,7 @@ def machine_restorecon(machine, path, *args):
     return machine.execute(cmd)
 
 
-class SubscriptionsCase(MachineCase):
+class SubscriptionsCase(testlib.MachineCase):
     # fmt: off
     provision = {
         "0": {"address": CLIENT_ADDR + "/20"},
@@ -255,7 +255,7 @@ class TestSubscriptions(SubscriptionsCase):
         )
         self.allow_journal_messages("junior is not in the sudoers file.  This incident will be reported.")
 
-    @onlyImage("Insights support is specific to RHEL", "rhel-*")
+    @testlib.onlyImage("Insights support is specific to RHEL", "rhel-*")
     def testInsights(self):
         m = self.machine
         b = self.browser
@@ -304,7 +304,7 @@ class TestSubscriptions(SubscriptionsCase):
 
         b.wait_visible("button:contains('Not connected')")
 
-    @onlyImage("Insights support is specific to RHEL", "rhel-*")
+    @testlib.onlyImage("Insights support is specific to RHEL", "rhel-*")
     def testSubAndInAndFail(self):
         m = self.machine
         b = self.browser
@@ -397,7 +397,7 @@ class TestSubscriptions(SubscriptionsCase):
         b.wait_visible("#overview button:contains('Register')")
 
 
-class TestSubscriptionsPackages(SubscriptionsCase, PackageCase):
+class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
     def testMissingPackages(self):
         m = self.machine
         b = self.browser
@@ -454,4 +454,4 @@ class TestSubscriptionsPackages(SubscriptionsCase, PackageCase):
 
 
 if __name__ == "__main__":
-    test_main()
+    testlib.test_main()
