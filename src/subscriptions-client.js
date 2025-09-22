@@ -44,7 +44,7 @@ cockpit.event_target(client);
 
 client.subscriptionStatus = {
     status: undefined,
-    status_msg: _('Unknown'),
+    status_msg: _("Unknown"),
     products: [],
     error: undefined,
     org: undefined,
