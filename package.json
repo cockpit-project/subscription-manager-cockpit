@@ -16,8 +16,6 @@
   "devDependencies": {
     "argparse": "^2.0.1",
     "esbuild": "^0.25.0",
-    "esbuild-plugin-copy": "^2.1.1",
-    "esbuild-plugin-replace": "^1.4.0",
     "esbuild-sass-plugin": "^3.3.1",
     "esbuild-wasm": "^0.25.0",
     "eslint": "^8.57.1",
@@ -39,7 +37,6 @@
     "popper.js": "^1.14.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sass": "^1.79.6",
     "sizzle": "^2.3.10"
   },
   "dependencies": {
