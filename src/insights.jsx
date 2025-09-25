@@ -25,15 +25,15 @@ import { show_modal_dialog } from "cockpit-components-dialog.jsx";
 import * as service from "service.js";
 import * as PK from "packagekit";
 
-import { ExclamationTriangleIcon, ExternalLinkAltIcon, WarningTriangleIcon } from '@patternfly/react-icons';
+import { ExclamationTriangleIcon, ExternalLinkAltIcon, WarningTriangleIcon } from "@patternfly/react-icons";
+import { Alert } from "@patternfly/react-core/dist/esm/components/Alert";
+import { Button } from "@patternfly/react-core/dist/esm/components/Button";
 import {
-    Alert,
-    Button,
-    DescriptionListDescription, DescriptionListGroup, DescriptionListTerm,
-    ExpandableSection,
-    Icon,
-    Spinner,
-} from '@patternfly/react-core';
+    DescriptionListDescription, DescriptionListGroup, DescriptionListTerm
+} from "@patternfly/react-core/dist/esm/components/DescriptionList";
+import { ExpandableSection } from "@patternfly/react-core/dist/esm/components/ExpandableSection";
+import { Icon } from "@patternfly/react-core/dist/esm/components/Icon";
+import { Spinner } from "@patternfly/react-core/dist/esm/components/Spinner";
 
 import subscriptionsClient from './subscriptions-client';
 

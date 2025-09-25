@@ -21,14 +21,12 @@ import React from "react";
 
 import cockpit from "cockpit";
 
-import {
-    Checkbox,
-    Flex,
-    Form, FormGroup,
-    FormSelect, FormSelectOption,
-    Radio,
-    TextInput,
-} from '@patternfly/react-core';
+import { Checkbox } from "@patternfly/react-core/dist/esm/components/Checkbox";
+import { Flex } from "@patternfly/react-core/dist/esm/layouts/Flex";
+import { Form, FormGroup } from "@patternfly/react-core/dist/esm/components/Form";
+import { FormSelect, FormSelectOption } from "@patternfly/react-core/dist/esm/components/FormSelect";
+import { Radio } from "@patternfly/react-core/dist/esm/components/Radio";
+import { TextInput } from "@patternfly/react-core/dist/esm/components/TextInput";
 
 import subscriptionsClient from './subscriptions-client';
 import * as Insights from './insights.jsx';
