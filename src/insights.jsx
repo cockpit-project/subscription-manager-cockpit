@@ -19,11 +19,11 @@
 
 import cockpit from "cockpit";
 import React from "react";
-import moment from "moment";
 
 import { show_modal_dialog } from "cockpit-components-dialog.jsx";
 import * as service from "service.js";
 import * as PK from "packagekit";
+import { distanceToNow } from "timeformat";
 
 import { ExclamationTriangleIcon, ExternalLinkAltIcon, WarningTriangleIcon } from "@patternfly/react-icons";
 import { Alert } from "@patternfly/react-core/dist/esm/components/Alert";
@@ -38,8 +38,6 @@ import { Spinner } from "@patternfly/react-core/dist/esm/components/Spinner";
 import subscriptionsClient from './subscriptions-client';
 
 const _ = cockpit.gettext;
-
-moment.locale(cockpit.language);
 
 const insights_timer = service.proxy("insights-client.timer", "Timer");
 const insights_service = service.proxy("insights-client.service", "Service");
@@ -356,7 +354,7 @@ function calc_next_elapse(monotonic_start, timer) {
         next_real = timer.NextElapseUSecRealtime / 1e6;
     const next = Math.min(next_mono, next_real);
     if (next !== Infinity)
-        return moment(next * 1000).calendar();
+        return distanceToNow(next * 1000);
     else
         return _("unknown");
 }
@@ -425,7 +423,7 @@ function show_status_dialog() {
                                 { lastupload &&
                                     <tr>
                                         <th>{_("Last Insights data upload")}</th>
-                                        <td>{moment(lastupload * 1000).calendar()}</td>
+                                        <td>{distanceToNow(lastupload * 1000)}</td>
                                     </tr>}
                             </tbody>
                         </table>
