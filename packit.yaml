@@ -1,0 +1,38 @@
+upstream_project_url: https://github.com/cockpit-project/subscription-manager-cockpit
+# enable notification of failed downstream jobs as issues
+issue_repository: https://github.com/cockpit-project/subscription-manager-cockpit
+specfile_path: subscription-manager-cockpit.spec
+upstream_package_name: subscription-manager-cockpit
+downstream_package_name: subscription-manager-cockpit
+# use the nicely formatted release description from our upstream release, instead of git shortlog
+copy_upstream_release_description: true
+
+actions:
+  post-upstream-clone: make subscription-manager-cockpit.spec
+  create-archive: make dist node-cache
+
+srpm_build_deps:
+  - make
+  - npm
+
+jobs:
+  - job: propose_downstream
+    trigger: release
+    dist_git_branches:
+      - fedora-development
+      - fedora-42
+      - fedora-43
+
+  - job: koji_build
+    trigger: commit
+    dist_git_branches:
+      - fedora-development
+      - fedora-42
+      - fedora-43
+
+  - job: bodhi_update
+    trigger: commit
+    dist_git_branches:
+      # rawhide updates are created automatically
+      - fedora-42
+      - fedora-43
