@@ -3,6 +3,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pavel Borecki <pavel.borecki@gmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 #
 # #-#-#-#-#  subscription-manager.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
@@ -19,15 +20,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-10-06 21:54+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"subscription-manager/cockpit-main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src/insights.jsx:528
 msgid "$0 critical hit"
@@ -71,19 +74,19 @@ msgstr ""
 
 #: src/subscriptions-view.jsx:514
 msgid "Access denied"
-msgstr ""
+msgstr "Přístup byl odepřen"
 
 #: src/subscriptions-register.jsx:163
 msgid "Account"
-msgstr ""
+msgstr "Účet"
 
 #: src/subscriptions-register.jsx:127
 msgid "Activation Key"
-msgstr ""
+msgstr "Aktivační klíč"
 
 #: src/subscriptions-register.jsx:168
 msgid "Activation key"
-msgstr ""
+msgstr "Aktivační klíč"
 
 #: src/subscriptions-view.jsx:363
 msgid "Add-ons"
@@ -91,11 +94,11 @@ msgstr ""
 
 #: src/insights.jsx:180
 msgid "Additional packages:"
-msgstr ""
+msgstr "Další balíčky:"
 
 #: src/subscriptions-view.jsx:187
 msgid "Arch"
-msgstr ""
+msgstr "Arch."
 
 #: src/subscriptions-register.jsx:176
 msgid "Attach automatically"
@@ -112,35 +115,35 @@ msgstr ""
 
 #: src/insights.jsx:450
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: src/insights.jsx:207 src/insights.jsx:302
 msgid "Checking installed software"
-msgstr ""
+msgstr "Zjišťuje se nainstalovaný sofware"
 
 #: src/insights.jsx:442 src/insights.jsx:461
 msgid "Close"
-msgstr ""
+msgstr "Zavřít"
 
 #: src/insights.jsx:254
 msgid "Connect"
-msgstr ""
+msgstr "Připojit"
 
 #: src/subscriptions-register.jsx:87
 msgid "Connect this system to $0."
-msgstr ""
+msgstr "Připojit tento systém k $0."
 
 #: src/insights.jsx:241
 msgid "Connect to Red Hat Insights"
-msgstr ""
+msgstr "Připojit k Red Hat Insights"
 
 #: src/insights.jsx:562
 msgid "Connected to Insights"
-msgstr ""
+msgstr "Připojeno k Insights"
 
 #: src/insights.jsx:402
 msgid "Connected to Red Hat Insights"
-msgstr ""
+msgstr "Připojeno ke službě Red Hat Insights"
 
 #: src/insights.jsx:100
 msgid "Connecting to Insights"
@@ -170,49 +173,51 @@ msgstr ""
 
 #: src/subscriptions-register.jsx:143
 msgid "Custom URL"
-msgstr ""
+msgstr "Uživatelsky určená URL adresa"
 
 #: src/subscriptions-register.jsx:142
 msgid "Default"
-msgstr ""
+msgstr "Výchozí"
 
 #: src/insights.jsx:194 src/insights.jsx:422 src/insights.jsx:427
 msgid "Details"
-msgstr ""
+msgstr "Podrobnosti"
 
 #: src/insights.jsx:430 src/insights.jsx:434
 msgid "Disconnect from Insights"
-msgstr ""
+msgstr "Odpojit od Insights"
 
 #: src/insights.jsx:220
 msgid "Downloading $0"
-msgstr ""
+msgstr "Stahuje se $0"
 
 #: src/subscriptions-view.jsx:203
 msgid "Ends"
-msgstr ""
+msgstr "Končí"
 
 #: src/insights.jsx:432
 msgid ""
 "If you disconnect this system from Insights, it will no longer report its "
 "Insights status in Red Hat Cloud or Satellite."
 msgstr ""
+"Pokud tento systém odpojíte od Insights, nebude už hlásit svůj Insights stav "
+"v Red Hat Cloud nebo Satellite."
 
 #: src/insights.jsx:579 src/subscriptions-register.jsx:85
 msgid "Insights"
-msgstr ""
+msgstr "Insights (vhledy)"
 
 #: src/subscriptions-view.jsx:226 src/subscriptions-view.jsx:230
 msgid "Installed products"
-msgstr ""
+msgstr "Nainstalované produkty"
 
 #: src/insights.jsx:224
 msgid "Installing $0"
-msgstr ""
+msgstr "Instaluje se $0"
 
 #: src/insights.jsx:413
 msgid "Last Insights data upload"
-msgstr ""
+msgstr "Poslední nahrání Insights dat"
 
 #: src/subscriptions-client.js:284
 msgid ""
@@ -235,11 +240,11 @@ msgstr ""
 
 #: src/subscriptions-register.jsx:159
 msgid "Method"
-msgstr ""
+msgstr "Metoda"
 
 #: src/insights.jsx:408
 msgid "Next Insights data upload"
-msgstr ""
+msgstr "Příští nahrání Insights dat"
 
 #: src/subscriptions-view.jsx:233
 msgid "No installed products detected"
@@ -247,7 +252,7 @@ msgstr ""
 
 #: src/insights.jsx:520
 msgid "No rule hits"
-msgstr ""
+msgstr "Žádné zásahy pravidla"
 
 #: src/subscriptions-view.jsx:381
 msgid "No system purpose attributes set"
@@ -255,11 +260,11 @@ msgstr ""
 
 #: src/insights.jsx:574
 msgid "Not connected"
-msgstr ""
+msgstr "Nepřipojeno"
 
 #: src/subscriptions-view.jsx:406
 msgid "Not registered"
-msgstr ""
+msgstr "Nezaregistrováno"
 
 #: src/subscriptions-view.jsx:121
 msgid "Not subscribed"
@@ -271,15 +276,15 @@ msgstr ""
 
 #: src/subscriptions-view.jsx:462 src/subscriptions-register.jsx:117
 msgid "Organization"
-msgstr ""
+msgstr "Organizace"
 
 #: src/subscriptions-register.jsx:132
 msgid "Organization ID"
-msgstr ""
+msgstr "ID Organizace"
 
 #: src/subscriptions-view.jsx:449
 msgid "Overview"
-msgstr ""
+msgstr "Přehled"
 
 #: src/subscriptions-view.jsx:115
 msgid "Partially subscribed"
@@ -291,7 +296,7 @@ msgstr ""
 
 #: src/subscriptions-register.jsx:112
 msgid "Password"
-msgstr ""
+msgstr "Heslo"
 
 #: src/subscriptions-view.jsx:313 src/subscriptions-view.jsx:428
 msgid "Popover with explanation of SCA mode"
@@ -303,14 +308,17 @@ msgid ""
 "availability, and stability with Red Hat Insights — with predictive "
 "analytics, avoid problems and unplanned downtime in your Red Hat environment."
 msgstr ""
+"Proaktivně identifikujte a sanujte ohrožení bezpečnosti, výkonu, dostupnosti "
+"a stability s Red Hat Insights – pomocí prediktivní analýzy se vyhněte "
+"problémům a neplánovaným výpadkům ve svém Red Hat prostředí."
 
 #: src/subscriptions-view.jsx:179
 msgid "Product ID"
-msgstr ""
+msgstr "Identif. produktu"
 
 #: src/subscriptions-view.jsx:74 src/subscriptions-view.jsx:175
 msgid "Product name"
-msgstr ""
+msgstr "Název produktu"
 
 #: src/subscriptions-register.jsx:55
 msgid "Proxy Location"
@@ -330,11 +338,11 @@ msgstr ""
 
 #: src/subscriptions-view.jsx:408 src/index.js:64
 msgid "Register"
-msgstr ""
+msgstr "Zaregistrujte se"
 
 #: src/index.js:100
 msgid "Register System"
-msgstr ""
+msgstr "Zaregistrovat systém"
 
 #: src/subscriptions-client.js:340
 msgid "Registering using activation key ..."
@@ -346,19 +354,19 @@ msgstr ""
 
 #: src/insights.jsx:188
 msgid "Removals:"
-msgstr ""
+msgstr "Odebrání:"
 
 #: src/insights.jsx:222
 msgid "Removing $0"
-msgstr ""
+msgstr "Odebírá se $0"
 
 #: src/subscriptions-view.jsx:507
 msgid "Retrieving subscription status..."
-msgstr ""
+msgstr "Získává se stav předplatného…"
 
 #: src/subscriptions-view.jsx:357
 msgid "Role"
-msgstr ""
+msgstr "Role"
 
 #: src/subscriptions-client.js:415
 msgid "Saving configuration ..."
@@ -366,7 +374,7 @@ msgstr ""
 
 #: src/subscriptions-view.jsx:345
 msgid "Service level"
-msgstr ""
+msgstr "Úroveň služeb"
 
 #: src/subscriptions-client.js:321
 msgid "Starting registration service ..."
@@ -374,12 +382,12 @@ msgstr ""
 
 #: src/subscriptions-view.jsx:199
 msgid "Starts"
-msgstr ""
+msgstr "Začíná"
 
 #: src/subscriptions-view.jsx:195 src/subscriptions-view.jsx:339
 #: src/subscriptions-view.jsx:374
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 #: src/subscriptions-client.js:391
 msgid "Stopping registration service ..."
@@ -403,7 +411,7 @@ msgstr ""
 
 #: src/index.html:22 src/subscriptions-register.jsx:174 src/manifest.json:0
 msgid "Subscriptions"
-msgstr ""
+msgstr "Předplatné"
 
 #: src/subscriptions-view.jsx:320 src/subscriptions-view.jsx:435
 msgid "Subscriptions information"
@@ -411,7 +419,7 @@ msgstr ""
 
 #: src/subscriptions-view.jsx:392
 msgid "System purpose"
-msgstr ""
+msgstr "Účel systému"
 
 #: src/insights.jsx:158
 msgid "The $0 package and $1 other package will be installed."
@@ -421,7 +429,7 @@ msgstr[1] ""
 
 #: src/insights.jsx:84 src/insights.jsx:310
 msgid "The $0 package is not available from any repository."
-msgstr ""
+msgstr "Balíček $0 není k dispozici v žádném z repozitářů."
 
 #: src/insights.jsx:156 src/subscriptions-register.jsx:94
 msgid "The $0 package will be installed."
@@ -430,10 +438,11 @@ msgstr ""
 #: src/subscriptions-view.jsx:515
 msgid "The current user isn't allowed to access system subscription status."
 msgstr ""
+"Stávající uživatel není oprávněn přistupovat ke stavu předplatného systému."
 
 #: src/insights.jsx:397
 msgid "The last Insights data upload has failed."
-msgstr ""
+msgstr "Poslední nahrání Insights dat se nezdařilo."
 
 #: src/subscriptions-view.jsx:509
 msgid ""
@@ -450,15 +459,15 @@ msgstr ""
 
 #: src/insights.jsx:244
 msgid "This system is not connected to $0."
-msgstr ""
+msgstr "Tento systém není připojení k $0."
 
 #: src/subscriptions-register.jsx:147
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: src/subscriptions-view.jsx:517
 msgid "Unable to connect"
-msgstr ""
+msgstr "Nedaří se připojit"
 
 #: src/subscriptions-view.jsx:512
 msgid "Unable to the reach the rhsm service."
@@ -467,7 +476,7 @@ msgstr ""
 #: src/subscriptions-view.jsx:133 src/subscriptions-view.jsx:139
 #: src/subscriptions-client.js:545
 msgid "Unknown"
-msgstr ""
+msgstr "Neznámé"
 
 #: src/subscriptions-view.jsx:128
 msgid "Unknown status"
@@ -475,35 +484,35 @@ msgstr ""
 
 #: src/subscriptions-view.jsx:415
 msgid "Unregister"
-msgstr ""
+msgstr "Zrušit registraci"
 
 #: src/subscriptions-view.jsx:415 src/subscriptions-client.js:453
 msgid "Unregistering"
-msgstr ""
+msgstr "Rušení registrace…"
 
 #: src/subscriptions-view.jsx:506
 msgid "Updating"
-msgstr ""
+msgstr "Aktualizuje se"
 
 #: src/subscriptions-client.js:435
 msgid "Updating status ..."
-msgstr ""
+msgstr "Aktualizace stavu…"
 
 #: src/subscriptions-view.jsx:351
 msgid "Usage"
-msgstr ""
+msgstr "Použití"
 
 #: src/subscriptions-register.jsx:155
 msgid "Use proxy server"
-msgstr ""
+msgstr "Použít proxy server"
 
 #: src/subscriptions-register.jsx:107
 msgid "Username"
-msgstr ""
+msgstr "Jméno uživatele"
 
 #: src/subscriptions-view.jsx:183
 msgid "Version"
-msgstr ""
+msgstr "Verze"
 
 #: src/insights.jsx:556
 msgid "View your Insights results"
@@ -511,7 +520,7 @@ msgstr ""
 
 #: src/insights.jsx:205 src/insights.jsx:216 src/insights.jsx:300
 msgid "Waiting for other software management operations to finish"
-msgstr ""
+msgstr "Čeká se na dokončení ostatních operací správy balíčků"
 
 #: src/manifest.json:0
 msgid "candlepin"
@@ -523,8 +532,8 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "subscriptions"
-msgstr ""
+msgstr "Předplatné"
 
 #: src/insights.jsx:344
 msgid "unknown"
-msgstr ""
+msgstr "neznámý"
