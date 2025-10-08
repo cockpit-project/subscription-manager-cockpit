@@ -10,6 +10,10 @@ copy_upstream_release_description: true
 actions:
   post-upstream-clone: make subscription-manager-cockpit.spec
   create-archive: make dist node-cache
+  fix-spec-file:
+    # Do not use the default `fix-spec-file` which makes changes to SourceX and Version.
+    # Specfile is created in `create-archive` step with Makefile
+    - "true"
 
 srpm_build_deps:
   - make
@@ -28,6 +32,11 @@ jobs:
       centos-stream-9-aarch64: {}
       centos-stream-10-x86_64:
         distros: ["centos-stream-10", "CentOS-Stream-10-image-mode"]
+      epel-9-x86_64:
+        distros: ["epel-9", "epel-9-image-mode"]
+      epel-9-aarch64: {}
+      epel-10-x86_64:
+        distros: ["epel-10", "epel-10-image-mode"]
 
   - job: copr_build
     trigger: pull_request
