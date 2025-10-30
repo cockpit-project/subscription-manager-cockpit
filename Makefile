@@ -12,8 +12,10 @@ endif
 export TEST_OS
 SUBSCRIPTION_MANAGER_BRANCH ?= main
 ifneq ($(TEST_SCENARIO),pybridge)
+ifneq ($(TEST_SCENARIO),devel)
 # the test scenario is the subscription-manager branch to test against
 SUBSCRIPTION_MANAGER_BRANCH = $(TEST_SCENARIO)
+endif
 endif
 TARFILE=$(RPM_NAME)-$(VERSION).tar.xz
 NODE_CACHE=$(RPM_NAME)-node-$(VERSION).tar.xz
@@ -39,6 +41,11 @@ IMAGE_CUSTOMIZE_INSTALL =
 else
 IMAGE_CUSTOMIZE_DEPENDS = $(SUBMAN_TAR) $(SMBEXT_TAR) test/vm.install-sub-man
 IMAGE_CUSTOMIZE_INSTALL = --upload $(SUBMAN_TAR):/var/tmp/ --upload $(SMBEXT_TAR):/var/tmp/ --script $(CURDIR)/test/vm.install-sub-man
+endif
+
+ifeq ($(TEST_COVERAGE),yes)
+RUN_TESTS_OPTIONS+=--coverage
+NODE_ENV=development
 endif
 
 all: $(DIST_TEST)
@@ -146,11 +153,11 @@ print-version:
 dist: $(TARFILE)
 	@ls -1 $(TARFILE)
 
-# when building a distribution tarball, call build.js with a 'production' environment
+# when building a distribution tarball, call build.js with a 'production' environment by default
 # we don't ship node_modules for license and compactness reasons; we ship a
 # pre-built dist/ (so it's not necessary) and ship packge-lock.json (so that
 # node_modules/ can be reconstructed if necessary)
-$(TARFILE): export NODE_ENV=production
+$(TARFILE): export NODE_ENV ?= production
 $(TARFILE): $(DIST_TEST) $(SPEC)
 	if type appstream-util >/dev/null 2>&1; then appstream-util validate-relax --nonet data/*.metainfo.xml; fi
 	if type desktop-file-validate >/dev/null 2>&1; then desktop-file-validate data/*.desktop; fi
