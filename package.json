@@ -35,8 +35,7 @@
     "jed": "1.1.1",
     "popper.js": "1.16.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "sizzle": "2.3.10"
+    "react-dom": "18.3.1"
   },
   "dependencies": {
     "@patternfly/patternfly": "6.4.0",
