@@ -413,7 +413,7 @@ function show_status_dialog() {
             {
                 title: _("Connected to Red Hat Insights"),
                 body: (
-                    <div className="modal-body">
+                    <div className="modal-body" id="insights-modal">
                         <table>
                             <tbody>
                                 <tr>
