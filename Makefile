@@ -158,7 +158,7 @@ $(TARFILE): $(DIST_TEST) $(SPEC)
 	if type appstream-util >/dev/null 2>&1; then appstream-util validate-relax --nonet data/*.metainfo.xml; fi
 	if type desktop-file-validate >/dev/null 2>&1; then desktop-file-validate data/*.desktop; fi
 	tar --xz $(TAR_ARGS) -cf $(TARFILE) --transform 's,^,$(RPM_NAME)/,' \
-		--exclude $(SPEC).tmpl --exclude node_modules \
+		--exclude $(SPEC).tmpl --exclude node_modules --exclude test/reference \
 		$$(git ls-files) $(COCKPIT_REPO_FILES) $(NODE_MODULES_TEST) $(SPEC) dist/
 
 $(NODE_CACHE): $(NODE_MODULES_TEST)
@@ -232,7 +232,7 @@ codecheck: test/common $(NODE_MODULES_TEST)
 
 # convenience target to setup all the bits needed for the integration tests
 # without actually running them
-prepare-check: $(NODE_MODULES_TEST) $(VM_IMAGE) test/common
+prepare-check: $(NODE_MODULES_TEST) $(VM_IMAGE) test/common test/reference
 
 # run the browser integration tests;
 # this will run all tests/check-* and format them as TAP
@@ -251,6 +251,9 @@ subscription-manager:
 	git -C subscription-manager fetch --quiet --depth=1 origin $(SUBSCRIPTION_MANAGER_BRANCH)
 	git -C subscription-manager checkout --quiet FETCH_HEAD
 	@echo "checked out subscription-manager/ ref $$(git -C subscription-manager rev-parse HEAD)"
+
+test/reference: test/common
+	test/common/pixel-tests pull
 
 FORCE:
 package-lock.json: FORCE $(COCKPIT_REPO_STAMP)
