@@ -160,6 +160,9 @@ class TestSubscriptions(SubscriptionsCase):
         register_button_sel = "button:contains('Register')"
         unregister_button_sel = "button:contains('Unregister')"
 
+        b.wait_visible(".pf-v6-c-page__main")
+        b.assert_pixels(".pf-v6-c-page__main", "unregistered-view")
+
         # wait until we can open the registration dialog
         b.click(register_button_sel)
 
@@ -191,6 +194,8 @@ class TestSubscriptions(SubscriptionsCase):
         # wait for message that we need to specify our org
         b.wait_in_text("body", "User huey is member of more organizations, but no organization was selected")
 
+        b.assert_pixels("#register_dialog", "register-modal-error")
+
         # now specify the org
         b.set_input_text("#subscription-register-org", "donaldduck")
 
@@ -205,6 +210,8 @@ class TestSubscriptions(SubscriptionsCase):
 
         # dialog should disappear
         b.wait_not_present(dialog_register_button_sel)
+
+        b.assert_pixels(".pf-v6-c-page__main", "registered-view")
 
         # unregister
         with b.wait_timeout(360):
@@ -236,6 +243,8 @@ class TestSubscriptions(SubscriptionsCase):
 
         b.set_input_text("#subscription-register-key", "awesome_os_pool")
         b.set_input_text("#subscription-register-org", "donaldduck")
+
+        b.assert_pixels("#register_dialog", "register-modal-key")
 
         dialog_register_button_sel = "footer .pf-m-primary"
         b.click(dialog_register_button_sel)
@@ -281,6 +290,9 @@ class TestSubscriptions(SubscriptionsCase):
 
         b.click("button:contains('Not connected')")
         b.wait_visible('.pf-v6-c-modal-box__body:contains("This system is not connected")')
+
+        b.assert_pixels(".pf-v6-c-modal-box", "insights-modal-not-connected")
+
         b.click("footer button.apply")
         with b.wait_timeout(600):
             b.wait_not_present(".pf-v6-c-modal-box")
@@ -295,10 +307,32 @@ class TestSubscriptions(SubscriptionsCase):
         b.wait_in_text("#syspurpose", "Development/Test")
         b.wait_in_text("#syspurpose", "Red Hat Enterprise Linux Workstation")
 
+        b.assert_pixels(".pf-v6-c-page__main", "registered-insights-view")
+
         b.click("button:contains('Connected to Insights')")
         b.wait_visible('.pf-v6-c-modal-box__body:contains("Next Insights data upload")')
         b.wait_visible('.pf-v6-c-modal-box__body:contains("Last Insights data upload")')
+
+        b.assert_pixels(
+            ".pf-v6-c-modal-box",
+            "insights-modal-connected",
+            mock={
+                "#insights-modal tbody tr:first-of-type td": "in 14 hours",
+                "#insights-modal tbody tr:last-of-type td": "less than a minute ago",
+            },
+        )
+
         b.click(".pf-v6-c-expandable-section__toggle button.pf-m-link:contains('Disconnect from Insights')")
+
+        b.assert_pixels(
+            ".pf-v6-c-modal-box",
+            "insights-modal-disconnect-button",
+            mock={
+                "#insights-modal tbody tr:first-of-type td": "in 14 hours",
+                "#insights-modal tbody tr:last-of-type td": "less than a minute ago",
+            },
+        )
+
         b.click("button.pf-m-danger:contains('Disconnect from Insights')")
         b.wait_not_present(".pf-v6-c-modal-box")
 
@@ -345,8 +379,20 @@ class TestSubscriptions(SubscriptionsCase):
         with b.wait_timeout(60):
             b.wait_visible("#overview button.pf-m-link .pf-v6-c-icon .pf-m-warning")
 
+        b.assert_pixels("#overview", "insights-upload-failed-warning")
+
         b.click("button:contains('Connected to Insights')")
         b.wait_visible('.pf-v6-c-modal-box__body:contains("The last Insights data upload has failed")')
+
+        b.assert_pixels(
+            ".pf-v6-c-modal-box",
+            "insights-modal-warning",
+            mock={
+                "#insights-modal tbody tr:first-of-type td": "in 14 hours",
+                "#insights-modal tbody tr:last-of-type td": "less than a minute ago",
+            },
+        )
+
         b.click("button.cancel")
 
         # Unbreak it and retry.
