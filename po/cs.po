@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2025-10-06 21:54+0000\n"
+"PO-Revision-Date: 2025-11-04 17:54+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "subscription-manager/cockpit-main/cs/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.14\n"
 
 #: src/insights.jsx:528
 msgid "$0 critical hit"
@@ -285,11 +285,11 @@ msgstr "Nezaregistrováno"
 
 #: src/subscriptions-view.jsx:121
 msgid "Not subscribed"
-msgstr "Nepřipojeno k předplatnému"
+msgstr "Nepokryto předplatným"
 
 #: src/subscriptions-view.jsx:123
 msgid "Not subscribed ($0)"
-msgstr "Nepřipojeno k předplatnému ($0)"
+msgstr "Nepokryto předplatným ($0)"
 
 #: src/subscriptions-view.jsx:462 src/subscriptions-register.jsx:117
 msgid "Organization"
@@ -325,9 +325,9 @@ msgid ""
 "availability, and stability with Red Hat Insights — with predictive "
 "analytics, avoid problems and unplanned downtime in your Red Hat environment."
 msgstr ""
-"Proaktivně identifikujte a sanujte ohrožení zabezpečení, výkonu, dostupnosti "
-"a stability s Red Hat Insights – pomocí prediktivní analýzy se vyhněte "
-"problémům a neplánovaným výpadkům ve svém Red Hat prostředí."
+"Proaktivně identifikujte a napravujte ohrožení zabezpečení, výkonu, "
+"dostupnosti a stability s Red Hat Insights – pomocí prediktivní analýzy se "
+"vyhněte problémům a neplánovaným výpadkům ve svém Red Hat prostředí."
 
 #: src/subscriptions-view.jsx:179
 msgid "Product ID"
@@ -367,7 +367,7 @@ msgstr "Registruje se pomocí aktivačního klíče …"
 
 #: src/subscriptions-client.js:362
 msgid "Registering using username and password ..."
-msgstr "Registruje se pomocí uživatelského jména a klíče …"
+msgstr "Registruje se pomocí uživatelského jména a hesla …"
 
 #: src/insights.jsx:188
 msgid "Removals:"
