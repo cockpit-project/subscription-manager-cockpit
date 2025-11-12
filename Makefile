@@ -102,7 +102,7 @@ po/LINGUAS:
 # Build/Install/dist
 #
 
-$(SPEC): $(SPEC).tmpl $(NODE_MODULES_TEST)
+$(SPEC): packaging/$(SPEC).in $(NODE_MODULES_TEST)
 	sed -e 's/%{VERSION}/$(VERSION)/g' $< > $@
 
 $(DIST_TEST): $(COCKPIT_REPO_STAMP) $(shell find src/ -type f) package.json build.js
@@ -158,7 +158,7 @@ $(TARFILE): $(DIST_TEST) $(SPEC)
 	if type appstream-util >/dev/null 2>&1; then appstream-util validate-relax --nonet data/*.metainfo.xml; fi
 	if type desktop-file-validate >/dev/null 2>&1; then desktop-file-validate data/*.desktop; fi
 	tar --xz $(TAR_ARGS) -cf $(TARFILE) --transform 's,^,$(RPM_NAME)/,' \
-		--exclude $(SPEC).tmpl --exclude node_modules --exclude test/reference \
+		--exclude packaging/$(SPEC).in --exclude node_modules --exclude test/reference \
 		$$(git ls-files) $(COCKPIT_REPO_FILES) $(NODE_MODULES_TEST) $(SPEC) dist/
 
 $(NODE_CACHE): $(NODE_MODULES_TEST)
