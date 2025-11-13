@@ -50,7 +50,7 @@ jobs:
       # really should be the default, see https://github.com/packit/packit-service/issues/1505
       create-archive:
         - sh -exc "curl -L -O https://github.com/cockpit-project/subscription-manager-cockpit/releases/download/${PACKIT_PROJECT_VERSION}/${PACKIT_PROJECT_NAME_VERSION}.tar.xz"
-        - sh -exc "curl -L -O https://github.com/cockpit-project/subscription-manager-cockpit/releases/download/${PACKIT_PROJECT_VERSION}/${PACKIT_UPSTREAM_PACKAGE_NAME}-node-${PACKIT_PROJECT_VERSION}.tar.xz
+        - sh -exc "curl -L -O https://github.com/cockpit-project/subscription-manager-cockpit/releases/download/${PACKIT_PROJECT_VERSION}/${PACKIT_UPSTREAM_PACKAGE_NAME}-node-${PACKIT_PROJECT_VERSION}.tar.xz"
         - sh -exc "ls -l ${PACKIT_PROJECT_NAME_VERSION}.tar.xz ${PACKIT_UPSTREAM_PACKAGE_NAME}-node-${PACKIT_PROJECT_VERSION}.tar.xz"
       fix-spec-file:
         # Do not use the default `fix-spec-file` which makes changes to SourceX and Version.
