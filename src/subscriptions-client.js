@@ -18,7 +18,7 @@
  */
 
 import cockpit from "cockpit";
-import * as PK from "packagekit";
+import { getPackageManager } from 'packagemanager.js';
 
 const _ = cockpit.gettext;
 
@@ -661,12 +661,18 @@ client.toArray = obj => {
 
 const detectInsights = () => {
     return cockpit.script("type insights-client", { err: "ignore" }).then(
-        () => { client.insightsAvailable = true },
-        () => {
-            PK.detect().then(pk_available => {
-                client.insightsAvailable = pk_available && client.insightsPackage;
+        () => { client.insightsAvailable = true })
+            .catch(async () => {
+                let pkgManAvailable = false;
+                try {
+                    await getPackageManager();
+                    pkgManAvailable = true;
+                } catch {
+                    pkgManAvailable = false;
+                }
+
+                client.insightsAvailable = pkgManAvailable && client.insightsPackage;
             });
-        });
 };
 
 const updateConfig = () => {
