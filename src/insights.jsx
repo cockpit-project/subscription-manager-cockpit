@@ -22,7 +22,7 @@ import React from "react";
 
 import { show_modal_dialog } from "cockpit-components-dialog.jsx";
 import * as service from "service.js";
-import * as PK from "packagekit";
+import { getPackageManager, InstallProgressType } from 'packagemanager.js';
 import { distanceToNow } from "timeformat";
 
 import { ExclamationTriangleIcon, ExternalLinkAltIcon, WarningTriangleIcon } from "@patternfly/react-icons";
@@ -87,22 +87,29 @@ export function catch_error(err, data, addAlert) {
     addAlert(_("Error"), "danger", msg);
 }
 
-function ensure_installed(update_progress) {
-    return detect().then(installed => {
-        if (!installed)
-            return PK.check_missing_packages([subscriptionsClient.insightsPackage], update_checking_progress(update_progress))
-                    .then(data => {
-                        if (data.unavailable_names.length > 0)
-                            return Promise.reject(cockpit.format(_("The $0 package is not available from any repository."),
-                                                                 data.unavailable_names[0]));
-                        if (data.remove_names.length > 0)
-                            return Promise.reject(cockpit.format(_("The system could not be connected to Insights because installing the $0 package requires the unexpected removal of other packages."),
-                                                                 subscriptionsClient.insightsPackage));
-                        return PK.install_missing_packages(data, update_install_progress(update_progress));
-                    });
-        else
+async function ensure_installed(update_progress) {
+    const installed = await detect();
+
+    if (!installed) {
+        let pk = null;
+        try {
+            pk = await getPackageManager();
+        } catch (err) {
             return Promise.resolve();
-    });
+        }
+        const data = await pk.check_missing_packages([subscriptionsClient.insightsPackage], update_checking_progress(update_progress));
+
+        if (data.unavailable_names.length > 0)
+            return Promise.reject(cockpit.format(_("The $0 package is not available from any repository."),
+                                                 data.unavailable_names[0]));
+        if (data.remove_names.length > 0)
+            return Promise.reject(cockpit.format(_("The system could not be connected to Insights because installing the $0 package requires the unexpected removal of other packages."),
+                                                 subscriptionsClient.insightsPackage));
+
+        return pk.install_missing_packages(data, update_install_progress(update_progress));
+    } else {
+        return Promise.resolve();
+    }
 }
 
 export function register(update_progress) {
@@ -231,9 +238,9 @@ function update_install_progress(update_progress) {
             text = _("Waiting for other software management operations to finish");
         } else if (p.package) {
             let fmt;
-            if (p.info === PK.Enum.INFO_DOWNLOADING)
+            if (p.info === InstallProgressType.INFO_DOWNLOADING)
                 fmt = _("Downloading $0");
-            else if (p.info === PK.Enum.INFO_REMOVING)
+            else if (p.info === InstallProgressType.INFO_REMOVING)
                 fmt = _("Removing $0");
             else
                 fmt = _("Installing $0");
@@ -269,7 +276,7 @@ function show_connect_dialog() {
                     caption: _("Connect"),
                     style: "primary",
                     clicked: (update_progress) => {
-                        return PK.install_missing_packages(install_data, update_install_progress(update_progress)).then(() =>
+                        return getPackageManager().then(pk => pk.install_missing_packages(install_data, update_install_progress(update_progress)).then(() =>
                             new Promise((resolve, reject) => {
                                 register(update_progress)
                                         .then(() => resolve())
@@ -285,7 +292,7 @@ function show_connect_dialog() {
                                             };
                                             reject(new Error(new_err));
                                         });
-                            }));
+                            })));
                     },
                     disabled: checking_install,
                 }
@@ -308,7 +315,7 @@ function show_connect_dialog() {
         if (!installed) {
             checking_install = true;
             update();
-            PK.check_missing_packages([subscriptionsClient.insightsPackage], p => {
+            getPackageManager().then(pk => pk.check_missing_packages([subscriptionsClient.insightsPackage], p => {
                 cancel = p.cancel;
                 let pm = null;
                 if (p.waiting)
@@ -334,7 +341,7 @@ function show_connect_dialog() {
                     .catch(e => {
                         error_message = e.toString();
                         update();
-                    });
+                    }));
         }
     });
 }
