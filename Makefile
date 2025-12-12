@@ -7,11 +7,9 @@ TEST_OS = centos-9-stream
 endif
 export TEST_OS
 SUBSCRIPTION_MANAGER_BRANCH ?= main
-ifneq ($(TEST_SCENARIO),pybridge)
 ifneq ($(TEST_SCENARIO),devel)
 # the test scenario is the subscription-manager branch to test against
 SUBSCRIPTION_MANAGER_BRANCH = $(TEST_SCENARIO)
-endif
 endif
 TARFILE=$(RPM_NAME)-$(VERSION).tar.xz
 NODE_CACHE=$(RPM_NAME)-node-$(VERSION).tar.xz
@@ -198,18 +196,6 @@ $(SUBMAN_TAR): subscription-manager
 
 $(SMBEXT_TAR): subscription-manager
 	tar czf $(SMBEXT_TAR) --transform 's,data/icons,src/subscription_manager/gui/data/icons,' subscription-manager/build_ext data/icons/hicolor
-
-# pybridge scenario: build and install the python bridge from cockpit repo
-ifeq ("$(TEST_SCENARIO)","pybridge")
-COCKPIT_PYBRIDGE_REF = main
-COCKPIT_WHEEL = cockpit-0-py3-none-any.whl
-
-$(COCKPIT_WHEEL):
-	pip wheel git+https://github.com/cockpit-project/cockpit.git@${COCKPIT_PYBRIDGE_REF}
-
-IMAGE_CUSTOMIZE_DEPENDS += $(COCKPIT_WHEEL)
-IMAGE_CUSTOMIZE_INSTALL += --install $(COCKPIT_WHEEL)
-endif
 
 # build a VM with locally built distro pkgs installed
 # disable networking, VM images have mock/pbuilder with the common build dependencies pre-installed
