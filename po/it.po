@@ -3,21 +3,22 @@
 # John Sefler <jsefler@redhat.com>, 2019. #zanata
 # Pino Toscano <toscano.pino@tiscali.it>, 2021, 2022, 2023.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2024, 2025.
+# Nathan <nathan95@live.it>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2025-04-28 13:53+0000\n"
-"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
-"Language-Team: Italian <https://translate.fedoraproject.org/projects/"
-"subscription-manager/cockpit-main/it/>\n"
+"PO-Revision-Date: 2026-01-22 14:36+0000\n"
+"Last-Translator: Nathan <nathan95@live.it>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
+"subscription-manager-cockpit/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/insights.jsx:528
 msgid "$0 critical hit"
@@ -28,26 +29,26 @@ msgstr[1] "Risultati a $ 0, compresi quelli critici"
 #: src/insights.jsx:549
 msgid "$0 hit"
 msgid_plural "$0 hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 hit"
+msgstr[1] "$0 hit"
 
 #: src/insights.jsx:533
 msgid "$0 important hit"
 msgid_plural "$0 hits, including important"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 hit importante"
+msgstr[1] "$0 Includi hit importanti"
 
 #: src/insights.jsx:543
 msgid "$0 low severity hit"
 msgid_plural "$0 low severity hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 hit a bassa severità"
+msgstr[1] "$0 hit a bassa severità"
 
 #: src/insights.jsx:538
 msgid "$0 moderate hit"
 msgid_plural "$0 hits, including moderate"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 hit moderati"
+msgstr[1] "$0 hit moderati"
 
 #: src/insights.jsx:166
 msgid "$0 package needs to be removed."
@@ -567,7 +568,7 @@ msgstr "candlepin"
 
 #: src/subscriptions-client.js:492
 msgid "not-found"
-msgstr "not-found"
+msgstr "non-trovato"
 
 #: src/manifest.json:0
 msgid "subscriptions"
