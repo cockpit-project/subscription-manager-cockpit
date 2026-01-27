@@ -14,16 +14,16 @@ msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2024-02-12 13:35+0000\n"
+"PO-Revision-Date: 2026-01-25 13:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"subscription-manager/cockpit-main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
+"subscription-manager-cockpit/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3.1\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/insights.jsx:528
 msgid "$0 critical hit"
@@ -123,7 +123,7 @@ msgstr "연결"
 
 #: src/subscriptions-register.jsx:87
 msgid "Connect this system to $0."
-msgstr "이 시스템을 $0에 연결합니다."
+msgstr "이 시스템을 $0 에 연결합니다."
 
 #: src/insights.jsx:241
 msgid "Connect to Red Hat Insights"
@@ -474,12 +474,12 @@ msgid ""
 "The system could not be connected to Insights because installing the $0 "
 "package requires the unexpected removal of other packages."
 msgstr ""
-"$0꾸러미 설치에 다른 꾸러미를 제거해야 할 수 있으므로 시스템을 Insights에 연"
-"결 할 수 없습니다."
+"$0 꾸러미 설치에 다른 꾸러미를 제거해야 할 수 있으므로 시스템을 Insights에 "
+"연결 할 수 없습니다."
 
 #: src/insights.jsx:244
 msgid "This system is not connected to $0."
-msgstr "이 시스템은 $0에 연결되어 있지 않습니다."
+msgstr "이 시스템은 $0 에 연결되어 있지 않습니다."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
 #: src/subscriptions-register.jsx:147
