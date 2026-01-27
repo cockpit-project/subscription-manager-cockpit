@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the rhsm package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023, 2024, 2025.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2025-07-21 06:53+0000\n"
+"PO-Revision-Date: 2026-01-27 21:18+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
-"subscription-manager/cockpit-main/ka/>\n"
+"cockpit/subscription-manager-cockpit/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/insights.jsx:528
 msgid "$0 critical hit"
@@ -56,7 +56,7 @@ msgstr[1] "საჭიროა $0 პაკეტის წაშლა."
 
 #: src/subscriptions-client.js:229
 msgid "'Organization' is required when using activation keys"
-msgstr ""
+msgstr "აქტივაციის გასაღებების გამოყენებისას 'ორგანიზაცია' აუცილებელია"
 
 #: src/subscriptions-view.jsx:514
 msgid "Access denied"
@@ -149,13 +149,15 @@ msgstr ""
 
 #: src/subscriptions-client.js:529
 msgid "Corrupted JSON with status"
-msgstr ""
+msgstr "დაზიანებული JSON სტატუსით"
 
 #: src/subscriptions-view.jsx:519
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
 msgstr ""
+"გამოწერის სტატუსის მიღება შეუძლებელია. დარწმუნდით, რომ subscription-manager "
+"დაყენებულია. დაბრუნებული სტატუსი: $0 ($1)"
 
 #: src/subscriptions-register.jsx:143
 msgid "Custom URL"
@@ -186,6 +188,8 @@ msgid ""
 "If you disconnect this system from Insights, it will no longer report its "
 "Insights status in Red Hat Cloud or Satellite."
 msgstr ""
+"თუ ამ სისტემას Insight-ისგან გათიშავთ, ის ვეღარ მიაწვდის მის Insight-ის "
+"სტატუსს Red Hat Cloud-ს, ან Satellite-ს."
 
 #: src/insights.jsx:579 src/subscriptions-register.jsx:85
 msgid "Insights"
@@ -201,22 +205,27 @@ msgstr "$0-ის დაყენება"
 
 #: src/insights.jsx:413
 msgid "Last Insights data upload"
-msgstr ""
+msgstr "Insight-ის მონაცემების ბოლო ატვირთვა"
 
 #: src/subscriptions-client.js:284
 msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
+"არასწორად ჩამოყალიბებული პროქსის URL. IPv6 მისამართის სინტაქსი და ჰოსტის "
+"სახელი ურთიერთგამომრიცხავია"
 
 #: src/subscriptions-client.js:251
 msgid ""
 "Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
+"არასწორად ჩამოყალიბებული სერვერის URL. IPv6 მისამართის სინტაქსი და ჰოსტის "
+"სახელი ურთიერთგამომრიცხავია"
 
 #: data/org.candlepinproject.subscription_manager.metainfo.xml:8
 msgid ""
 "Manage subscriptions to a Candlepin backend, such as for Red Hat products."
 msgstr ""
+"გამოწერების მართვა Candlepin-ის უკანაბოლოში, როგორიცაა Red Hat-ის პროდუქტები."
 
 #: src/manifest.json:0
 msgid "Managing subscriptions"
@@ -228,11 +237,11 @@ msgstr "მეთოდი"
 
 #: src/insights.jsx:408
 msgid "Next Insights data upload"
-msgstr ""
+msgstr "შემდეგი Insight-ის მონაცემების ატვირთვა"
 
 #: src/subscriptions-view.jsx:233
 msgid "No installed products detected"
-msgstr ""
+msgstr "დაყენებული პროდუქტები აღმოჩენილი არაა"
 
 #: src/insights.jsx:520
 msgid "No rule hits"
@@ -240,7 +249,7 @@ msgstr "არ მოხვდა წესებში"
 
 #: src/subscriptions-view.jsx:381
 msgid "No system purpose attributes set"
-msgstr ""
+msgstr "სისტემის დანიშნულების ატრიბუტები დაყენებული არაა"
 
 #: src/insights.jsx:574
 msgid "Not connected"
@@ -292,6 +301,10 @@ msgid ""
 "availability, and stability with Red Hat Insights — with predictive "
 "analytics, avoid problems and unplanned downtime in your Red Hat environment."
 msgstr ""
+"აღმოაჩინეთ პროაქტიულად და გადაწყვიტეთ უსაფრთხოების, წარმადობის, "
+"ხელმისაწვდომობის და სტაბილურობის საშიშროებები Red Hat Insights-თან ერთად - "
+"პროაქტიული ანალიტიკით აიცილეთ პრობლემები და დაუგეგმავი გათიშვები თქვენი Red "
+"Hat-ის გარემოში."
 
 #: src/subscriptions-view.jsx:179
 msgid "Product ID"
@@ -315,7 +328,7 @@ msgstr "პროქსის მომხმარებელი"
 
 #: data/subscription-manager-cockpit.desktop:3
 msgid "Red Hat Subscription Manager"
-msgstr ""
+msgstr "Red Hat-ის გამოწერების მმართველი"
 
 #: src/subscriptions-view.jsx:408 src/index.js:64
 msgid "Register"
@@ -327,11 +340,11 @@ msgstr "სისტემის რეგისტრაცია"
 
 #: src/subscriptions-client.js:340
 msgid "Registering using activation key ..."
-msgstr ""
+msgstr "რეგისტრაცია აქტივაციის გასაღებით..."
 
 #: src/subscriptions-client.js:362
 msgid "Registering using username and password ..."
-msgstr ""
+msgstr "რეგისტრაცია მომხმარებლის სახელითა და პაროლით..."
 
 #: src/insights.jsx:188
 msgid "Removals:"
@@ -359,7 +372,7 @@ msgstr "სერვისის დონე"
 
 #: src/subscriptions-client.js:321
 msgid "Starting registration service ..."
-msgstr ""
+msgstr "ეშვება რეგისტრაციის სერვისი..."
 
 #: src/subscriptions-view.jsx:199
 msgid "Starts"
@@ -372,7 +385,7 @@ msgstr "სტატუსი"
 
 #: src/subscriptions-client.js:391
 msgid "Stopping registration service ..."
-msgstr ""
+msgstr "რეგისტრაციის სერვისის გაჩერება..."
 
 #: src/subscriptions-view.jsx:111
 msgid "Subscribed"
@@ -418,11 +431,11 @@ msgstr "საჭიროა დაყენებული იყოს პა
 
 #: src/subscriptions-view.jsx:515
 msgid "The current user isn't allowed to access system subscription status."
-msgstr ""
+msgstr "მიმდინარე მომხმარებელს სისტემის გამოწერის სტატუსთან წვდომა არ აქვს."
 
 #: src/insights.jsx:397
 msgid "The last Insights data upload has failed."
-msgstr ""
+msgstr "Insight-ის მონაცემების ბოლო ატვირთვა ჩავარდა."
 
 #: src/subscriptions-view.jsx:509
 msgid ""
@@ -430,16 +443,21 @@ msgid ""
 "and try reloading the page. Additionally, make sure that you have checked "
 "the 'Reuse my password for privileged tasks' checkbox on the login page."
 msgstr ""
+"სერვისი rhsm ხელმისაწვდომი არაა. დარწმუნდით, რომ პაკეტი subscription-manager "
+"დაყენებულია და სცადეთ, ეს გვერდი განაახლოთ. დამატებით დარწმუნდით, რომ ჩართეთ "
+"'ჩემი პაროლის გამოყენება პრივილეგიის მქონე ამოცანებისთვის' შესვლის გვერდზე."
 
 #: src/insights.jsx:87
 msgid ""
 "The system could not be connected to Insights because installing the $0 "
 "package requires the unexpected removal of other packages."
 msgstr ""
+"სისტემა Insight-ს ვერ დაუკავშირდა, რადგან პაკეტის $0 დაყენებას მოულოდნელად "
+"სხვა პაკეტების წაშლა სჭირდება."
 
 #: src/insights.jsx:244
 msgid "This system is not connected to $0."
-msgstr ""
+msgstr "ეს სისტემა $0-ისთან დაკავშირებული არაა."
 
 #: src/subscriptions-register.jsx:147
 msgid "URL"
@@ -451,7 +469,7 @@ msgstr "კავშირის შეცდომა"
 
 #: src/subscriptions-view.jsx:512
 msgid "Unable to the reach the rhsm service."
-msgstr ""
+msgstr "სერვისთან rhsm დაკავშირება შეუძლებელია."
 
 #: src/subscriptions-view.jsx:133 src/subscriptions-view.jsx:139
 #: src/subscriptions-client.js:545

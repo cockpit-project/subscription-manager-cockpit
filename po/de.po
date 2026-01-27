@@ -11,16 +11,16 @@ msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2022-02-13 18:16+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/"
-"subscription-manager/subscription-manager-main/de/>\n"
+"PO-Revision-Date: 2026-01-27 21:18+0000\n"
+"Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
+"subscription-manager-cockpit/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/insights.jsx:528
 msgid "$0 critical hit"
@@ -59,10 +59,8 @@ msgstr[0] "$0-Paket muss entfernt werden."
 msgstr[1] "$0 Pakete müssen entfernt werden."
 
 #: src/subscriptions-client.js:229
-#, fuzzy
-#| msgid "Registering using activation key ..."
 msgid "'Organization' is required when using activation keys"
-msgstr "Registrierung mit Aktivierungsschlüssel ..."
+msgstr "Organisation ist erforderlich für Nutzung von Aktivierungsschlüssel"
 
 #: src/subscriptions-view.jsx:514
 msgid "Access denied"
@@ -175,16 +173,13 @@ msgid "Corrupted JSON with status"
 msgstr "Beschädigtes JSON mit Status"
 
 #: src/subscriptions-view.jsx:519
-#, fuzzy
-#| msgid ""
-#| "Couldn't get system subscription status. Please ensure subscription-"
-#| "manager is installed."
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
 msgstr ""
 "Der Status des Systemabonnements konnte nicht abgerufen werden. Bitte "
-"stellen Sie sicher, dass der Abonnement-Manager installiert ist."
+"stellen Sie sicher, dass subscription-manager installiert ist. Gemeldeter "
+"Status: $0 ($1)"
 
 #: src/subscriptions-register.jsx:143
 msgid "Custom URL"
@@ -196,7 +191,7 @@ msgstr "Standard"
 
 #: src/insights.jsx:194 src/insights.jsx:422 src/insights.jsx:427
 msgid "Details"
-msgstr "Einzelheiten"
+msgstr "Details"
 
 #: src/insights.jsx:430 src/insights.jsx:434
 msgid "Disconnect from Insights"
@@ -211,10 +206,6 @@ msgid "Ends"
 msgstr "Endet"
 
 #: src/insights.jsx:432
-#, fuzzy
-#| msgid ""
-#| "If you disconnect this system from Insights, it will no longer report "
-#| "it's Insights status in Red Hat Cloud or Satellite."
 msgid ""
 "If you disconnect this system from Insights, it will no longer report its "
 "Insights status in Red Hat Cloud or Satellite."
@@ -232,7 +223,7 @@ msgstr "Installierte Produkte"
 
 #: src/insights.jsx:224
 msgid "Installing $0"
-msgstr "$0 installieren"
+msgstr "Installiere $0"
 
 #: src/insights.jsx:413
 msgid "Last Insights data upload"
@@ -242,23 +233,27 @@ msgstr "Letzter Upload von Insights-Daten"
 msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
+"Falsch geformte Proxy-URL; IPv6-Addresse und Rechnername schließen sich "
+"gegenseitig aus"
 
 #: src/subscriptions-client.js:251
 msgid ""
 "Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
+"Falsch geformte Server-URL; IPv6-Addresse und Rechnername schließen sich "
+"gegenseitig aus"
 
 #: data/org.candlepinproject.subscription_manager.metainfo.xml:8
 msgid ""
 "Manage subscriptions to a Candlepin backend, such as for Red Hat products."
 msgstr ""
+"System-Abonnements zu einem Candlepin-Server verwalten, wie für Red Hat-"
+"Produkte."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: src/manifest.json:0
-#, fuzzy
-#| msgid "Attaching subscriptions"
 msgid "Managing subscriptions"
-msgstr "Subskriptionen verknüpfen"
+msgstr "Abbonements verwalten"
 
 #: src/subscriptions-register.jsx:159
 msgid "Method"
@@ -271,17 +266,15 @@ msgstr "Nächster Insights-Daten-Upload"
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: src/subscriptions-view.jsx:233
 msgid "No installed products detected"
-msgstr "Keine installierten Produkte erkannt."
+msgstr "Keine installierten Produkte erkannt"
 
 #: src/insights.jsx:520
 msgid "No rule hits"
 msgstr "Keine Regeltreffer"
 
 #: src/subscriptions-view.jsx:381
-#, fuzzy
-#| msgid "Modify system purpose role"
 msgid "No system purpose attributes set"
-msgstr "Ändern Sie die Systemzweckrolle"
+msgstr "Keine Systemzweck-Attribute gesetzt"
 
 #: src/insights.jsx:574
 msgid "Not connected"
@@ -294,17 +287,13 @@ msgstr "Nicht registriert"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: src/subscriptions-view.jsx:121
-#, fuzzy
-#| msgid "Not Subscribed"
 msgid "Not subscribed"
-msgstr "Nicht subskribiert"
+msgstr "Nicht abonniert"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: src/subscriptions-view.jsx:123
-#, fuzzy
-#| msgid "Not Subscribed"
 msgid "Not subscribed ($0)"
-msgstr "Nicht subskribiert"
+msgstr "Nicht abonniert ($0)"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
 #: src/subscriptions-view.jsx:462 src/subscriptions-register.jsx:117
@@ -313,10 +302,8 @@ msgstr "Organisation"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
 #: src/subscriptions-register.jsx:132
-#, fuzzy
-#| msgid "Organization: "
 msgid "Organization ID"
-msgstr "Organisation: "
+msgstr "Organisations-ID"
 
 #: src/subscriptions-view.jsx:449
 msgid "Overview"
@@ -324,17 +311,13 @@ msgstr "Überblick"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
 #: src/subscriptions-view.jsx:115
-#, fuzzy
-#| msgid "Partially Subscribed"
 msgid "Partially subscribed"
-msgstr "Teilweise subskribiert"
+msgstr "Teilweise abonniert"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
 #: src/subscriptions-view.jsx:117
-#, fuzzy
-#| msgid "Partially Subscribed"
 msgid "Partially subscribed ($0)"
-msgstr "Teilweise subskribiert"
+msgstr "Teilweise abonniert ($0)"
 
 #: src/subscriptions-register.jsx:112
 msgid "Password"
@@ -404,7 +387,7 @@ msgstr "Umzüge:"
 
 #: src/insights.jsx:222
 msgid "Removing $0"
-msgstr "$0 entfernen"
+msgstr "Entferne $0"
 
 #: src/subscriptions-view.jsx:507
 msgid "Retrieving subscription status..."
@@ -420,10 +403,8 @@ msgstr "Konfiguration speichern ..."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: src/subscriptions-view.jsx:345
-#, fuzzy
-#| msgid "Service Level"
 msgid "Service level"
-msgstr "Servicelevel"
+msgstr "Service-Level"
 
 #: src/subscriptions-client.js:321
 msgid "Starting registration service ..."
@@ -455,10 +436,8 @@ msgstr "Subscription Manager"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: data/org.candlepinproject.subscription_manager.metainfo.xml:6
-#, fuzzy
-#| msgid "Subscription Manager - Facts"
 msgid "Subscription Manager in Cockpit"
-msgstr "Subscription Manager - Fakten"
+msgstr "Subscription Manager in Cockpit"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author rgromans
 #: src/subscriptions-view.jsx:455
@@ -495,6 +474,7 @@ msgstr "Das $0 Paket wird installiert."
 #: src/subscriptions-view.jsx:515
 msgid "The current user isn't allowed to access system subscription status."
 msgstr ""
+"Der aktuelle Benutzer darf nicht auf den System-Abonnement-Status zugreifen."
 
 #: src/insights.jsx:397
 msgid "The last Insights data upload has failed."
@@ -506,6 +486,9 @@ msgid ""
 "and try reloading the page. Additionally, make sure that you have checked "
 "the 'Reuse my password for privileged tasks' checkbox on the login page."
 msgstr ""
+"Der rhsm-Dienst ist nicht verfügbar. Stellen Sie sicher, dass subscription-"
+"manager installiert ist, und versuchen Sie, die Seite neu zu laden. Stellen "
+"Sie außerdem sicher, dass sie Administrator-Rechte haben."
 
 #: src/insights.jsx:87
 msgid ""
@@ -531,7 +514,7 @@ msgstr "Verbindung konnte nicht hergestellt werden"
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
 #: src/subscriptions-view.jsx:512
 msgid "Unable to the reach the rhsm service."
-msgstr ""
+msgstr "Kann rhsm-Dienst nicht erreichen."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
 #: src/subscriptions-view.jsx:133 src/subscriptions-view.jsx:139
@@ -541,10 +524,8 @@ msgstr "Unbekannt"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
 #: src/subscriptions-view.jsx:128
-#, fuzzy
-#| msgid "Unknown"
 msgid "Unknown status"
-msgstr "Unbekannt"
+msgstr "Unbekannter Status"
 
 #: src/subscriptions-view.jsx:415
 msgid "Unregister"
@@ -590,17 +571,15 @@ msgstr "Warten, bis andere Softwareverwaltungsvorgänge abgeschlossen sind"
 
 #: src/manifest.json:0
 msgid "candlepin"
-msgstr ""
+msgstr "candlepin"
 
 #: src/subscriptions-client.js:492
 msgid "not-found"
 msgstr "nicht gefunden"
 
 #: src/manifest.json:0
-#, fuzzy
-#| msgid "Subscriptions"
 msgid "subscriptions"
-msgstr "Subskriptionen"
+msgstr "Abonnements"
 
 #: src/insights.jsx:344
 msgid "unknown"
