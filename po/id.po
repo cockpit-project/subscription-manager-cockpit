@@ -1,0 +1,548 @@
+# #-#-#-#-#  subscription-manager.js.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  subscription-manager.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  subscription-manager.desktop.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-30 11:07+0200\n"
+"PO-Revision-Date: 2026-02-01 04:58+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
+"Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
+"cockpit/subscription-manager-cockpit/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Weblate 5.15.2\n"
+
+#: src/insights.jsx:528
+msgid "$0 critical hit"
+msgid_plural "$0 hits, including critical"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/insights.jsx:549
+msgid "$0 hit"
+msgid_plural "$0 hits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/insights.jsx:533
+msgid "$0 important hit"
+msgid_plural "$0 hits, including important"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/insights.jsx:543
+msgid "$0 low severity hit"
+msgid_plural "$0 low severity hits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/insights.jsx:538
+msgid "$0 moderate hit"
+msgid_plural "$0 hits, including moderate"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/insights.jsx:166
+msgid "$0 package needs to be removed."
+msgid_plural "$0 packages need to be removed."
+msgstr[0] "$0 paket perlu dihapus."
+
+#: src/subscriptions-client.js:229
+msgid "'Organization' is required when using activation keys"
+msgstr "'Organisasi' wajib diisi saat menggunakan kunci aktivasi"
+
+#: src/subscriptions-view.jsx:514
+msgid "Access denied"
+msgstr "Akses ditolak"
+
+#: src/subscriptions-register.jsx:163
+msgid "Account"
+msgstr "Akun"
+
+#: src/subscriptions-register.jsx:127
+msgid "Activation Key"
+msgstr "Kunci Aktivasi"
+
+#: src/subscriptions-register.jsx:168
+msgid "Activation key"
+msgstr "Kunci aktivasi"
+
+#: src/subscriptions-view.jsx:363
+msgid "Add-ons"
+msgstr "Add-on"
+
+#: src/insights.jsx:180
+msgid "Additional packages:"
+msgstr "Paket tambahan:"
+
+#: src/subscriptions-view.jsx:187
+msgid "Arch"
+msgstr "Arsitektur"
+
+#: src/subscriptions-register.jsx:176
+msgid "Attach automatically"
+msgstr ""
+
+#: src/subscriptions-view.jsx:42 src/subscriptions-view.jsx:61
+#: src/subscriptions-view.jsx:67
+msgid "Auto-attach"
+msgstr ""
+
+#: src/subscriptions-view.jsx:55
+msgid "Auto-attaching ..."
+msgstr ""
+
+#: src/insights.jsx:450
+msgid "Cancel"
+msgstr "Batal"
+
+#: src/insights.jsx:207 src/insights.jsx:302
+msgid "Checking installed software"
+msgstr "Memeriksa perangkat lunak yang terpasang"
+
+#: src/insights.jsx:442 src/insights.jsx:461
+msgid "Close"
+msgstr "Tutup"
+
+#: src/insights.jsx:254
+msgid "Connect"
+msgstr "Hubungkan"
+
+#: src/subscriptions-register.jsx:87
+msgid "Connect this system to $0."
+msgstr "Hubungkan sistem ini ke $0."
+
+#: src/insights.jsx:241
+msgid "Connect to Red Hat Insights"
+msgstr "Hubungkan ke Red Hat Insights"
+
+#: src/insights.jsx:562
+msgid "Connected to Insights"
+msgstr "Terhubung ke Insights"
+
+#: src/insights.jsx:402
+msgid "Connected to Red Hat Insights"
+msgstr "Terhubung ke Red Hat Insights"
+
+#: src/insights.jsx:100
+msgid "Connecting to Insights"
+msgstr "Menghubungkan ke Insights"
+
+#: src/subscriptions-view.jsx:422
+msgid ""
+"Content Access Mode is set to Simple Content Access. This host has access to "
+"content, regardless of subscription status."
+msgstr ""
+
+#: src/subscriptions-view.jsx:307
+msgid ""
+"Content Access Mode is set to Simple Content Access. This host has access to "
+"content, regardless of system purpose status."
+msgstr ""
+
+#: src/subscriptions-client.js:529
+msgid "Corrupted JSON with status"
+msgstr "JSON rusak dengan status"
+
+#: src/subscriptions-view.jsx:519
+msgid ""
+"Couldn't get system subscription status. Please ensure subscription-manager "
+"is installed. Reported status: $0 ($1)"
+msgstr ""
+"Tidak dapat memperoleh status langganan sistem. Pastikan subscription-"
+"manager terpasang. Status yang dilaporkan: $0 ($1)"
+
+#: src/subscriptions-register.jsx:143
+msgid "Custom URL"
+msgstr "URL kustom"
+
+#: src/subscriptions-register.jsx:142
+msgid "Default"
+msgstr "Default"
+
+#: src/insights.jsx:194 src/insights.jsx:422 src/insights.jsx:427
+msgid "Details"
+msgstr "Detail"
+
+#: src/insights.jsx:430 src/insights.jsx:434
+msgid "Disconnect from Insights"
+msgstr "Putuskan koneksi dari Insights"
+
+#: src/insights.jsx:220
+msgid "Downloading $0"
+msgstr "Mengunduh $0"
+
+#: src/subscriptions-view.jsx:203
+msgid "Ends"
+msgstr "Berakhir"
+
+#: src/insights.jsx:432
+msgid ""
+"If you disconnect this system from Insights, it will no longer report its "
+"Insights status in Red Hat Cloud or Satellite."
+msgstr ""
+"Jika Anda memutuskan sistem ini dari Insights, sistem ini tidak akan lagi "
+"melaporkan status Insights-nya di Red Hat Cloud atau Satellite."
+
+#: src/insights.jsx:579 src/subscriptions-register.jsx:85
+msgid "Insights"
+msgstr "Insights"
+
+#: src/subscriptions-view.jsx:226 src/subscriptions-view.jsx:230
+msgid "Installed products"
+msgstr "Produk yang terpasang"
+
+#: src/insights.jsx:224
+msgid "Installing $0"
+msgstr "Memasang $0"
+
+#: src/insights.jsx:413
+msgid "Last Insights data upload"
+msgstr "Unggahan data Insights terakhir"
+
+#: src/subscriptions-client.js:284
+msgid ""
+"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"URL proksi tidak valid; sintaks alamat IPv6 dan nama host saling eksklusif"
+
+#: src/subscriptions-client.js:251
+msgid ""
+"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"URL server tidak valid; sintaks alamat IPv6 dan nama host saling eksklusif"
+
+#: data/org.candlepinproject.subscription_manager.metainfo.xml:8
+msgid ""
+"Manage subscriptions to a Candlepin backend, such as for Red Hat products."
+msgstr "Kelola langganan ke backend Candlepin, seperti untuk produk Red Hat."
+
+#: src/manifest.json:0
+msgid "Managing subscriptions"
+msgstr "Mengelola langganan"
+
+#: src/subscriptions-register.jsx:159
+msgid "Method"
+msgstr "Metode"
+
+#: src/insights.jsx:408
+msgid "Next Insights data upload"
+msgstr "Unggahan data Insights berikutnya"
+
+#: src/subscriptions-view.jsx:233
+msgid "No installed products detected"
+msgstr "Tidak terdeteksi produk terpasang"
+
+#: src/insights.jsx:520
+msgid "No rule hits"
+msgstr ""
+
+#: src/subscriptions-view.jsx:381
+msgid "No system purpose attributes set"
+msgstr "Tidak ada atribut tujuan sistem yang disetel"
+
+#: src/insights.jsx:574
+msgid "Not connected"
+msgstr "Tidak terhubung"
+
+#: src/subscriptions-view.jsx:406
+msgid "Not registered"
+msgstr "Tidak terdaftar"
+
+#: src/subscriptions-view.jsx:121
+msgid "Not subscribed"
+msgstr "Tidak berlangganan"
+
+#: src/subscriptions-view.jsx:123
+msgid "Not subscribed ($0)"
+msgstr "Tidak berlangganan ($0)"
+
+#: src/subscriptions-view.jsx:462 src/subscriptions-register.jsx:117
+msgid "Organization"
+msgstr "Organisasi"
+
+#: src/subscriptions-register.jsx:132
+msgid "Organization ID"
+msgstr "ID Organisasi"
+
+#: src/subscriptions-view.jsx:449
+msgid "Overview"
+msgstr "Ringkasan"
+
+#: src/subscriptions-view.jsx:115
+msgid "Partially subscribed"
+msgstr "Berlangganan sebagian"
+
+#: src/subscriptions-view.jsx:117
+msgid "Partially subscribed ($0)"
+msgstr "Berlangganan sebagian ($0)"
+
+#: src/subscriptions-register.jsx:112
+msgid "Password"
+msgstr "Kata sandi"
+
+#: src/subscriptions-view.jsx:313 src/subscriptions-view.jsx:428
+msgid "Popover with explanation of SCA mode"
+msgstr ""
+
+#: src/insights.jsx:138
+msgid ""
+"Proactively identify and remediate threats to security, performance, "
+"availability, and stability with Red Hat Insights — with predictive "
+"analytics, avoid problems and unplanned downtime in your Red Hat environment."
+msgstr ""
+"Secara proaktif mengidentifikasi dan memulihkan ancaman terhadap keamanan, "
+"kinerja, ketersediaan, dan stabilitas dengan Red Hat Insights — dengan "
+"analitik prediktif, menghindari masalah dan waktu henti tak terencana di "
+"lingkungan Red Hat Anda."
+
+#: src/subscriptions-view.jsx:179
+msgid "Product ID"
+msgstr "ID Produk"
+
+#: src/subscriptions-view.jsx:74 src/subscriptions-view.jsx:175
+msgid "Product name"
+msgstr "Nama produk"
+
+#: src/subscriptions-register.jsx:55
+msgid "Proxy Location"
+msgstr "Lokasi proksi"
+
+#: src/subscriptions-register.jsx:67
+msgid "Proxy Password"
+msgstr "Kata sandi proksi"
+
+#: src/subscriptions-register.jsx:61
+msgid "Proxy Username"
+msgstr "Nama pengguna proksi"
+
+#: data/subscription-manager-cockpit.desktop:3
+msgid "Red Hat Subscription Manager"
+msgstr "Red Hat Subscription Manager"
+
+#: src/subscriptions-view.jsx:408 src/index.js:64
+msgid "Register"
+msgstr "Daftarkan"
+
+#: src/index.js:100
+msgid "Register System"
+msgstr "Daftarkan Sistem"
+
+#: src/subscriptions-client.js:340
+msgid "Registering using activation key ..."
+msgstr "Mendaftarkan menggunakan kunci aktivasi ..."
+
+#: src/subscriptions-client.js:362
+msgid "Registering using username and password ..."
+msgstr "Mendaftarkan menggunakan nama pengguna dan kata sandi ..."
+
+#: src/insights.jsx:188
+msgid "Removals:"
+msgstr "Penghapusan:"
+
+#: src/insights.jsx:222
+msgid "Removing $0"
+msgstr "Menghapus $0"
+
+#: src/subscriptions-view.jsx:507
+msgid "Retrieving subscription status..."
+msgstr "Mengambil status langganan..."
+
+#: src/subscriptions-view.jsx:357
+msgid "Role"
+msgstr "Peran"
+
+#: src/subscriptions-client.js:415
+msgid "Saving configuration ..."
+msgstr "Menyimpan konfigurasi ..."
+
+#: src/subscriptions-view.jsx:345
+msgid "Service level"
+msgstr "Tingkat layanan"
+
+#: src/subscriptions-client.js:321
+msgid "Starting registration service ..."
+msgstr "Memulai layanan pendaftaran ..."
+
+#: src/subscriptions-view.jsx:199
+msgid "Starts"
+msgstr "Mulai"
+
+#: src/subscriptions-view.jsx:195 src/subscriptions-view.jsx:339
+#: src/subscriptions-view.jsx:374
+msgid "Status"
+msgstr "Status"
+
+#: src/subscriptions-client.js:391
+msgid "Stopping registration service ..."
+msgstr "Menghentikan layanan pendaftaran ..."
+
+#: src/subscriptions-view.jsx:111
+msgid "Subscribed"
+msgstr "Berlangganan"
+
+#: data/org.candlepinproject.subscription_manager.metainfo.xml:5
+msgid "Subscription Manager"
+msgstr "Manajer Langganan"
+
+#: data/org.candlepinproject.subscription_manager.metainfo.xml:6
+msgid "Subscription Manager in Cockpit"
+msgstr "Manajer Langganan di Cockpit"
+
+#: src/subscriptions-view.jsx:455
+msgid "Subscription status"
+msgstr ""
+
+#: src/index.html:22 src/subscriptions-register.jsx:174 src/manifest.json:0
+msgid "Subscriptions"
+msgstr "Langganan"
+
+#: src/subscriptions-view.jsx:320 src/subscriptions-view.jsx:435
+msgid "Subscriptions information"
+msgstr ""
+
+#: src/subscriptions-view.jsx:392
+msgid "System purpose"
+msgstr "Tujuan sistem"
+
+#: src/insights.jsx:158
+msgid "The $0 package and $1 other package will be installed."
+msgid_plural "The $0 package and $1 other packages will be installed."
+msgstr[0] "Paket $0 dan $1 paket lainnya akan dipasang."
+
+#: src/insights.jsx:84 src/insights.jsx:310
+msgid "The $0 package is not available from any repository."
+msgstr "Paket $0 tidak tersedia dari repositori mana pun."
+
+#: src/insights.jsx:156 src/subscriptions-register.jsx:94
+msgid "The $0 package will be installed."
+msgstr "Paket $0 akan dipasang."
+
+#: src/subscriptions-view.jsx:515
+msgid "The current user isn't allowed to access system subscription status."
+msgstr ""
+"Pengguna saat ini tidak diizinkan untuk mengakses status langganan sistem."
+
+#: src/insights.jsx:397
+msgid "The last Insights data upload has failed."
+msgstr "Unggahan data Insights terakhir gagal."
+
+#: src/subscriptions-view.jsx:509
+msgid ""
+"The rhsm service is unavailable. Make sure subscription-manager is installed "
+"and try reloading the page. Additionally, make sure that you have checked "
+"the 'Reuse my password for privileged tasks' checkbox on the login page."
+msgstr ""
+"Layanan rhsm tidak tersedia. Pastikan subscription-manager terpasang dan "
+"coba muat ulang halaman. Selain itu, pastikan Anda telah mencentang kotak "
+"'Gunakan ulang kata sandi saya untuk tugas dengan hak istimewa' pada halaman "
+"masuk."
+
+#: src/insights.jsx:87
+msgid ""
+"The system could not be connected to Insights because installing the $0 "
+"package requires the unexpected removal of other packages."
+msgstr ""
+"Sistem ini tidak dapat dihubungkan ke Insights karena pemasangan paket $0 "
+"memerlukan penghapusan tak terduga terhadap paket lain."
+
+#: src/insights.jsx:244
+msgid "This system is not connected to $0."
+msgstr "Sistem ini tidak terhubung ke $0."
+
+#: src/subscriptions-register.jsx:147
+msgid "URL"
+msgstr "URL"
+
+#: src/subscriptions-view.jsx:517
+msgid "Unable to connect"
+msgstr "Tidak dapat terhubung"
+
+#: src/subscriptions-view.jsx:512
+msgid "Unable to the reach the rhsm service."
+msgstr "Tidak dapat menjangkau layanan rhsm."
+
+#: src/subscriptions-view.jsx:133 src/subscriptions-view.jsx:139
+#: src/subscriptions-client.js:545
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: src/subscriptions-view.jsx:128
+msgid "Unknown status"
+msgstr "Status tidak diketahui"
+
+#: src/subscriptions-view.jsx:415
+msgid "Unregister"
+msgstr "Batalkan pendaftaran"
+
+#: src/subscriptions-view.jsx:415 src/subscriptions-client.js:453
+msgid "Unregistering"
+msgstr "Membatalkan pendaftaran"
+
+#: src/subscriptions-view.jsx:506
+msgid "Updating"
+msgstr "Memperbarui"
+
+#: src/subscriptions-client.js:435
+msgid "Updating status ..."
+msgstr "Memperbarui status ..."
+
+#: src/subscriptions-view.jsx:351
+msgid "Usage"
+msgstr "Penggunaan"
+
+#: src/subscriptions-register.jsx:155
+msgid "Use proxy server"
+msgstr "Gunakan server proksi"
+
+#: src/subscriptions-register.jsx:107
+msgid "Username"
+msgstr "Nama pengguna"
+
+#: src/subscriptions-view.jsx:183
+msgid "Version"
+msgstr "Versi"
+
+#: src/insights.jsx:556
+msgid "View your Insights results"
+msgstr ""
+
+#: src/insights.jsx:205 src/insights.jsx:216 src/insights.jsx:300
+msgid "Waiting for other software management operations to finish"
+msgstr "Menunggu operasi pengelolaan perangkat lunak lain selesai"
+
+#: src/manifest.json:0
+msgid "candlepin"
+msgstr "candlepin"
+
+#: src/subscriptions-client.js:492
+msgid "not-found"
+msgstr "tidak ditemukan"
+
+#: src/manifest.json:0
+msgid "subscriptions"
+msgstr "langganan"
+
+#: src/insights.jsx:344
+msgid "unknown"
+msgstr "tidak diketahui"
