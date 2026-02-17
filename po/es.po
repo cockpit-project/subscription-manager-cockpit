@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2025-07-17 00:53+0000\n"
-"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
-"subscription-manager/cockpit-main/es/>\n"
+"PO-Revision-Date: 2026-02-15 07:58+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
+"subscription-manager-cockpit/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/insights.jsx:528
 msgid "$0 critical hit"
@@ -133,7 +133,7 @@ msgstr "Conectar a Insights de Red Hat"
 
 #: src/insights.jsx:562
 msgid "Connected to Insights"
-msgstr "Conectando a Insights"
+msgstr "Conectado a Insights"
 
 #: src/insights.jsx:402
 msgid "Connected to Red Hat Insights"
