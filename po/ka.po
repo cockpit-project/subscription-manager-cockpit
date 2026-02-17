@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2026-01-27 21:18+0000\n"
+"PO-Revision-Date: 2026-02-12 04:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit/subscription-manager-cockpit/ka/>\n"
@@ -140,12 +140,18 @@ msgid ""
 "Content Access Mode is set to Simple Content Access. This host has access to "
 "content, regardless of subscription status."
 msgstr ""
+"შემცველობასთან წვდომის რეჟიმი დაყენებულია 'შემცველობასთან მარტივ წვდომაზე'. "
+"ამ ჰოსტს შემცველობაზე წვდომა ყოველთვის ექნება, გამოწერის მდგომარეობისგან "
+"დამოუკიდებლად."
 
 #: src/subscriptions-view.jsx:307
 msgid ""
 "Content Access Mode is set to Simple Content Access. This host has access to "
 "content, regardless of system purpose status."
 msgstr ""
+"შემცველობასთან წვდომის რეჟიმი დაყენებულია 'შემცველობასთან მარტივ წვდომაზე'. "
+"ამ ჰოსტს შემცველობაზე წვდომა ყოველთვის ექნება, სისტემის დანიშნულებისგან "
+"დამოუკიდებლად."
 
 #: src/subscriptions-client.js:529
 msgid "Corrupted JSON with status"
@@ -293,7 +299,7 @@ msgstr "პაროლი"
 
 #: src/subscriptions-view.jsx:313 src/subscriptions-view.jsx:428
 msgid "Popover with explanation of SCA mode"
-msgstr ""
+msgstr "მხტუნარა 'შემცველობასთან მარტივი წვდომის' ახსნაგანმარტებით"
 
 #: src/insights.jsx:138
 msgid ""
@@ -514,7 +520,7 @@ msgstr "ვერსია"
 
 #: src/insights.jsx:556
 msgid "View your Insights results"
-msgstr ""
+msgstr "იხილეთ თქვენი Insight-ის შედეგები"
 
 #: src/insights.jsx:205 src/insights.jsx:216 src/insights.jsx:300
 msgid "Waiting for other software management operations to finish"

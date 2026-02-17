@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2026-01-31 04:06+0000\n"
+"PO-Revision-Date: 2026-02-12 04:58+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
 "subscription-manager-cockpit/sv/>\n"
@@ -35,32 +35,32 @@ msgstr ""
 #: src/insights.jsx:528
 msgid "$0 critical hit"
 msgid_plural "$0 hits, including critical"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 kritisk träff"
+msgstr[1] "$0 träffar, inkluderar kritiska"
 
 #: src/insights.jsx:549
 msgid "$0 hit"
 msgid_plural "$0 hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 träff"
+msgstr[1] "$0 träffar"
 
 #: src/insights.jsx:533
 msgid "$0 important hit"
 msgid_plural "$0 hits, including important"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 viktig träff"
+msgstr[1] "$0 träffar, inkluderar viktiga"
 
 #: src/insights.jsx:543
 msgid "$0 low severity hit"
 msgid_plural "$0 low severity hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 låg allvarlighetsgradsträff"
+msgstr[1] "$0 låg allvarlighetsgradsträffar"
 
 #: src/insights.jsx:538
 msgid "$0 moderate hit"
 msgid_plural "$0 hits, including moderate"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 måttlig träff"
+msgstr[1] "$0 träffar inkluderar måttliga"
 
 #: src/insights.jsx:166
 msgid "$0 package needs to be removed."
@@ -102,16 +102,16 @@ msgstr "Arkitektur"
 
 #: src/subscriptions-register.jsx:176
 msgid "Attach automatically"
-msgstr ""
+msgstr "Bifoga automatiskt"
 
 #: src/subscriptions-view.jsx:42 src/subscriptions-view.jsx:61
 #: src/subscriptions-view.jsx:67
 msgid "Auto-attach"
-msgstr ""
+msgstr "Autobifoga"
 
 #: src/subscriptions-view.jsx:55
 msgid "Auto-attaching ..."
-msgstr ""
+msgstr "Autobifogar ..."
 
 #: src/insights.jsx:450
 msgid "Cancel"
@@ -154,12 +154,16 @@ msgid ""
 "Content Access Mode is set to Simple Content Access. This host has access to "
 "content, regardless of subscription status."
 msgstr ""
+"Innehållsåtkomstläget är inställt på Enkel innehållsåtkomst. Denna värd har "
+"åtkomst till innehåll, oavsett prenumerationsstatus."
 
 #: src/subscriptions-view.jsx:307
 msgid ""
 "Content Access Mode is set to Simple Content Access. This host has access to "
 "content, regardless of system purpose status."
 msgstr ""
+"Innehållsåtkomstläget är inställt på Enkel innehållsåtkomst. Denna värd har "
+"åtkomst till innehåll, oavsett systemets syftesstatus."
 
 #: src/subscriptions-client.js:529
 msgid "Corrupted JSON with status"
@@ -256,7 +260,7 @@ msgstr "Inga installerade produkter upptäckta"
 
 #: src/insights.jsx:520
 msgid "No rule hits"
-msgstr ""
+msgstr "Inga regel träffar"
 
 #: src/subscriptions-view.jsx:381
 msgid "No system purpose attributes set"
@@ -304,7 +308,7 @@ msgstr "Lösenord"
 
 #: src/subscriptions-view.jsx:313 src/subscriptions-view.jsx:428
 msgid "Popover with explanation of SCA mode"
-msgstr ""
+msgstr "Popover med förklaring av SCA-läget"
 
 #: src/insights.jsx:138
 msgid ""
@@ -411,7 +415,7 @@ msgstr "Prenumerationshanterare i Cockpit"
 
 #: src/subscriptions-view.jsx:455
 msgid "Subscription status"
-msgstr ""
+msgstr "Prenumerationsstatus"
 
 #: src/index.html:22 src/subscriptions-register.jsx:174 src/manifest.json:0
 msgid "Subscriptions"
@@ -419,7 +423,7 @@ msgstr "Prenumerationer"
 
 #: src/subscriptions-view.jsx:320 src/subscriptions-view.jsx:435
 msgid "Subscriptions information"
-msgstr ""
+msgstr "Information om prenumerationer"
 
 #: src/subscriptions-view.jsx:392
 msgid "System purpose"
@@ -526,7 +530,7 @@ msgstr "Version"
 
 #: src/insights.jsx:556
 msgid "View your Insights results"
-msgstr ""
+msgstr "Visa dina Insights resultat"
 
 #: src/insights.jsx:205 src/insights.jsx:216 src/insights.jsx:300
 msgid "Waiting for other software management operations to finish"

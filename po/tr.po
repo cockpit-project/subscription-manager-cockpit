@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2026-02-02 07:58+0000\n"
+"PO-Revision-Date: 2026-02-12 04:58+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "subscription-manager-cockpit/tr/>\n"
@@ -35,32 +35,32 @@ msgstr ""
 #: src/insights.jsx:528
 msgid "$0 critical hit"
 msgid_plural "$0 hits, including critical"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 kritik isabet"
+msgstr[1] "$0 isabet, kritik olan dahil"
 
 #: src/insights.jsx:549
 msgid "$0 hit"
 msgid_plural "$0 hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 isabet"
+msgstr[1] "$0 isabet"
 
 #: src/insights.jsx:533
 msgid "$0 important hit"
 msgid_plural "$0 hits, including important"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 önemli isabet"
+msgstr[1] "$0 isabet, önemli olan dahil"
 
 #: src/insights.jsx:543
 msgid "$0 low severity hit"
 msgid_plural "$0 low severity hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 düşük önem derecesinde isabet"
+msgstr[1] "$0 düşük önem derecesinde isabet"
 
 #: src/insights.jsx:538
 msgid "$0 moderate hit"
 msgid_plural "$0 hits, including moderate"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 orta düzeyde isabet"
+msgstr[1] "$0 isabet, orta düzey dahil"
 
 #: src/insights.jsx:166
 msgid "$0 package needs to be removed."
@@ -102,16 +102,16 @@ msgstr "Kemer"
 
 #: src/subscriptions-register.jsx:176
 msgid "Attach automatically"
-msgstr ""
+msgstr "Otomatik olarak ekle"
 
 #: src/subscriptions-view.jsx:42 src/subscriptions-view.jsx:61
 #: src/subscriptions-view.jsx:67
 msgid "Auto-attach"
-msgstr ""
+msgstr "Otomatik ekle"
 
 #: src/subscriptions-view.jsx:55
 msgid "Auto-attaching ..."
-msgstr ""
+msgstr "Otomatik ekleniyor..."
 
 #: src/insights.jsx:450
 msgid "Cancel"
@@ -154,12 +154,16 @@ msgid ""
 "Content Access Mode is set to Simple Content Access. This host has access to "
 "content, regardless of subscription status."
 msgstr ""
+"İçerik Erişim Modu Basit İçerik Erişimi olarak ayarlandı. Bu anamakinenin, "
+"abonelik durumuna bakılmaksızın içeriğe erişimi vardır."
 
 #: src/subscriptions-view.jsx:307
 msgid ""
 "Content Access Mode is set to Simple Content Access. This host has access to "
 "content, regardless of system purpose status."
 msgstr ""
+"İçerik Erişim Modu Basit İçerik Erişimi olarak ayarlandı. Bu anamakinenin, "
+"sistem amacı durumuna bakılmaksızın içeriğe erişimi vardır."
 
 #: src/subscriptions-client.js:529
 msgid "Corrupted JSON with status"
@@ -259,7 +263,7 @@ msgstr "Algılanan kurulu ürünler yok"
 
 #: src/insights.jsx:520
 msgid "No rule hits"
-msgstr ""
+msgstr "Kural isabetleri yok"
 
 #: src/subscriptions-view.jsx:381
 msgid "No system purpose attributes set"
@@ -307,7 +311,7 @@ msgstr "Parola"
 
 #: src/subscriptions-view.jsx:313 src/subscriptions-view.jsx:428
 msgid "Popover with explanation of SCA mode"
-msgstr ""
+msgstr "SCA modunun açıklamasını içeren açılır pencere"
 
 #: src/insights.jsx:138
 msgid ""
@@ -415,7 +419,7 @@ msgstr "Cockpit'teki Abonelik Yöneticisi"
 
 #: src/subscriptions-view.jsx:455
 msgid "Subscription status"
-msgstr ""
+msgstr "Abonelik durumu"
 
 #: src/index.html:22 src/subscriptions-register.jsx:174 src/manifest.json:0
 msgid "Subscriptions"
@@ -423,7 +427,7 @@ msgstr "Abonelikler"
 
 #: src/subscriptions-view.jsx:320 src/subscriptions-view.jsx:435
 msgid "Subscriptions information"
-msgstr ""
+msgstr "Abonelik bilgileri"
 
 #: src/subscriptions-view.jsx:392
 msgid "System purpose"
@@ -530,7 +534,7 @@ msgstr "Sürüm"
 
 #: src/insights.jsx:556
 msgid "View your Insights results"
-msgstr ""
+msgstr "Insights sonuçlarınızı görüntüleyin"
 
 #: src/insights.jsx:205 src/insights.jsx:216 src/insights.jsx:300
 msgid "Waiting for other software management operations to finish"
