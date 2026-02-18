@@ -3,7 +3,6 @@
 #
 # Copyright (C) 2016 Red Hat, Inc.
 
-import os
 import time
 import uuid
 
@@ -29,99 +28,28 @@ import testlib
 # to use the candlepin image on a test machine, either add the certificate or
 # allow insecure connections (/etc/rhsm/rhsm.conf -> "insecure = 1")
 
-# fmt: off
-CLIENT_ADDR = "10.111.112.1"
-CANDLEPIN_ADDR = "10.111.112.100"
-CANDLEPIN_HOSTNAME = "services.cockpit.lan"
+CANDLEPIN_ADDR = "127.0.0.1"
+CANDLEPIN_HOSTNAME = "candlepin.local"
 CANDLEPIN_URL = f"https://{CANDLEPIN_HOSTNAME}:8443/candlepin"
-
-PRODUCT_DONALDY = {
-    "id": "7050",
-    "name": "Donaldy OS Premium Architecture Bits"
-}
-
-PRODUCT_SHARED = {
-    "id": "88888",
-    "name": "Shared File System Bits (no content)"
-}
-# fmt: on
-
-
-def machine_restorecon(machine, path, *args):
-    cmd = ["restorecon", "-R", path] + list(args)
-    return machine.execute(cmd)
 
 
 class SubscriptionsCase(testlib.MachineCase):
-    # fmt: off
-    provision = {
-        "0": {"address": CLIENT_ADDR + "/20"},
-        "services": {"image": "services"}
-    }
-    # fmt: on
 
     def setUp(self):
         super(SubscriptionsCase, self).setUp()
-        self.candlepin = self.machines["services"]
         m = self.machine
 
-        # start candlepin in the service machine;
+        # start the candlepin container
         # see https://github.com/cockpit-project/bots/pull/1768
-        self.candlepin.execute(["/root/run-candlepin"])
-
-        # make sure the cockpit machine can resolve the service machine hostname
-        m.write("/etc/hosts", f"{CANDLEPIN_ADDR} {CANDLEPIN_HOSTNAME}\n", append=True)
-
-        # download product info from the candlepin machine
-        def download_product(product):
-            prod_id = product["id"]
-            filename = os.path.join(self.tmpdir, f"{prod_id}.pem")
-            self.candlepin.download(f"/home/admin/candlepin/generated_certs/{prod_id}.pem", filename)
-            m.upload([filename], "/etc/pki/product-default")
-
-        m.execute(["mkdir", "-p", "/etc/pki/product-default"])
-        download_product(PRODUCT_DONALDY)
-        download_product(PRODUCT_SHARED)
-
-        # download the candlepin CA certificate
-        candlepin_ca_filename = "candlepin-ca.pem"
-        candlepin_ca_tmpfile = os.path.join(self.tmpdir, candlepin_ca_filename)
-        self.candlepin.download("/home/admin/candlepin/certs/candlepin-ca.crt", candlepin_ca_tmpfile)
-        # make it available for the system, updating the system certificate store
-        m.upload([candlepin_ca_tmpfile], f"/etc/pki/ca-trust/source/anchors/{candlepin_ca_filename}")
-        machine_restorecon(self.machine, "/etc/pki")
-        m.execute(["update-ca-trust", "extract"])
-        # make it available for subscription-manager too
-        m.upload([candlepin_ca_tmpfile], f"/etc/rhsm/ca/{candlepin_ca_filename}")
-        machine_restorecon(self.machine, "/etc/rhsm/ca/")
+        m.execute(["/root/run-candlepin"])
 
         # Wait for the web service to be accessible, with an initial delay
         # to give more time to Candlepin to start
         time.sleep(10)
         m.execute(f"until curl --fail --silent --show-error {CANDLEPIN_URL}/status; do sleep 1; done")
 
-        # Setup the repositories properly using the Candlepin RPM GPG key
-        m.execute(
-            [
-                "curl",
-                "-o",
-                "/etc/pki/rpm-gpg/RPM-GPG-KEY-candlepin",
-                f"http://{CANDLEPIN_HOSTNAME}:8080/RPM-GPG-KEY-candlepin",
-            ]
-        )
-        machine_restorecon(self.machine, "/etc/pki/rpm-gpg/")
-        m.execute(
-            [
-                "subscription-manager",
-                "config",
-                "--rhsm.baseurl",
-                f"http://{CANDLEPIN_HOSTNAME}:8080",
-            ]
-        )
-
-        hostname = m.execute(["hostname"]).rstrip()
-
         if m.image.startswith("rhel-"):
+            hostname = m.execute(["hostname"]).rstrip()
             m.write(
                 "/etc/insights-client/insights-client.conf",
                 f"""
