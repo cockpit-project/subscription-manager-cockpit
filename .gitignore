@@ -14,5 +14,7 @@ package-lock.json
 !/po/subscription-manager.pot
 /test/common/
 /test/images/
+/test/candlepin-img.tar
+/test/run-candlepin
 /tools/
 .idea
