@@ -201,6 +201,7 @@ $(SMBEXT_TAR): subscription-manager
 # disable networking, VM images have mock/pbuilder with the common build dependencies pre-installed
 $(VM_IMAGE): $(NODE_CACHE) $(TARFILE) bots test/vm.install $(IMAGE_CUSTOMIZE_DEPENDS)
 	bots/image-customize --fresh --memory-mb 2048 \
+		--setup-candlepin \
 		--upload $(NODE_CACHE):/var/tmp/ --build $(TARFILE) \
 		$(IMAGE_CUSTOMIZE_INSTALL) \
 		--script $(CURDIR)/test/vm.install $(TEST_OS)
