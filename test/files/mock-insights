@@ -12,7 +12,7 @@
 #
 # auto_config=False
 # auto_update=False
-# base_url=127.0.0.1:8443/r/insights
+# base_url=127.0.0.1:9443/r/insights
 # cert_verify=/var/lib/insights/mock-certs/ca.crt
 # authmethod=CERT
 
@@ -233,4 +233,4 @@ def insights_server(port):
     httpd.serve_forever()
 
 
-insights_server(8443)
+insights_server(9443)

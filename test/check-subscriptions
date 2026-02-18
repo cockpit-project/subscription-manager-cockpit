@@ -56,7 +56,7 @@ class SubscriptionsCase(testlib.MachineCase):
 [insights-client]
 auto_config=False
 auto_update=False
-base_url={hostname}:8443/r/insights
+base_url={hostname}:9443/r/insights
 cert_verify=/var/lib/insights/mock-certs/ca.crt
 authmethod=CERT
 """,
