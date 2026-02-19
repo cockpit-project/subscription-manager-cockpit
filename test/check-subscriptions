@@ -65,7 +65,20 @@ authmethod=CERT
         m.upload(["files/mock-insights"], "/var/tmp")
         m.spawn("env PYTHONUNBUFFERED=1 /var/tmp/mock-insights", "mock-insights.log")
 
+        # Make sure that every test ends in unsubscribed state.
+        self.addCleanup(self.unregisterSystem)
 
+    def unregisterSystem(self):
+        m = self.machine
+
+        # Use check=False because `subscription-manager status` will
+        # exit with code 1 if the system is already unsubscribed.
+        status = m.execute(["subscription-manager", "status"], check=False)
+        if "Overall Status: Registered" in status or "Overall Status: Disabled" in status:
+            m.execute(["subscription-manager", "unregister"])
+
+
+@testlib.nondestructive
 class TestSubscriptions(SubscriptionsCase):
     def testRegister(self):
         b = self.browser
@@ -358,6 +371,7 @@ class TestSubscriptions(SubscriptionsCase):
         b.wait_visible("#overview button:contains('Register')")
 
 
+@testlib.nondestructive
 class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
     def testMissingPackages(self):
         m = self.machine
