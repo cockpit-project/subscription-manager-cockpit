@@ -65,7 +65,16 @@ authmethod=CERT
         m.upload(["files/mock-insights"], "/var/tmp")
         m.spawn("env PYTHONUNBUFFERED=1 /var/tmp/mock-insights", "mock-insights.log")
 
+    def nonDestructiveSetup(self):
+        super(SubscriptionsCase, self).nonDestructiveSetup()
 
+        # Make sure that every test ends in unsubscribed state.
+        # Use check=False because `subscription-manager unregister` will
+        # exit with code 1 if the system is already unsubscribed.
+        self.addCleanup(lambda: self.machine.execute(["subscription-manager", "unregister"], check=False))
+
+
+@testlib.nondestructive
 class TestSubscriptions(SubscriptionsCase):
     def testRegister(self):
         b = self.browser
@@ -358,6 +367,7 @@ class TestSubscriptions(SubscriptionsCase):
         b.wait_visible("#overview button:contains('Register')")
 
 
+@testlib.nondestructive
 class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
     def testMissingPackages(self):
         m = self.machine
@@ -402,6 +412,7 @@ class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
         m.execute(["test", "-f", "/stamp-insights-client-999-1"])
         m.execute(["pkcon", "remove", "-y", "insights-client"])
         m.execute(["pkcon", "refresh"])
+        self.addCleanup(m.execute, ["pkcon", "install", "-y", "insights-client"])
 
         b.click("button:contains('Not connected')")
         b.wait_visible('.pf-v6-c-modal-box__body:contains("This system is not connected")')
