@@ -200,8 +200,11 @@ $(SMBEXT_TAR): subscription-manager
 # build a VM with locally built distro pkgs installed
 # disable networking, VM images have mock/pbuilder with the common build dependencies pre-installed
 $(VM_IMAGE): $(NODE_CACHE) $(TARFILE) bots test/vm.install $(IMAGE_CUSTOMIZE_DEPENDS)
+	test/candlepin-container
 	bots/image-customize --fresh --memory-mb 2048 \
 		--upload $(NODE_CACHE):/var/tmp/ --build $(TARFILE) \
+		--upload test/candlepin-img.tar:/var/tmp/ \
+		--upload test/run-candlepin:/root/ \
 		$(IMAGE_CUSTOMIZE_INSTALL) \
 		--script $(CURDIR)/test/vm.install $(TEST_OS)
 
