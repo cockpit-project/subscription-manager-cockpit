@@ -8,3 +8,48 @@ if type firewall-cmd >/dev/null 2>&1; then
     firewall-cmd --add-service=cockpit --permanent
 fi
 systemctl enable cockpit.socket
+
+#############################
+#
+# Setup the candlepin container
+#
+#############################
+
+podman image load --input /var/tmp/candlepin-img.tar
+# Remove the tar to free up space in the image
+rm /var/tmp/candlepin-img.tar
+
+podman run -d --name candlepin \
+    -p 8443:8443 \
+    -p 8080:8080 \
+    ghcr.io/candlepin/candlepin-unofficial:latest
+
+# Give the container some time to start up and check that it is working
+sleep 5
+until curl --insecure --fail --head https://localhost:8443/candlepin/status; do sleep 5; done
+curl --insecure --fail --head http://localhost:8080/RPM-GPG-KEY-candlepin
+
+# Download product keys from the container
+# 7050.pem:     product certificate for Donaldy OS Premium Architecture Bits
+# 88888.pem:    product certificate for Shared File System Bits (no content)
+mkdir -p /etc/pki/product-default
+for product_file in "7050.pem" "88888.pem"; do
+    podman cp candlepin:/home/candlepin/generated_certs/${product_file} /etc/pki/product-default/${product_file}
+done
+
+# Copy the ceritificate from candlepin container to the VM image and add it to the trust store
+podman cp candlepin:/etc/candlepin/certs/candlepin-ca.crt /etc/rhsm/ca/candlepin-ca.pem
+ln -s /etc/rhsm/ca/candlepin-ca.pem /etc/pki/ca-trust/source/anchors/candlepin-ca.pem
+update-ca-trust
+chown root:root /etc/rhsm/ca/candlepin-ca.pem
+restorecon -v /etc/rhsm/ca/candlepin-ca.pem
+
+# Add the container into /etc/hosts to resolve the hostname
+CANDLEPIN_HOSTNAME="candlepin.local"
+echo "127.0.0.1 ${CANDLEPIN_HOSTNAME}" >> /etc/hosts
+until curl --fail --silent --show-error https://${CANDLEPIN_HOSTNAME}:8443/candlepin/status; do sleep 1; done
+
+# Setup the repositories properly using the Candlepin RPM GPG key
+curl -o /etc/pki/rpm-gpg/RPM-GPG-KEY-candlepin http://${CANDLEPIN_HOSTNAME}:8080/RPM-GPG-KEY-candlepin
+restorecon -R /etc/pki/rpm-gpg/
+subscription-manager config --rhsm.baseurl http://${CANDLEPIN_HOSTNAME}:8080
