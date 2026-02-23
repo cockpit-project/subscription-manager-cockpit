@@ -38,7 +38,7 @@ IMAGE_CUSTOMIZE_INSTALL = --upload $(SUBMAN_TAR):/var/tmp/ --upload $(SMBEXT_TAR
 endif
 
 ifeq ($(TEST_COVERAGE),yes)
-RUN_TESTS_OPTIONS+=--coverage
+RUN_TESTS_OPTIONS+=--coverage --nondestructive-memory-mb 2048
 NODE_ENV=development
 endif
 
