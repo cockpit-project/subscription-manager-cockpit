@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2026-02-15 07:58+0000\n"
+"PO-Revision-Date: 2026-02-24 14:58+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/subscription-manager-cockpit/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16\n"
 
 #: src/insights.jsx:528
 msgid "$0 critical hit"
@@ -233,7 +233,7 @@ msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
 "URL de proxy malformada; a sintaxe do endereço IPv6 e o nome do host são "
-"mutuamente exclusivos."
+"mutuamente exclusivos"
 
 #: src/subscriptions-client.js:251
 msgid ""
@@ -485,7 +485,6 @@ msgid "The last Insights data upload has failed."
 msgstr "O último envio de dados do Insights falhou."
 
 #: src/subscriptions-view.jsx:509
-#, fuzzy
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
 "and try reloading the page. Additionally, make sure that you have checked "
