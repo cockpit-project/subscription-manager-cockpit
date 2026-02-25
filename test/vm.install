@@ -15,9 +15,11 @@ systemctl enable cockpit.socket
 #
 #############################
 
-podman image load --input /var/tmp/candlepin-img.tar
-# Remove the tar to free up space in the image
-rm /var/tmp/candlepin-img.tar
+if ! podman image exists ghcr.io/candlepin/candlepin-unofficial:latest; then
+    podman image load --input /var/tmp/candlepin-img.tar
+    # Remove the tar to free up space in the image
+    rm /var/tmp/candlepin-img.tar
+fi
 
 podman run -d --name candlepin \
     -p 8443:8443 \
