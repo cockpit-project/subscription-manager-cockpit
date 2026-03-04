@@ -65,6 +65,10 @@ authmethod=CERT
         m.upload(["files/mock-insights"], "/var/tmp")
         m.spawn("env PYTHONUNBUFFERED=1 /var/tmp/mock-insights", "mock-insights.log")
 
+        ### debug
+        status = m.execute(["subscription-manager", "status"], check=False)
+        print(f"subscription-manager status:\n\n{status}")
+
         # Make sure that every test ends in unsubscribed state.
         self.addCleanup(self.unregisterSystem)
 
