@@ -1,0 +1,14 @@
+summary:
+    Run browser integration tests on the host
+require:
+  - podman
+  - subscription-manager-cockpit
+  - cockpit-ws
+  - cockpit-system
+  - PackageKit
+  - dnf-automatic
+  - createrepo_c
+  - polkit
+  - rpm-build
+test: ./browser.sh
+duration: 30m

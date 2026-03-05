@@ -234,4 +234,4 @@ def insights_server(port):
     httpd.serve_forever()
 
 
-insights_server(8443)
+insights_server(9443)

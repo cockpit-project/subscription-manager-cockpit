@@ -27,16 +27,17 @@ jobs:
     targets: &test_targets
       fedora-42: {}
       fedora-43: {}
-      fedora-latest-stable-aarch64: {}
       fedora-rawhide: {}
       centos-stream-9-x86_64: {}
-      centos-stream-9-aarch64: {}
       centos-stream-10-x86_64: {}
 
   - job: copr_build
     trigger: pull_request
     targets:
       <<: *test_targets
+      fedora-latest-stable-aarch64: {}
+      centos-stream-9-aarch64: {}
+      centos-stream-10-aarch64: {}
       epel-9-x86_64: {}
       epel-9-aarch64: {}
       epel-10-x86_64: {}
