@@ -439,8 +439,7 @@ class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
             m.execute(["pkcon", "remove", "-y", "insights-client"])
 
         self.createPackage("insights-client", "999", "1")
-        self.enableRepo()
-        m.execute(["pkcon", "refresh"])
+        self.enableRepo(refresh_repo=True)
 
         self.login_and_go("/subscriptions")
 
