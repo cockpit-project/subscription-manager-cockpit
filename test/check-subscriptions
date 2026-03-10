@@ -61,7 +61,7 @@ class SubscriptionsCase(testlib.MachineCase):
     # fmt: on
 
     def setUp(self):
-        super(SubscriptionsCase, self).setUp()
+        super().setUp()
         self.candlepin = self.machines["services"]
         m = self.machine
 
