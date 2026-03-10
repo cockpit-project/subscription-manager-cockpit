@@ -54,7 +54,7 @@ def machine_restorecon(machine, path, *args):
 
 class SubscriptionsCase(testlib.MachineCase):
     # fmt: off
-    provision = {
+    provision = {  # noqa: RUF012
         "0": {"address": CLIENT_ADDR + "/20"},
         "services": {"image": "services"}
     }
