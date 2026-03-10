@@ -1,8 +1,9 @@
 import contextlib
-import re
 import os
-from tito.tagger.main import VersionTagger
+import re
+
 from tito.common import get_latest_tagged_version
+from tito.tagger.main import VersionTagger
 
 
 class IncrementalVersionTagger(VersionTagger):

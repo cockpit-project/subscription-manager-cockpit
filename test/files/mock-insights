@@ -17,12 +17,12 @@
 # authmethod=CERT
 
 import email
-from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 import os
 import re
 import ssl
 import subprocess
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
 # NOTE: ignore this line temporarily. This file is not typed and mypy has complaints.
 systems = {}  # type: ignore
