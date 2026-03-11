@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2026-02-12 04:58+0000\n"
+"PO-Revision-Date: 2026-03-04 22:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit/subscription-manager-cockpit/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: src/insights.jsx:528
 msgid "$0 critical hit"
@@ -496,7 +496,7 @@ msgstr "რეგისტრაციის მოხსნა"
 
 #: src/subscriptions-view.jsx:506
 msgid "Updating"
-msgstr "განახლება"
+msgstr "მიმდინარეობს განახლება"
 
 #: src/subscriptions-client.js:435
 msgid "Updating status ..."
