@@ -200,8 +200,11 @@ $(SMBEXT_TAR): subscription-manager
 # build a VM with locally built distro pkgs installed
 # disable networking, VM images have mock/pbuilder with the common build dependencies pre-installed
 $(VM_IMAGE): $(NODE_CACHE) $(TARFILE) bots test/vm.install $(IMAGE_CUSTOMIZE_DEPENDS)
+	test/candlepin-container
 	bots/image-customize --fresh --memory-mb 2048 \
 		--upload $(NODE_CACHE):/var/tmp/ --build $(TARFILE) \
+		--upload test/candlepin-img.tar:/var/tmp/ \
+		--upload test/run-candlepin:/root/ \
 		$(IMAGE_CUSTOMIZE_INSTALL) \
 		--script $(CURDIR)/test/vm.install $(TEST_OS)
 
@@ -221,9 +224,11 @@ codecheck: test/common $(NODE_MODULES_TEST)
 prepare-check: $(NODE_MODULES_TEST) $(VM_IMAGE) test/common test/reference
 
 # run the browser integration tests;
-# this will run all tests/check-* and format them as TAP
+# this will run all tests/check-* and format them as TAP.
+# Because the candlepin container uses a lot of available memory in the nondestructive VM
+# we bump the memory limit to 2048MB
 check: prepare-check
-	test/common/run-tests ${RUN_TESTS_OPTIONS}
+	test/common/run-tests --nondestructive-memory-mb 2048 ${RUN_TESTS_OPTIONS}
 
 # checkout Cockpit's bots for standard test VM images and API to launch them
 # must be from main, as only that has current and existing images; but testvm.py API is stable

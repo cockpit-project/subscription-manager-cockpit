@@ -1,0 +1,43 @@
+#!/usr/bin/python3 -cimport os, sys; os.execv(os.path.dirname(sys.argv[1]) + "/common/pywrap", sys.argv)
+# SPDX-License-Identifier: LGPL-2.1-or-later
+#
+# Copyright (C) 2026 Red Hat, Inc.
+
+import os
+import subprocess
+
+from bots.lib.constants import BOTS_DIR
+from machine import testvm
+
+# This file handles the extraction of the candlepin container from the services VM.
+# It is only used during `make vm` when ran in the cockpit CI as tests run offline
+# and can only access our cache. The candlepin image is updates during service VM refresh.
+#
+# When running in Testing Farm the candlepin image is directly downloaded from
+# the github image repository. This happens in `test/browser/browser.sh`.
+
+def extract_candlepin(machine: testvm.VirtMachine) -> None:
+    CANDLEPIN_TAR = "candlepin-img.tar"
+    CANDLEPIN_PATH = "/home/admin/candlepin/" + CANDLEPIN_TAR
+    # download the candlepin container from the services VM
+    machine.execute(f"podman image save --output {CANDLEPIN_PATH} ghcr.io/candlepin/candlepin-unofficial:latest")
+    machine.download(CANDLEPIN_PATH, CANDLEPIN_TAR)
+    machine.download("/root/run-candlepin", "run-candlepin")
+
+def main():
+    subprocess.check_call([os.path.join(BOTS_DIR, "image-download"), "services"])
+
+    services_path = testvm.IMAGES_DIR + "/services"
+    services_vm = testvm.VirtMachine(maintain=False,
+                                 verbose=True,
+                                 networking=None,
+                                 image=services_path,
+                                 cpus=2,
+                                 memory_mb=1024)
+
+    services_vm.boot()
+    extract_candlepin(services_vm)
+    services_vm.stop()
+
+if __name__ == "__main__":
+    main()
