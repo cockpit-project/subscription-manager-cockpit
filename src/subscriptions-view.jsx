@@ -34,17 +34,7 @@ const _ = cockpit.gettext;
 class InstalledProducts extends React.Component {
     render() {
         const columnTitles = [_("Product name")];
-
-        let sca_mode;
-
-        sca_mode = false;
-        if (this.props.org) {
-            if ("contentAccessMode" in this.props.org) {
-                if (this.props.org.contentAccessMode === "org_environment") {
-                    sca_mode = true;
-                }
-            }
-        }
+        const sca_mode = this.props.org?.contentAccessMode === "org_environment";
 
         const is_registered = (this.props.status !== 'unknown');
         const entries = this.props.products.map(function (itm) {
