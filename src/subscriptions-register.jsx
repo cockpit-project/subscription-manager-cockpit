@@ -18,6 +18,8 @@ import { TextInput } from "@patternfly/react-core/dist/esm/components/TextInput"
 import subscriptionsClient from './subscriptions-client';
 import * as Insights from './insights.jsx';
 
+import { fmt_to_fragments } from "utils";
+
 const _ = cockpit.gettext;
 
 /* Subscriptions: registration dialog body
@@ -69,13 +71,13 @@ class SubscriptionRegisterDialog extends React.Component {
             <FormGroup key="0" fieldId="subscription-insights" label={_("Insights")} hasNoPaddingTop>
                 <Checkbox id="subscription-insights"
                     isChecked={this.props.insights}
-                    label={ Insights.arrfmt(_("Connect this system to $0."), Insights.link) }
+                    label={ fmt_to_fragments(_("Connect this system to $0."), Insights.link) }
                     isDisabled={ false }
                     onChange={(_event, value) => this.props.onChange('insights', value)}
                 />
                 {(this.props.insights && !this.props.insights_detected) &&
                     <p>
-                        { Insights.arrfmt(
+                        { fmt_to_fragments(
                             _("The $0 package will be installed."),
                             <strong key={subscriptionsClient.insightsPackage}>
                                 {subscriptionsClient.insightsPackage}
