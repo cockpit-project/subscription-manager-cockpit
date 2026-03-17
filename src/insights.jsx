@@ -24,6 +24,8 @@ import { Spinner } from "@patternfly/react-core/dist/esm/components/Spinner";
 
 import subscriptionsClient from './subscriptions-client';
 
+import { fmt_to_fragments } from "utils";
+
 const _ = cockpit.gettext;
 
 const insights_timer = service.proxy("insights-client.timer", "Timer");
@@ -117,20 +119,6 @@ export function unregister(addAlert) {
     }
 }
 
-// TODO - generalize this to arbitrary number of arguments (when needed)
-export function arrfmt(fmt) {
-    const args = Array.prototype.slice.call(arguments, 1);
-
-    function replace(part) {
-        if (part[0] === "$") {
-            return args[parseInt(part.slice(1))];
-        } else
-            return part;
-    }
-
-    return fmt.split(/(\$[0-9]+)/g).map(replace);
-}
-
 function left(func) {
     return function (event) {
         if (!event || event.button !== 0)
@@ -161,11 +149,11 @@ function install_data_summary(data) {
 
     let summary;
     if (data.extra_names.length === 0)
-        summary = arrfmt(_("The $0 package will be installed."), <strong>{data.missing_names[0]}</strong>);
+        summary = fmt_to_fragments(_("The $0 package will be installed."), <strong>{data.missing_names[0]}</strong>);
     else
-        summary = arrfmt(cockpit.ngettext("The $0 package and $1 other package will be installed.",
-                                          "The $0 package and $1 other packages will be installed.",
-                                          data.extra_names.length), <strong>{data.missing_names[0]}</strong>, data.extra_names.length);
+        summary = fmt_to_fragments(cockpit.ngettext("The $0 package and $1 other package will be installed.",
+                                                    "The $0 package and $1 other packages will be installed.",
+                                                    data.extra_names.length), <strong>{data.missing_names[0]}</strong>, data.extra_names.length);
     if (data.remove_names.length > 0) {
         summary = [
             { summary },
@@ -231,7 +219,7 @@ function update_install_progress(update_progress) {
                 fmt = _("Removing $0");
             else
                 fmt = _("Installing $0");
-            text = arrfmt(fmt, <strong>{p.package}</strong>);
+            text = fmt_to_fragments(fmt, <strong>{p.package}</strong>);
         }
         update_progress(text, p.cancel);
     };
@@ -250,7 +238,7 @@ function show_connect_dialog() {
             title: _("Connect to Red Hat Insights"),
             body: (
                 <div className="modal-body">
-                    <strong>{arrfmt(_("This system is not connected to $0."), link)}</strong>
+                    <strong>{fmt_to_fragments(_("This system is not connected to $0."), link)}</strong>
                     <p>{blurb}</p>
                     { install_data_summary(install_data) }
                 </div>
