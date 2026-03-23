@@ -1,0 +1,501 @@
+# #-#-#-#-#  subscription-manager.js.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  subscription-manager.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  subscription-manager.desktop.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-23 04:54+0000\n"
+"PO-Revision-Date: 2026-03-15 19:58+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
+"cockpit/subscription-manager-cockpit/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#: src/insights.jsx:162
+msgid "$0 package needs to be removed."
+msgid_plural "$0 packages need to be removed."
+msgstr[0] "$0 pachet trebuie să fie eliminat."
+msgstr[1] "$0 pachete trebuie să fie eliminate."
+msgstr[2] "$0 de pachete trebuie să fie eliminate."
+
+#: src/subscriptions-client.js:215
+msgid "'Organization' is required when using activation keys"
+msgstr ""
+"Câmpul „Organizația” este obligatoriu atunci când se utilizează chei de "
+"activare"
+
+#: src/subscriptions-view.jsx:518
+msgid "Access denied"
+msgstr "Acces refuzat"
+
+#: src/subscriptions-register.jsx:161
+msgid "Account"
+msgstr "Cont"
+
+#: src/subscriptions-register.jsx:119
+msgid "Activation Key"
+msgstr "Cheia de activare"
+
+#: src/subscriptions-register.jsx:167
+msgid "Activation key"
+msgstr "Cheia de activare"
+
+#: src/subscriptions-view.jsx:265
+msgid "Add-ons"
+msgstr "Extensii"
+
+#: src/insights.jsx:176
+msgid "Additional packages:"
+msgstr "Pachete suplimentare:"
+
+#: src/subscriptions-view.jsx:128
+msgid "Arch"
+msgstr "Arhitectura"
+
+#: src/insights.jsx:443
+msgid "Cancel"
+msgstr "Anulează"
+
+#: src/insights.jsx:204 src/insights.jsx:299
+msgid "Checking installed software"
+msgstr "Se verifică software-ul instalat"
+
+#: src/insights.jsx:435 src/insights.jsx:454
+msgid "Close"
+msgstr "Închide"
+
+#: src/insights.jsx:251
+msgid "Connect"
+msgstr "Conectare"
+
+#: src/subscriptions-register.jsx:74
+msgid "Connect this system to $0."
+msgstr "Conectează acest sistem la $0."
+
+#: src/insights.jsx:238
+msgid "Connect to Red Hat Insights"
+msgstr "Conectare la Red Hat Insights"
+
+#: src/insights.jsx:497
+msgid "Connected to Insights"
+msgstr "Conectat la Insights"
+
+#: src/insights.jsx:396
+msgid "Connected to Red Hat Insights"
+msgstr "Conectat la Red Hat Insights"
+
+#: src/insights.jsx:108
+msgid "Connecting to Insights"
+msgstr "Se efectuează conectarea la Insights"
+
+#: src/subscriptions-client.js:493
+msgid "Corrupted JSON with status"
+msgstr "JSON corupt cu starea"
+
+#: src/subscriptions-view.jsx:523
+msgid ""
+"Couldn't get system subscription status. Please ensure subscription-manager "
+"is installed. Reported status: $0 ($1)"
+msgstr ""
+"Nu s-a putut obține starea abonamentului de sistem. Asigurați-vă că este "
+"instalat programul de gestionare a abonamentelor. Starea raportată: $0 ($1)"
+
+#: src/subscriptions-register.jsx:137
+msgid "Custom URL"
+msgstr "URL personalizat"
+
+#: src/subscriptions-register.jsx:136
+msgid "Default"
+msgstr "Implicită"
+
+#: src/insights.jsx:191 src/insights.jsx:415 src/insights.jsx:419
+msgid "Details"
+msgstr "Detalii"
+
+#: src/insights.jsx:421 src/insights.jsx:427
+msgid "Disconnect from Insights"
+msgstr "Deconectare de la Insights"
+
+#: src/insights.jsx:217
+msgid "Downloading $0"
+msgstr "Se descarcă $0"
+
+#: src/subscriptions-view.jsx:144
+msgid "Ends"
+msgstr "Finalizare"
+
+#: src/insights.jsx:76
+msgid "Error"
+msgstr "Eroare"
+
+#: src/insights.jsx:424
+msgid ""
+"If you disconnect this system from Insights, it will no longer report its "
+"Insights status in Red Hat Cloud or Satellite."
+msgstr ""
+"Dacă deconectați acest sistem de la Insights, acesta nu va mai raporta "
+"starea sa în Insights în Red Hat Cloud sau Satellite."
+
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+msgid "Insights"
+msgstr "Insights"
+
+#: src/subscriptions-view.jsx:167 src/subscriptions-view.jsx:170
+msgid "Installed products"
+msgstr "Produse instalate"
+
+#: src/insights.jsx:221
+msgid "Installing $0"
+msgstr "Se instalează $0"
+
+#: src/insights.jsx:407
+msgid "Last Insights data upload"
+msgstr "Ultima încărcare a datelor Insights"
+
+#: src/subscriptions-client.js:274
+msgid ""
+"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"Adresa URL a proxy-ului este incorectă; sintaxa adresei IPv6 și numele de "
+"gazdă se exclud reciproc"
+
+#: src/subscriptions-client.js:239
+msgid ""
+"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"Adresa URL a serverului este incorectă; sintaxa adresei IPv6 și numele de "
+"gazdă se exclud reciproc"
+
+#: data/org.candlepinproject.subscription_manager.metainfo.xml:8
+msgid ""
+"Manage subscriptions to a Candlepin backend, such as for Red Hat products."
+msgstr ""
+"Gestionează abonamentele la un server Candlepin, cum ar fi pentru produsele "
+"Red Hat."
+
+#: src/manifest.json:0
+msgid "Managing subscriptions"
+msgstr "Gestionarea abonamentelor"
+
+#: src/subscriptions-register.jsx:157
+msgid "Method"
+msgstr "Metodă"
+
+#: src/insights.jsx:402
+msgid "Next Insights data upload"
+msgstr "Încărcarea următoare a datelor Insights"
+
+#: src/subscriptions-view.jsx:173
+msgid "No installed products detected"
+msgstr "Nu s-au detectat produse instalate"
+
+#: src/subscriptions-view.jsx:275
+msgid "No system purpose attributes set"
+msgstr "Nu sunt definite atribute de scop ale sistemului"
+
+#: src/insights.jsx:501
+msgid "Not connected"
+msgstr "Nu este conectat"
+
+#: src/subscriptions-view.jsx:295
+msgid "Not registered"
+msgstr "Nu este înregistrat"
+
+#: src/subscriptions-view.jsx:60
+msgid "Not subscribed"
+msgstr "Nu sunteți abonat"
+
+#: src/subscriptions-view.jsx:62
+msgid "Not subscribed ($0)"
+msgstr "Nu sunteți abonat ($0)"
+
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:328
+msgid "Organization"
+msgstr "Organizație"
+
+#: src/subscriptions-register.jsx:125
+msgid "Organization ID"
+msgstr "ID organizație"
+
+#: src/subscriptions-view.jsx:316
+msgid "Overview"
+msgstr "Vedere de ansamblu"
+
+#: src/subscriptions-view.jsx:54
+msgid "Partially subscribed"
+msgstr "Abonat parțial"
+
+#: src/subscriptions-view.jsx:56
+msgid "Partially subscribed ($0)"
+msgstr "Abonat parțial ($0)"
+
+#: src/subscriptions-register.jsx:100
+msgid "Password"
+msgstr "Parola"
+
+#: src/insights.jsx:132
+msgid ""
+"Proactively identify and remediate threats to security, performance, "
+"availability, and stability with Red Hat Insights — with predictive "
+"analytics, avoid problems and unplanned downtime in your Red Hat environment."
+msgstr ""
+"Identifică și remediază în mod proactiv amenințările la adresa securității, "
+"performanței, disponibilității și stabilității cu ajutorul Red Hat Insights "
+"— grație analizelor predictive, evită problemele și întreruperile "
+"neplanificate în mediul dvs. Red Hat."
+
+#: src/subscriptions-view.jsx:120
+msgid "Product ID"
+msgstr "ID produs"
+
+#: src/subscriptions-view.jsx:36 src/subscriptions-view.jsx:116
+msgid "Product name"
+msgstr "Numele produsului"
+
+#: src/subscriptions-register.jsx:45
+msgid "Proxy Location"
+msgstr "Locația proxy-ului"
+
+#: src/subscriptions-register.jsx:59
+msgid "Proxy Password"
+msgstr "Parola proxy"
+
+#: src/subscriptions-register.jsx:52
+msgid "Proxy Username"
+msgstr "Nume utilizator proxy"
+
+#: data/subscription-manager-cockpit.desktop:3
+msgid "Red Hat Subscription Manager"
+msgstr "Gestionarul de abonamente Red Hat"
+
+#: src/subscriptions-view.jsx:297 src/subscriptions-view.jsx:391
+msgid "Register"
+msgstr "Înregistrare"
+
+#: src/subscriptions-view.jsx:461
+msgid "Register System"
+msgstr "Înregistrați sistemul"
+
+#: src/subscriptions-view.jsx:301
+msgid "Registered"
+msgstr "Înregistrat"
+
+#: src/subscriptions-client.js:329
+msgid "Registering using activation key ..."
+msgstr "Se efectuează înregistrarea folosind cheia de activare ..."
+
+#: src/subscriptions-client.js:350
+msgid "Registering using username and password ..."
+msgstr ""
+"Se efectuează înregistrarea folosind numele de utilizator și parola ..."
+
+#: src/insights.jsx:184
+msgid "Removals:"
+msgstr "Eliminare:"
+
+#: src/insights.jsx:219
+msgid "Removing $0"
+msgstr "Se elimină $0"
+
+#: src/subscriptions-view.jsx:503
+msgid "Retrieving subscription status..."
+msgstr "Se preia starea abonării ..."
+
+#: src/subscriptions-view.jsx:260
+msgid "Role"
+msgstr "Rol"
+
+#: src/subscriptions-client.js:403
+msgid "Saving configuration ..."
+msgstr "Se salvează configurația ..."
+
+#: src/subscriptions-view.jsx:250
+msgid "Service level"
+msgstr "Nivelul de serviciului"
+
+#: src/subscriptions-client.js:310
+msgid "Starting registration service ..."
+msgstr "Se inițializează serviciul de înregistrare ..."
+
+#: src/subscriptions-view.jsx:140
+msgid "Starts"
+msgstr "Inițializare"
+
+#: src/subscriptions-view.jsx:136 src/subscriptions-view.jsx:321
+msgid "Status"
+msgstr "Starea"
+
+#: src/subscriptions-client.js:379
+msgid "Stopping registration service ..."
+msgstr "Se oprește serviciul de înregistrare ..."
+
+#: src/subscriptions-view.jsx:50
+msgid "Subscribed"
+msgstr "Abonat"
+
+#: data/org.candlepinproject.subscription_manager.metainfo.xml:5
+msgid "Subscription Manager"
+msgstr "Gestionarul de abonamente"
+
+#: data/org.candlepinproject.subscription_manager.metainfo.xml:6
+msgid "Subscription Manager in Cockpit"
+msgstr "Gestionarul de abonamente în Cockpit"
+
+#: src/index.html:9 src/manifest.json:0
+msgid "Subscriptions"
+msgstr "Abonamente"
+
+#: src/subscriptions-view.jsx:284
+msgid "System purpose"
+msgstr "Scopul sistemului"
+
+#: src/insights.jsx:154
+msgid "The $0 package and $1 other package will be installed."
+msgid_plural "The $0 package and $1 other packages will be installed."
+msgstr[0] "Pachetul $0 și un alt pachet vor fi instalate."
+msgstr[1] "Pachetul $0 și alte $1 pachete vor fi instalate."
+msgstr[2] "Pachetul $0 și alte $1 de pachete vor fi instalate."
+
+#: src/insights.jsx:92 src/insights.jsx:307
+msgid "The $0 package is not available from any repository."
+msgstr "Pachetul $0 nu este disponibil din niciun depozit."
+
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+msgid "The $0 package will be installed."
+msgstr "Pachetul $0 va fi instalat."
+
+#: src/subscriptions-view.jsx:519
+msgid "The current user isn't allowed to access system subscription status."
+msgstr ""
+"Utilizatorul curent nu are permisiunea de a accesa starea abonamentului de "
+"sistem."
+
+#: src/insights.jsx:391
+msgid "The last Insights data upload has failed."
+msgstr "Ultima încărcare a datelor Insights a eșuat."
+
+#: src/subscriptions-view.jsx:515
+msgid ""
+"The rhsm service is unavailable. Make sure subscription-manager is installed "
+"and try reloading the page. Additionally, make sure that you have checked "
+"the 'Reuse my password for privileged tasks' checkbox on the login page."
+msgstr ""
+"Serviciul rhsm nu este disponibil. Asigurați-vă că aveți instalat programul "
+"subscription-manager și încercați să reîncărcați pagina. De asemenea, "
+"asigurați-vă că ați bifat caseta de selectare „Reutilizează parola mea "
+"pentru sarcini cu drepturi speciale” din pagina de autentificare."
+
+#: src/insights.jsx:95
+msgid ""
+"The system could not be connected to Insights because installing the $0 "
+"package requires the unexpected removal of other packages."
+msgstr ""
+"Sistemul nu a putut fi conectat la Insights, deoarece instalarea pachetului "
+"$0 necesită dezinstalarea neașteptată a altor pachete."
+
+#: src/insights.jsx:241
+msgid "This system is not connected to $0."
+msgstr "Acest sistem nu este conectat la $0."
+
+#: src/subscriptions-register.jsx:141
+msgid "URL"
+msgstr "Adresa URL"
+
+#: src/subscriptions-view.jsx:521
+msgid "Unable to connect"
+msgstr "Nu se poate conecta"
+
+#: src/subscriptions-view.jsx:516
+msgid "Unable to the reach the rhsm service."
+msgstr "Nu se poate accesa serviciul rhsm."
+
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
+#: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+msgid "Unknown"
+msgstr "Necunoscută"
+
+#: src/subscriptions-view.jsx:67
+msgid "Unknown status"
+msgstr "Stare necunoscută"
+
+#: src/subscriptions-view.jsx:307
+msgid "Unregister"
+msgstr "Anulează înregistrarea"
+
+#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+msgid "Unregistering"
+msgstr "Se anulează înregistrarea"
+
+#: src/subscriptions-view.jsx:502
+msgid "Updating"
+msgstr "Se actualizează"
+
+#: src/subscriptions-client.js:423
+msgid "Updating status ..."
+msgstr "Se actualizează starea ..."
+
+#: src/subscriptions-view.jsx:255
+msgid "Usage"
+msgstr "Utilizare"
+
+#: src/subscriptions-register.jsx:152
+msgid "Use proxy server"
+msgstr "Utilizează server proxy"
+
+#: src/subscriptions-register.jsx:94
+msgid "Username"
+msgstr "Numele utilizatorului"
+
+#: src/subscriptions-view.jsx:124
+msgid "Version"
+msgstr "Versiunea"
+
+#: src/insights.jsx:202 src/insights.jsx:213 src/insights.jsx:297
+msgid "Waiting for other software management operations to finish"
+msgstr "Se așteaptă finalizarea altor operații de gestionare a software-ului"
+
+#: src/manifest.json:0
+msgid "candlepin"
+msgstr "candlepin"
+
+#: src/subscriptions-register.jsx:47
+msgid "hostname:port"
+msgstr "nume-gazdă: port"
+
+#: src/subscriptions-register.jsx:121
+msgid "key_one,key_two"
+msgstr "cheia_unu,cheia_doi"
+
+#: src/subscriptions-client.js:457
+msgid "not-found"
+msgstr "nu a fost găsit"
+
+#: src/manifest.json:0
+msgid "subscriptions"
+msgstr "abonamente"
+
+#: src/insights.jsx:341
+msgid "unknown"
+msgstr "necunoscut"
