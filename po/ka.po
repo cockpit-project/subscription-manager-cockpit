@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-30 11:07+0200\n"
-"PO-Revision-Date: 2026-02-12 04:58+0000\n"
+"POT-Creation-Date: 2026-03-23 04:54+0000\n"
+"PO-Revision-Date: 2026-03-04 22:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit/subscription-manager-cockpit/ka/>\n"
@@ -16,148 +16,87 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.1\n"
 
-#: src/insights.jsx:528
-msgid "$0 critical hit"
-msgid_plural "$0 hits, including critical"
-msgstr[0] "$0 კრიტიკული დამთხვევა"
-msgstr[1] "$0 დამთხვევა კრიტიკულის ჩათვლით"
-
-#: src/insights.jsx:549
-msgid "$0 hit"
-msgid_plural "$0 hits"
-msgstr[0] "$0 ცალი მოხვედრა"
-msgstr[1] "$0 მოხვედრა"
-
-#: src/insights.jsx:533
-msgid "$0 important hit"
-msgid_plural "$0 hits, including important"
-msgstr[0] "$0 მნიშვნელოვანი დამთხვევა"
-msgstr[1] "$0 დამთხვევა მნიშვნელოვნის ჩათვლით"
-
-#: src/insights.jsx:543
-msgid "$0 low severity hit"
-msgid_plural "$0 low severity hits"
-msgstr[0] "$0 დაბალი სიმძიმის დამთხვევა"
-msgstr[1] "$0 დაბალი სიმძიმის დამთხვევა"
-
-#: src/insights.jsx:538
-msgid "$0 moderate hit"
-msgid_plural "$0 hits, including moderate"
-msgstr[0] "$0 საშუალო დამთხვევა"
-msgstr[1] "$0 დამთხვევა საშუალოს ჩათვლთ"
-
-#: src/insights.jsx:166
+#: src/insights.jsx:162
 msgid "$0 package needs to be removed."
 msgid_plural "$0 packages need to be removed."
 msgstr[0] "საჭიროა $0 პაკეტის წაშლა."
 msgstr[1] "საჭიროა $0 პაკეტის წაშლა."
 
-#: src/subscriptions-client.js:229
+#: src/subscriptions-client.js:215
 msgid "'Organization' is required when using activation keys"
 msgstr "აქტივაციის გასაღებების გამოყენებისას 'ორგანიზაცია' აუცილებელია"
 
-#: src/subscriptions-view.jsx:514
+#: src/subscriptions-view.jsx:518
 msgid "Access denied"
 msgstr "წვდომა აკრძალულია"
 
-#: src/subscriptions-register.jsx:163
+#: src/subscriptions-register.jsx:161
 msgid "Account"
 msgstr "ანგარიში"
 
-#: src/subscriptions-register.jsx:127
+#: src/subscriptions-register.jsx:119
 msgid "Activation Key"
 msgstr "აქტივაციის გასაღები"
 
-#: src/subscriptions-register.jsx:168
+#: src/subscriptions-register.jsx:167
 msgid "Activation key"
 msgstr "აქტივაციის გასაღები"
 
-#: src/subscriptions-view.jsx:363
+#: src/subscriptions-view.jsx:265
 msgid "Add-ons"
 msgstr "დამატებები"
 
-#: src/insights.jsx:180
+#: src/insights.jsx:176
 msgid "Additional packages:"
 msgstr "დამატებითი პაკეტები:"
 
-#: src/subscriptions-view.jsx:187
+#: src/subscriptions-view.jsx:128
 msgid "Arch"
 msgstr "არქიტექტურა"
 
-#: src/subscriptions-register.jsx:176
-msgid "Attach automatically"
-msgstr "ავტომატურად მიბმა"
-
-#: src/subscriptions-view.jsx:42 src/subscriptions-view.jsx:61
-#: src/subscriptions-view.jsx:67
-msgid "Auto-attach"
-msgstr "ავტომატური მიბმა"
-
-#: src/subscriptions-view.jsx:55
-msgid "Auto-attaching ..."
-msgstr "ავტომატურად მიბმა..."
-
-#: src/insights.jsx:450
+#: src/insights.jsx:443
 msgid "Cancel"
 msgstr "გაუქმება"
 
-#: src/insights.jsx:207 src/insights.jsx:302
+#: src/insights.jsx:204 src/insights.jsx:299
 msgid "Checking installed software"
 msgstr "დაყენებული პროგრამების შემოწმება"
 
-#: src/insights.jsx:442 src/insights.jsx:461
+#: src/insights.jsx:435 src/insights.jsx:454
 msgid "Close"
 msgstr "დახურვა"
 
-#: src/insights.jsx:254
+#: src/insights.jsx:251
 msgid "Connect"
 msgstr "დაკავშირება"
 
-#: src/subscriptions-register.jsx:87
+#: src/subscriptions-register.jsx:74
 msgid "Connect this system to $0."
 msgstr "ამ სისტემის $0-სთან მიერთება."
 
-#: src/insights.jsx:241
+#: src/insights.jsx:238
 msgid "Connect to Red Hat Insights"
 msgstr "Red Hat Insights-თან მიერთება"
 
-#: src/insights.jsx:562
+#: src/insights.jsx:497
 msgid "Connected to Insights"
 msgstr "მიერთებულია Insights-თან"
 
-#: src/insights.jsx:402
+#: src/insights.jsx:396
 msgid "Connected to Red Hat Insights"
 msgstr "მიერთებულია Red Hat Insights-თან"
 
-#: src/insights.jsx:100
+#: src/insights.jsx:108
 msgid "Connecting to Insights"
 msgstr "Insights-თან მიერთება"
 
-#: src/subscriptions-view.jsx:422
-msgid ""
-"Content Access Mode is set to Simple Content Access. This host has access to "
-"content, regardless of subscription status."
-msgstr ""
-"შემცველობასთან წვდომის რეჟიმი დაყენებულია 'შემცველობასთან მარტივ წვდომაზე'. "
-"ამ ჰოსტს შემცველობაზე წვდომა ყოველთვის ექნება, გამოწერის მდგომარეობისგან "
-"დამოუკიდებლად."
-
-#: src/subscriptions-view.jsx:307
-msgid ""
-"Content Access Mode is set to Simple Content Access. This host has access to "
-"content, regardless of system purpose status."
-msgstr ""
-"შემცველობასთან წვდომის რეჟიმი დაყენებულია 'შემცველობასთან მარტივ წვდომაზე'. "
-"ამ ჰოსტს შემცველობაზე წვდომა ყოველთვის ექნება, სისტემის დანიშნულებისგან "
-"დამოუკიდებლად."
-
-#: src/subscriptions-client.js:529
+#: src/subscriptions-client.js:493
 msgid "Corrupted JSON with status"
 msgstr "დაზიანებული JSON სტატუსით"
 
-#: src/subscriptions-view.jsx:519
+#: src/subscriptions-view.jsx:523
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -165,31 +104,35 @@ msgstr ""
 "გამოწერის სტატუსის მიღება შეუძლებელია. დარწმუნდით, რომ subscription-manager "
 "დაყენებულია. დაბრუნებული სტატუსი: $0 ($1)"
 
-#: src/subscriptions-register.jsx:143
+#: src/subscriptions-register.jsx:137
 msgid "Custom URL"
 msgstr "ხელით მითითებული URL"
 
-#: src/subscriptions-register.jsx:142
+#: src/subscriptions-register.jsx:136
 msgid "Default"
 msgstr "ნაგულისხმევი"
 
-#: src/insights.jsx:194 src/insights.jsx:422 src/insights.jsx:427
+#: src/insights.jsx:191 src/insights.jsx:415 src/insights.jsx:419
 msgid "Details"
 msgstr "დეტალები"
 
-#: src/insights.jsx:430 src/insights.jsx:434
+#: src/insights.jsx:421 src/insights.jsx:427
 msgid "Disconnect from Insights"
 msgstr "გათიშვა Insights-დან"
 
-#: src/insights.jsx:220
+#: src/insights.jsx:217
 msgid "Downloading $0"
 msgstr "$0-ის გადმოწერა"
 
-#: src/subscriptions-view.jsx:203
+#: src/subscriptions-view.jsx:144
 msgid "Ends"
 msgstr "საბოლოო"
 
-#: src/insights.jsx:432
+#: src/insights.jsx:76
+msgid "Error"
+msgstr ""
+
+#: src/insights.jsx:424
 msgid ""
 "If you disconnect this system from Insights, it will no longer report its "
 "Insights status in Red Hat Cloud or Satellite."
@@ -197,30 +140,30 @@ msgstr ""
 "თუ ამ სისტემას Insight-ისგან გათიშავთ, ის ვეღარ მიაწვდის მის Insight-ის "
 "სტატუსს Red Hat Cloud-ს, ან Satellite-ს."
 
-#: src/insights.jsx:579 src/subscriptions-register.jsx:85
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
 msgid "Insights"
 msgstr "Insights"
 
-#: src/subscriptions-view.jsx:226 src/subscriptions-view.jsx:230
+#: src/subscriptions-view.jsx:167 src/subscriptions-view.jsx:170
 msgid "Installed products"
 msgstr "დაყენებული პროდუქტები"
 
-#: src/insights.jsx:224
+#: src/insights.jsx:221
 msgid "Installing $0"
 msgstr "$0-ის დაყენება"
 
-#: src/insights.jsx:413
+#: src/insights.jsx:407
 msgid "Last Insights data upload"
 msgstr "Insight-ის მონაცემების ბოლო ატვირთვა"
 
-#: src/subscriptions-client.js:284
+#: src/subscriptions-client.js:274
 msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
 "არასწორად ჩამოყალიბებული პროქსის URL. IPv6 მისამართის სინტაქსი და ჰოსტის "
 "სახელი ურთიერთგამომრიცხავია"
 
-#: src/subscriptions-client.js:251
+#: src/subscriptions-client.js:239
 msgid ""
 "Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
@@ -237,71 +180,63 @@ msgstr ""
 msgid "Managing subscriptions"
 msgstr "გამოწერების მართვა"
 
-#: src/subscriptions-register.jsx:159
+#: src/subscriptions-register.jsx:157
 msgid "Method"
 msgstr "მეთოდი"
 
-#: src/insights.jsx:408
+#: src/insights.jsx:402
 msgid "Next Insights data upload"
 msgstr "შემდეგი Insight-ის მონაცემების ატვირთვა"
 
-#: src/subscriptions-view.jsx:233
+#: src/subscriptions-view.jsx:173
 msgid "No installed products detected"
 msgstr "დაყენებული პროდუქტები აღმოჩენილი არაა"
 
-#: src/insights.jsx:520
-msgid "No rule hits"
-msgstr "არ მოხვდა წესებში"
-
-#: src/subscriptions-view.jsx:381
+#: src/subscriptions-view.jsx:275
 msgid "No system purpose attributes set"
 msgstr "სისტემის დანიშნულების ატრიბუტები დაყენებული არაა"
 
-#: src/insights.jsx:574
+#: src/insights.jsx:501
 msgid "Not connected"
 msgstr "არაა დაკავშირებული"
 
-#: src/subscriptions-view.jsx:406
+#: src/subscriptions-view.jsx:295
 msgid "Not registered"
 msgstr "არაა რეგისტრირებული"
 
-#: src/subscriptions-view.jsx:121
+#: src/subscriptions-view.jsx:60
 msgid "Not subscribed"
 msgstr "არაა გამოწერილი"
 
-#: src/subscriptions-view.jsx:123
+#: src/subscriptions-view.jsx:62
 msgid "Not subscribed ($0)"
 msgstr "გამოწერილი არაა ($0)"
 
-#: src/subscriptions-view.jsx:462 src/subscriptions-register.jsx:117
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:328
 msgid "Organization"
 msgstr "ორგანიზაცია"
 
-#: src/subscriptions-register.jsx:132
+#: src/subscriptions-register.jsx:125
 msgid "Organization ID"
 msgstr "ორგანიზაციის ID"
 
-#: src/subscriptions-view.jsx:449
+#: src/subscriptions-view.jsx:316
 msgid "Overview"
 msgstr "გადახედვა"
 
-#: src/subscriptions-view.jsx:115
+#: src/subscriptions-view.jsx:54
 msgid "Partially subscribed"
 msgstr "გამოწერილია ნაწილობრივ"
 
-#: src/subscriptions-view.jsx:117
+#: src/subscriptions-view.jsx:56
 msgid "Partially subscribed ($0)"
 msgstr "ნაწილობრივ გამოწერილია ($0)"
 
-#: src/subscriptions-register.jsx:112
+#: src/subscriptions-register.jsx:100
 msgid "Password"
 msgstr "პაროლი"
 
-#: src/subscriptions-view.jsx:313 src/subscriptions-view.jsx:428
-msgid "Popover with explanation of SCA mode"
-msgstr "მხტუნარა 'შემცველობასთან მარტივი წვდომის' ახსნაგანმარტებით"
-
-#: src/insights.jsx:138
+#: src/insights.jsx:132
 msgid ""
 "Proactively identify and remediate threats to security, performance, "
 "availability, and stability with Red Hat Insights — with predictive "
@@ -312,23 +247,23 @@ msgstr ""
 "პროაქტიული ანალიტიკით აიცილეთ პრობლემები და დაუგეგმავი გათიშვები თქვენი Red "
 "Hat-ის გარემოში."
 
-#: src/subscriptions-view.jsx:179
+#: src/subscriptions-view.jsx:120
 msgid "Product ID"
 msgstr "პროდუქტის ID"
 
-#: src/subscriptions-view.jsx:74 src/subscriptions-view.jsx:175
+#: src/subscriptions-view.jsx:36 src/subscriptions-view.jsx:116
 msgid "Product name"
 msgstr "პროდუქტის სახელი"
 
-#: src/subscriptions-register.jsx:55
+#: src/subscriptions-register.jsx:45
 msgid "Proxy Location"
 msgstr "პროქსის მდებარეობა"
 
-#: src/subscriptions-register.jsx:67
+#: src/subscriptions-register.jsx:59
 msgid "Proxy Password"
 msgstr "პროქსის პაროლი"
 
-#: src/subscriptions-register.jsx:61
+#: src/subscriptions-register.jsx:52
 msgid "Proxy Username"
 msgstr "პროქსის მომხმარებელი"
 
@@ -336,64 +271,69 @@ msgstr "პროქსის მომხმარებელი"
 msgid "Red Hat Subscription Manager"
 msgstr "Red Hat-ის გამოწერების მმართველი"
 
-#: src/subscriptions-view.jsx:408 src/index.js:64
+#: src/subscriptions-view.jsx:297 src/subscriptions-view.jsx:391
 msgid "Register"
 msgstr "რეგისტრაცია"
 
-#: src/index.js:100
+#: src/subscriptions-view.jsx:461
 msgid "Register System"
 msgstr "სისტემის რეგისტრაცია"
 
-#: src/subscriptions-client.js:340
+#: src/subscriptions-view.jsx:301
+#, fuzzy
+#| msgid "Register"
+msgid "Registered"
+msgstr "რეგისტრაცია"
+
+#: src/subscriptions-client.js:329
 msgid "Registering using activation key ..."
 msgstr "რეგისტრაცია აქტივაციის გასაღებით..."
 
-#: src/subscriptions-client.js:362
+#: src/subscriptions-client.js:350
 msgid "Registering using username and password ..."
 msgstr "რეგისტრაცია მომხმარებლის სახელითა და პაროლით..."
 
-#: src/insights.jsx:188
+#: src/insights.jsx:184
 msgid "Removals:"
 msgstr "წაიშლება:"
 
-#: src/insights.jsx:222
+#: src/insights.jsx:219
 msgid "Removing $0"
 msgstr "$0-ის წაშლა"
 
-#: src/subscriptions-view.jsx:507
+#: src/subscriptions-view.jsx:503
 msgid "Retrieving subscription status..."
 msgstr "გამოწერის სტატუსის მიღება..."
 
-#: src/subscriptions-view.jsx:357
+#: src/subscriptions-view.jsx:260
 msgid "Role"
 msgstr "როლი"
 
-#: src/subscriptions-client.js:415
+#: src/subscriptions-client.js:403
 msgid "Saving configuration ..."
 msgstr "კონფიგურაციის შენახვა..."
 
-#: src/subscriptions-view.jsx:345
+#: src/subscriptions-view.jsx:250
 msgid "Service level"
 msgstr "სერვისის დონე"
 
-#: src/subscriptions-client.js:321
+#: src/subscriptions-client.js:310
 msgid "Starting registration service ..."
 msgstr "ეშვება რეგისტრაციის სერვისი..."
 
-#: src/subscriptions-view.jsx:199
+#: src/subscriptions-view.jsx:140
 msgid "Starts"
 msgstr "საწყისი"
 
-#: src/subscriptions-view.jsx:195 src/subscriptions-view.jsx:339
-#: src/subscriptions-view.jsx:374
+#: src/subscriptions-view.jsx:136 src/subscriptions-view.jsx:321
 msgid "Status"
 msgstr "სტატუსი"
 
-#: src/subscriptions-client.js:391
+#: src/subscriptions-client.js:379
 msgid "Stopping registration service ..."
 msgstr "რეგისტრაციის სერვისის გაჩერება..."
 
-#: src/subscriptions-view.jsx:111
+#: src/subscriptions-view.jsx:50
 msgid "Subscribed"
 msgstr "გამოწერილია"
 
@@ -405,45 +345,37 @@ msgstr "გამოწერების მმართველი"
 msgid "Subscription Manager in Cockpit"
 msgstr "გამოწერების მმართველი Cockpit-ში"
 
-#: src/subscriptions-view.jsx:455
-msgid "Subscription status"
-msgstr "გამოწერის სტატუსი"
-
-#: src/index.html:22 src/subscriptions-register.jsx:174 src/manifest.json:0
+#: src/index.html:9 src/manifest.json:0
 msgid "Subscriptions"
 msgstr "გამოწერები"
 
-#: src/subscriptions-view.jsx:320 src/subscriptions-view.jsx:435
-msgid "Subscriptions information"
-msgstr "ინფორმაცია გამოწერების შესახებ"
-
-#: src/subscriptions-view.jsx:392
+#: src/subscriptions-view.jsx:284
 msgid "System purpose"
 msgstr "სისტემის დანიშნულება"
 
-#: src/insights.jsx:158
+#: src/insights.jsx:154
 msgid "The $0 package and $1 other package will be installed."
 msgid_plural "The $0 package and $1 other packages will be installed."
 msgstr[0] "მოხდება $0 პაკეტის და $1 დამატებითი პაკეტის დაყენება."
 msgstr[1] "მოხდება $0 პაკეტის და $1 დამატებითი პაკეტის დაყენება."
 
-#: src/insights.jsx:84 src/insights.jsx:310
+#: src/insights.jsx:92 src/insights.jsx:307
 msgid "The $0 package is not available from any repository."
 msgstr "$0 პაკეტი ხელმიუწვდომელია ყველა რეპოზიტორიიდან."
 
-#: src/insights.jsx:156 src/subscriptions-register.jsx:94
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
 msgid "The $0 package will be installed."
 msgstr "საჭიროა დაყენებული იყოს პაკეტი $0."
 
-#: src/subscriptions-view.jsx:515
+#: src/subscriptions-view.jsx:519
 msgid "The current user isn't allowed to access system subscription status."
 msgstr "მიმდინარე მომხმარებელს სისტემის გამოწერის სტატუსთან წვდომა არ აქვს."
 
-#: src/insights.jsx:397
+#: src/insights.jsx:391
 msgid "The last Insights data upload has failed."
 msgstr "Insight-ის მონაცემების ბოლო ატვირთვა ჩავარდა."
 
-#: src/subscriptions-view.jsx:509
+#: src/subscriptions-view.jsx:515
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
 "and try reloading the page. Additionally, make sure that you have checked "
@@ -453,7 +385,7 @@ msgstr ""
 "დაყენებულია და სცადეთ, ეს გვერდი განაახლოთ. დამატებით დარწმუნდით, რომ ჩართეთ "
 "'ჩემი პაროლის გამოყენება პრივილეგიის მქონე ამოცანებისთვის' შესვლის გვერდზე."
 
-#: src/insights.jsx:87
+#: src/insights.jsx:95
 msgid ""
 "The system could not be connected to Insights because installing the $0 "
 "package requires the unexpected removal of other packages."
@@ -461,68 +393,64 @@ msgstr ""
 "სისტემა Insight-ს ვერ დაუკავშირდა, რადგან პაკეტის $0 დაყენებას მოულოდნელად "
 "სხვა პაკეტების წაშლა სჭირდება."
 
-#: src/insights.jsx:244
+#: src/insights.jsx:241
 msgid "This system is not connected to $0."
 msgstr "ეს სისტემა $0-ისთან დაკავშირებული არაა."
 
-#: src/subscriptions-register.jsx:147
+#: src/subscriptions-register.jsx:141
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:517
+#: src/subscriptions-view.jsx:521
 msgid "Unable to connect"
 msgstr "კავშირის შეცდომა"
 
-#: src/subscriptions-view.jsx:512
+#: src/subscriptions-view.jsx:516
 msgid "Unable to the reach the rhsm service."
 msgstr "სერვისთან rhsm დაკავშირება შეუძლებელია."
 
-#: src/subscriptions-view.jsx:133 src/subscriptions-view.jsx:139
-#: src/subscriptions-client.js:545
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
+#: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
 msgid "Unknown"
 msgstr "უცნობი"
 
-#: src/subscriptions-view.jsx:128
+#: src/subscriptions-view.jsx:67
 msgid "Unknown status"
 msgstr "უცნობი სტატუსი"
 
-#: src/subscriptions-view.jsx:415
+#: src/subscriptions-view.jsx:307
 msgid "Unregister"
 msgstr "რეგისტრაციის მოხსნა"
 
-#: src/subscriptions-view.jsx:415 src/subscriptions-client.js:453
+#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
 msgid "Unregistering"
 msgstr "რეგისტრაციის მოხსნა"
 
-#: src/subscriptions-view.jsx:506
+#: src/subscriptions-view.jsx:502
 msgid "Updating"
-msgstr "განახლება"
+msgstr "მიმდინარეობს განახლება"
 
-#: src/subscriptions-client.js:435
+#: src/subscriptions-client.js:423
 msgid "Updating status ..."
 msgstr "სტატუსის განახლება..."
 
-#: src/subscriptions-view.jsx:351
+#: src/subscriptions-view.jsx:255
 msgid "Usage"
 msgstr "გამოყენება"
 
-#: src/subscriptions-register.jsx:155
+#: src/subscriptions-register.jsx:152
 msgid "Use proxy server"
 msgstr "პროქსი სერვერის გამოყენება"
 
-#: src/subscriptions-register.jsx:107
+#: src/subscriptions-register.jsx:94
 msgid "Username"
 msgstr "მოხმარებელი"
 
-#: src/subscriptions-view.jsx:183
+#: src/subscriptions-view.jsx:124
 msgid "Version"
 msgstr "ვერსია"
 
-#: src/insights.jsx:556
-msgid "View your Insights results"
-msgstr "იხილეთ თქვენი Insight-ის შედეგები"
-
-#: src/insights.jsx:205 src/insights.jsx:216 src/insights.jsx:300
+#: src/insights.jsx:202 src/insights.jsx:213 src/insights.jsx:297
 msgid "Waiting for other software management operations to finish"
 msgstr "პროგრამების მართვის სხვა ოპერაციების დასრულების მოლოდინი"
 
@@ -530,7 +458,15 @@ msgstr "პროგრამების მართვის სხვა ო
 msgid "candlepin"
 msgstr "candlepin"
 
-#: src/subscriptions-client.js:492
+#: src/subscriptions-register.jsx:47
+msgid "hostname:port"
+msgstr ""
+
+#: src/subscriptions-register.jsx:121
+msgid "key_one,key_two"
+msgstr ""
+
+#: src/subscriptions-client.js:457
 msgid "not-found"
 msgstr "არაა-ნაპოვნი"
 
@@ -538,6 +474,71 @@ msgstr "არაა-ნაპოვნი"
 msgid "subscriptions"
 msgstr "გამოწერები"
 
-#: src/insights.jsx:344
+#: src/insights.jsx:341
 msgid "unknown"
 msgstr "უცნობი"
+
+#~ msgid "$0 critical hit"
+#~ msgid_plural "$0 hits, including critical"
+#~ msgstr[0] "$0 კრიტიკული დამთხვევა"
+#~ msgstr[1] "$0 დამთხვევა კრიტიკულის ჩათვლით"
+
+#~ msgid "$0 hit"
+#~ msgid_plural "$0 hits"
+#~ msgstr[0] "$0 ცალი მოხვედრა"
+#~ msgstr[1] "$0 მოხვედრა"
+
+#~ msgid "$0 important hit"
+#~ msgid_plural "$0 hits, including important"
+#~ msgstr[0] "$0 მნიშვნელოვანი დამთხვევა"
+#~ msgstr[1] "$0 დამთხვევა მნიშვნელოვნის ჩათვლით"
+
+#~ msgid "$0 low severity hit"
+#~ msgid_plural "$0 low severity hits"
+#~ msgstr[0] "$0 დაბალი სიმძიმის დამთხვევა"
+#~ msgstr[1] "$0 დაბალი სიმძიმის დამთხვევა"
+
+#~ msgid "$0 moderate hit"
+#~ msgid_plural "$0 hits, including moderate"
+#~ msgstr[0] "$0 საშუალო დამთხვევა"
+#~ msgstr[1] "$0 დამთხვევა საშუალოს ჩათვლთ"
+
+#~ msgid "Attach automatically"
+#~ msgstr "ავტომატურად მიბმა"
+
+#~ msgid "Auto-attach"
+#~ msgstr "ავტომატური მიბმა"
+
+#~ msgid "Auto-attaching ..."
+#~ msgstr "ავტომატურად მიბმა..."
+
+#~ msgid ""
+#~ "Content Access Mode is set to Simple Content Access. This host has access "
+#~ "to content, regardless of subscription status."
+#~ msgstr ""
+#~ "შემცველობასთან წვდომის რეჟიმი დაყენებულია 'შემცველობასთან მარტივ "
+#~ "წვდომაზე'. ამ ჰოსტს შემცველობაზე წვდომა ყოველთვის ექნება, გამოწერის "
+#~ "მდგომარეობისგან დამოუკიდებლად."
+
+#~ msgid ""
+#~ "Content Access Mode is set to Simple Content Access. This host has access "
+#~ "to content, regardless of system purpose status."
+#~ msgstr ""
+#~ "შემცველობასთან წვდომის რეჟიმი დაყენებულია 'შემცველობასთან მარტივ "
+#~ "წვდომაზე'. ამ ჰოსტს შემცველობაზე წვდომა ყოველთვის ექნება, სისტემის "
+#~ "დანიშნულებისგან დამოუკიდებლად."
+
+#~ msgid "No rule hits"
+#~ msgstr "არ მოხვდა წესებში"
+
+#~ msgid "Popover with explanation of SCA mode"
+#~ msgstr "მხტუნარა 'შემცველობასთან მარტივი წვდომის' ახსნაგანმარტებით"
+
+#~ msgid "Subscription status"
+#~ msgstr "გამოწერის სტატუსი"
+
+#~ msgid "Subscriptions information"
+#~ msgstr "ინფორმაცია გამოწერების შესახებ"
+
+#~ msgid "View your Insights results"
+#~ msgstr "იხილეთ თქვენი Insight-ის შედეგები"
