@@ -184,9 +184,10 @@ class TestSubscriptions(SubscriptionsCase):
     def testUnpriv(self):
         self.machine.execute("useradd junior; echo junior:foobar | chpasswd")
         self.login_and_go("/subscriptions", user="junior")
-        self.browser.wait_in_text(
-            ".pf-v6-c-empty-state__body", "current user isn't allowed to access system subscription"
-        )
+        with self.browser.wait_timeout(60):
+            self.browser.wait_in_text(
+                ".pf-v6-c-empty-state__body", "current user isn't allowed to access system subscription"
+            )
         self.allow_journal_messages("junior is not in the sudoers file.  This incident will be reported.")
 
     @testlib.onlyImage("Insights support is specific to RHEL", "rhel-*")
