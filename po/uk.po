@@ -2,145 +2,147 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Pavel Borecki <pavel.borecki@gmail.com>, 2025.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # #-#-#-#-#  subscription-manager.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # #-#-#-#-#  subscription-manager.desktop.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-23 04:54+0000\n"
-"PO-Revision-Date: 2025-11-04 17:54+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
-"subscription-manager/cockpit-main/cs/>\n"
-"Language: cs\n"
+"PO-Revision-Date: 2026-03-07 07:58+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
+"cockpit/subscription-manager-cockpit/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
-"X-Generator: Weblate 5.14\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
 msgid_plural "$0 packages need to be removed."
-msgstr[0] "$0 balíček je třeba odebrat."
-msgstr[1] "$0 balíčky je třeba odebrat."
-msgstr[2] "$0 balíčků je třeba odebrat."
+msgstr[0] "$0 пакунок має бути вилучено."
+msgstr[1] "$0 пакунки має бути вилучено."
+msgstr[2] "$0 пакунків має бути вилучено."
 
 #: src/subscriptions-client.js:215
 msgid "'Organization' is required when using activation keys"
-msgstr "Při použití aktivačních klíčů je zapotřebí „Organizace“"
+msgstr "При використанні ключів активації слід вказати «Organization»"
 
 #: src/subscriptions-view.jsx:518
 msgid "Access denied"
-msgstr "Přístup odepřen"
+msgstr "Заборонено доступ"
 
 #: src/subscriptions-register.jsx:161
 msgid "Account"
-msgstr "Účet"
+msgstr "Обліковий запис"
 
 #: src/subscriptions-register.jsx:119
 msgid "Activation Key"
-msgstr "Aktivační klíč"
+msgstr "Ключ активації"
 
 #: src/subscriptions-register.jsx:167
 msgid "Activation key"
-msgstr "Aktivační klíč"
+msgstr "Ключ активації"
 
 #: src/subscriptions-view.jsx:265
 msgid "Add-ons"
-msgstr "Doplňky"
+msgstr "Додатки"
 
 #: src/insights.jsx:176
 msgid "Additional packages:"
-msgstr "Další balíčky:"
+msgstr "Додаткові пакунки:"
 
 #: src/subscriptions-view.jsx:128
 msgid "Arch"
-msgstr "Arch."
+msgstr "Архітектура"
 
 #: src/insights.jsx:443
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr "Скасувати"
 
 #: src/insights.jsx:204 src/insights.jsx:299
 msgid "Checking installed software"
-msgstr "Zjišťuje se nainstalovaný software"
+msgstr "Перевіряємо встановлене програмне забезпечення"
 
 #: src/insights.jsx:435 src/insights.jsx:454
 msgid "Close"
-msgstr "Zavřít"
+msgstr "Закрити"
 
 #: src/insights.jsx:251
 msgid "Connect"
-msgstr "Připojit"
+msgstr "З'єднатися"
 
 #: src/subscriptions-register.jsx:74
 msgid "Connect this system to $0."
-msgstr "Připojit tento systém do $0."
+msgstr "З'єднати цю систему із $0."
 
 #: src/insights.jsx:238
 msgid "Connect to Red Hat Insights"
-msgstr "Připojit k Red Hat Insights"
+msgstr "З'єднатися з Red Hat Insights"
 
 #: src/insights.jsx:497
 msgid "Connected to Insights"
-msgstr "Připojeno k Insights"
+msgstr "З'єднано з Insights"
 
 #: src/insights.jsx:396
 msgid "Connected to Red Hat Insights"
-msgstr "Připojeno k Red Hat Insights"
+msgstr "З'єднано із Red Hat Insights"
 
 #: src/insights.jsx:108
 msgid "Connecting to Insights"
-msgstr "Připojování k Insights"
+msgstr "З'єднання з Insights"
 
 #: src/subscriptions-client.js:493
 msgid "Corrupted JSON with status"
-msgstr "Porušený JSON se stavem"
+msgstr "Пошкоджений JSON за станом"
 
 #: src/subscriptions-view.jsx:523
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
 msgstr ""
-"Nebylo možné získat stav předplatného pro systém. Zajistěte, aby byl "
-"nainstalován subscription-manager. Hlášený stav: $0 ($1)"
+"Не вдалося отримати стан передплати системи. Будь ласка, переконайтеся, що "
+"встановлено subscription-manager. Повідомлення щодо стану: $0 ($1)"
 
 #: src/subscriptions-register.jsx:137
 msgid "Custom URL"
-msgstr "Uživatelsky určená URL"
+msgstr "Нетипова адреса"
 
 #: src/subscriptions-register.jsx:136
 msgid "Default"
-msgstr "Výchozí"
+msgstr "Типовий"
 
 #: src/insights.jsx:191 src/insights.jsx:415 src/insights.jsx:419
 msgid "Details"
-msgstr "Podrobnosti"
+msgstr "Подробиці"
 
 #: src/insights.jsx:421 src/insights.jsx:427
 msgid "Disconnect from Insights"
-msgstr "Odpojit od Insights"
+msgstr "Від'єднано від Insights"
 
 #: src/insights.jsx:217
 msgid "Downloading $0"
-msgstr "Stahuje se $0"
+msgstr "Отримання $0"
 
 #: src/subscriptions-view.jsx:144
 msgid "Ends"
-msgstr "Končí"
+msgstr "Завершується"
 
 #: src/insights.jsx:76
 msgid "Error"
@@ -151,105 +153,104 @@ msgid ""
 "If you disconnect this system from Insights, it will no longer report its "
 "Insights status in Red Hat Cloud or Satellite."
 msgstr ""
-"Pokud tento systém odpojíte od Insights, nebude už hlásit svůj Insights stav "
-"v Red Hat Cloud nebo Satellite."
+"Якщо ви від'єднаєте цю систему від Insights, вона більше не повідомлятиме "
+"про стану Insights у Red Hat Cloud або Satellite."
 
 #: src/insights.jsx:506 src/subscriptions-register.jsx:71
 msgid "Insights"
-msgstr "Insights"
+msgstr "Огляди"
 
 #: src/subscriptions-view.jsx:167 src/subscriptions-view.jsx:170
 msgid "Installed products"
-msgstr "Nainstalované produkty"
+msgstr "Встановлені продукти"
 
 #: src/insights.jsx:221
 msgid "Installing $0"
-msgstr "Instaluje se $0"
+msgstr "Встановлюємо $0"
 
 #: src/insights.jsx:407
 msgid "Last Insights data upload"
-msgstr "Poslední nahrání Insights dat"
+msgstr "Останнє вивантаження даних до Insights"
 
 #: src/subscriptions-client.js:274
 msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
-"Nesprávný formát URL proxy – není možné použít IPv6 adresu a název stroje "
-"současně"
+"Помилкове форматування адреси проксі-сервера; не можна одночасно "
+"використовувати синтаксис адреси IPv6 і назву вузла"
 
 #: src/subscriptions-client.js:239
 msgid ""
 "Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
-"Nesprávný formát URL serveru – není možné použít IPv6 adresu a název stroje "
-"současně"
+"Помилкове форматування адреси сервера; не можна одночасно використовувати "
+"синтаксис адреси IPv6 і назву вузла"
 
 #: data/org.candlepinproject.subscription_manager.metainfo.xml:8
 msgid ""
 "Manage subscriptions to a Candlepin backend, such as for Red Hat products."
 msgstr ""
-"Spravujte předplatná k podpůrné vrstvě Candlepin, jako například pro "
-"produkty Red Hat."
+"Керування передплатами на модуль Candlepin, зокрема для продуктів Red Hat."
 
 #: src/manifest.json:0
 msgid "Managing subscriptions"
-msgstr "Spravování předplatných"
+msgstr "Керування передплатами"
 
 #: src/subscriptions-register.jsx:157
 msgid "Method"
-msgstr "Metoda"
+msgstr "Метод"
 
 #: src/insights.jsx:402
 msgid "Next Insights data upload"
-msgstr "Příští nahrání Insights dat"
+msgstr "Наступне вивантаження даних Insights"
 
 #: src/subscriptions-view.jsx:173
 msgid "No installed products detected"
-msgstr "Nezjištěny žádné nainstalované produkty"
+msgstr "Не виявлено встановлених продуктів"
 
 #: src/subscriptions-view.jsx:275
 msgid "No system purpose attributes set"
-msgstr "Nenastaveny žádné atributy účelu systému"
+msgstr "Не встановлено атрибутів призначення системи"
 
 #: src/insights.jsx:501
 msgid "Not connected"
-msgstr "Nepřipojeno"
+msgstr "Не з'єднано"
 
 #: src/subscriptions-view.jsx:295
 msgid "Not registered"
-msgstr "Nezaregistrováno"
+msgstr "Не зареєстровано"
 
 #: src/subscriptions-view.jsx:60
 msgid "Not subscribed"
-msgstr "Nepokryto předplatným"
+msgstr "Не передплачено"
 
 #: src/subscriptions-view.jsx:62
 msgid "Not subscribed ($0)"
-msgstr "Nepokryto předplatným ($0)"
+msgstr "Не передплачено ($0)"
 
 #: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:328
 msgid "Organization"
-msgstr "Organizace"
+msgstr "Організація"
 
 #: src/subscriptions-register.jsx:125
 msgid "Organization ID"
-msgstr "Identif. organizace"
+msgstr "Ід. організації"
 
 #: src/subscriptions-view.jsx:316
 msgid "Overview"
-msgstr "Přehled"
+msgstr "Огляд"
 
 #: src/subscriptions-view.jsx:54
 msgid "Partially subscribed"
-msgstr "Částečně pokryto předplatným"
+msgstr "Частково передплачено"
 
 #: src/subscriptions-view.jsx:56
 msgid "Partially subscribed ($0)"
-msgstr "Částečně pokryto předplatným ($0)"
+msgstr "Часткова передплата ($0)"
 
 #: src/subscriptions-register.jsx:100
 msgid "Password"
-msgstr "Heslo"
+msgstr "Пароль"
 
 #: src/insights.jsx:132
 msgid ""
@@ -257,139 +258,138 @@ msgid ""
 "availability, and stability with Red Hat Insights — with predictive "
 "analytics, avoid problems and unplanned downtime in your Red Hat environment."
 msgstr ""
-"Proaktivně identifikujte a napravujte ohrožení zabezpečení, výkonu, "
-"dostupnosti a stability s Red Hat Insights – pomocí prediktivní analýzy se "
-"vyhněte problémům a neplánovaným výpadkům ve svém Red Hat prostředí."
+"Активно виявляйте та усувайте загрози безпеці, продуктивності, доступності "
+"та стабільності за допомогою Red Hat Insights — завдяки прогнозній аналітиці "
+"уникайте проблем і незапланованих простоїв у вашому середовищі Red Hat."
 
 #: src/subscriptions-view.jsx:120
 msgid "Product ID"
-msgstr "Identif. produktu"
+msgstr "Ід. продукту"
 
 #: src/subscriptions-view.jsx:36 src/subscriptions-view.jsx:116
 msgid "Product name"
-msgstr "Název produktu"
+msgstr "Назва продукту"
 
 #: src/subscriptions-register.jsx:45
 msgid "Proxy Location"
-msgstr "Umístění proxy"
+msgstr "Розташування проксі"
 
 #: src/subscriptions-register.jsx:59
 msgid "Proxy Password"
-msgstr "Heslo k proxy"
+msgstr "Пароль до проксі"
 
 #: src/subscriptions-register.jsx:52
 msgid "Proxy Username"
-msgstr "Uživatelské jméno pro proxy"
+msgstr "Користувач проксі"
 
 #: data/subscription-manager-cockpit.desktop:3
 msgid "Red Hat Subscription Manager"
-msgstr "Správa Red Hat předplatného"
+msgstr "Керування передплатами Red Hat"
 
 #: src/subscriptions-view.jsx:297 src/subscriptions-view.jsx:391
 msgid "Register"
-msgstr "Zaregistrovat"
+msgstr "Зареєструвати"
 
 #: src/subscriptions-view.jsx:461
 msgid "Register System"
-msgstr "Zaregistrovat systém"
+msgstr "Зареєструвати систему"
 
 #: src/subscriptions-view.jsx:301
 #, fuzzy
 #| msgid "Register"
 msgid "Registered"
-msgstr "Zaregistrovat"
+msgstr "Зареєструвати"
 
 #: src/subscriptions-client.js:329
 msgid "Registering using activation key ..."
-msgstr "Registruje se pomocí aktivačního klíče …"
+msgstr "Реєстрація за допомогою ключа активації…"
 
 #: src/subscriptions-client.js:350
 msgid "Registering using username and password ..."
-msgstr "Registruje se pomocí uživatelského jména a hesla …"
+msgstr "Реєстрація з використанням імені користувача і пароля…"
 
 #: src/insights.jsx:184
 msgid "Removals:"
-msgstr "Odebrání:"
+msgstr "Вилучення:"
 
 #: src/insights.jsx:219
 msgid "Removing $0"
-msgstr "Odebírá se $0"
+msgstr "Вилучаємо $0"
 
 #: src/subscriptions-view.jsx:503
 msgid "Retrieving subscription status..."
-msgstr "Získávání stavu předplatného…"
+msgstr "Отримання стану передплат…"
 
 #: src/subscriptions-view.jsx:260
 msgid "Role"
-msgstr "Role"
+msgstr "Роль"
 
 #: src/subscriptions-client.js:403
 msgid "Saving configuration ..."
-msgstr "Ukládání nastavení …"
+msgstr "Збереження налаштувань…"
 
 #: src/subscriptions-view.jsx:250
 msgid "Service level"
-msgstr "Úroveň služeb"
+msgstr "Рівень служби"
 
 #: src/subscriptions-client.js:310
 msgid "Starting registration service ..."
-msgstr "Spouštění registrační služby …"
+msgstr "Запуск служби реєстрації…"
 
 #: src/subscriptions-view.jsx:140
 msgid "Starts"
-msgstr "Začíná"
+msgstr "Починається"
 
 #: src/subscriptions-view.jsx:136 src/subscriptions-view.jsx:321
 msgid "Status"
-msgstr "Stav"
+msgstr "Стан"
 
 #: src/subscriptions-client.js:379
 msgid "Stopping registration service ..."
-msgstr "Zastavování registrační služby …"
+msgstr "Зупинення служби реєстрації…"
 
 #: src/subscriptions-view.jsx:50
 msgid "Subscribed"
-msgstr "Připojeno k předplatnému"
+msgstr "Підписаний"
 
 #: data/org.candlepinproject.subscription_manager.metainfo.xml:5
 msgid "Subscription Manager"
-msgstr "Správa předplatného"
+msgstr "Керування передплатами"
 
 #: data/org.candlepinproject.subscription_manager.metainfo.xml:6
 msgid "Subscription Manager in Cockpit"
-msgstr "Správa předplatného z Cockpit"
+msgstr "Керування передплатами у Cockpit"
 
 #: src/index.html:9 src/manifest.json:0
 msgid "Subscriptions"
-msgstr "Předplatná"
+msgstr "Підписки"
 
 #: src/subscriptions-view.jsx:284
 msgid "System purpose"
-msgstr "Účel systému"
+msgstr "Мета системи"
 
 #: src/insights.jsx:154
 msgid "The $0 package and $1 other package will be installed."
 msgid_plural "The $0 package and $1 other packages will be installed."
-msgstr[0] "Bude nainstalován balíček $0 a $1 další balíček."
-msgstr[1] "Bude nainstalován balíček $0 a $1 další balíčky."
-msgstr[2] "Bude nainstalován balíček $0 a $1 dalších balíčků."
+msgstr[0] "Буде встановлено пакунок $0 і $1 інший пакунок."
+msgstr[1] "Буде встановлено пакунок $0 і $1 інших пакунки."
+msgstr[2] "Буде встановлено пакунок $0 і $1 інших пакунків."
 
 #: src/insights.jsx:92 src/insights.jsx:307
 msgid "The $0 package is not available from any repository."
-msgstr "Balíček $0 není k dispozici v žádném z repozitářů."
+msgstr "Пакунка $0 немає у жодному зі сховищ."
 
 #: src/insights.jsx:152 src/subscriptions-register.jsx:81
 msgid "The $0 package will be installed."
-msgstr "Balíček $0 bude nainstalován."
+msgstr "Пакунок $0 буде встановлено."
 
 #: src/subscriptions-view.jsx:519
 msgid "The current user isn't allowed to access system subscription status."
-msgstr ""
-"Stávající uživatel není oprávněn přistupovat ke stavu předplatného systému."
+msgstr "Поточному користувачу заборонений доступ до стану передплати системи."
 
 #: src/insights.jsx:391
 msgid "The last Insights data upload has failed."
-msgstr "Poslední nahrání Insights dat se nezdařilo."
+msgstr "Востаннє вивантаження до Insights не вдалося."
 
 #: src/subscriptions-view.jsx:515
 msgid ""
@@ -397,78 +397,79 @@ msgid ""
 "and try reloading the page. Additionally, make sure that you have checked "
 "the 'Reuse my password for privileged tasks' checkbox on the login page."
 msgstr ""
-"Služba rhsm není k dispozici. Ověřte, že je nainstalován subscription-"
-"manager a zkuste stránku znovu načíst. Dále nezapomeňte na zaškrtnutí "
-"kolonky „Využít mé heslo pro privilegované úlohy“ na přihlašovací stránce."
+"Служба rhsm недоступна. Переконайтеся, що встановлено subscription-manager, "
+"і спробуйте перезавантажити сторінку. Крім того, переконайтеся, що ви "
+"позначили пункт «Використовувати мій пароль для привілейованих завдань» на "
+"сторінці входу."
 
 #: src/insights.jsx:95
 msgid ""
 "The system could not be connected to Insights because installing the $0 "
 "package requires the unexpected removal of other packages."
 msgstr ""
-"Systém nebylo možné připojit do Insights, protože instalace balíčku $0 "
-"vyžaduje neočekávané odebrání ostatních balíčků."
+"Систему не вдалося з'єднати з Insights, оскільки встановлення пакунка $0 "
+"вимагає неочікуваного вилучення інших пакунків."
 
 #: src/insights.jsx:241
 msgid "This system is not connected to $0."
-msgstr "Tento systém není připojení k $0."
+msgstr "Цю систему не з'єднано з $0."
 
 #: src/subscriptions-register.jsx:141
 msgid "URL"
-msgstr "URL"
+msgstr "Адреса"
 
 #: src/subscriptions-view.jsx:521
 msgid "Unable to connect"
-msgstr "Nedaří se připojit"
+msgstr "Не вдалось з'єднатись"
 
 #: src/subscriptions-view.jsx:516
 msgid "Unable to the reach the rhsm service."
-msgstr "Služba rhsm nebyla dosažitelná."
+msgstr "Не вдалося встановити з'єднання зі службою rhsm."
 
 #: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
 msgid "Unknown"
-msgstr "Neznámé"
+msgstr "Невідомо"
 
 #: src/subscriptions-view.jsx:67
 msgid "Unknown status"
-msgstr "Neznámý stav"
+msgstr "Невідомий стан"
 
 #: src/subscriptions-view.jsx:307
 msgid "Unregister"
-msgstr "Zrušit registraci"
+msgstr "Знятись з реєстрації"
 
 #: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
 msgid "Unregistering"
-msgstr "Ruší se registrace"
+msgstr "Скасовуємо реєстрацію"
 
 #: src/subscriptions-view.jsx:502
 msgid "Updating"
-msgstr "Aktualizuje se"
+msgstr "Оновлення"
 
 #: src/subscriptions-client.js:423
 msgid "Updating status ..."
-msgstr "Aktualizace stavu …"
+msgstr "Оновлюємо стан…"
 
 #: src/subscriptions-view.jsx:255
 msgid "Usage"
-msgstr "Použití"
+msgstr "Використання"
 
 #: src/subscriptions-register.jsx:152
 msgid "Use proxy server"
-msgstr "Použít proxy server"
+msgstr "Використовувати проксі-сервер"
 
 #: src/subscriptions-register.jsx:94
 msgid "Username"
-msgstr "Uživatelské jméno"
+msgstr "Користувач"
 
 #: src/subscriptions-view.jsx:124
 msgid "Version"
-msgstr "Verze"
+msgstr "Версія"
 
 #: src/insights.jsx:202 src/insights.jsx:213 src/insights.jsx:297
 msgid "Waiting for other software management operations to finish"
-msgstr "Čeká se na dokončení ostatních operací správy balíčků"
+msgstr "Очікуємо на завершення інших дій із програмним забезпеченням"
 
 #: src/manifest.json:0
 msgid "candlepin"
@@ -484,80 +485,12 @@ msgstr ""
 
 #: src/subscriptions-client.js:457
 msgid "not-found"
-msgstr "nenalezeno"
+msgstr "не знайдено"
 
 #: src/manifest.json:0
 msgid "subscriptions"
-msgstr "předplatná"
+msgstr "передплати"
 
 #: src/insights.jsx:341
 msgid "unknown"
-msgstr "neznámé"
-
-#~ msgid "$0 critical hit"
-#~ msgid_plural "$0 hits, including critical"
-#~ msgstr[0] "$0 kritická shoda"
-#~ msgstr[1] "$0 shody, včetně kritických"
-#~ msgstr[2] "$0 shod, včetně kritických"
-
-#~ msgid "$0 hit"
-#~ msgid_plural "$0 hits"
-#~ msgstr[0] "$0 shoda"
-#~ msgstr[1] "$0 shody"
-#~ msgstr[2] "$0 shod"
-
-#~ msgid "$0 important hit"
-#~ msgid_plural "$0 hits, including important"
-#~ msgstr[0] "$0 důležitá shoda"
-#~ msgstr[1] "$0 důležité shody"
-#~ msgstr[2] "$0 důležitých shod"
-
-#~ msgid "$0 low severity hit"
-#~ msgid_plural "$0 low severity hits"
-#~ msgstr[0] "$0 shoda s nízkou závažností"
-#~ msgstr[1] "$0 shody s nízkou závažností"
-#~ msgstr[2] "$0 shod s nízkou závažností"
-
-#~ msgid "$0 moderate hit"
-#~ msgid_plural "$0 hits, including moderate"
-#~ msgstr[0] "$0 střední shoda"
-#~ msgstr[1] "$0 střední shody"
-#~ msgstr[2] "$0 středních shod"
-
-#~ msgid "Attach automatically"
-#~ msgstr "Připojit automaticky"
-
-#~ msgid "Auto-attach"
-#~ msgstr "Automaticky připojit"
-
-#~ msgid "Auto-attaching ..."
-#~ msgstr "Automatické připojování …"
-
-#~ msgid ""
-#~ "Content Access Mode is set to Simple Content Access. This host has access "
-#~ "to content, regardless of subscription status."
-#~ msgstr ""
-#~ "Přístupový režim k obsahu je nastavený na jednoduchý přístup k obsahu. "
-#~ "Tento hostitel má přístup k obsahu, nezávisle na stavu předplatného."
-
-#~ msgid ""
-#~ "Content Access Mode is set to Simple Content Access. This host has access "
-#~ "to content, regardless of system purpose status."
-#~ msgstr ""
-#~ "Přístupový režim k obsahu je nastavený na jednoduchý přístup k obsahu. "
-#~ "Tento hostitel má přístup k obsahu, nezávisle na stavu účelu systému."
-
-#~ msgid "No rule hits"
-#~ msgstr "Neodpovídá ani jednomu pravidlu"
-
-#~ msgid "Popover with explanation of SCA mode"
-#~ msgstr "Vyskakovací okno s vysvětlením SCA režimu"
-
-#~ msgid "Subscription status"
-#~ msgstr "Stav předplatného"
-
-#~ msgid "Subscriptions information"
-#~ msgstr "Informace o předplatných"
-
-#~ msgid "View your Insights results"
-#~ msgstr "Zobrazit vaše výsledky v Insights"
+msgstr "невідомий"
