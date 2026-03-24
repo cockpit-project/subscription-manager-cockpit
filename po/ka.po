@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 04:54+0000\n"
-"PO-Revision-Date: 2026-03-04 22:58+0000\n"
+"POT-Creation-Date: 2026-03-24 04:33+0000\n"
+"PO-Revision-Date: 2026-03-24 13:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit/subscription-manager-cockpit/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -130,7 +130,7 @@ msgstr "საბოლოო"
 
 #: src/insights.jsx:76
 msgid "Error"
-msgstr ""
+msgstr "შეცდომა"
 
 #: src/insights.jsx:424
 msgid ""
@@ -280,10 +280,8 @@ msgid "Register System"
 msgstr "სისტემის რეგისტრაცია"
 
 #: src/subscriptions-view.jsx:301
-#, fuzzy
-#| msgid "Register"
 msgid "Registered"
-msgstr "რეგისტრაცია"
+msgstr "რეგისტრირებულია"
 
 #: src/subscriptions-client.js:329
 msgid "Registering using activation key ..."
@@ -460,11 +458,11 @@ msgstr "candlepin"
 
 #: src/subscriptions-register.jsx:47
 msgid "hostname:port"
-msgstr ""
+msgstr "ჰოსტისსახელი:პორტი"
 
 #: src/subscriptions-register.jsx:121
 msgid "key_one,key_two"
-msgstr ""
+msgstr "გასაღები_ერთი,გასაღები_ორი"
 
 #: src/subscriptions-client.js:457
 msgid "not-found"
