@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 04:54+0000\n"
-"PO-Revision-Date: 2026-01-25 13:58+0000\n"
+"POT-Creation-Date: 2026-03-24 04:33+0000\n"
+"PO-Revision-Date: 2026-03-24 13:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "subscription-manager-cockpit/ko/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -140,7 +140,7 @@ msgstr "종료"
 
 #: src/insights.jsx:76
 msgid "Error"
-msgstr ""
+msgstr "오류"
 
 #: src/insights.jsx:424
 msgid ""
@@ -299,10 +299,8 @@ msgstr "시스템 등록"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
 #: src/subscriptions-view.jsx:301
-#, fuzzy
-#| msgid "Register"
 msgid "Registered"
-msgstr "등록"
+msgstr "등록됨"
 
 #: src/subscriptions-client.js:329
 msgid "Registering using activation key ..."
@@ -489,11 +487,11 @@ msgstr "candlepin"
 
 #: src/subscriptions-register.jsx:47
 msgid "hostname:port"
-msgstr ""
+msgstr "호스트이름:포트"
 
 #: src/subscriptions-register.jsx:121
 msgid "key_one,key_two"
-msgstr ""
+msgstr "키_하나,키_둘"
 
 #: src/subscriptions-client.js:457
 msgid "not-found"
