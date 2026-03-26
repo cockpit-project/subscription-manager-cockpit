@@ -3,7 +3,9 @@
 *.rpm
 __pycache__/
 dist/
+/metafile.json
 /pkg/
+/runtime-npm-modules.txt
 package-lock.json
 /bots
 /subscription-manager/
