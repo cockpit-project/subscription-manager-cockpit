@@ -22,8 +22,8 @@ SUBMAN_TAR=$(CURDIR)/dist/subscription-manager.tar.gz
 SMBEXT_TAR=$(CURDIR)/dist/subscription-manager-build-extra.tar.gz
 # stamp file to check for node_modules/
 NODE_MODULES_TEST=package-lock.json
-# one example file in dist/ from webpack to check if that already ran
-DIST_TEST=dist/manifest.json
+# build.js ran in non-watch mode
+DIST_TEST=runtime-npm-modules.txt
 # one example file in pkg/lib to check if it was already checked out
 COCKPIT_REPO_STAMP=pkg/lib/cockpit-po-plugin.js
 # common arguments for tar, mostly to make the generated tarballs reproducible
@@ -101,7 +101,8 @@ po/LINGUAS:
 #
 
 $(SPEC): packaging/$(SPEC).in $(NODE_MODULES_TEST)
-	sed -e 's/%{VERSION}/$(VERSION)/g' $< > $@
+	provides=$$(awk '{print "Provides: bundled(npm(" $$1 ")) = " $$2}' runtime-npm-modules.txt); \
+	awk -v p="$$provides" '{gsub(/%{VERSION}/, "$(VERSION)"); $(SUB_NODE_ENV) gsub(/%{NPM_PROVIDES}/, p)}1' $< > $@
 
 $(DIST_TEST): $(COCKPIT_REPO_STAMP) $(shell find src/ -type f) package.json build.js
 	$(MAKE) package-lock.json && NODE_ENV=$(NODE_ENV) ./build.js
@@ -113,6 +114,7 @@ clean:
 	rm -rf dist/
 	rm -f $(SPEC)
 	rm -f po/LINGUAS
+	rm -f metafile.json runtime-npm-modules.txt
 
 clean-all:
 	git clean -fdx
@@ -156,8 +158,10 @@ $(TARFILE): $(DIST_TEST) $(SPEC)
 	if type appstream-util >/dev/null 2>&1; then appstream-util validate-relax --nonet data/*.metainfo.xml; fi
 	if type desktop-file-validate >/dev/null 2>&1; then desktop-file-validate data/*.desktop; fi
 	tar --xz $(TAR_ARGS) -cf $(TARFILE) --transform 's,^,$(RPM_NAME)/,' \
-		--exclude packaging/$(SPEC).in --exclude node_modules --exclude test/reference \
-		$$(git ls-files) $(COCKPIT_REPO_FILES) $(NODE_MODULES_TEST) $(SPEC) dist/
+		--exclude packaging/$(SPEC).in --exclude test/reference \
+		$$(git ls-files | grep -v node_modules) \
+		$(COCKPIT_REPO_FILES) $(NODE_MODULES_TEST) $(DIST_TEST) $(TEST_NPMS) $(SPEC) \
+		dist/
 
 $(NODE_CACHE): $(NODE_MODULES_TEST)
 	tar --xz $(TAR_ARGS) -cf $@ node_modules

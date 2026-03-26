@@ -30,6 +30,8 @@ Requires: rhsm-icons
 Suggests: insights-client
 %endif
 
+%{NPM_PROVIDES}
+
 %description
 Subscription Manager Cockpit UI
 
