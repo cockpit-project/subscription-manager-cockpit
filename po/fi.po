@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 04:58+0000\n"
+"POT-Creation-Date: 2026-04-02 04:54+0000\n"
 "PO-Revision-Date: 2025-07-18 15:53+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -156,7 +156,7 @@ msgstr ""
 "Jos katkaiset tämän järjestelmän yhteyden Insightsiin, se ei enää ilmoita "
 "Insights-tilastaan Red Hat Cloudissa tai Satellitessa."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -378,7 +378,7 @@ msgstr[1] "Paketti $0 ja $1 muuta pakettia asennetaan."
 msgid "The $0 package is not available from any repository."
 msgstr "Paketti $0 ei ole saatavilla mistään tietovarastosta."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "Paketti $0 asennetaan."
 
@@ -426,8 +426,8 @@ msgstr "Yhteyttä ei voi muodostaa"
 msgid "Unable to the reach the rhsm service."
 msgstr "rhsm-palveluun ei saada yhteyttä."
 
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 msgid "Unknown"
 msgstr "Tuntematon"
 
@@ -439,7 +439,7 @@ msgstr "Tuntematon tila"
 msgid "Unregister"
 msgstr "Poista rekisteröinti"
 
-#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
 msgid "Unregistering"
 msgstr "Poistetaan rekisteröinti"
 

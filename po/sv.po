@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 04:58+0000\n"
+"POT-Creation-Date: 2026-04-02 04:54+0000\n"
 "PO-Revision-Date: 2026-03-27 19:58+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -154,7 +154,7 @@ msgstr ""
 "Om du kopplar bort det här systemet från Insights kommer det inte längre att "
 "rapportera sin Insights-status till Red Hat Cloud eller Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -371,7 +371,7 @@ msgstr[1] "Paketet $0 och $1 andra paket kommer att installeras."
 msgid "The $0 package is not available from any repository."
 msgstr "Paketet $0 är inte tillgängligt från något arkiv."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "Paketet $0 kommer att installeras."
 
@@ -419,8 +419,8 @@ msgstr "Det gick inte att ansluta"
 msgid "Unable to the reach the rhsm service."
 msgstr "Det gick inte att nå rhsm-tjänsten."
 
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 msgid "Unknown"
 msgstr "Okänd"
 
@@ -432,7 +432,7 @@ msgstr "Okänd status"
 msgid "Unregister"
 msgstr "Avregistrera"
 
-#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
 msgid "Unregistering"
 msgstr "Avregistrerar"
 

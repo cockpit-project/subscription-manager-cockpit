@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 04:58+0000\n"
+"POT-Creation-Date: 2026-04-02 04:54+0000\n"
 "PO-Revision-Date: 2026-03-15 19:58+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
@@ -158,7 +158,7 @@ msgstr ""
 "Dacă deconectați acest sistem de la Insights, acesta nu va mai raporta "
 "starea sa în Insights în Red Hat Cloud sau Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -382,7 +382,7 @@ msgstr[2] "Pachetul $0 și alte $1 de pachete vor fi instalate."
 msgid "The $0 package is not available from any repository."
 msgstr "Pachetul $0 nu este disponibil din niciun depozit."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "Pachetul $0 va fi instalat."
 
@@ -431,8 +431,8 @@ msgstr "Nu se poate conecta"
 msgid "Unable to the reach the rhsm service."
 msgstr "Nu se poate accesa serviciul rhsm."
 
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 msgid "Unknown"
 msgstr "Necunoscută"
 
@@ -444,7 +444,7 @@ msgstr "Stare necunoscută"
 msgid "Unregister"
 msgstr "Anulează înregistrarea"
 
-#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
 msgid "Unregistering"
 msgstr "Se anulează înregistrarea"
 
