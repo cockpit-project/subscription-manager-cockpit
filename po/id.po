@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 04:58+0000\n"
+"POT-Creation-Date: 2026-04-02 04:54+0000\n"
 "PO-Revision-Date: 2026-02-01 04:58+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -153,7 +153,7 @@ msgstr ""
 "Jika Anda memutuskan sistem ini dari Insights, sistem ini tidak akan lagi "
 "melaporkan status Insights-nya di Red Hat Cloud atau Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -372,7 +372,7 @@ msgstr[0] "Paket $0 dan $1 paket lainnya akan dipasang."
 msgid "The $0 package is not available from any repository."
 msgstr "Paket $0 tidak tersedia dari repositori mana pun."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "Paket $0 akan dipasang."
 
@@ -420,8 +420,8 @@ msgstr "Tidak dapat terhubung"
 msgid "Unable to the reach the rhsm service."
 msgstr "Tidak dapat menjangkau layanan rhsm."
 
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 msgid "Unknown"
 msgstr "Tidak diketahui"
 
@@ -433,7 +433,7 @@ msgstr "Status tidak diketahui"
 msgid "Unregister"
 msgstr "Batalkan pendaftaran"
 
-#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
 msgid "Unregistering"
 msgstr "Membatalkan pendaftaran"
 

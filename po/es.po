@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 04:58+0000\n"
+"POT-Creation-Date: 2026-04-02 04:54+0000\n"
 "PO-Revision-Date: 2026-02-15 07:58+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -147,7 +147,7 @@ msgstr ""
 "Si desconecta este sistema de Insights, ya no informará su estado de "
 "Insights en Red Hat Cloud o Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -388,7 +388,7 @@ msgstr[1] "El paquete $0 y $1 otros paquetes serán instalados."
 msgid "The $0 package is not available from any repository."
 msgstr "El paquete $0 no está disponible desde ningún repositorio."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "Se instalará el paquete $0."
 
@@ -440,8 +440,8 @@ msgid "Unable to the reach the rhsm service."
 msgstr "Incapaz de alcanzar el servicios rhsm."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author gguerrer
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 msgid "Unknown"
 msgstr "Desconocido"
 
@@ -454,7 +454,7 @@ msgstr "Estado desconocido"
 msgid "Unregister"
 msgstr "Cancelar"
 
-#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
 msgid "Unregistering"
 msgstr "Cancelando el registro"
 

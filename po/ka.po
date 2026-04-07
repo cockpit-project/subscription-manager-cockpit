@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 04:58+0000\n"
+"POT-Creation-Date: 2026-04-02 04:54+0000\n"
 "PO-Revision-Date: 2026-03-24 13:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -140,7 +140,7 @@ msgstr ""
 "თუ ამ სისტემას Insight-ისგან გათიშავთ, ის ვეღარ მიაწვდის მის Insight-ის "
 "სტატუსს Red Hat Cloud-ს, ან Satellite-ს."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -361,7 +361,7 @@ msgstr[1] "მოხდება $0 პაკეტის და $1 დამა
 msgid "The $0 package is not available from any repository."
 msgstr "$0 პაკეტი ხელმიუწვდომელია ყველა რეპოზიტორიიდან."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "საჭიროა დაყენებული იყოს პაკეტი $0."
 
@@ -407,8 +407,8 @@ msgstr "კავშირის შეცდომა"
 msgid "Unable to the reach the rhsm service."
 msgstr "სერვისთან rhsm დაკავშირება შეუძლებელია."
 
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 msgid "Unknown"
 msgstr "უცნობი"
 
@@ -420,7 +420,7 @@ msgstr "უცნობი სტატუსი"
 msgid "Unregister"
 msgstr "რეგისტრაციის მოხსნა"
 
-#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
 msgid "Unregistering"
 msgstr "რეგისტრაციის მოხსნა"
 

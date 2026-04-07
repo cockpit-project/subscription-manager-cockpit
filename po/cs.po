@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 04:58+0000\n"
+"POT-Creation-Date: 2026-04-02 04:54+0000\n"
 "PO-Revision-Date: 2026-03-24 13:58+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
@@ -154,7 +154,7 @@ msgstr ""
 "Pokud tento systém odpojíte od Insights, nebude už hlásit svůj Insights stav "
 "v Red Hat Cloud nebo Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -376,7 +376,7 @@ msgstr[2] "Bude nainstalován balíček $0 a $1 dalších balíčků."
 msgid "The $0 package is not available from any repository."
 msgstr "Balíček $0 není k dispozici v žádném z repozitářů."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "Balíček $0 bude nainstalován."
 
@@ -423,8 +423,8 @@ msgstr "Nedaří se připojit"
 msgid "Unable to the reach the rhsm service."
 msgstr "Služba rhsm nebyla dosažitelná."
 
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 msgid "Unknown"
 msgstr "Neznámé"
 
@@ -436,7 +436,7 @@ msgstr "Neznámý stav"
 msgid "Unregister"
 msgstr "Zrušit registraci"
 
-#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
 msgid "Unregistering"
 msgstr "Ruší se registrace"
 

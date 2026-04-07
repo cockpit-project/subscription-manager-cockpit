@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 04:58+0000\n"
-"PO-Revision-Date: 2026-01-27 21:18+0000\n"
-"Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
+"POT-Creation-Date: 2026-04-02 04:54+0000\n"
+"PO-Revision-Date: 2026-03-31 20:58+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "subscription-manager-cockpit/de/>\n"
 "Language: de\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -139,7 +139,7 @@ msgstr "Endet"
 
 #: src/insights.jsx:76
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 #: src/insights.jsx:424
 msgid ""
@@ -149,7 +149,7 @@ msgstr ""
 "Wenn Sie dieses System von Insights trennen, meldet es seinen Insights-"
 "Status nicht mehr an Red Hat Cloud oder Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -303,10 +303,8 @@ msgstr "System registrieren"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: src/subscriptions-view.jsx:301
-#, fuzzy
-#| msgid "Register"
 msgid "Registered"
-msgstr "Registrieren"
+msgstr "Registriert"
 
 #: src/subscriptions-client.js:329
 msgid "Registering using activation key ..."
@@ -391,7 +389,7 @@ msgstr[1] "Das $0-Paket und $1 andere Pakete werden installiert."
 msgid "The $0 package is not available from any repository."
 msgstr "Das $0 Paket ist in keinem Repository verfügbar."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "Das $0 Paket wird installiert."
 
@@ -441,8 +439,8 @@ msgid "Unable to the reach the rhsm service."
 msgstr "Kann rhsm-Dienst nicht erreichen."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 msgid "Unknown"
 msgstr "Unbekannt"
 
@@ -455,7 +453,7 @@ msgstr "Unbekannter Status"
 msgid "Unregister"
 msgstr "Abmelden"
 
-#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
 msgid "Unregistering"
 msgstr "Wird abgemeldet"
 
@@ -495,11 +493,11 @@ msgstr "candlepin"
 
 #: src/subscriptions-register.jsx:47
 msgid "hostname:port"
-msgstr ""
+msgstr "Hostname:Port"
 
 #: src/subscriptions-register.jsx:121
 msgid "key_one,key_two"
-msgstr ""
+msgstr "Schlüssel_eins,Schlüssel_zwei"
 
 #: src/subscriptions-client.js:457
 msgid "not-found"

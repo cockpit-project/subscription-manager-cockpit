@@ -11,17 +11,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 04:58+0000\n"
-"PO-Revision-Date: 2022-06-15 12:24+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"POT-Creation-Date: 2026-04-02 04:54+0000\n"
+"PO-Revision-Date: 2026-04-02 23:59+0000\n"
+"Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
-"projects/subscription-manager/cockpit-main/zh_CN/>\n"
+"projects/cockpit/subscription-manager-cockpit/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -137,7 +137,7 @@ msgstr "结束"
 
 #: src/insights.jsx:76
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #: src/insights.jsx:424
 msgid ""
@@ -147,7 +147,7 @@ msgstr ""
 "如果您断开此系统与 Insights 的连接，它将不会在红帽云或 Satellite 中报告其 "
 "Insights 状态。"
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -293,10 +293,8 @@ msgstr "注册系统"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
 #: src/subscriptions-view.jsx:301
-#, fuzzy
-#| msgid "Register"
 msgid "Registered"
-msgstr "注册"
+msgstr "已注册"
 
 #: src/subscriptions-client.js:329
 msgid "Registering using activation key ..."
@@ -380,7 +378,7 @@ msgstr[0] "$0 软件包和 $1 个其他软件包将被安装。"
 msgid "The $0 package is not available from any repository."
 msgstr "所有仓库都不提供 $0。"
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "$0 软件包将被安装。"
 
@@ -427,8 +425,8 @@ msgid "Unable to the reach the rhsm service."
 msgstr "无法访问 rhsm 服务。"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
 msgid "Unknown"
 msgstr "未知的"
 
@@ -441,7 +439,7 @@ msgstr "未知状态"
 msgid "Unregister"
 msgstr "取消注册"
 
-#: src/subscriptions-client.js:436 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
 msgid "Unregistering"
 msgstr "正在取消注册"
 
@@ -481,11 +479,11 @@ msgstr "candlepin"
 
 #: src/subscriptions-register.jsx:47
 msgid "hostname:port"
-msgstr ""
+msgstr "主机名:端口"
 
 #: src/subscriptions-register.jsx:121
 msgid "key_one,key_two"
-msgstr ""
+msgstr "密钥一,密钥二"
 
 #: src/subscriptions-client.js:457
 msgid "not-found"
