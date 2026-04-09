@@ -34,6 +34,12 @@ CANDLEPIN_URL = f"https://{CANDLEPIN_HOSTNAME}:8443/candlepin"
 
 
 class SubscriptionsCase(testlib.MachineCase):
+    # Because the candlepin container uses a lot of available memory in the nondestructive VM
+    # we bump the memory limit to 2048MB
+    provision = {  # noqa: RUF012
+        "0": {"memory_mb": "2048" }
+    }
+
 
     def setUp(self):
         super().setUp()
@@ -80,6 +86,12 @@ authmethod=CERT
 
 @testlib.nondestructive
 class TestSubscriptions(SubscriptionsCase):
+    # Because the candlepin container uses a lot of available memory in the nondestructive VM
+    # we bump the memory limit to 2048MB
+    provision = {  # noqa: RUF012
+        "0": {"memory_mb": "2048" }
+    }
+
     def testRegister(self):
         b = self.browser
 
@@ -375,6 +387,12 @@ class TestSubscriptions(SubscriptionsCase):
 
 @testlib.nondestructive
 class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
+    # Because the candlepin container uses a lot of available memory in the nondestructive VM
+    # we bump the memory limit to 2048MB
+    provision = {  # noqa: RUF012
+        "0": {"memory_mb": "2048" }
+    }
+
     def testMissingPackages(self):
         m = self.machine
         b = self.browser
