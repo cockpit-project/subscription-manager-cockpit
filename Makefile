@@ -1,3 +1,4 @@
+# test-what
 # extract name from package.json
 PACKAGE_NAME := $(shell awk '/"name":/ {gsub(/[",]/, "", $$2); print $$2}' package.json)
 RPM_NAME := $(PACKAGE_NAME)-cockpit
