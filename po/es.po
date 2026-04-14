@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 04:54+0000\n"
-"PO-Revision-Date: 2026-02-15 07:58+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"POT-Creation-Date: 2026-04-10 05:15+0000\n"
+"PO-Revision-Date: 2026-04-10 13:10+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
 "subscription-manager-cockpit/es/>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -137,7 +137,7 @@ msgstr "Termina"
 
 #: src/insights.jsx:76
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: src/insights.jsx:424
 msgid ""
@@ -300,10 +300,8 @@ msgstr "Registrar sistema"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: src/subscriptions-view.jsx:301
-#, fuzzy
-#| msgid "Register"
 msgid "Registered"
-msgstr "Registrar"
+msgstr "Registrado"
 
 #: src/subscriptions-client.js:329
 msgid "Registering using activation key ..."
@@ -494,11 +492,11 @@ msgstr "candlepin"
 
 #: src/subscriptions-register.jsx:47
 msgid "hostname:port"
-msgstr ""
+msgstr "nombrehost:puerto"
 
 #: src/subscriptions-register.jsx:121
 msgid "key_one,key_two"
-msgstr ""
+msgstr "clave_uno,clave_dos"
 
 #: src/subscriptions-client.js:457
 msgid "not-found"
