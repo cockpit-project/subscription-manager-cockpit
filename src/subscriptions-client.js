@@ -508,11 +508,6 @@ client.getSubscriptionStatus = function() {
             .then(() => {
                 getSubscriptionDetails();
                 needRender();
-            })
-            .catch(ex => {
-                console.debug(ex);
-                client.subscriptionStatus.status = "unknown";
-                client.subscriptionStatus.status_msg = _("Unknown");
             });
 
     return promise;
