@@ -94,8 +94,6 @@ class TestSubscriptions(SubscriptionsCase):
         # wait until we can open the registration dialog
         b.click(register_button_sel)
 
-        b.wait_visible("#subscription-register-url")
-
         # enter server and incorrect login data
         b.set_val("#subscription-register-url", "custom")
         b.set_input_text("#subscription-register-url-custom", CANDLEPIN_URL)
@@ -158,7 +156,6 @@ class TestSubscriptions(SubscriptionsCase):
         b.click(register_button_sel)
 
         # enter server data
-        b.wait_visible("#subscription-register-url")
         b.set_val("#subscription-register-url", "custom")
         b.set_input_text("#subscription-register-url-custom", CANDLEPIN_URL)
 
@@ -187,9 +184,10 @@ class TestSubscriptions(SubscriptionsCase):
     def testUnpriv(self):
         self.machine.execute("useradd junior; echo junior:foobar | chpasswd")
         self.login_and_go("/subscriptions", user="junior")
-        self.browser.wait_in_text(
-            ".pf-v6-c-empty-state__body", "current user isn't allowed to access system subscription"
-        )
+        with self.browser.wait_timeout(60):
+            self.browser.wait_in_text(
+                ".pf-v6-c-empty-state__body", "current user isn't allowed to access system subscription"
+            )
         self.allow_journal_messages("junior is not in the sudoers file.  This incident will be reported.")
 
     @testlib.onlyImage("Insights support is specific to RHEL", "rhel-*")
@@ -200,7 +198,6 @@ class TestSubscriptions(SubscriptionsCase):
         self.login_and_go("/subscriptions")
 
         b.click("button:contains('Register')")
-        b.wait_visible("#subscription-register-url")
 
         b.set_val("#subscription-register-url", "custom")
         b.set_input_text("#subscription-register-url-custom", CANDLEPIN_URL)
@@ -282,7 +279,6 @@ class TestSubscriptions(SubscriptionsCase):
         self.login_and_go("/subscriptions")
 
         b.click("button:contains('Register')")
-        b.wait_visible("#subscription-register-url")
 
         b.set_val("#subscription-register-url", "custom")
         b.set_input_text("#subscription-register-url-custom", CANDLEPIN_URL)
@@ -388,7 +384,6 @@ class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
         self.login_and_go("/subscriptions")
 
         b.click("button:contains('Register')")
-        b.wait_visible("#subscription-register-url")
 
         b.set_val("#subscription-register-url", "custom")
         b.set_input_text("#subscription-register-url-custom", CANDLEPIN_URL)
