@@ -375,12 +375,18 @@ class TestSubscriptions(SubscriptionsCase):
 
 @testlib.nondestructive
 class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
+    def check_insights_installed(self):
+        output = self.machine.execute(
+            [self.packagekit_cmd, "search", "name", "insights-client", "--filter", "installed"]
+        )
+        return "insights-client" in output
+
     def testMissingPackages(self):
         m = self.machine
         b = self.browser
 
-        if m.image.startswith("rhel-"):
-            m.execute(["pkcon", "remove", "-y", "insights-client"])
+        if m.image.startswith("rhel-") and self.check_insights_installed():
+            m.execute([self.packagekit_cmd, "remove", "-y", "insights-client"])
 
         self.createPackage("insights-client", "999", "1")
         self.enableRepo(refresh_repo=True)
