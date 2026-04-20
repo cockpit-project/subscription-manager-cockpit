@@ -414,6 +414,7 @@ class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
 
         # Try again with the connection dialog.
 
+        m.execute(["pkcon", "refresh"])  # HACK: required for Fedora 44 to pass
         m.execute(["test", "-f", "/stamp-insights-client-999-1"])
         m.execute(["pkcon", "remove", "-y", "insights-client"])
         m.execute(["pkcon", "refresh"])
