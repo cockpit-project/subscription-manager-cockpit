@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 05:15+0000\n"
+"POT-Creation-Date: 2026-04-19 05:17+0000\n"
 "PO-Revision-Date: 2026-03-07 07:58+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -427,7 +427,7 @@ msgid "Unable to the reach the rhsm service."
 msgstr "Не вдалося встановити з'єднання зі службою rhsm."
 
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "Невідомо"
 

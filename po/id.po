@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 05:15+0000\n"
-"PO-Revision-Date: 2026-02-01 04:58+0000\n"
+"POT-Creation-Date: 2026-04-19 05:17+0000\n"
+"PO-Revision-Date: 2026-04-20 02:34+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "cockpit/subscription-manager-cockpit/id/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -143,7 +143,7 @@ msgstr "Berakhir"
 
 #: src/insights.jsx:76
 msgid "Error"
-msgstr ""
+msgstr "Kesalahan"
 
 #: src/insights.jsx:424
 msgid ""
@@ -290,10 +290,8 @@ msgid "Register System"
 msgstr "Daftarkan Sistem"
 
 #: src/subscriptions-view.jsx:301
-#, fuzzy
-#| msgid "Register"
 msgid "Registered"
-msgstr "Daftarkan"
+msgstr "Terdaftar"
 
 #: src/subscriptions-client.js:329
 msgid "Registering using activation key ..."
@@ -421,7 +419,7 @@ msgid "Unable to the reach the rhsm service."
 msgstr "Tidak dapat menjangkau layanan rhsm."
 
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "Tidak diketahui"
 
@@ -471,11 +469,11 @@ msgstr "candlepin"
 
 #: src/subscriptions-register.jsx:47
 msgid "hostname:port"
-msgstr ""
+msgstr "hostname:port"
 
 #: src/subscriptions-register.jsx:121
 msgid "key_one,key_two"
-msgstr ""
+msgstr "key_one,key_two"
 
 #: src/subscriptions-client.js:457
 msgid "not-found"

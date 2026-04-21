@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 05:15+0000\n"
+"POT-Creation-Date: 2026-04-19 05:17+0000\n"
 "PO-Revision-Date: 2026-04-10 13:10+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -439,7 +439,7 @@ msgstr "Incapaz de alcanzar el servicios rhsm."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author gguerrer
 #: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
-#: src/subscriptions-client.js:34 src/subscriptions-client.js:515
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "Desconocido"
 
