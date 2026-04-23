@@ -16,6 +16,7 @@ from machine import testvm
 # When running in Testing Farm the candlepin image is directly downloaded from
 # the github image repository. This happens in `test/browser/browser.sh`.
 
+
 def extract_candlepin(machine: testvm.VirtMachine) -> None:
     CANDLEPIN_TAR = "candlepin-img.tar"
     CANDLEPIN_PATH = "/home/admin/candlepin/" + CANDLEPIN_TAR
@@ -23,6 +24,7 @@ def extract_candlepin(machine: testvm.VirtMachine) -> None:
     machine.execute(f"podman image save --output {CANDLEPIN_PATH} ghcr.io/candlepin/candlepin-unofficial:latest")
     machine.download(CANDLEPIN_PATH, CANDLEPIN_TAR)
     machine.download("/root/run-candlepin", "run-candlepin")
+
 
 def main():
     subprocess.check_call([os.path.join(BOTS_DIR, "image-download"), "services"])
@@ -38,6 +40,7 @@ def main():
     services_vm.boot()
     extract_candlepin(services_vm)
     services_vm.stop()
+
 
 if __name__ == "__main__":
     main()
