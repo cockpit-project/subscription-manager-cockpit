@@ -44,7 +44,7 @@ class SubscriptionsCase(testlib.MachineCase):
         try:
             candlepin_status = m.execute(["podman", "inspect", "candlepin", "--format", '{{.State.Status}}'])
             if candlepin_status.strip() != "running":
-                m.execute(["/root/run-candlepin"])
+                m.execute(["/root/run-candlepin"], timeout=360)
                 # Wait for the web service to be accessible, with an initial delay
                 # to give more time to Candlepin to start
                 time.sleep(10)
