@@ -103,7 +103,7 @@ class TestSubscriptions(SubscriptionsCase):
         b.set_input_text("#subscription-register-password", "wrongpass")
 
         # Do not try to connect to insights
-        b.set_checked("#subscription-insights", False)
+        b.set_checked("#subscription-insights", val=False)
 
         # try to register
         dialog_register_button_sel = "footer .pf-m-primary"
@@ -163,7 +163,7 @@ class TestSubscriptions(SubscriptionsCase):
         b.set_input_text("#subscription-register-url-custom", CANDLEPIN_URL)
 
         # Do not try to connect to insights
-        b.set_checked("#subscription-insights", False)
+        b.set_checked("#subscription-insights", val=False)
 
         # select registration method "activation key"
         activation_key_checkbox = "#subscription-register-activation-key-method"
@@ -209,7 +209,7 @@ class TestSubscriptions(SubscriptionsCase):
         b.set_input_text("#subscription-register-org", "donaldduck")
 
         # Do not try to connect to insights
-        b.set_checked("#subscription-insights", False)
+        b.set_checked("#subscription-insights", val=False)
 
         dialog_register_button_sel = "footer .pf-m-primary"
         b.click(dialog_register_button_sel)
@@ -289,7 +289,7 @@ class TestSubscriptions(SubscriptionsCase):
         b.set_input_text("#subscription-register-username", "huey")
         b.set_input_text("#subscription-register-password", "password")
         b.set_input_text("#subscription-register-org", "donaldduck")
-        b.set_checked("#subscription-insights", True)
+        b.set_checked("#subscription-insights", val=True)
         dialog_register_button_sel = "footer .pf-m-primary"
         b.click(dialog_register_button_sel)
         with b.wait_timeout(360):
@@ -395,7 +395,7 @@ class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
         b.set_input_text("#subscription-register-username", "huey")
         b.set_input_text("#subscription-register-password", "password")
         b.set_input_text("#subscription-register-org", "donaldduck")
-        b.set_checked("#subscription-insights", True)
+        b.set_checked("#subscription-insights", val=True)
         b.wait_visible(
             '.pf-v6-c-form__group-control:contains("The insights-client package will be installed")'
         )
