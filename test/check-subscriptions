@@ -292,6 +292,7 @@ class TestSubscriptions(SubscriptionsCase):
         # tracked as known issues even when not enforcing.
         #
         m.execute(["setenforce", "0"])
+        self.addCleanup(lambda: m.execute(["setenforce", "1"]))
 
         self.login_and_go("/subscriptions")
 
