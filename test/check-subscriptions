@@ -317,6 +317,7 @@ class TestSubscriptions(SubscriptionsCase):
         m.execute(["cp", "/etc/insights-client/machine-id", "/etc/insights-client/machine-id.orig"])
         m.write("/etc/insights-client/machine-id", str(uuid.uuid4()))
         m.execute(["systemctl", "start", "insights-client"])
+        self.addCleanup(lambda: m.execute(["systemctl", "stop", "insights-client"]))
 
         with b.wait_timeout(60):
             b.wait_visible("#overview button.pf-m-link .pf-v6-c-icon .pf-m-warning")
