@@ -588,6 +588,8 @@ class SubscriptionsView extends React.Component {
         const status = this.state.status;
         const status_msg = this.state.status_msg;
         const loaded = subscriptionsClient.config.loaded;
+        console.log("Candlepin status: ", status);
+        console.log("Client loaded: ", loaded);
         if (status === 'not-found' ||
             status === 'access-denied' ||
             status === 'service-unavailable') {
