@@ -578,7 +578,7 @@ client.getSyspurpose = function() {
 client.readConfig = function() {
     return safeDBusCall(configService, () => {
         console.debug('Reading configuration file');
-        configService.GetAll(userLang).then(config => {
+        return configService.GetAll(userLang).then(config => {
             const hostname = config.server.v.hostname;
             const port = config.server.v.port;
             const prefix = config.server.v.prefix;
