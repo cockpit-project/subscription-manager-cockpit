@@ -351,6 +351,9 @@ class TestSubscriptions(SubscriptionsCase):
         b.wait_not_present("#overview button.pf-m-link .pf-v6-c-icon .pf-m-warning")
 
         b.click("button:contains('Unregister')")
+        # HACK: Unregistering calls `insights-client --unregister` but it does not clean up
+        # the machine-id file which is touched in this test, clean it up manually
+        self.addCleanup(lambda: m.execute(["rm", "/etc/insights-client/machine-id"]))
         with b.wait_timeout(60):
             b.wait_not_in_text("#overview", "Insights")
         m.execute(["test", "-f", "/etc/insights-client/.unregistered"])
