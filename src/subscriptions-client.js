@@ -455,6 +455,9 @@ function statusUpdateFailed(reason) {
     console.warn("Subscription status update failed:", reason);
     client.subscriptionStatus.status = (reason && reason.problem) || "not-found";
     client.subscriptionStatus.status_msg = (reason && reason.problem) || _("not-found");
+    for (const key in reason) {
+        console.log(`${key}: ${reason[key]}`);
+    }
     needRender();
 }
 

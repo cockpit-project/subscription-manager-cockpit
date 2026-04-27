@@ -199,7 +199,10 @@ class TestSubscriptions(SubscriptionsCase):
         b.click(unregister_button_sel)
 
     def testUnpriv(self):
-        self.machine.execute("useradd junior; echo junior:foobar | chpasswd")
+        m = self.machine
+        m.execute("useradd junior; echo junior:foobar | chpasswd")
+        self.addCleanup(lambda: m.execute("userdel -r junior"))
+
         self.login_and_go("/subscriptions", user="junior")
         self.browser.wait_in_text(
             ".pf-v6-c-empty-state__body", "current user isn't allowed to access system subscription"
