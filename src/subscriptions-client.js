@@ -455,6 +455,9 @@ function statusUpdateFailed(reason) {
     console.warn("Subscription status update failed:", reason);
     client.subscriptionStatus.status = (reason && reason.problem) || "not-found";
     client.subscriptionStatus.status_msg = (reason && reason.problem) || _("not-found");
+    for (const key in reason) {
+        console.log(`${key}: ${reason[key]}`);
+    }
     needRender();
 }
 
@@ -578,7 +581,7 @@ client.getSyspurpose = function() {
 client.readConfig = function() {
     return safeDBusCall(configService, () => {
         console.debug('Reading configuration file');
-        configService.GetAll(userLang).then(config => {
+        return configService.GetAll(userLang).then(config => {
             const hostname = config.server.v.hostname;
             const port = config.server.v.port;
             const prefix = config.server.v.prefix;

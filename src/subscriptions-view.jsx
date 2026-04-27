@@ -5,6 +5,7 @@
  */
 
 import cockpit from 'cockpit';
+import { superuser } from 'superuser';
 import React from 'react';
 import subscriptionsClient from './subscriptions-client';
 
@@ -30,6 +31,8 @@ import * as Insights from './insights.jsx';
 import * as Dialog from 'cockpit-components-dialog.jsx';
 
 const _ = cockpit.gettext;
+
+superuser.reload_page_on_change();
 
 class InstalledProducts extends React.Component {
     render() {
@@ -588,6 +591,9 @@ class SubscriptionsView extends React.Component {
         const status = this.state.status;
         const status_msg = this.state.status_msg;
         const loaded = subscriptionsClient.config.loaded;
+        console.log("Candlepin status: ", status);
+        console.log("Client loaded: ", loaded);
+
         if (status === 'not-found' ||
             status === 'access-denied' ||
             status === 'service-unavailable') {
