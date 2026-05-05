@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-28 05:47+0000\n"
-"PO-Revision-Date: 2026-02-24 14:58+0000\n"
+"POT-Creation-Date: 2026-05-05 05:31+0000\n"
+"PO-Revision-Date: 2026-04-29 18:59+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/subscription-manager-cockpit/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.17\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -136,7 +136,7 @@ msgstr "Finaliza"
 
 #: src/insights.jsx:76
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #: src/insights.jsx:424
 msgid ""
@@ -300,10 +300,8 @@ msgstr "Registar Sistema"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
 #: src/subscriptions-view.jsx:301
-#, fuzzy
-#| msgid "Register"
 msgid "Registered"
-msgstr "Registrar"
+msgstr "Registrada"
 
 #: src/subscriptions-client.js:329
 msgid "Registering using activation key ..."
@@ -495,11 +493,11 @@ msgstr "candlepin"
 
 #: src/subscriptions-register.jsx:47
 msgid "hostname:port"
-msgstr ""
+msgstr "nome-do-host:porta"
 
 #: src/subscriptions-register.jsx:121
 msgid "key_one,key_two"
-msgstr ""
+msgstr "chave_um,chave_dois"
 
 #: src/subscriptions-client.js:457
 msgid "not-found"
