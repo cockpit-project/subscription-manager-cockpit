@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-28 05:47+0000\n"
-"PO-Revision-Date: 2026-04-25 01:58+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"POT-Creation-Date: 2026-05-05 05:31+0000\n"
+"PO-Revision-Date: 2026-04-29 18:59+0000\n"
+"Last-Translator: John Sefler <jsefler@redhat.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit/subscription-manager-cockpit/ka/>\n"
 "Language: ka\n"
@@ -137,7 +137,7 @@ msgid ""
 "If you disconnect this system from Insights, it will no longer report its "
 "Insights status in Red Hat Cloud or Satellite."
 msgstr ""
-"თუ ამ სისტემას Insight-ისგან გათიშავთ, ის ვეღარ მიაწვდის მის Insight-ის "
+"თუ ამ სისტემას Insights-ისგან გათიშავთ, ის ვეღარ მიაწვდის მის Insights-ის "
 "სტატუსს Red Hat Cloud-ს, ან Satellite-ს."
 
 #: src/subscriptions-register.jsx:71 src/insights.jsx:506
@@ -154,7 +154,7 @@ msgstr "$0-ის დაყენება"
 
 #: src/insights.jsx:407
 msgid "Last Insights data upload"
-msgstr "Insight-ის მონაცემების ბოლო ატვირთვა"
+msgstr "Insights-ის მონაცემების ბოლო ატვირთვა"
 
 #: src/subscriptions-client.js:274
 msgid ""
@@ -186,7 +186,7 @@ msgstr "მეთოდი"
 
 #: src/insights.jsx:402
 msgid "Next Insights data upload"
-msgstr "შემდეგი Insight-ის მონაცემების ატვირთვა"
+msgstr "შემდეგი Insights-ის მონაცემების ატვირთვა"
 
 #: src/subscriptions-view.jsx:173
 msgid "No installed products detected"
@@ -371,7 +371,7 @@ msgstr "მიმდინარე მომხმარებელს სი�
 
 #: src/insights.jsx:391
 msgid "The last Insights data upload has failed."
-msgstr "Insight-ის მონაცემების ბოლო ატვირთვა ჩავარდა."
+msgstr "Insights-ის მონაცემების ბოლო ატვირთვა ჩავარდა."
 
 #: src/subscriptions-view.jsx:515
 msgid ""
@@ -388,7 +388,7 @@ msgid ""
 "The system could not be connected to Insights because installing the $0 "
 "package requires the unexpected removal of other packages."
 msgstr ""
-"სისტემა Insight-ს ვერ დაუკავშირდა, რადგან პაკეტის $0 დაყენებას მოულოდნელად "
+"სისტემა Insights-ს ვერ დაუკავშირდა, რადგან პაკეტის $0 დაყენებას მოულოდნელად "
 "სხვა პაკეტების წაშლა სჭირდება."
 
 #: src/insights.jsx:241
