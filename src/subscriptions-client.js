@@ -424,9 +424,8 @@ client.registerSystem = (subscriptionDetails, update_progress) => new Promise((r
                     client.closeRegisterDialog = true;
                     isRegistering = false;
                     console.debug('requesting update of subscription status');
-                    requestSubscriptionStatusUpdate().finally(resolve);
                     console.debug('requesting update of syspurpose status');
-                    requestSyspurposeStatusUpdate().finally(resolve);
+                    Promise.all([requestSubscriptionStatusUpdate(), requestSyspurposeStatusUpdate()]).finally(resolve);
                 });
     });
 });
