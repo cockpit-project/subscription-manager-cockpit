@@ -64,9 +64,7 @@ const RHSM_DEFAULTS = { // TODO get these from a d-bus service instead
 // we trigger an event called "dataChanged" when the data has changed
 
 function needRender() {
-    const event = document.createEvent("Event");
-    event.initEvent("dataChanged", false, false);
-    client.dispatchEvent(event);
+    client.dispatchEvent(new Event("dataChanged"));
 }
 
 /* we trigger status update via dbus
