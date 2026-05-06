@@ -593,7 +593,7 @@ client.readConfig = function() {
             );
 
             const maybePort = port === '443' ? '' : `:${port}`;
-            const maybePrefix = prefix === '/subscription' ? '' : prefix;
+            const maybePrefix = prefix === RHSM_DEFAULTS.prefix ? '' : prefix;
             const hostnamePart = hostname.includes(':') ? `[${hostname}]` : hostname;
             const serverUrl = usingDefaultUrl ? '' : `${hostnamePart}${maybePort}${maybePrefix}`;
             const proxyHostnamePart = proxyHostname.includes(':') ? `[${proxyHostname}]` : proxyHostname;
