@@ -410,6 +410,7 @@ class SubscriptionsView extends React.Component {
 
     componentDidMount() {
         subscriptionsClient.addEventListener("dataChanged", this.handleDataChanged);
+        this.handleDataChanged();
     }
 
     componentWillUnmount() {
