@@ -404,6 +404,7 @@ class SubscriptionsView extends React.Component {
             syspurpose: subscriptionsClient.syspurposeStatus.info,
             syspurpose_status: subscriptionsClient.syspurposeStatus.status,
             insights_available: subscriptionsClient.insightsAvailable,
+            loaded: subscriptionsClient.config.loaded,
             org: subscriptionsClient.org
         });
     }
@@ -588,7 +589,7 @@ class SubscriptionsView extends React.Component {
     render() {
         const status = this.state.status;
         const status_msg = this.state.status_msg;
-        const loaded = subscriptionsClient.config.loaded;
+        const loaded = this.state.loaded;
         if (status === 'not-found' ||
             status === 'access-denied' ||
             status === 'service-unavailable') {
