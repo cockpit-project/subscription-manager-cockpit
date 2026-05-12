@@ -1,0 +1,487 @@
+# #-#-#-#-#  subscription-manager.js.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  subscription-manager.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  subscription-manager.desktop.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-06 05:45+0000\n"
+"PO-Revision-Date: 2026-05-07 03:59+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.fedoraproject.org/projects/cockpit/"
+"subscription-manager-cockpit/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Weblate 5.17.1\n"
+
+#: src/insights.jsx:162
+msgid "$0 package needs to be removed."
+msgid_plural "$0 packages need to be removed."
+msgstr[0] "ຈຳເປັນຕ້ອງໄດ້ລຶບ $0 ແພັກເກດອອກ."
+
+#: src/subscriptions-client.js:215
+msgid "'Organization' is required when using activation keys"
+msgstr "ຈຳເປັນຕ້ອງລະບຸ 'ອົງກອນ' ເມື່ອນຳໃຊ້ຄີເປີດໃຊ້ງານ"
+
+#: src/subscriptions-view.jsx:518
+msgid "Access denied"
+msgstr "ຖືກປະຕິເສດການເຂົ້າເຖິງ"
+
+#: src/subscriptions-register.jsx:161
+msgid "Account"
+msgstr "ບັນຊີ"
+
+#: src/subscriptions-register.jsx:119
+msgid "Activation Key"
+msgstr "ຄີເປີດໃຊ້ງານ"
+
+#: src/subscriptions-register.jsx:167
+msgid "Activation key"
+msgstr "ຄີເປີດໃຊ້ງານ"
+
+#: src/subscriptions-view.jsx:265
+msgid "Add-ons"
+msgstr "ສ່ວນເສີມ"
+
+#: src/insights.jsx:176
+msgid "Additional packages:"
+msgstr "ແພັກເກດເພີ່ມເຕີມ:"
+
+#: src/subscriptions-view.jsx:128
+msgid "Arch"
+msgstr "ສະຖາປັດຕະຍະກຳ"
+
+#: src/insights.jsx:443
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#: src/insights.jsx:204 src/insights.jsx:299
+msgid "Checking installed software"
+msgstr "ກຳລັງກວດສອບຊອບແວທີ່ຕິດຕັ້ງແລ້ວ"
+
+#: src/insights.jsx:435 src/insights.jsx:454
+msgid "Close"
+msgstr "ປິດ"
+
+#: src/insights.jsx:251
+msgid "Connect"
+msgstr "ເຊື່ອມຕໍ່"
+
+#: src/subscriptions-register.jsx:74
+msgid "Connect this system to $0."
+msgstr "ເຊື່ອມຕໍ່ລະບົບນີ້ຫາ $0."
+
+#: src/insights.jsx:238
+msgid "Connect to Red Hat Insights"
+msgstr "ເຊື່ອມຕໍ່ຫາ Red Hat Insights"
+
+#: src/insights.jsx:497
+msgid "Connected to Insights"
+msgstr "ເຊື່ອມຕໍ່ຫາ Insights ແລ້ວ"
+
+#: src/insights.jsx:396
+msgid "Connected to Red Hat Insights"
+msgstr "ເຊື່ອມຕໍ່ຫາ Red Hat Insights ແລ້ວ"
+
+#: src/insights.jsx:108
+msgid "Connecting to Insights"
+msgstr "ກຳລັງເຊື່ອມຕໍ່ຫາ Insights"
+
+#: src/subscriptions-client.js:493
+msgid "Corrupted JSON with status"
+msgstr "JSON ເສຍຫາຍພ້ອມສະຖານະ"
+
+#: src/subscriptions-view.jsx:523
+msgid ""
+"Couldn't get system subscription status. Please ensure subscription-manager "
+"is installed. Reported status: $0 ($1)"
+msgstr ""
+"ບໍ່ສາມາດດຶງຂໍ້ມູນສະຖານະການສະໝັກໃຊ້ຂອງລະບົບໄດ້. ກະລຸນາກວດສອບໃຫ້ແນ່ໃຈວ່າໄດ້ຕິດຕັ້ງ subscription-"
+"manager ແລ້ວ. ສະຖານະທີ່ລາຍງານ: $0 ($1)"
+
+#: src/subscriptions-register.jsx:137
+msgid "Custom URL"
+msgstr "URL ທີ່ກຳນົດເອງ"
+
+#: src/subscriptions-register.jsx:136
+msgid "Default"
+msgstr "ຄ່າເລີ່ມຕົ້ນ"
+
+#: src/insights.jsx:191 src/insights.jsx:415 src/insights.jsx:419
+msgid "Details"
+msgstr "ລາຍລະອຽດ"
+
+#: src/insights.jsx:421 src/insights.jsx:427
+msgid "Disconnect from Insights"
+msgstr "ຕັດການເຊື່ອມຕໍ່ຈາກ Insights"
+
+#: src/insights.jsx:217
+msgid "Downloading $0"
+msgstr "ກຳລັງດາວໂຫຼດ $0"
+
+#: src/subscriptions-view.jsx:144
+msgid "Ends"
+msgstr "ສິ້ນສຸດ"
+
+#: src/insights.jsx:76
+msgid "Error"
+msgstr "ຂໍ້ຜິດພາດ"
+
+#: src/insights.jsx:424
+msgid ""
+"If you disconnect this system from Insights, it will no longer report its "
+"Insights status in Red Hat Cloud or Satellite."
+msgstr ""
+"ຖ້າທ່ານຕັດການເຊື່ອມຕໍ່ລະບົບນີ້ຈາກ Insights, ມັນຈະບໍ່ລາຍງານສະຖານະ Insights ໃນ Red Hat "
+"Cloud ຫຼື Satellite ອີກຕໍ່ໄປ."
+
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
+msgid "Insights"
+msgstr "Insights"
+
+#: src/subscriptions-view.jsx:167 src/subscriptions-view.jsx:170
+msgid "Installed products"
+msgstr "ຜະລິດຕະພັນທີ່ຕິດຕັ້ງແລ້ວ"
+
+#: src/insights.jsx:221
+msgid "Installing $0"
+msgstr "ກຳລັງຕິດຕັ້ງ $0"
+
+#: src/insights.jsx:407
+msgid "Last Insights data upload"
+msgstr "ການອັບໂຫຼດຂໍ້ມູນ Insights ຄັ້ງຫຼ້າສຸດ"
+
+#: src/subscriptions-client.js:274
+msgid ""
+"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"ຮູບແບບ URL ພຣັອກຊີບໍ່ຖືກຕ້ອງ; ໄວຍາກອນທີ່ຢູ່ IPv6 ແລະ ຊື່ໂຮສ (hostname) ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
+
+#: src/subscriptions-client.js:239
+msgid ""
+"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"ຮູບແບບ URL ເຊີເວີບໍ່ຖືກຕ້ອງ; ໄວຍາກອນທີ່ຢູ່ IPv6 ແລະ ຊື່ໂຮສ (hostname) ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
+
+#: data/org.candlepinproject.subscription_manager.metainfo.xml:8
+msgid ""
+"Manage subscriptions to a Candlepin backend, such as for Red Hat products."
+msgstr ""
+"ຈັດການການສະໝັກໃຊ້ງານ (subscriptions) ໄປຫາ Candlepin backend, ເຊັ່ນ: "
+"ສຳລັບຜະລິດຕະພັນຂອງ Red Hat."
+
+#: src/manifest.json:0
+msgid "Managing subscriptions"
+msgstr "ກຳລັງຈັດການການສະໝັກໃຊ້ງານ"
+
+#: src/subscriptions-register.jsx:157
+msgid "Method"
+msgstr "ວິທີການ"
+
+#: src/insights.jsx:402
+msgid "Next Insights data upload"
+msgstr "ການອັບໂຫຼດຂໍ້ມູນ Insights ຄັ້ງຕໍ່ໄປ"
+
+#: src/subscriptions-view.jsx:173
+msgid "No installed products detected"
+msgstr "ບໍ່ພົບຜະລິດຕະພັນທີ່ຕິດຕັ້ງແລ້ວ"
+
+#: src/subscriptions-view.jsx:275
+msgid "No system purpose attributes set"
+msgstr "ບໍ່ມີການກຳນົດຄຸນລັກສະນະຈຸດປະສົງຂອງລະບົບ"
+
+#: src/insights.jsx:501
+msgid "Not connected"
+msgstr "ບໍ່ໄດ້ເຊື່ອມຕໍ່"
+
+#: src/subscriptions-view.jsx:295
+msgid "Not registered"
+msgstr "ບໍ່ໄດ້ລົງທະບຽນ"
+
+#: src/subscriptions-view.jsx:60
+msgid "Not subscribed"
+msgstr "ບໍ່ໄດ້ສະໝັກໃຊ້"
+
+#: src/subscriptions-view.jsx:62
+msgid "Not subscribed ($0)"
+msgstr "ບໍ່ໄດ້ສະໝັກໃຊ້ ($0)"
+
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:328
+msgid "Organization"
+msgstr "ອົງກອນ"
+
+#: src/subscriptions-register.jsx:125
+msgid "Organization ID"
+msgstr "ໄອດີອົງກອນ"
+
+#: src/subscriptions-view.jsx:316
+msgid "Overview"
+msgstr "ພາບລວມ"
+
+#: src/subscriptions-view.jsx:54
+msgid "Partially subscribed"
+msgstr "ສະໝັກໃຊ້ບາງສ່ວນ"
+
+#: src/subscriptions-view.jsx:56
+msgid "Partially subscribed ($0)"
+msgstr "ສະໝັກໃຊ້ບາງສ່ວນ ($0)"
+
+#: src/subscriptions-register.jsx:100
+msgid "Password"
+msgstr "ລະຫັດຜ່ານ"
+
+#: src/insights.jsx:132
+msgid ""
+"Proactively identify and remediate threats to security, performance, "
+"availability, and stability with Red Hat Insights — with predictive "
+"analytics, avoid problems and unplanned downtime in your Red Hat environment."
+msgstr ""
+"ລະບຸ ແລະ ແກ້ໄຂໄພຄຸກຄາມຕໍ່ຄວາມປອດໄພ, ປະສິດທິພາບ, ຄວາມພ້ອມໃຊ້ງານ ແລະ "
+"ສະຖຽນລະພາບຢ່າງຕັ້ງໜ້າດ້ວຍ Red Hat Insights — ດ້ວຍການວິເຄາະແບບຄາດການ, ຊ່ວຍຫຼີກລ່ຽງບັນຫາ "
+"ແລະ ການຢຸດເຮັດວຽກທີ່ບໍ່ໄດ້ວາງແຜນໄວ້ໃນສະພາບແວດລ້ອມ Red Hat ຂອງທ່ານ."
+
+#: src/subscriptions-view.jsx:120
+msgid "Product ID"
+msgstr "ໄອດີຜະລິດຕະພັນ"
+
+#: src/subscriptions-view.jsx:36 src/subscriptions-view.jsx:116
+msgid "Product name"
+msgstr "ຊື່ຜະລິດຕະພັນ"
+
+#: src/subscriptions-register.jsx:45
+msgid "Proxy Location"
+msgstr "ທີ່ຕັ້ງພຣັອກຊີ"
+
+#: src/subscriptions-register.jsx:59
+msgid "Proxy Password"
+msgstr "ລະຫັດຜ່ານພຣັອກຊີ"
+
+#: src/subscriptions-register.jsx:52
+msgid "Proxy Username"
+msgstr "ຊື່ຜູ້ໃຊ້ພຣັອກຊີ"
+
+#: data/subscription-manager-cockpit.desktop:3
+msgid "Red Hat Subscription Manager"
+msgstr "Red Hat Subscription Manager"
+
+#: src/subscriptions-view.jsx:297 src/subscriptions-view.jsx:391
+msgid "Register"
+msgstr "ລົງທະບຽນ"
+
+#: src/subscriptions-view.jsx:461
+msgid "Register System"
+msgstr "ລົງທະບຽນລະບົບ"
+
+#: src/subscriptions-view.jsx:301
+msgid "Registered"
+msgstr "ລົງທະບຽນແລ້ວ"
+
+#: src/subscriptions-client.js:329
+msgid "Registering using activation key ..."
+msgstr "ກຳລັງລົງທະບຽນໂດຍໃຊ້ຄີເປີດໃຊ້ງານ ..."
+
+#: src/subscriptions-client.js:350
+msgid "Registering using username and password ..."
+msgstr "ກຳລັງລົງທະບຽນໂດຍໃຊ້ຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານ ..."
+
+#: src/insights.jsx:184
+msgid "Removals:"
+msgstr "ການລຶບອອກ:"
+
+#: src/insights.jsx:219
+msgid "Removing $0"
+msgstr "ກຳລັງລຶບ $0 ອອກ"
+
+#: src/subscriptions-view.jsx:503
+msgid "Retrieving subscription status..."
+msgstr "ກຳລັງດຶງຂໍ້ມູນສະຖານະການສະໝັກໃຊ້ງານ..."
+
+#: src/subscriptions-view.jsx:260
+msgid "Role"
+msgstr "ບົດບາດ"
+
+#: src/subscriptions-client.js:403
+msgid "Saving configuration ..."
+msgstr "ກຳລັງບັນທຶກການກຳນົດຄ່າ ..."
+
+#: src/subscriptions-view.jsx:250
+msgid "Service level"
+msgstr "ລະດັບການບໍລິການ"
+
+#: src/subscriptions-client.js:310
+msgid "Starting registration service ..."
+msgstr "ກຳລັງເລີ່ມບໍລິການລົງທະບຽນ ..."
+
+#: src/subscriptions-view.jsx:140
+msgid "Starts"
+msgstr "ເລີ່ມຕົ້ນ"
+
+#: src/subscriptions-view.jsx:136 src/subscriptions-view.jsx:321
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#: src/subscriptions-client.js:379
+msgid "Stopping registration service ..."
+msgstr "ກຳລັງຢຸດບໍລິການລົງທະບຽນ ..."
+
+#: src/subscriptions-view.jsx:50
+msgid "Subscribed"
+msgstr "ສະໝັກໃຊ້ແລ້ວ"
+
+#: data/org.candlepinproject.subscription_manager.metainfo.xml:5
+msgid "Subscription Manager"
+msgstr "Subscription Manager"
+
+#: data/org.candlepinproject.subscription_manager.metainfo.xml:6
+msgid "Subscription Manager in Cockpit"
+msgstr "Subscription Manager ໃນ Cockpit"
+
+#: src/index.html:9 src/manifest.json:0
+msgid "Subscriptions"
+msgstr "ການສະໝັກໃຊ້ງານ"
+
+#: src/subscriptions-view.jsx:284
+msgid "System purpose"
+msgstr "ຈຸດປະສົງຂອງລະບົບ"
+
+#: src/insights.jsx:154
+msgid "The $0 package and $1 other package will be installed."
+msgid_plural "The $0 package and $1 other packages will be installed."
+msgstr[0] "ແພັກເກດ $0 ແລະ ອີກ $1 ແພັກເກດອື່ນຈະຖືກຕິດຕັ້ງ."
+
+#: src/insights.jsx:92 src/insights.jsx:307
+msgid "The $0 package is not available from any repository."
+msgstr "ແພັກເກັດ $0 ບໍ່ມີໃຫ້ໃຊ້ຈາກ repository ໃດໆ."
+
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
+msgid "The $0 package will be installed."
+msgstr "ແພັກເກດ $0 ຈະຖືກຕິດຕັ້ງ."
+
+#: src/subscriptions-view.jsx:519
+msgid "The current user isn't allowed to access system subscription status."
+msgstr "ຜູ້ໃຊ້ປະຈຸບັນບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເຂົ້າເຖິງສະຖານະການສະໝັກໃຊ້ຂອງລະບົບ."
+
+#: src/insights.jsx:391
+msgid "The last Insights data upload has failed."
+msgstr "ການອັບໂຫຼດຂໍ້ມູນ Insights ຄັ້ງຫຼ້າສຸດຫຼົ້ມເຫຼວ."
+
+#: src/subscriptions-view.jsx:515
+msgid ""
+"The rhsm service is unavailable. Make sure subscription-manager is installed "
+"and try reloading the page. Additionally, make sure that you have checked "
+"the 'Reuse my password for privileged tasks' checkbox on the login page."
+msgstr ""
+"ບໍລິການ rhsm ບໍ່ພ້ອມໃຊ້ງານ. ກວດສອບໃຫ້ແນ່ໃຈວ່າໄດ້ຕິດຕັ້ງ subscription-manager ແລ້ວ ແລະ "
+"ລອງໂຫຼດໜ້າຄືນໃໝ່. ນອກຈາກນັ້ນ, ໃຫ້ກວດສອບວ່າທ່ານໄດ້ໝາຍເອົາ 'Reuse my password for "
+"privileged tasks' ໃນໜ້າລົງຊື່ເຂົ້າໃຊ້ແລ້ວ."
+
+#: src/insights.jsx:95
+msgid ""
+"The system could not be connected to Insights because installing the $0 "
+"package requires the unexpected removal of other packages."
+msgstr ""
+"ລະບົບບໍ່ສາມາດເຊື່ອມຕໍ່ກັບ Insights ໄດ້ ເພາະວ່າການຕິດຕັ້ງແພັກເກດ $0 "
+"ຮຽກຮ້ອງໃຫ້ມີການລຶບແພັກເກດອື່ນໆອອກໂດຍບໍ່ຄາດຄິດ."
+
+#: src/insights.jsx:241
+msgid "This system is not connected to $0."
+msgstr "ລະບົບນີ້ບໍ່ໄດ້ເຊື່ອມຕໍ່ຫາ $0."
+
+#: src/subscriptions-register.jsx:141
+msgid "URL"
+msgstr "URL"
+
+#: src/subscriptions-view.jsx:521
+msgid "Unable to connect"
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄດ້"
+
+#: src/subscriptions-view.jsx:516
+msgid "Unable to the reach the rhsm service."
+msgstr "ບໍ່ສາມາດເຂົ້າເຖິງບໍລິການ rhsm ໄດ້."
+
+#: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
+#: src/subscriptions-client.js:34
+msgid "Unknown"
+msgstr "ບໍ່ຮູ້ຈັກ"
+
+#: src/subscriptions-view.jsx:67
+msgid "Unknown status"
+msgstr "ບໍ່ຮູ້ຈັກສະຖານະ"
+
+#: src/subscriptions-view.jsx:307
+msgid "Unregister"
+msgstr "ຍົກເລີກການລົງທະບຽນ"
+
+#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
+msgid "Unregistering"
+msgstr "ກຳລັງຍົກເລີກການລົງທະບຽນ"
+
+#: src/subscriptions-view.jsx:502
+msgid "Updating"
+msgstr "ກຳລັງອັບເດດ"
+
+#: src/subscriptions-client.js:423
+msgid "Updating status ..."
+msgstr "ກຳລັງອັບເດດສະຖານະ ..."
+
+#: src/subscriptions-view.jsx:255
+msgid "Usage"
+msgstr "ການນຳໃຊ້"
+
+#: src/subscriptions-register.jsx:152
+msgid "Use proxy server"
+msgstr "ໃຊ້ເຊີເວີພຣັອກຊີ"
+
+#: src/subscriptions-register.jsx:94
+msgid "Username"
+msgstr "ຊື່ຜູ້ໃຊ້"
+
+#: src/subscriptions-view.jsx:124
+msgid "Version"
+msgstr "ເວີຊັນ"
+
+#: src/insights.jsx:202 src/insights.jsx:213 src/insights.jsx:297
+msgid "Waiting for other software management operations to finish"
+msgstr "ກຳລັງລໍຖ້າໃຫ້ການຈັດການຊອບແວອື່ນໆເຮັດວຽກໃຫ້ສຳເລັດ"
+
+#: src/manifest.json:0
+msgid "candlepin"
+msgstr "candlepin"
+
+#: src/subscriptions-register.jsx:47
+msgid "hostname:port"
+msgstr "ຊື່ໂຮສ:ພອດ"
+
+#: src/subscriptions-register.jsx:121
+msgid "key_one,key_two"
+msgstr "ຄີ_1,ຄີ_2"
+
+#: src/subscriptions-client.js:457
+msgid "not-found"
+msgstr "ບໍ່ພົບ"
+
+#: src/manifest.json:0
+msgid "subscriptions"
+msgstr "ການສະໝັກໃຊ້ງານ"
+
+#: src/insights.jsx:341
+msgid "unknown"
+msgstr "ບໍ່ຮູ້ຈັກ"
