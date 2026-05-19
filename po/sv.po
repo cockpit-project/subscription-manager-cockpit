@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 05:45+0000\n"
-"PO-Revision-Date: 2026-03-27 19:58+0000\n"
+"POT-Creation-Date: 2026-05-19 06:36+0000\n"
+"PO-Revision-Date: 2026-05-17 10:15+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
 "subscription-manager-cockpit/sv/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -38,11 +38,11 @@ msgid_plural "$0 packages need to be removed."
 msgstr[0] "$0 paket behöver tas bort."
 msgstr[1] "$0 flera paket behöver tas bort."
 
-#: src/subscriptions-client.js:215
+#: src/subscriptions-client.js:213
 msgid "'Organization' is required when using activation keys"
 msgstr "'Organisation' krävs när aktiveringsnycklar används"
 
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:520
 msgid "Access denied"
 msgstr "Åtkomst nekad"
 
@@ -106,11 +106,11 @@ msgstr "Ansluten till Red Hat Insights"
 msgid "Connecting to Insights"
 msgstr "Ansluter till Insights"
 
-#: src/subscriptions-client.js:493
+#: src/subscriptions-client.js:490
 msgid "Corrupted JSON with status"
 msgstr "Korrupt JSON med status"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:525
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -170,12 +170,12 @@ msgstr "Installerar $0"
 msgid "Last Insights data upload"
 msgstr "Senaste Insights data uppladdning"
 
-#: src/subscriptions-client.js:274
+#: src/subscriptions-client.js:272
 msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr "Felaktig proxy-URL; IPv6-adresssyntax och värdnamn utesluter varandra"
 
-#: src/subscriptions-client.js:239
+#: src/subscriptions-client.js:237
 msgid ""
 "Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr "Felaktig server-URL; IPv6-adresssyntax och värdnamn utesluter varandra"
@@ -285,7 +285,7 @@ msgstr "Red Hat-prenumerationshanterare"
 msgid "Register"
 msgstr "Registrera"
 
-#: src/subscriptions-view.jsx:461
+#: src/subscriptions-view.jsx:463
 msgid "Register System"
 msgstr "Registrera system"
 
@@ -293,11 +293,11 @@ msgstr "Registrera system"
 msgid "Registered"
 msgstr "Registrerad"
 
-#: src/subscriptions-client.js:329
+#: src/subscriptions-client.js:327
 msgid "Registering using activation key ..."
 msgstr "Registrering med aktiveringsnyckel ..."
 
-#: src/subscriptions-client.js:350
+#: src/subscriptions-client.js:348
 msgid "Registering using username and password ..."
 msgstr "Registrering med användarnamn och lösenord ..."
 
@@ -309,7 +309,7 @@ msgstr "Borttagningar:"
 msgid "Removing $0"
 msgstr "Tar bort $0"
 
-#: src/subscriptions-view.jsx:503
+#: src/subscriptions-view.jsx:505
 msgid "Retrieving subscription status..."
 msgstr "Hämtar prenumerationsstatus..."
 
@@ -317,7 +317,7 @@ msgstr "Hämtar prenumerationsstatus..."
 msgid "Role"
 msgstr "Roll"
 
-#: src/subscriptions-client.js:403
+#: src/subscriptions-client.js:401
 msgid "Saving configuration ..."
 msgstr "Sparar konfigurationen ..."
 
@@ -325,7 +325,7 @@ msgstr "Sparar konfigurationen ..."
 msgid "Service level"
 msgstr "Servicenivå"
 
-#: src/subscriptions-client.js:310
+#: src/subscriptions-client.js:308
 msgid "Starting registration service ..."
 msgstr "Startar registreringstjänst ..."
 
@@ -337,7 +337,7 @@ msgstr "Börjar"
 msgid "Status"
 msgstr "Status"
 
-#: src/subscriptions-client.js:379
+#: src/subscriptions-client.js:377
 msgid "Stopping registration service ..."
 msgstr "Stoppar registreringstjänst ..."
 
@@ -375,7 +375,7 @@ msgstr "Paketet $0 är inte tillgängligt från något arkiv."
 msgid "The $0 package will be installed."
 msgstr "Paketet $0 kommer att installeras."
 
-#: src/subscriptions-view.jsx:519
+#: src/subscriptions-view.jsx:521
 msgid "The current user isn't allowed to access system subscription status."
 msgstr ""
 "Den nuvarande användaren har inte åtkomst till systemprenumerationsstatus."
@@ -384,16 +384,13 @@ msgstr ""
 msgid "The last Insights data upload has failed."
 msgstr "Den senaste uppladdningen av Insights-data misslyckades."
 
-#: src/subscriptions-view.jsx:515
+#: src/subscriptions-view.jsx:517
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
-"and try reloading the page. Additionally, make sure that you have checked "
-"the 'Reuse my password for privileged tasks' checkbox on the login page."
+"and try reloading the page."
 msgstr ""
 "rhsm-tjänsten är inte tillgänglig. Se till att prenumerationshanteraren är "
-"installerad och försök att ladda om sidan. Se dessutom till att du har "
-"markerat kryssrutan \"Återanvänd mitt lösenord för privilegierade "
-"uppgifter\" på inloggningssidan."
+"installerad och försök att ladda om sidan."
 
 #: src/insights.jsx:95
 msgid ""
@@ -411,16 +408,16 @@ msgstr "Detta system är inte kopplat till $0."
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:523
 msgid "Unable to connect"
 msgstr "Det gick inte att ansluta"
 
-#: src/subscriptions-view.jsx:516
+#: src/subscriptions-view.jsx:518
 msgid "Unable to the reach the rhsm service."
 msgstr "Det gick inte att nå rhsm-tjänsten."
 
-#: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
-#: src/subscriptions-client.js:34
+#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
+#: src/subscriptions-view.jsx:78
 msgid "Unknown"
 msgstr "Okänd"
 
@@ -432,15 +429,15 @@ msgstr "Okänd status"
 msgid "Unregister"
 msgstr "Avregistrera"
 
-#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
+#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
 msgid "Unregistering"
 msgstr "Avregistrerar"
 
-#: src/subscriptions-view.jsx:502
+#: src/subscriptions-view.jsx:504
 msgid "Updating"
 msgstr "Uppdaterar"
 
-#: src/subscriptions-client.js:423
+#: src/subscriptions-client.js:421
 msgid "Updating status ..."
 msgstr "Uppdaterar status ..."
 
@@ -476,7 +473,7 @@ msgstr "värdnamn:port"
 msgid "key_one,key_two"
 msgstr "nyckel_ett,nyckel_två"
 
-#: src/subscriptions-client.js:457
+#: src/subscriptions-client.js:454
 msgid "not-found"
 msgstr "hittades-inte"
 

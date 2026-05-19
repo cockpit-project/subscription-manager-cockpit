@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 05:45+0000\n"
+"POT-Creation-Date: 2026-05-19 06:36+0000\n"
 "PO-Revision-Date: 2026-04-29 18:59+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -26,11 +26,11 @@ msgid_plural "$0 packages need to be removed."
 msgstr[0] "$0 pacote precisa ser removido."
 msgstr[1] "$0 pacotes precisam ser removidos."
 
-#: src/subscriptions-client.js:215
+#: src/subscriptions-client.js:213
 msgid "'Organization' is required when using activation keys"
 msgstr "\"Organização\" é necessário ao usar chaves de ativação"
 
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:520
 msgid "Access denied"
 msgstr "Acesso negado"
 
@@ -98,11 +98,11 @@ msgstr "Conectado a Red Hat Insights"
 msgid "Connecting to Insights"
 msgstr "Conectando a Insights"
 
-#: src/subscriptions-client.js:493
+#: src/subscriptions-client.js:490
 msgid "Corrupted JSON with status"
 msgstr "JSON corrompido com status"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:525
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -162,14 +162,14 @@ msgstr "Instalando $0"
 msgid "Last Insights data upload"
 msgstr "Últimos dados enviados ao Insights"
 
-#: src/subscriptions-client.js:274
+#: src/subscriptions-client.js:272
 msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
 "URL de proxy malformada; a sintaxe do endereço IPv6 e o nome do host são "
 "mutuamente exclusivos"
 
-#: src/subscriptions-client.js:239
+#: src/subscriptions-client.js:237
 msgid ""
 "Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
@@ -294,7 +294,7 @@ msgid "Register"
 msgstr "Registrar"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:461
+#: src/subscriptions-view.jsx:463
 msgid "Register System"
 msgstr "Registar Sistema"
 
@@ -303,11 +303,11 @@ msgstr "Registar Sistema"
 msgid "Registered"
 msgstr "Registrada"
 
-#: src/subscriptions-client.js:329
+#: src/subscriptions-client.js:327
 msgid "Registering using activation key ..."
 msgstr "Registrando usando chave de ativação ..."
 
-#: src/subscriptions-client.js:350
+#: src/subscriptions-client.js:348
 msgid "Registering using username and password ..."
 msgstr "Registrando usando usuário e senha ..."
 
@@ -319,7 +319,7 @@ msgstr "Remoções:"
 msgid "Removing $0"
 msgstr "Removendo $0"
 
-#: src/subscriptions-view.jsx:503
+#: src/subscriptions-view.jsx:505
 msgid "Retrieving subscription status..."
 msgstr "Recuperando o status da assinatura..."
 
@@ -327,7 +327,7 @@ msgstr "Recuperando o status da assinatura..."
 msgid "Role"
 msgstr "Função"
 
-#: src/subscriptions-client.js:403
+#: src/subscriptions-client.js:401
 msgid "Saving configuration ..."
 msgstr "Salvando configurações ..."
 
@@ -336,7 +336,7 @@ msgstr "Salvando configurações ..."
 msgid "Service level"
 msgstr "Nível de serviço"
 
-#: src/subscriptions-client.js:310
+#: src/subscriptions-client.js:308
 msgid "Starting registration service ..."
 msgstr "Iniciando o registro do serviço ..."
 
@@ -349,7 +349,7 @@ msgstr "Inicia"
 msgid "Status"
 msgstr "Estado"
 
-#: src/subscriptions-client.js:379
+#: src/subscriptions-client.js:377
 msgid "Stopping registration service ..."
 msgstr "Parando o registro do sistema ..."
 
@@ -390,7 +390,7 @@ msgstr "O pacote $0 não está disponível em nenhum repositório."
 msgid "The $0 package will be installed."
 msgstr "O pacote $0 será instalado."
 
-#: src/subscriptions-view.jsx:519
+#: src/subscriptions-view.jsx:521
 msgid "The current user isn't allowed to access system subscription status."
 msgstr ""
 "O usuário atual não tem permissão para acessar o status de subscrição do "
@@ -400,16 +400,17 @@ msgstr ""
 msgid "The last Insights data upload has failed."
 msgstr "O último envio de dados do Insights falhou."
 
-#: src/subscriptions-view.jsx:515
+#: src/subscriptions-view.jsx:517
+#, fuzzy
+#| msgid ""
+#| "Couldn't get system subscription status. Please ensure subscription-"
+#| "manager is installed."
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
-"and try reloading the page. Additionally, make sure that you have checked "
-"the 'Reuse my password for privileged tasks' checkbox on the login page."
+"and try reloading the page."
 msgstr ""
-"O serviço rhsm está indisponível. Certifique-se de que o subscription-"
-"manager esteja instalado e tente recarregar a página. Além disso, verifique "
-"se você marcou a caixa de seleção \"Reutilizar minha senha para tarefas "
-"privilegiadas\" na página de login."
+"Não foi possível obter o status de assinatura do sistema. Verifique se "
+"subscription-manager está instalado."
 
 #: src/insights.jsx:95
 msgid ""
@@ -428,18 +429,18 @@ msgstr "Este sistema não está conectado a $0."
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:523
 msgid "Unable to connect"
 msgstr "Não é possível conectar"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:516
+#: src/subscriptions-view.jsx:518
 msgid "Unable to the reach the rhsm service."
 msgstr "Incapaz de contatar o serviço rhsm."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
-#: src/subscriptions-client.js:34
+#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
+#: src/subscriptions-view.jsx:78
 msgid "Unknown"
 msgstr "Desconhecido"
 
@@ -452,15 +453,15 @@ msgstr "Status desconhecido"
 msgid "Unregister"
 msgstr "Cancelar Registro"
 
-#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
+#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
 msgid "Unregistering"
 msgstr "Cancelando registro"
 
-#: src/subscriptions-view.jsx:502
+#: src/subscriptions-view.jsx:504
 msgid "Updating"
 msgstr "Atualizando"
 
-#: src/subscriptions-client.js:423
+#: src/subscriptions-client.js:421
 msgid "Updating status ..."
 msgstr "Atualizando o status ..."
 
@@ -499,7 +500,7 @@ msgstr "nome-do-host:porta"
 msgid "key_one,key_two"
 msgstr "chave_um,chave_dois"
 
-#: src/subscriptions-client.js:457
+#: src/subscriptions-client.js:454
 msgid "not-found"
 msgstr "não encontrado"
 
@@ -510,6 +511,17 @@ msgstr "subscrições"
 #: src/insights.jsx:341
 msgid "unknown"
 msgstr "desconhecido"
+
+#~ msgid ""
+#~ "The rhsm service is unavailable. Make sure subscription-manager is "
+#~ "installed and try reloading the page. Additionally, make sure that you "
+#~ "have checked the 'Reuse my password for privileged tasks' checkbox on the "
+#~ "login page."
+#~ msgstr ""
+#~ "O serviço rhsm está indisponível. Certifique-se de que o subscription-"
+#~ "manager esteja instalado e tente recarregar a página. Além disso, "
+#~ "verifique se você marcou a caixa de seleção \"Reutilizar minha senha para "
+#~ "tarefas privilegiadas\" na página de login."
 
 #~ msgid "$0 critical hit"
 #~ msgid_plural "$0 hits, including critical"
@@ -570,14 +582,3 @@ msgstr "desconhecido"
 #~| msgid "Subscription Registration"
 #~ msgid "Subscriptions information"
 #~ msgstr "Registro de Subscrição"
-
-#, fuzzy
-#~| msgid ""
-#~| "Couldn't get system subscription status. Please ensure subscription-"
-#~| "manager is installed."
-#~ msgid ""
-#~ "The rhsm service is unavailable. Make sure subscription-manager is "
-#~ "installed "
-#~ msgstr ""
-#~ "Não foi possível obter o status de assinatura do sistema. Verifique se "
-#~ "subscription-manager está instalado."

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 05:45+0000\n"
+"POT-Creation-Date: 2026-05-19 06:36+0000\n"
 "PO-Revision-Date: 2026-03-24 13:58+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
@@ -38,11 +38,11 @@ msgstr[0] "$0 balíček je třeba odebrat."
 msgstr[1] "$0 balíčky je třeba odebrat."
 msgstr[2] "$0 balíčků je třeba odebrat."
 
-#: src/subscriptions-client.js:215
+#: src/subscriptions-client.js:213
 msgid "'Organization' is required when using activation keys"
 msgstr "Při použití aktivačních klíčů je zapotřebí „Organizace“"
 
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:520
 msgid "Access denied"
 msgstr "Přístup odepřen"
 
@@ -106,11 +106,11 @@ msgstr "Připojeno k Red Hat Insights"
 msgid "Connecting to Insights"
 msgstr "Připojování k Insights"
 
-#: src/subscriptions-client.js:493
+#: src/subscriptions-client.js:490
 msgid "Corrupted JSON with status"
 msgstr "Porušený JSON se stavem"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:525
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -170,14 +170,14 @@ msgstr "Instaluje se $0"
 msgid "Last Insights data upload"
 msgstr "Poslední nahrání Insights dat"
 
-#: src/subscriptions-client.js:274
+#: src/subscriptions-client.js:272
 msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
 "Nesprávný formát URL proxy – není možné použít IPv6 adresu a název stroje "
 "současně"
 
-#: src/subscriptions-client.js:239
+#: src/subscriptions-client.js:237
 msgid ""
 "Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
@@ -289,7 +289,7 @@ msgstr "Správa Red Hat předplatného"
 msgid "Register"
 msgstr "Zaregistrovat"
 
-#: src/subscriptions-view.jsx:461
+#: src/subscriptions-view.jsx:463
 msgid "Register System"
 msgstr "Zaregistrovat systém"
 
@@ -297,11 +297,11 @@ msgstr "Zaregistrovat systém"
 msgid "Registered"
 msgstr "Zaregistrováno"
 
-#: src/subscriptions-client.js:329
+#: src/subscriptions-client.js:327
 msgid "Registering using activation key ..."
 msgstr "Registruje se pomocí aktivačního klíče …"
 
-#: src/subscriptions-client.js:350
+#: src/subscriptions-client.js:348
 msgid "Registering using username and password ..."
 msgstr "Registruje se pomocí uživatelského jména a hesla …"
 
@@ -313,7 +313,7 @@ msgstr "Odebrání:"
 msgid "Removing $0"
 msgstr "Odebírá se $0"
 
-#: src/subscriptions-view.jsx:503
+#: src/subscriptions-view.jsx:505
 msgid "Retrieving subscription status..."
 msgstr "Získávání stavu předplatného…"
 
@@ -321,7 +321,7 @@ msgstr "Získávání stavu předplatného…"
 msgid "Role"
 msgstr "Role"
 
-#: src/subscriptions-client.js:403
+#: src/subscriptions-client.js:401
 msgid "Saving configuration ..."
 msgstr "Ukládání nastavení …"
 
@@ -329,7 +329,7 @@ msgstr "Ukládání nastavení …"
 msgid "Service level"
 msgstr "Úroveň služeb"
 
-#: src/subscriptions-client.js:310
+#: src/subscriptions-client.js:308
 msgid "Starting registration service ..."
 msgstr "Spouštění registrační služby …"
 
@@ -341,7 +341,7 @@ msgstr "Začíná"
 msgid "Status"
 msgstr "Stav"
 
-#: src/subscriptions-client.js:379
+#: src/subscriptions-client.js:377
 msgid "Stopping registration service ..."
 msgstr "Zastavování registrační služby …"
 
@@ -380,7 +380,7 @@ msgstr "Balíček $0 není k dispozici v žádném z repozitářů."
 msgid "The $0 package will be installed."
 msgstr "Balíček $0 bude nainstalován."
 
-#: src/subscriptions-view.jsx:519
+#: src/subscriptions-view.jsx:521
 msgid "The current user isn't allowed to access system subscription status."
 msgstr ""
 "Stávající uživatel není oprávněn přistupovat ke stavu předplatného systému."
@@ -389,11 +389,16 @@ msgstr ""
 msgid "The last Insights data upload has failed."
 msgstr "Poslední nahrání Insights dat se nezdařilo."
 
-#: src/subscriptions-view.jsx:515
+#: src/subscriptions-view.jsx:517
+#, fuzzy
+#| msgid ""
+#| "The rhsm service is unavailable. Make sure subscription-manager is "
+#| "installed and try reloading the page. Additionally, make sure that you "
+#| "have checked the 'Reuse my password for privileged tasks' checkbox on the "
+#| "login page."
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
-"and try reloading the page. Additionally, make sure that you have checked "
-"the 'Reuse my password for privileged tasks' checkbox on the login page."
+"and try reloading the page."
 msgstr ""
 "Služba rhsm není k dispozici. Ověřte, že je nainstalován subscription-"
 "manager a zkuste stránku znovu načíst. Dále nezapomeňte na zaškrtnutí "
@@ -415,16 +420,16 @@ msgstr "Tento systém není připojení k $0."
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:523
 msgid "Unable to connect"
 msgstr "Nedaří se připojit"
 
-#: src/subscriptions-view.jsx:516
+#: src/subscriptions-view.jsx:518
 msgid "Unable to the reach the rhsm service."
 msgstr "Služba rhsm nebyla dosažitelná."
 
-#: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
-#: src/subscriptions-client.js:34
+#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
+#: src/subscriptions-view.jsx:78
 msgid "Unknown"
 msgstr "Neznámé"
 
@@ -436,15 +441,15 @@ msgstr "Neznámý stav"
 msgid "Unregister"
 msgstr "Zrušit registraci"
 
-#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
+#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
 msgid "Unregistering"
 msgstr "Ruší se registrace"
 
-#: src/subscriptions-view.jsx:502
+#: src/subscriptions-view.jsx:504
 msgid "Updating"
 msgstr "Aktualizuje se"
 
-#: src/subscriptions-client.js:423
+#: src/subscriptions-client.js:421
 msgid "Updating status ..."
 msgstr "Aktualizace stavu …"
 
@@ -480,7 +485,7 @@ msgstr "nazevhostitele:port"
 msgid "key_one,key_two"
 msgstr "klic_jedna,klic_dva"
 
-#: src/subscriptions-client.js:457
+#: src/subscriptions-client.js:454
 msgid "not-found"
 msgstr "nenalezeno"
 
