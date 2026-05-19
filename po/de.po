@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 05:45+0000\n"
+"POT-Creation-Date: 2026-05-19 06:36+0000\n"
 "PO-Revision-Date: 2026-03-31 20:58+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
@@ -28,11 +28,11 @@ msgid_plural "$0 packages need to be removed."
 msgstr[0] "$0-Paket muss entfernt werden."
 msgstr[1] "$0 Pakete müssen entfernt werden."
 
-#: src/subscriptions-client.js:215
+#: src/subscriptions-client.js:213
 msgid "'Organization' is required when using activation keys"
 msgstr "Organisation ist erforderlich für Nutzung von Aktivierungsschlüssel"
 
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:520
 msgid "Access denied"
 msgstr "Zugriff verweigert"
 
@@ -100,11 +100,11 @@ msgstr "Verbunden mit Red Hat Insights"
 msgid "Connecting to Insights"
 msgstr "Herstellen einer Verbindung mit Insights"
 
-#: src/subscriptions-client.js:493
+#: src/subscriptions-client.js:490
 msgid "Corrupted JSON with status"
 msgstr "Beschädigtes JSON mit Status"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:525
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -165,14 +165,14 @@ msgstr "Installiere $0"
 msgid "Last Insights data upload"
 msgstr "Letzter Upload von Insights-Daten"
 
-#: src/subscriptions-client.js:274
+#: src/subscriptions-client.js:272
 msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
 "Falsch geformte Proxy-URL; IPv6-Addresse und Rechnername schließen sich "
 "gegenseitig aus"
 
-#: src/subscriptions-client.js:239
+#: src/subscriptions-client.js:237
 msgid ""
 "Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr ""
@@ -297,7 +297,7 @@ msgid "Register"
 msgstr "Registrieren"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:461
+#: src/subscriptions-view.jsx:463
 msgid "Register System"
 msgstr "System registrieren"
 
@@ -306,11 +306,11 @@ msgstr "System registrieren"
 msgid "Registered"
 msgstr "Registriert"
 
-#: src/subscriptions-client.js:329
+#: src/subscriptions-client.js:327
 msgid "Registering using activation key ..."
 msgstr "Registrierung mit Aktivierungsschlüssel ..."
 
-#: src/subscriptions-client.js:350
+#: src/subscriptions-client.js:348
 msgid "Registering using username and password ..."
 msgstr "Registrierung mit Benutzername und Passwort ..."
 
@@ -322,7 +322,7 @@ msgstr "Umzüge:"
 msgid "Removing $0"
 msgstr "Entferne $0"
 
-#: src/subscriptions-view.jsx:503
+#: src/subscriptions-view.jsx:505
 msgid "Retrieving subscription status..."
 msgstr "Abonnementstatus abrufen..."
 
@@ -330,7 +330,7 @@ msgstr "Abonnementstatus abrufen..."
 msgid "Role"
 msgstr "Rolle"
 
-#: src/subscriptions-client.js:403
+#: src/subscriptions-client.js:401
 msgid "Saving configuration ..."
 msgstr "Konfiguration speichern ..."
 
@@ -339,7 +339,7 @@ msgstr "Konfiguration speichern ..."
 msgid "Service level"
 msgstr "Service-Level"
 
-#: src/subscriptions-client.js:310
+#: src/subscriptions-client.js:308
 msgid "Starting registration service ..."
 msgstr "Registrierungsservice starten ..."
 
@@ -352,7 +352,7 @@ msgstr "Startet"
 msgid "Status"
 msgstr "Status"
 
-#: src/subscriptions-client.js:379
+#: src/subscriptions-client.js:377
 msgid "Stopping registration service ..."
 msgstr "Registrierungsdienst wird beendet..."
 
@@ -393,7 +393,7 @@ msgstr "Das $0 Paket ist in keinem Repository verfügbar."
 msgid "The $0 package will be installed."
 msgstr "Das $0 Paket wird installiert."
 
-#: src/subscriptions-view.jsx:519
+#: src/subscriptions-view.jsx:521
 msgid "The current user isn't allowed to access system subscription status."
 msgstr ""
 "Der aktuelle Benutzer darf nicht auf den System-Abonnement-Status zugreifen."
@@ -402,15 +402,17 @@ msgstr ""
 msgid "The last Insights data upload has failed."
 msgstr "Der letzte Upload von Insights-Daten ist fehlgeschlagen."
 
-#: src/subscriptions-view.jsx:515
+#: src/subscriptions-view.jsx:517
+#, fuzzy
+#| msgid ""
+#| "Couldn't get system subscription status. Please ensure subscription-"
+#| "manager is installed."
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
-"and try reloading the page. Additionally, make sure that you have checked "
-"the 'Reuse my password for privileged tasks' checkbox on the login page."
+"and try reloading the page."
 msgstr ""
-"Der rhsm-Dienst ist nicht verfügbar. Stellen Sie sicher, dass subscription-"
-"manager installiert ist, und versuchen Sie, die Seite neu zu laden. Stellen "
-"Sie außerdem sicher, dass sie Administrator-Rechte haben."
+"Der Status des Systemabonnements konnte nicht abgerufen werden. Bitte "
+"stellen Sie sicher, dass der Abonnement-Manager installiert ist."
 
 #: src/insights.jsx:95
 msgid ""
@@ -429,18 +431,18 @@ msgstr "Dieses System ist nicht mit $0 verbunden."
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:523
 msgid "Unable to connect"
 msgstr "Verbindung konnte nicht hergestellt werden"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
-#: src/subscriptions-view.jsx:516
+#: src/subscriptions-view.jsx:518
 msgid "Unable to the reach the rhsm service."
 msgstr "Kann rhsm-Dienst nicht erreichen."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author hedda
-#: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
-#: src/subscriptions-client.js:34
+#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
+#: src/subscriptions-view.jsx:78
 msgid "Unknown"
 msgstr "Unbekannt"
 
@@ -453,15 +455,15 @@ msgstr "Unbekannter Status"
 msgid "Unregister"
 msgstr "Abmelden"
 
-#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
+#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
 msgid "Unregistering"
 msgstr "Wird abgemeldet"
 
-#: src/subscriptions-view.jsx:502
+#: src/subscriptions-view.jsx:504
 msgid "Updating"
 msgstr "Aktualisierung"
 
-#: src/subscriptions-client.js:423
+#: src/subscriptions-client.js:421
 msgid "Updating status ..."
 msgstr "Status wird aktualisiert..."
 
@@ -499,7 +501,7 @@ msgstr "Hostname:Port"
 msgid "key_one,key_two"
 msgstr "Schlüssel_eins,Schlüssel_zwei"
 
-#: src/subscriptions-client.js:457
+#: src/subscriptions-client.js:454
 msgid "not-found"
 msgstr "nicht gefunden"
 
@@ -510,6 +512,16 @@ msgstr "Abonnements"
 #: src/insights.jsx:341
 msgid "unknown"
 msgstr "Unbekannt"
+
+#~ msgid ""
+#~ "The rhsm service is unavailable. Make sure subscription-manager is "
+#~ "installed and try reloading the page. Additionally, make sure that you "
+#~ "have checked the 'Reuse my password for privileged tasks' checkbox on the "
+#~ "login page."
+#~ msgstr ""
+#~ "Der rhsm-Dienst ist nicht verfügbar. Stellen Sie sicher, dass "
+#~ "subscription-manager installiert ist, und versuchen Sie, die Seite neu zu "
+#~ "laden. Stellen Sie außerdem sicher, dass sie Administrator-Rechte haben."
 
 #~ msgid "$0 critical hit"
 #~ msgid_plural "$0 hits, including critical"
@@ -581,14 +593,3 @@ msgstr "Unbekannt"
 
 #~ msgid "View your Insights results"
 #~ msgstr "Sehen Sie sich Ihre Insights-Ergebnisse an"
-
-#, fuzzy
-#~| msgid ""
-#~| "Couldn't get system subscription status. Please ensure subscription-"
-#~| "manager is installed."
-#~ msgid ""
-#~ "The rhsm service is unavailable. Make sure subscription-manager is "
-#~ "installed "
-#~ msgstr ""
-#~ "Der Status des Systemabonnements konnte nicht abgerufen werden. Bitte "
-#~ "stellen Sie sicher, dass der Abonnement-Manager installiert ist."

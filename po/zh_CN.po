@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 05:45+0000\n"
-"PO-Revision-Date: 2026-04-02 23:59+0000\n"
-"Last-Translator: 耗子 <haozi@loli.email>\n"
+"POT-Creation-Date: 2026-05-19 06:36+0000\n"
+"PO-Revision-Date: 2026-05-17 10:15+0000\n"
+"Last-Translator: Luke Na <narukeu@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/subscription-manager-cockpit/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -21,18 +21,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
 msgid_plural "$0 packages need to be removed."
 msgstr[0] "$0 软件包需要删除。"
 
-#: src/subscriptions-client.js:215
+#: src/subscriptions-client.js:213
 msgid "'Organization' is required when using activation keys"
 msgstr "当使用激活密钥时需要“组织”"
 
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:520
 msgid "Access denied"
 msgstr "访问被拒绝"
 
@@ -90,7 +90,7 @@ msgstr "连接到 Red Hat Insights"
 
 #: src/insights.jsx:497
 msgid "Connected to Insights"
-msgstr "连接到 Insights"
+msgstr "已连接到 Insights"
 
 #: src/insights.jsx:396
 msgid "Connected to Red Hat Insights"
@@ -100,11 +100,11 @@ msgstr "已连接至 Red Hat Insights"
 msgid "Connecting to Insights"
 msgstr "连接到 Insights"
 
-#: src/subscriptions-client.js:493
+#: src/subscriptions-client.js:490
 msgid "Corrupted JSON with status"
 msgstr "损坏的 JSON，状态"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:525
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -163,12 +163,12 @@ msgstr "正在安装 $0"
 msgid "Last Insights data upload"
 msgstr "前一个 Insights 数据上传"
 
-#: src/subscriptions-client.js:274
+#: src/subscriptions-client.js:272
 msgid ""
 "Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr "代理 URL 格式错误；IPv6 地址语法和主机名是互斥的"
 
-#: src/subscriptions-client.js:239
+#: src/subscriptions-client.js:237
 msgid ""
 "Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
 msgstr "代理 URL 格式错误；IPv6 地址语法和主机名是互斥的"
@@ -287,7 +287,7 @@ msgid "Register"
 msgstr "注册"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:461
+#: src/subscriptions-view.jsx:463
 msgid "Register System"
 msgstr "注册系统"
 
@@ -296,11 +296,11 @@ msgstr "注册系统"
 msgid "Registered"
 msgstr "已注册"
 
-#: src/subscriptions-client.js:329
+#: src/subscriptions-client.js:327
 msgid "Registering using activation key ..."
 msgstr "使用激活码注册..."
 
-#: src/subscriptions-client.js:350
+#: src/subscriptions-client.js:348
 msgid "Registering using username and password ..."
 msgstr "使用用户名和密码注册..."
 
@@ -312,7 +312,7 @@ msgstr "移除："
 msgid "Removing $0"
 msgstr "正在删除 $0"
 
-#: src/subscriptions-view.jsx:503
+#: src/subscriptions-view.jsx:505
 msgid "Retrieving subscription status..."
 msgstr "正在获取订阅状态..."
 
@@ -320,7 +320,7 @@ msgstr "正在获取订阅状态..."
 msgid "Role"
 msgstr "角色"
 
-#: src/subscriptions-client.js:403
+#: src/subscriptions-client.js:401
 msgid "Saving configuration ..."
 msgstr "保存配置..."
 
@@ -329,7 +329,7 @@ msgstr "保存配置..."
 msgid "Service level"
 msgstr "服务级别"
 
-#: src/subscriptions-client.js:310
+#: src/subscriptions-client.js:308
 msgid "Starting registration service ..."
 msgstr "开始注册服务..."
 
@@ -342,7 +342,7 @@ msgstr "开始"
 msgid "Status"
 msgstr "状态"
 
-#: src/subscriptions-client.js:379
+#: src/subscriptions-client.js:377
 msgid "Stopping registration service ..."
 msgstr "停止注册服务..."
 
@@ -382,7 +382,7 @@ msgstr "所有仓库都不提供 $0。"
 msgid "The $0 package will be installed."
 msgstr "$0 软件包将被安装。"
 
-#: src/subscriptions-view.jsx:519
+#: src/subscriptions-view.jsx:521
 msgid "The current user isn't allowed to access system subscription status."
 msgstr "当前用户不允许访问系统订阅状态。"
 
@@ -390,15 +390,15 @@ msgstr "当前用户不允许访问系统订阅状态。"
 msgid "The last Insights data upload has failed."
 msgstr "最后一次 Insights 数据上传失败。"
 
-#: src/subscriptions-view.jsx:515
+#: src/subscriptions-view.jsx:517
+#, fuzzy
+#| msgid ""
+#| "Couldn't get system subscription status. Please ensure subscription-"
+#| "manager is installed."
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
-"and try reloading the page. Additionally, make sure that you have checked "
-"the 'Reuse my password for privileged tasks' checkbox on the login page."
-msgstr ""
-"rhsm 服务不可用。请确定已安装 subscription-manager 并尝试重新载入该页面。另"
-"外，请确保在登录页面中选择了\"Reuse my password for privileged tasks\"复选"
-"框。"
+"and try reloading the page."
+msgstr "无法获取系统订阅状态。请确认 subscription-manager 已安装。"
 
 #: src/insights.jsx:95
 msgid ""
@@ -415,18 +415,18 @@ msgstr "本系统未连接到 $0。"
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:523
 msgid "Unable to connect"
 msgstr "无法连接"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:516
+#: src/subscriptions-view.jsx:518
 msgid "Unable to the reach the rhsm service."
 msgstr "无法访问 rhsm 服务。"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:72 src/subscriptions-view.jsx:78
-#: src/subscriptions-client.js:34
+#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
+#: src/subscriptions-view.jsx:78
 msgid "Unknown"
 msgstr "未知的"
 
@@ -439,15 +439,15 @@ msgstr "未知状态"
 msgid "Unregister"
 msgstr "取消注册"
 
-#: src/subscriptions-view.jsx:307 src/subscriptions-client.js:436
+#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
 msgid "Unregistering"
 msgstr "正在取消注册"
 
-#: src/subscriptions-view.jsx:502
+#: src/subscriptions-view.jsx:504
 msgid "Updating"
 msgstr "更新"
 
-#: src/subscriptions-client.js:423
+#: src/subscriptions-client.js:421
 msgid "Updating status ..."
 msgstr "更新状态 ..."
 
@@ -485,7 +485,7 @@ msgstr "主机名:端口"
 msgid "key_one,key_two"
 msgstr "密钥一,密钥二"
 
-#: src/subscriptions-client.js:457
+#: src/subscriptions-client.js:454
 msgid "not-found"
 msgstr "未找到"
 
@@ -496,6 +496,16 @@ msgstr "订阅"
 #: src/insights.jsx:341
 msgid "unknown"
 msgstr "未知"
+
+#~ msgid ""
+#~ "The rhsm service is unavailable. Make sure subscription-manager is "
+#~ "installed and try reloading the page. Additionally, make sure that you "
+#~ "have checked the 'Reuse my password for privileged tasks' checkbox on the "
+#~ "login page."
+#~ msgstr ""
+#~ "rhsm 服务不可用。请确定已安装 subscription-manager 并尝试重新载入该页面。"
+#~ "另外，请确保在登录页面中选择了\"Reuse my password for privileged tasks\"复"
+#~ "选框。"
 
 #~ msgid "$0 critical hit"
 #~ msgid_plural "$0 hits, including critical"
@@ -556,12 +566,3 @@ msgstr "未知"
 
 #~ msgid "View your Insights results"
 #~ msgstr "查看 Insights 结果"
-
-#, fuzzy
-#~| msgid ""
-#~| "Couldn't get system subscription status. Please ensure subscription-"
-#~| "manager is installed."
-#~ msgid ""
-#~ "The rhsm service is unavailable. Make sure subscription-manager is "
-#~ "installed "
-#~ msgstr "无法获取系统订阅状态。请确认 subscription-manager 已安装。"
