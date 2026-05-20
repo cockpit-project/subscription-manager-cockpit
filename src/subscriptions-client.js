@@ -486,9 +486,13 @@ client.getSubscriptionStatus = function() {
                         system_status = JSON.parse(result);
                         parsed = true;
                     } catch (err) {
+                        console.log("FAILED TO PARSE JSON");
+                        console.log("result:", result);
                         client.subscriptionStatus.status = "unknown";
                         client.subscriptionStatus.status_msg = _("Corrupted JSON with status");
                     }
+                    console.log("parsed:", parsed);
+                    console.log("system_status:", system_status);
                     if (parsed === true) {
                         /* status contains ID of status */
                         client.subscriptionStatus.status = system_status.status_id;
@@ -650,7 +654,9 @@ const detectInsights = () => {
 };
 
 const updateConfig = () => {
-    return client.readConfig().then(detectInsights)
+    return client.readConfig()
+            .then(needRender)
+            .then(detectInsights)
             .then(needRender);
 };
 

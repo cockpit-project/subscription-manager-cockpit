@@ -594,6 +594,9 @@ class SubscriptionsView extends React.Component {
         const status_msg = this.state.status_msg;
         const loaded = this.state.loaded;
 
+        console.log("status:", status);
+        console.log("superuser.allowed:", superuser.allowed);
+        console.log("loaded:", loaded);
         if (status !== undefined && !superuser.allowed) {
             return this.renderError("access-denied", "");
         } else if (status === 'not-found' ||
