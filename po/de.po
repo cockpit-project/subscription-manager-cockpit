@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 06:36+0000\n"
-"PO-Revision-Date: 2026-03-31 20:58+0000\n"
+"POT-Creation-Date: 2026-05-25 06:57+0000\n"
+"PO-Revision-Date: 2026-05-25 20:01+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "subscription-manager-cockpit/de/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -90,7 +90,7 @@ msgstr "Verbinden mit Red Hat Insights"
 
 #: src/insights.jsx:497
 msgid "Connected to Insights"
-msgstr "Verbunden mit Insights"
+msgstr "Mit Insights verbunden"
 
 #: src/insights.jsx:396
 msgid "Connected to Red Hat Insights"
