@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 06:36+0000\n"
-"PO-Revision-Date: 2026-04-29 18:59+0000\n"
+"POT-Creation-Date: 2026-05-25 06:57+0000\n"
+"PO-Revision-Date: 2026-05-22 07:01+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/subscription-manager-cockpit/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -401,16 +401,12 @@ msgid "The last Insights data upload has failed."
 msgstr "O último envio de dados do Insights falhou."
 
 #: src/subscriptions-view.jsx:517
-#, fuzzy
-#| msgid ""
-#| "Couldn't get system subscription status. Please ensure subscription-"
-#| "manager is installed."
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
 "and try reloading the page."
 msgstr ""
-"Não foi possível obter o status de assinatura do sistema. Verifique se "
-"subscription-manager está instalado."
+"O serviço rhsm está indisponível. Certifique-se de que subscription-manager "
+"está instalado ou tente recarregar a página."
 
 #: src/insights.jsx:95
 msgid ""
