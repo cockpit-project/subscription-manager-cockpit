@@ -160,7 +160,7 @@ $(TARFILE): $(DIST_TEST) $(SPEC)
 	tar --xz $(TAR_ARGS) -cf $(TARFILE) --transform 's,^,$(RPM_NAME)/,' \
 		--exclude packaging/$(SPEC).in --exclude test/reference \
 		$$(git ls-files | grep -v node_modules) \
-		$(COCKPIT_REPO_FILES) $(NODE_MODULES_TEST) $(DIST_TEST) $(TEST_NPMS) $(SPEC) \
+		$(COCKPIT_REPO_FILES) $(NODE_MODULES_TEST) $(DIST_TEST) $(SPEC) \
 		dist/
 
 $(NODE_CACHE): $(NODE_MODULES_TEST)
