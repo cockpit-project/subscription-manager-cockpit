@@ -384,7 +384,7 @@ class TestSubscriptionsPackages(SubscriptionsCase, packagelib.PackageCase):
         b = self.browser
 
         if m.image.startswith("rhel-"):
-            m.execute([self.packagekit_cmd, "remove", "-y", "insights-client"])
+            m.execute("if rpm -q insights-client; then rpm --erase insights-client; fi")
 
         self.createPackage("insights-client", "999", "1")
         self.enableRepo(refresh_repo=True)
