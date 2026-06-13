@@ -37,7 +37,7 @@
     "@patternfly/react-tokens": "6.4.0",
     "argparse": "2.0.1",
     "esbuild-sass-plugin": "3.7.0",
-    "esbuild": "0.28.0",
+    "esbuild": "0.28.1",
     "gettext-parser": "9.0.2"
   },
   "engines": {
