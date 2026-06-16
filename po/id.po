@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-25 06:57+0000\n"
+"POT-Creation-Date: 2026-06-07 06:50+0000\n"
 "PO-Revision-Date: 2026-04-20 02:34+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -29,7 +29,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
 
 #: src/insights.jsx:162
@@ -153,7 +153,7 @@ msgstr ""
 "Jika Anda memutuskan sistem ini dari Insights, sistem ini tidak akan lagi "
 "melaporkan status Insights-nya di Red Hat Cloud atau Satellite."
 
-#: src/subscriptions-register.jsx:71 src/insights.jsx:506
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
 msgid "Insights"
 msgstr "Insights"
 
@@ -370,7 +370,7 @@ msgstr[0] "Paket $0 dan $1 paket lainnya akan dipasang."
 msgid "The $0 package is not available from any repository."
 msgstr "Paket $0 tidak tersedia dari repositori mana pun."
 
-#: src/subscriptions-register.jsx:81 src/insights.jsx:152
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
 msgid "The $0 package will be installed."
 msgstr "Paket $0 akan dipasang."
 

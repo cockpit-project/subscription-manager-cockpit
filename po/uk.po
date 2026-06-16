@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-25 06:57+0000\n"
+"POT-Creation-Date: 2026-06-07 06:50+0000\n"
 "PO-Revision-Date: 2026-05-16 16:59+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -156,7 +156,7 @@ msgstr ""
 "Якщо ви від'єднаєте цю систему від Insights, вона більше не повідомлятиме "
 "про стану Insights у Red Hat Cloud або Satellite."
 
-#: src/subscriptions-register.jsx:71 src/insights.jsx:506
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
 msgid "Insights"
 msgstr "Огляди"
 
@@ -377,7 +377,7 @@ msgstr[2] "Буде встановлено пакунок $0 і $1 інших п
 msgid "The $0 package is not available from any repository."
 msgstr "Пакунка $0 немає у жодному зі сховищ."
 
-#: src/subscriptions-register.jsx:81 src/insights.jsx:152
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
 msgid "The $0 package will be installed."
 msgstr "Пакунок $0 буде встановлено."
 
