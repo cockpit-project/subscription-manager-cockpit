@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-25 06:57+0000\n"
+"POT-Creation-Date: 2026-06-07 06:50+0000\n"
 "PO-Revision-Date: 2026-05-17 10:15+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
@@ -158,7 +158,7 @@ msgstr ""
 "Dacă deconectați acest sistem de la Insights, acesta nu va mai raporta "
 "starea sa în Insights în Red Hat Cloud sau Satellite."
 
-#: src/subscriptions-register.jsx:71 src/insights.jsx:506
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
 msgid "Insights"
 msgstr "Insights"
 
@@ -382,7 +382,7 @@ msgstr[2] "Pachetul $0 și alte $1 de pachete vor fi instalate."
 msgid "The $0 package is not available from any repository."
 msgstr "Pachetul $0 nu este disponibil din niciun depozit."
 
-#: src/subscriptions-register.jsx:81 src/insights.jsx:152
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
 msgid "The $0 package will be installed."
 msgstr "Pachetul $0 va fi instalat."
 
