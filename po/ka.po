@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-07 06:50+0000\n"
+"POT-Creation-Date: 2026-06-20 06:48+0000\n"
 "PO-Revision-Date: 2026-05-16 16:59+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -28,7 +28,7 @@ msgstr[1] "საჭიროა $0 პაკეტის წაშლა."
 msgid "'Organization' is required when using activation keys"
 msgstr "აქტივაციის გასაღებების გამოყენებისას 'ორგანიზაცია' აუცილებელია"
 
-#: src/subscriptions-view.jsx:520
+#: src/subscriptions-view.jsx:523
 msgid "Access denied"
 msgstr "წვდომა აკრძალულია"
 
@@ -44,7 +44,7 @@ msgstr "აქტივაციის გასაღები"
 msgid "Activation key"
 msgstr "აქტივაციის გასაღები"
 
-#: src/subscriptions-view.jsx:265
+#: src/subscriptions-view.jsx:268
 msgid "Add-ons"
 msgstr "დამატებები"
 
@@ -52,7 +52,7 @@ msgstr "დამატებები"
 msgid "Additional packages:"
 msgstr "დამატებითი პაკეტები:"
 
-#: src/subscriptions-view.jsx:128
+#: src/subscriptions-view.jsx:131
 msgid "Arch"
 msgstr "არქიტექტურა"
 
@@ -96,7 +96,7 @@ msgstr "Insights-თან მიერთება"
 msgid "Corrupted JSON with status"
 msgstr "დაზიანებული JSON სტატუსით"
 
-#: src/subscriptions-view.jsx:525
+#: src/subscriptions-view.jsx:528
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -124,7 +124,7 @@ msgstr "გათიშვა Insights-დან"
 msgid "Downloading $0"
 msgstr "$0-ის გადმოწერა"
 
-#: src/subscriptions-view.jsx:144
+#: src/subscriptions-view.jsx:147
 msgid "Ends"
 msgstr "საბოლოო"
 
@@ -144,7 +144,7 @@ msgstr ""
 msgid "Insights"
 msgstr "Insights"
 
-#: src/subscriptions-view.jsx:167 src/subscriptions-view.jsx:170
+#: src/subscriptions-view.jsx:170 src/subscriptions-view.jsx:173
 msgid "Installed products"
 msgstr "დაყენებული პროდუქტები"
 
@@ -188,11 +188,11 @@ msgstr "მეთოდი"
 msgid "Next Insights data upload"
 msgstr "შემდეგი Insights-ის მონაცემების ატვირთვა"
 
-#: src/subscriptions-view.jsx:173
+#: src/subscriptions-view.jsx:176
 msgid "No installed products detected"
 msgstr "დაყენებული პროდუქტები აღმოჩენილი არაა"
 
-#: src/subscriptions-view.jsx:275
+#: src/subscriptions-view.jsx:278
 msgid "No system purpose attributes set"
 msgstr "სისტემის დანიშნულების ატრიბუტები დაყენებული არაა"
 
@@ -200,19 +200,19 @@ msgstr "სისტემის დანიშნულების ატრ�
 msgid "Not connected"
 msgstr "არაა დაკავშირებული"
 
-#: src/subscriptions-view.jsx:295
+#: src/subscriptions-view.jsx:298
 msgid "Not registered"
 msgstr "არაა რეგისტრირებული"
 
-#: src/subscriptions-view.jsx:60
+#: src/subscriptions-view.jsx:63
 msgid "Not subscribed"
 msgstr "არაა გამოწერილი"
 
-#: src/subscriptions-view.jsx:62
+#: src/subscriptions-view.jsx:65
 msgid "Not subscribed ($0)"
 msgstr "გამოწერილი არაა ($0)"
 
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:328
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
 msgid "Organization"
 msgstr "ორგანიზაცია"
 
@@ -220,15 +220,15 @@ msgstr "ორგანიზაცია"
 msgid "Organization ID"
 msgstr "ორგანიზაციის ID"
 
-#: src/subscriptions-view.jsx:316
+#: src/subscriptions-view.jsx:319
 msgid "Overview"
 msgstr "გადახედვა"
 
-#: src/subscriptions-view.jsx:54
+#: src/subscriptions-view.jsx:57
 msgid "Partially subscribed"
 msgstr "გამოწერილია ნაწილობრივ"
 
-#: src/subscriptions-view.jsx:56
+#: src/subscriptions-view.jsx:59
 msgid "Partially subscribed ($0)"
 msgstr "ნაწილობრივ გამოწერილია ($0)"
 
@@ -247,11 +247,11 @@ msgstr ""
 "პროაქტიული ანალიტიკით აიცილეთ პრობლემები და დაუგეგმავი გათიშვები თქვენი Red "
 "Hat-ის გარემოში."
 
-#: src/subscriptions-view.jsx:120
+#: src/subscriptions-view.jsx:123
 msgid "Product ID"
 msgstr "პროდუქტის ID"
 
-#: src/subscriptions-view.jsx:36 src/subscriptions-view.jsx:116
+#: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
 msgstr "პროდუქტის სახელი"
 
@@ -271,15 +271,15 @@ msgstr "პროქსის მომხმარებელი"
 msgid "Red Hat Subscription Manager"
 msgstr "Red Hat-ის გამოწერების მმართველი"
 
-#: src/subscriptions-view.jsx:297 src/subscriptions-view.jsx:391
+#: src/subscriptions-view.jsx:300 src/subscriptions-view.jsx:394
 msgid "Register"
 msgstr "რეგისტრაცია"
 
-#: src/subscriptions-view.jsx:463
+#: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "სისტემის რეგისტრაცია"
 
-#: src/subscriptions-view.jsx:301
+#: src/subscriptions-view.jsx:304
 msgid "Registered"
 msgstr "რეგისტრირებულია"
 
@@ -299,11 +299,11 @@ msgstr "წაიშლება:"
 msgid "Removing $0"
 msgstr "$0-ის წაშლა"
 
-#: src/subscriptions-view.jsx:505
+#: src/subscriptions-view.jsx:508
 msgid "Retrieving subscription status..."
 msgstr "გამოწერის სტატუსის მიღება..."
 
-#: src/subscriptions-view.jsx:260
+#: src/subscriptions-view.jsx:263
 msgid "Role"
 msgstr "როლი"
 
@@ -311,7 +311,7 @@ msgstr "როლი"
 msgid "Saving configuration ..."
 msgstr "კონფიგურაციის შენახვა..."
 
-#: src/subscriptions-view.jsx:250
+#: src/subscriptions-view.jsx:253
 msgid "Service level"
 msgstr "სერვისის დონე"
 
@@ -319,11 +319,11 @@ msgstr "სერვისის დონე"
 msgid "Starting registration service ..."
 msgstr "ეშვება რეგისტრაციის სერვისი..."
 
-#: src/subscriptions-view.jsx:140
+#: src/subscriptions-view.jsx:143
 msgid "Starts"
 msgstr "საწყისი"
 
-#: src/subscriptions-view.jsx:136 src/subscriptions-view.jsx:321
+#: src/subscriptions-view.jsx:139 src/subscriptions-view.jsx:324
 msgid "Status"
 msgstr "სტატუსი"
 
@@ -331,7 +331,7 @@ msgstr "სტატუსი"
 msgid "Stopping registration service ..."
 msgstr "რეგისტრაციის სერვისის გაჩერება..."
 
-#: src/subscriptions-view.jsx:50
+#: src/subscriptions-view.jsx:53
 msgid "Subscribed"
 msgstr "გამოწერილია"
 
@@ -347,7 +347,7 @@ msgstr "გამოწერების მმართველი Cockpit-�
 msgid "Subscriptions"
 msgstr "გამოწერები"
 
-#: src/subscriptions-view.jsx:284
+#: src/subscriptions-view.jsx:287
 msgid "System purpose"
 msgstr "სისტემის დანიშნულება"
 
@@ -365,7 +365,7 @@ msgstr "$0 პაკეტი ხელმიუწვდომელია ყ�
 msgid "The $0 package will be installed."
 msgstr "საჭიროა დაყენებული იყოს პაკეტი $0."
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:524
 msgid "The current user isn't allowed to access system subscription status."
 msgstr "მიმდინარე მომხმარებელს სისტემის გამოწერის სტატუსთან წვდომა არ აქვს."
 
@@ -373,7 +373,7 @@ msgstr "მიმდინარე მომხმარებელს სი�
 msgid "The last Insights data upload has failed."
 msgstr "Insights-ის მონაცემების ბოლო ატვირთვა ჩავარდა."
 
-#: src/subscriptions-view.jsx:517
+#: src/subscriptions-view.jsx:520
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
 "and try reloading the page."
@@ -397,32 +397,32 @@ msgstr "ეს სისტემა $0-ისთან დაკავშირ
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:526
 msgid "Unable to connect"
 msgstr "კავშირის შეცდომა"
 
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:521
 msgid "Unable to the reach the rhsm service."
 msgstr "სერვისთან rhsm დაკავშირება შეუძლებელია."
 
-#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
-#: src/subscriptions-view.jsx:78
+#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "უცნობი"
 
-#: src/subscriptions-view.jsx:67
+#: src/subscriptions-view.jsx:70
 msgid "Unknown status"
 msgstr "უცნობი სტატუსი"
 
-#: src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310
 msgid "Unregister"
 msgstr "რეგისტრაციის მოხსნა"
 
-#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
 msgid "Unregistering"
 msgstr "რეგისტრაციის მოხსნა"
 
-#: src/subscriptions-view.jsx:504
+#: src/subscriptions-view.jsx:507
 msgid "Updating"
 msgstr "მიმდინარეობს განახლება"
 
@@ -430,7 +430,7 @@ msgstr "მიმდინარეობს განახლება"
 msgid "Updating status ..."
 msgstr "სტატუსის განახლება..."
 
-#: src/subscriptions-view.jsx:255
+#: src/subscriptions-view.jsx:258
 msgid "Usage"
 msgstr "გამოყენება"
 
@@ -442,7 +442,7 @@ msgstr "პროქსი სერვერის გამოყენებ�
 msgid "Username"
 msgstr "მოხმარებელი"
 
-#: src/subscriptions-view.jsx:124
+#: src/subscriptions-view.jsx:127
 msgid "Version"
 msgstr "ვერსია"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-07 06:50+0000\n"
+"POT-Creation-Date: 2026-06-20 06:48+0000\n"
 "PO-Revision-Date: 2026-05-22 07:01+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -30,7 +30,7 @@ msgstr[1] "$0 pacotes precisam ser removidos."
 msgid "'Organization' is required when using activation keys"
 msgstr "\"Organização\" é necessário ao usar chaves de ativação"
 
-#: src/subscriptions-view.jsx:520
+#: src/subscriptions-view.jsx:523
 msgid "Access denied"
 msgstr "Acesso negado"
 
@@ -47,7 +47,7 @@ msgstr "Chave de Ativação"
 msgid "Activation key"
 msgstr "Chave de ativação"
 
-#: src/subscriptions-view.jsx:265
+#: src/subscriptions-view.jsx:268
 msgid "Add-ons"
 msgstr "Complementos"
 
@@ -56,7 +56,7 @@ msgid "Additional packages:"
 msgstr "Pacotes adicionais:"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:128
+#: src/subscriptions-view.jsx:131
 msgid "Arch"
 msgstr "Arq"
 
@@ -102,7 +102,7 @@ msgstr "Conectando a Insights"
 msgid "Corrupted JSON with status"
 msgstr "JSON corrompido com status"
 
-#: src/subscriptions-view.jsx:525
+#: src/subscriptions-view.jsx:528
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -130,7 +130,7 @@ msgstr "Desconectar do Insights"
 msgid "Downloading $0"
 msgstr "Baixando $0"
 
-#: src/subscriptions-view.jsx:144
+#: src/subscriptions-view.jsx:147
 msgid "Ends"
 msgstr "Finaliza"
 
@@ -150,7 +150,7 @@ msgstr ""
 msgid "Insights"
 msgstr "Insights"
 
-#: src/subscriptions-view.jsx:167 src/subscriptions-view.jsx:170
+#: src/subscriptions-view.jsx:170 src/subscriptions-view.jsx:173
 msgid "Installed products"
 msgstr "Produtos Instalados"
 
@@ -197,11 +197,11 @@ msgid "Next Insights data upload"
 msgstr "Próximo envio de dados ao Insights"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:173
+#: src/subscriptions-view.jsx:176
 msgid "No installed products detected"
 msgstr "Nenhum produto instalado detectado"
 
-#: src/subscriptions-view.jsx:275
+#: src/subscriptions-view.jsx:278
 msgid "No system purpose attributes set"
 msgstr "Nenhum atributo de finalidade do sistema definido"
 
@@ -210,22 +210,22 @@ msgid "Not connected"
 msgstr "Não conectado"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:295
+#: src/subscriptions-view.jsx:298
 msgid "Not registered"
 msgstr "Não registrado"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:60
+#: src/subscriptions-view.jsx:63
 msgid "Not subscribed"
 msgstr "Não subscrito"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:62
+#: src/subscriptions-view.jsx:65
 msgid "Not subscribed ($0)"
 msgstr "Não subscrito ($0)"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:328
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
 msgid "Organization"
 msgstr "Organização"
 
@@ -234,17 +234,17 @@ msgstr "Organização"
 msgid "Organization ID"
 msgstr "ID da organização"
 
-#: src/subscriptions-view.jsx:316
+#: src/subscriptions-view.jsx:319
 msgid "Overview"
 msgstr "Visão geral"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:54
+#: src/subscriptions-view.jsx:57
 msgid "Partially subscribed"
 msgstr "Parcialmente subscrito"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:56
+#: src/subscriptions-view.jsx:59
 msgid "Partially subscribed ($0)"
 msgstr "Parcialmente subscrito ($0)"
 
@@ -263,11 +263,11 @@ msgstr ""
 "preditivas, evite problemas e tempo de inatividade não planejado em seu "
 "ambiente Red Hat."
 
-#: src/subscriptions-view.jsx:120
+#: src/subscriptions-view.jsx:123
 msgid "Product ID"
 msgstr "ID do Produto"
 
-#: src/subscriptions-view.jsx:36 src/subscriptions-view.jsx:116
+#: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
 msgstr "Nome do produto"
 
@@ -289,17 +289,17 @@ msgid "Red Hat Subscription Manager"
 msgstr "Gerenciador de Subscrição Red Hat"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:297 src/subscriptions-view.jsx:391
+#: src/subscriptions-view.jsx:300 src/subscriptions-view.jsx:394
 msgid "Register"
 msgstr "Registrar"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:463
+#: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "Registar Sistema"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:301
+#: src/subscriptions-view.jsx:304
 msgid "Registered"
 msgstr "Registrada"
 
@@ -319,11 +319,11 @@ msgstr "Remoções:"
 msgid "Removing $0"
 msgstr "Removendo $0"
 
-#: src/subscriptions-view.jsx:505
+#: src/subscriptions-view.jsx:508
 msgid "Retrieving subscription status..."
 msgstr "Recuperando o status da assinatura..."
 
-#: src/subscriptions-view.jsx:260
+#: src/subscriptions-view.jsx:263
 msgid "Role"
 msgstr "Função"
 
@@ -332,7 +332,7 @@ msgid "Saving configuration ..."
 msgstr "Salvando configurações ..."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:250
+#: src/subscriptions-view.jsx:253
 msgid "Service level"
 msgstr "Nível de serviço"
 
@@ -340,12 +340,12 @@ msgstr "Nível de serviço"
 msgid "Starting registration service ..."
 msgstr "Iniciando o registro do serviço ..."
 
-#: src/subscriptions-view.jsx:140
+#: src/subscriptions-view.jsx:143
 msgid "Starts"
 msgstr "Inicia"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:136 src/subscriptions-view.jsx:321
+#: src/subscriptions-view.jsx:139 src/subscriptions-view.jsx:324
 msgid "Status"
 msgstr "Estado"
 
@@ -354,7 +354,7 @@ msgid "Stopping registration service ..."
 msgstr "Parando o registro do sistema ..."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:50
+#: src/subscriptions-view.jsx:53
 msgid "Subscribed"
 msgstr "Subscrito"
 
@@ -372,7 +372,7 @@ msgstr "Gerenciador de Subscrição no Cockpit"
 msgid "Subscriptions"
 msgstr "Subscrições"
 
-#: src/subscriptions-view.jsx:284
+#: src/subscriptions-view.jsx:287
 msgid "System purpose"
 msgstr "Propósito do sistema"
 
@@ -390,7 +390,7 @@ msgstr "O pacote $0 não está disponível em nenhum repositório."
 msgid "The $0 package will be installed."
 msgstr "O pacote $0 será instalado."
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:524
 msgid "The current user isn't allowed to access system subscription status."
 msgstr ""
 "O usuário atual não tem permissão para acessar o status de subscrição do "
@@ -400,7 +400,7 @@ msgstr ""
 msgid "The last Insights data upload has failed."
 msgstr "O último envio de dados do Insights falhou."
 
-#: src/subscriptions-view.jsx:517
+#: src/subscriptions-view.jsx:520
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
 "and try reloading the page."
@@ -425,35 +425,35 @@ msgstr "Este sistema não está conectado a $0."
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:526
 msgid "Unable to connect"
 msgstr "Não é possível conectar"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:521
 msgid "Unable to the reach the rhsm service."
 msgstr "Incapaz de contatar o serviço rhsm."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
-#: src/subscriptions-view.jsx:78
+#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "Desconhecido"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:67
+#: src/subscriptions-view.jsx:70
 msgid "Unknown status"
 msgstr "Status desconhecido"
 
-#: src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310
 msgid "Unregister"
 msgstr "Cancelar Registro"
 
-#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
 msgid "Unregistering"
 msgstr "Cancelando registro"
 
-#: src/subscriptions-view.jsx:504
+#: src/subscriptions-view.jsx:507
 msgid "Updating"
 msgstr "Atualizando"
 
@@ -462,7 +462,7 @@ msgid "Updating status ..."
 msgstr "Atualizando o status ..."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:255
+#: src/subscriptions-view.jsx:258
 msgid "Usage"
 msgstr "Uso"
 
@@ -475,7 +475,7 @@ msgid "Username"
 msgstr "Nome de usuário"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:124
+#: src/subscriptions-view.jsx:127
 msgid "Version"
 msgstr "Versão"
 

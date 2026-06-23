@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-07 06:50+0000\n"
-"PO-Revision-Date: 2026-05-17 10:15+0000\n"
-"Last-Translator: Luke Na <narukeu@outlook.com>\n"
+"POT-Creation-Date: 2026-06-20 06:48+0000\n"
+"PO-Revision-Date: 2026-06-20 10:11+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/subscription-manager-cockpit/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.5\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/insights.jsx:162
 msgid "$0 package needs to be removed."
@@ -32,7 +32,7 @@ msgstr[0] "$0 软件包需要删除。"
 msgid "'Organization' is required when using activation keys"
 msgstr "当使用激活密钥时需要“组织”"
 
-#: src/subscriptions-view.jsx:520
+#: src/subscriptions-view.jsx:523
 msgid "Access denied"
 msgstr "访问被拒绝"
 
@@ -49,7 +49,7 @@ msgstr "激活码"
 msgid "Activation key"
 msgstr "激活码"
 
-#: src/subscriptions-view.jsx:265
+#: src/subscriptions-view.jsx:268
 msgid "Add-ons"
 msgstr "附加组件"
 
@@ -58,7 +58,7 @@ msgid "Additional packages:"
 msgstr "额外的软件包："
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:128
+#: src/subscriptions-view.jsx:131
 msgid "Arch"
 msgstr "构架"
 
@@ -104,7 +104,7 @@ msgstr "连接到 Insights"
 msgid "Corrupted JSON with status"
 msgstr "损坏的 JSON，状态"
 
-#: src/subscriptions-view.jsx:525
+#: src/subscriptions-view.jsx:528
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -131,13 +131,13 @@ msgstr "与 Insights 断开"
 msgid "Downloading $0"
 msgstr "$0 正在下载"
 
-#: src/subscriptions-view.jsx:144
+#: src/subscriptions-view.jsx:147
 msgid "Ends"
 msgstr "结束"
 
 #: src/insights.jsx:76
 msgid "Error"
-msgstr "错误"
+msgstr ""
 
 #: src/insights.jsx:424
 msgid ""
@@ -151,7 +151,7 @@ msgstr ""
 msgid "Insights"
 msgstr "Insights"
 
-#: src/subscriptions-view.jsx:167 src/subscriptions-view.jsx:170
+#: src/subscriptions-view.jsx:170 src/subscriptions-view.jsx:173
 msgid "Installed products"
 msgstr "安装的产品"
 
@@ -192,11 +192,11 @@ msgid "Next Insights data upload"
 msgstr "下一个 Insights 数据上传"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:173
+#: src/subscriptions-view.jsx:176
 msgid "No installed products detected"
 msgstr "没有检测到安装的产品"
 
-#: src/subscriptions-view.jsx:275
+#: src/subscriptions-view.jsx:278
 msgid "No system purpose attributes set"
 msgstr "未设置系统用途属性"
 
@@ -205,22 +205,22 @@ msgid "Not connected"
 msgstr "未连接"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:295
+#: src/subscriptions-view.jsx:298
 msgid "Not registered"
 msgstr "没有注册"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:60
+#: src/subscriptions-view.jsx:63
 msgid "Not subscribed"
 msgstr "未订阅"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:62
+#: src/subscriptions-view.jsx:65
 msgid "Not subscribed ($0)"
 msgstr "未订阅($0)"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:328
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
 msgid "Organization"
 msgstr "机构"
 
@@ -229,17 +229,17 @@ msgstr "机构"
 msgid "Organization ID"
 msgstr "机构 ID"
 
-#: src/subscriptions-view.jsx:316
+#: src/subscriptions-view.jsx:319
 msgid "Overview"
 msgstr "概览"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:54
+#: src/subscriptions-view.jsx:57
 msgid "Partially subscribed"
 msgstr "部分订阅"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:56
+#: src/subscriptions-view.jsx:59
 msgid "Partially subscribed ($0)"
 msgstr "部分订阅($0)"
 
@@ -256,11 +256,11 @@ msgstr ""
 "使用 Red Hat Insights 主动识别和补救对安全、性能、可用性和稳定性的威胁 -- 通"
 "过预测分析，避免在红帽环境中出现问题和计划外的停机。"
 
-#: src/subscriptions-view.jsx:120
+#: src/subscriptions-view.jsx:123
 msgid "Product ID"
 msgstr "产品 ID"
 
-#: src/subscriptions-view.jsx:36 src/subscriptions-view.jsx:116
+#: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
 msgstr "产品名称"
 
@@ -282,17 +282,17 @@ msgid "Red Hat Subscription Manager"
 msgstr "红帽订阅管理器"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:297 src/subscriptions-view.jsx:391
+#: src/subscriptions-view.jsx:300 src/subscriptions-view.jsx:394
 msgid "Register"
 msgstr "注册"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:463
+#: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "注册系统"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:301
+#: src/subscriptions-view.jsx:304
 msgid "Registered"
 msgstr "已注册"
 
@@ -312,11 +312,11 @@ msgstr "移除："
 msgid "Removing $0"
 msgstr "正在删除 $0"
 
-#: src/subscriptions-view.jsx:505
+#: src/subscriptions-view.jsx:508
 msgid "Retrieving subscription status..."
 msgstr "正在获取订阅状态..."
 
-#: src/subscriptions-view.jsx:260
+#: src/subscriptions-view.jsx:263
 msgid "Role"
 msgstr "角色"
 
@@ -325,7 +325,7 @@ msgid "Saving configuration ..."
 msgstr "保存配置..."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:250
+#: src/subscriptions-view.jsx:253
 msgid "Service level"
 msgstr "服务级别"
 
@@ -333,12 +333,12 @@ msgstr "服务级别"
 msgid "Starting registration service ..."
 msgstr "开始注册服务..."
 
-#: src/subscriptions-view.jsx:140
+#: src/subscriptions-view.jsx:143
 msgid "Starts"
 msgstr "开始"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:136 src/subscriptions-view.jsx:321
+#: src/subscriptions-view.jsx:139 src/subscriptions-view.jsx:324
 msgid "Status"
 msgstr "状态"
 
@@ -347,7 +347,7 @@ msgid "Stopping registration service ..."
 msgstr "停止注册服务..."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:50
+#: src/subscriptions-view.jsx:53
 msgid "Subscribed"
 msgstr "已订阅"
 
@@ -365,7 +365,7 @@ msgstr "Cockpit 中的订阅管理器"
 msgid "Subscriptions"
 msgstr "订阅"
 
-#: src/subscriptions-view.jsx:284
+#: src/subscriptions-view.jsx:287
 msgid "System purpose"
 msgstr "系统用途"
 
@@ -382,7 +382,7 @@ msgstr "所有仓库都不提供 $0。"
 msgid "The $0 package will be installed."
 msgstr "$0 软件包将被安装。"
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:524
 msgid "The current user isn't allowed to access system subscription status."
 msgstr "当前用户不允许访问系统订阅状态。"
 
@@ -390,7 +390,7 @@ msgstr "当前用户不允许访问系统订阅状态。"
 msgid "The last Insights data upload has failed."
 msgstr "最后一次 Insights 数据上传失败。"
 
-#: src/subscriptions-view.jsx:517
+#: src/subscriptions-view.jsx:520
 #, fuzzy
 #| msgid ""
 #| "Couldn't get system subscription status. Please ensure subscription-"
@@ -415,35 +415,35 @@ msgstr "本系统未连接到 $0。"
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:526
 msgid "Unable to connect"
 msgstr "无法连接"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:521
 msgid "Unable to the reach the rhsm service."
 msgstr "无法访问 rhsm 服务。"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
-#: src/subscriptions-view.jsx:78
+#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "未知的"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:67
+#: src/subscriptions-view.jsx:70
 msgid "Unknown status"
 msgstr "未知状态"
 
-#: src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310
 msgid "Unregister"
 msgstr "取消注册"
 
-#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
 msgid "Unregistering"
 msgstr "正在取消注册"
 
-#: src/subscriptions-view.jsx:504
+#: src/subscriptions-view.jsx:507
 msgid "Updating"
 msgstr "更新"
 
@@ -452,7 +452,7 @@ msgid "Updating status ..."
 msgstr "更新状态 ..."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:255
+#: src/subscriptions-view.jsx:258
 msgid "Usage"
 msgstr "使用"
 
@@ -465,7 +465,7 @@ msgid "Username"
 msgstr "用户名"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:124
+#: src/subscriptions-view.jsx:127
 msgid "Version"
 msgstr "版本"
 
@@ -479,11 +479,11 @@ msgstr "candlepin"
 
 #: src/subscriptions-register.jsx:47
 msgid "hostname:port"
-msgstr "主机名:端口"
+msgstr ""
 
 #: src/subscriptions-register.jsx:121
 msgid "key_one,key_two"
-msgstr "密钥一,密钥二"
+msgstr ""
 
 #: src/subscriptions-client.js:454
 msgid "not-found"
