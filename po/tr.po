@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-07 06:50+0000\n"
+"POT-Creation-Date: 2026-06-20 06:48+0000\n"
 "PO-Revision-Date: 2026-05-16 16:59+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -42,7 +42,7 @@ msgstr[1] "$0 paketin kaldırılması gerekiyor."
 msgid "'Organization' is required when using activation keys"
 msgstr "Etkinleştirme anahtarlarını kullanırken 'Kuruluş' gereklidir"
 
-#: src/subscriptions-view.jsx:520
+#: src/subscriptions-view.jsx:523
 msgid "Access denied"
 msgstr "Erişim engellendi"
 
@@ -58,7 +58,7 @@ msgstr "Etkinleştirme Anahtarı"
 msgid "Activation key"
 msgstr "Etkinleştirme anahtarı"
 
-#: src/subscriptions-view.jsx:265
+#: src/subscriptions-view.jsx:268
 msgid "Add-ons"
 msgstr "Eklenti"
 
@@ -66,7 +66,7 @@ msgstr "Eklenti"
 msgid "Additional packages:"
 msgstr "Ek paketler:"
 
-#: src/subscriptions-view.jsx:128
+#: src/subscriptions-view.jsx:131
 msgid "Arch"
 msgstr "Kemer"
 
@@ -110,7 +110,7 @@ msgstr "Insights'a bağlanılıyor"
 msgid "Corrupted JSON with status"
 msgstr "Bozuk JSON durumu"
 
-#: src/subscriptions-view.jsx:525
+#: src/subscriptions-view.jsx:528
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -138,7 +138,7 @@ msgstr "Insights bağlantısını kes"
 msgid "Downloading $0"
 msgstr "$0 indiriliyor"
 
-#: src/subscriptions-view.jsx:144
+#: src/subscriptions-view.jsx:147
 msgid "Ends"
 msgstr "Bitiş"
 
@@ -158,7 +158,7 @@ msgstr ""
 msgid "Insights"
 msgstr "Insights"
 
-#: src/subscriptions-view.jsx:167 src/subscriptions-view.jsx:170
+#: src/subscriptions-view.jsx:170 src/subscriptions-view.jsx:173
 msgid "Installed products"
 msgstr "Kurulu ürünler"
 
@@ -202,11 +202,11 @@ msgstr "Yöntem"
 msgid "Next Insights data upload"
 msgstr "Sonraki Insights verilerini yükleme"
 
-#: src/subscriptions-view.jsx:173
+#: src/subscriptions-view.jsx:176
 msgid "No installed products detected"
 msgstr "Algılanan kurulu ürünler yok"
 
-#: src/subscriptions-view.jsx:275
+#: src/subscriptions-view.jsx:278
 msgid "No system purpose attributes set"
 msgstr "Ayarlı sistem amaçlı öznitelikler yok"
 
@@ -214,19 +214,19 @@ msgstr "Ayarlı sistem amaçlı öznitelikler yok"
 msgid "Not connected"
 msgstr "Bağlı değil"
 
-#: src/subscriptions-view.jsx:295
+#: src/subscriptions-view.jsx:298
 msgid "Not registered"
 msgstr "Kayıtlı değil"
 
-#: src/subscriptions-view.jsx:60
+#: src/subscriptions-view.jsx:63
 msgid "Not subscribed"
 msgstr "Abone olunmadı"
 
-#: src/subscriptions-view.jsx:62
+#: src/subscriptions-view.jsx:65
 msgid "Not subscribed ($0)"
 msgstr "Abone olunmadı ($0)"
 
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:328
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
 msgid "Organization"
 msgstr "Kuruluş"
 
@@ -234,15 +234,15 @@ msgstr "Kuruluş"
 msgid "Organization ID"
 msgstr "Kuruluş kimliği"
 
-#: src/subscriptions-view.jsx:316
+#: src/subscriptions-view.jsx:319
 msgid "Overview"
 msgstr "Genel bakış"
 
-#: src/subscriptions-view.jsx:54
+#: src/subscriptions-view.jsx:57
 msgid "Partially subscribed"
 msgstr "Kısmen abone olundu"
 
-#: src/subscriptions-view.jsx:56
+#: src/subscriptions-view.jsx:59
 msgid "Partially subscribed ($0)"
 msgstr "Kısmen abone olundu ($0)"
 
@@ -261,11 +261,11 @@ msgstr ""
 "tahmine dayalı çözümlemelerle Red Hat ortamınızdaki sorunları ve "
 "planlanmamış kesinti sürelerini önleyin."
 
-#: src/subscriptions-view.jsx:120
+#: src/subscriptions-view.jsx:123
 msgid "Product ID"
 msgstr "Ürün kimliği"
 
-#: src/subscriptions-view.jsx:36 src/subscriptions-view.jsx:116
+#: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
 msgstr "Ürün adı"
 
@@ -285,15 +285,15 @@ msgstr "Proksi Kullanıcı Adı"
 msgid "Red Hat Subscription Manager"
 msgstr "Red Hat Abonelik Yöneticisi"
 
-#: src/subscriptions-view.jsx:297 src/subscriptions-view.jsx:391
+#: src/subscriptions-view.jsx:300 src/subscriptions-view.jsx:394
 msgid "Register"
 msgstr "Kaydol"
 
-#: src/subscriptions-view.jsx:463
+#: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "Kayıt Sistemi"
 
-#: src/subscriptions-view.jsx:301
+#: src/subscriptions-view.jsx:304
 msgid "Registered"
 msgstr "Kaydolundu"
 
@@ -313,11 +313,11 @@ msgstr "Kaldırılanlar:"
 msgid "Removing $0"
 msgstr "$0 kaldırılıyor"
 
-#: src/subscriptions-view.jsx:505
+#: src/subscriptions-view.jsx:508
 msgid "Retrieving subscription status..."
 msgstr "Abonelik durumu alınıyor..."
 
-#: src/subscriptions-view.jsx:260
+#: src/subscriptions-view.jsx:263
 msgid "Role"
 msgstr "Rol"
 
@@ -325,7 +325,7 @@ msgstr "Rol"
 msgid "Saving configuration ..."
 msgstr "Yapılandırma kaydediliyor..."
 
-#: src/subscriptions-view.jsx:250
+#: src/subscriptions-view.jsx:253
 msgid "Service level"
 msgstr "Hizmet seviyesi"
 
@@ -333,11 +333,11 @@ msgstr "Hizmet seviyesi"
 msgid "Starting registration service ..."
 msgstr "Kayıt hizmeti başlatılıyor..."
 
-#: src/subscriptions-view.jsx:140
+#: src/subscriptions-view.jsx:143
 msgid "Starts"
 msgstr "Başlangıç"
 
-#: src/subscriptions-view.jsx:136 src/subscriptions-view.jsx:321
+#: src/subscriptions-view.jsx:139 src/subscriptions-view.jsx:324
 msgid "Status"
 msgstr "Durum"
 
@@ -345,7 +345,7 @@ msgstr "Durum"
 msgid "Stopping registration service ..."
 msgstr "Kayıt hizmeti durduruluyor..."
 
-#: src/subscriptions-view.jsx:50
+#: src/subscriptions-view.jsx:53
 msgid "Subscribed"
 msgstr "Abone olundu"
 
@@ -361,7 +361,7 @@ msgstr "Cockpit'teki Abonelik Yöneticisi"
 msgid "Subscriptions"
 msgstr "Abonelikler"
 
-#: src/subscriptions-view.jsx:284
+#: src/subscriptions-view.jsx:287
 msgid "System purpose"
 msgstr "Sistem amacı"
 
@@ -379,7 +379,7 @@ msgstr "$0 paketi hiçbir depoda yok."
 msgid "The $0 package will be installed."
 msgstr "$0 paketi kurulacaktır."
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:524
 msgid "The current user isn't allowed to access system subscription status."
 msgstr ""
 "Şu anki kullanıcının sistem abonelik durumuna erişmesine izin verilmiyor."
@@ -388,7 +388,7 @@ msgstr ""
 msgid "The last Insights data upload has failed."
 msgstr "Son Insights veri yüklemesi başarısız oldu."
 
-#: src/subscriptions-view.jsx:517
+#: src/subscriptions-view.jsx:520
 msgid ""
 "The rhsm service is unavailable. Make sure subscription-manager is installed "
 "and try reloading the page."
@@ -412,32 +412,32 @@ msgstr "Bu sistem $0 sistemine bağlanmadı."
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:526
 msgid "Unable to connect"
 msgstr "Bağlanamıyor"
 
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:521
 msgid "Unable to the reach the rhsm service."
 msgstr "Rhsm hizmetine ulaşılamıyor."
 
-#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
-#: src/subscriptions-view.jsx:78
+#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "Bilinmiyor"
 
-#: src/subscriptions-view.jsx:67
+#: src/subscriptions-view.jsx:70
 msgid "Unknown status"
 msgstr "Bilinmeyen durum"
 
-#: src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310
 msgid "Unregister"
 msgstr "Kaydı kaldır"
 
-#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
 msgid "Unregistering"
 msgstr "Kayıt kaldırılıyor"
 
-#: src/subscriptions-view.jsx:504
+#: src/subscriptions-view.jsx:507
 msgid "Updating"
 msgstr "Güncelleniyor"
 
@@ -445,7 +445,7 @@ msgstr "Güncelleniyor"
 msgid "Updating status ..."
 msgstr "Durum güncelleniyor..."
 
-#: src/subscriptions-view.jsx:255
+#: src/subscriptions-view.jsx:258
 msgid "Usage"
 msgstr "Kullanım"
 
@@ -457,7 +457,7 @@ msgstr "Proksi sunucusu kullan"
 msgid "Username"
 msgstr "Kullanıcı adı"
 
-#: src/subscriptions-view.jsx:124
+#: src/subscriptions-view.jsx:127
 msgid "Version"
 msgstr "Sürüm"
 

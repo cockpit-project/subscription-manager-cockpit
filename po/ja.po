@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-07 06:50+0000\n"
+"POT-Creation-Date: 2026-06-20 06:48+0000\n"
 "PO-Revision-Date: 2022-06-15 12:24+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -32,7 +32,7 @@ msgstr[0] "$0 パッケージは削除する必要があります。"
 msgid "'Organization' is required when using activation keys"
 msgstr "アクティベーションキーを使用する場合は '組織' が必要です"
 
-#: src/subscriptions-view.jsx:520
+#: src/subscriptions-view.jsx:523
 msgid "Access denied"
 msgstr "アクセスは拒否されました"
 
@@ -49,7 +49,7 @@ msgstr "アクティベーションキー"
 msgid "Activation key"
 msgstr "アクティベーションキー"
 
-#: src/subscriptions-view.jsx:265
+#: src/subscriptions-view.jsx:268
 msgid "Add-ons"
 msgstr "アドオン"
 
@@ -58,7 +58,7 @@ msgid "Additional packages:"
 msgstr "追加のパッケージ:"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author khasida
-#: src/subscriptions-view.jsx:128
+#: src/subscriptions-view.jsx:131
 msgid "Arch"
 msgstr "アーキテクチャー"
 
@@ -104,7 +104,7 @@ msgstr "Insights への接続"
 msgid "Corrupted JSON with status"
 msgstr "ステータスを持つ破損した JSON"
 
-#: src/subscriptions-view.jsx:525
+#: src/subscriptions-view.jsx:528
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed. Reported status: $0 ($1)"
@@ -133,7 +133,7 @@ msgstr "Insights からの切断"
 msgid "Downloading $0"
 msgstr "$0 をダウンロード中"
 
-#: src/subscriptions-view.jsx:144
+#: src/subscriptions-view.jsx:147
 msgid "Ends"
 msgstr "終了"
 
@@ -153,7 +153,7 @@ msgstr ""
 msgid "Insights"
 msgstr "Insights"
 
-#: src/subscriptions-view.jsx:167 src/subscriptions-view.jsx:170
+#: src/subscriptions-view.jsx:170 src/subscriptions-view.jsx:173
 msgid "Installed products"
 msgstr "インストール済みの製品"
 
@@ -197,11 +197,11 @@ msgid "Next Insights data upload"
 msgstr "次の Insights データのアップロード"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:173
+#: src/subscriptions-view.jsx:176
 msgid "No installed products detected"
 msgstr "インストール済みの製品は検出されませんでした"
 
-#: src/subscriptions-view.jsx:275
+#: src/subscriptions-view.jsx:278
 msgid "No system purpose attributes set"
 msgstr "設定されているシステム目的属性なし"
 
@@ -210,22 +210,22 @@ msgid "Not connected"
 msgstr "接続していません"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author noriko
-#: src/subscriptions-view.jsx:295
+#: src/subscriptions-view.jsx:298
 msgid "Not registered"
 msgstr "登録されていません"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:60
+#: src/subscriptions-view.jsx:63
 msgid "Not subscribed"
 msgstr "サブスクライブなし"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:62
+#: src/subscriptions-view.jsx:65
 msgid "Not subscribed ($0)"
 msgstr "サブスクライブなし ($0)"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author khasida
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:328
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
 msgid "Organization"
 msgstr "組織"
 
@@ -234,17 +234,17 @@ msgstr "組織"
 msgid "Organization ID"
 msgstr "組織 ID"
 
-#: src/subscriptions-view.jsx:316
+#: src/subscriptions-view.jsx:319
 msgid "Overview"
 msgstr "概要"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author khasida
-#: src/subscriptions-view.jsx:54
+#: src/subscriptions-view.jsx:57
 msgid "Partially subscribed"
 msgstr "部分的にサブスクライブ済み"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author khasida
-#: src/subscriptions-view.jsx:56
+#: src/subscriptions-view.jsx:59
 msgid "Partially subscribed ($0)"
 msgstr "部分的にサブスクライブ済み ($0)"
 
@@ -262,11 +262,11 @@ msgstr ""
 "性に対する脅威を積極的に特定し、修正することができます。予測分析により、Red "
 "Hat 環境における問題や計画外のダウンタイムを回避します。"
 
-#: src/subscriptions-view.jsx:120
+#: src/subscriptions-view.jsx:123
 msgid "Product ID"
 msgstr "製品 ID"
 
-#: src/subscriptions-view.jsx:36 src/subscriptions-view.jsx:116
+#: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
 msgstr "製品名"
 
@@ -288,17 +288,17 @@ msgid "Red Hat Subscription Manager"
 msgstr "Red Hat サブスクリプションマネージャー"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:297 src/subscriptions-view.jsx:391
+#: src/subscriptions-view.jsx:300 src/subscriptions-view.jsx:394
 msgid "Register"
 msgstr "登録"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:463
+#: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "システムの登録"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:301
+#: src/subscriptions-view.jsx:304
 #, fuzzy
 #| msgid "Register"
 msgid "Registered"
@@ -320,11 +320,11 @@ msgstr "削除:"
 msgid "Removing $0"
 msgstr "$0 を削除中"
 
-#: src/subscriptions-view.jsx:505
+#: src/subscriptions-view.jsx:508
 msgid "Retrieving subscription status..."
 msgstr "サブスクリプションステータスを再取得中 ..."
 
-#: src/subscriptions-view.jsx:260
+#: src/subscriptions-view.jsx:263
 msgid "Role"
 msgstr "ロール"
 
@@ -333,7 +333,7 @@ msgid "Saving configuration ..."
 msgstr "設定を保存中..."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:250
+#: src/subscriptions-view.jsx:253
 msgid "Service level"
 msgstr "サービスレベル"
 
@@ -341,12 +341,12 @@ msgstr "サービスレベル"
 msgid "Starting registration service ..."
 msgstr "登録サービスを開始中..."
 
-#: src/subscriptions-view.jsx:140
+#: src/subscriptions-view.jsx:143
 msgid "Starts"
 msgstr "開始"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:136 src/subscriptions-view.jsx:321
+#: src/subscriptions-view.jsx:139 src/subscriptions-view.jsx:324
 msgid "Status"
 msgstr "状態"
 
@@ -355,7 +355,7 @@ msgid "Stopping registration service ..."
 msgstr "登録サービスを停止中..."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:50
+#: src/subscriptions-view.jsx:53
 msgid "Subscribed"
 msgstr "サブスクライブ済み"
 
@@ -373,7 +373,7 @@ msgstr "Cockpit のサブスクリプションマネージャー"
 msgid "Subscriptions"
 msgstr "サブスクリプション"
 
-#: src/subscriptions-view.jsx:284
+#: src/subscriptions-view.jsx:287
 msgid "System purpose"
 msgstr "システムの目的"
 
@@ -390,7 +390,7 @@ msgstr "$0 パッケージは、あらゆるリポジトリーから利用でき
 msgid "The $0 package will be installed."
 msgstr "$0 パッケージがインストールされます。"
 
-#: src/subscriptions-view.jsx:521
+#: src/subscriptions-view.jsx:524
 msgid "The current user isn't allowed to access system subscription status."
 msgstr ""
 "現在のユーザーには、システムサブスクリプションステータスへのアクセスが許可さ"
@@ -400,7 +400,7 @@ msgstr ""
 msgid "The last Insights data upload has failed."
 msgstr "最後の Insights データのアップロードに失敗しました。"
 
-#: src/subscriptions-view.jsx:517
+#: src/subscriptions-view.jsx:520
 #, fuzzy
 #| msgid ""
 #| "Couldn't get system subscription status. Please ensure subscription-"
@@ -429,35 +429,35 @@ msgstr "このシステムは $0 に接続されていません。"
 msgid "URL"
 msgstr "URL"
 
-#: src/subscriptions-view.jsx:523
+#: src/subscriptions-view.jsx:526
 msgid "Unable to connect"
 msgstr "接続できません"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author noriko
-#: src/subscriptions-view.jsx:518
+#: src/subscriptions-view.jsx:521
 msgid "Unable to the reach the rhsm service."
 msgstr "rhsm サービスに到達できません。"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author khasida
-#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:72
-#: src/subscriptions-view.jsx:78
+#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "不明"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys, author khasida
-#: src/subscriptions-view.jsx:67
+#: src/subscriptions-view.jsx:70
 msgid "Unknown status"
 msgstr "不明なステータス"
 
-#: src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310
 msgid "Unregister"
 msgstr "登録解除"
 
-#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:307
+#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
 msgid "Unregistering"
 msgstr "登録の解除中"
 
-#: src/subscriptions-view.jsx:504
+#: src/subscriptions-view.jsx:507
 msgid "Updating"
 msgstr "更新中"
 
@@ -466,7 +466,7 @@ msgid "Updating status ..."
 msgstr "ステータスを更新中..."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:255
+#: src/subscriptions-view.jsx:258
 msgid "Usage"
 msgstr "使用方法"
 
@@ -479,7 +479,7 @@ msgid "Username"
 msgstr "ユーザー名"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-view.jsx:124
+#: src/subscriptions-view.jsx:127
 msgid "Version"
 msgstr "バージョン"
 
