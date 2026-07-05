@@ -29,12 +29,12 @@
     "react-dom": "18.3.1"
   },
   "dependencies": {
-    "@patternfly/patternfly": "6.5.2",
-    "@patternfly/react-core": "6.5.1",
-    "@patternfly/react-icons": "6.5.1",
-    "@patternfly/react-styles": "6.5.1",
-    "@patternfly/react-table": "6.5.1",
-    "@patternfly/react-tokens": "6.5.1",
+    "@patternfly/patternfly": "6.6.0",
+    "@patternfly/react-core": "6.6.0",
+    "@patternfly/react-icons": "6.6.0",
+    "@patternfly/react-styles": "6.6.0",
+    "@patternfly/react-table": "6.6.0",
+    "@patternfly/react-tokens": "6.6.0",
     "argparse": "3.0.0",
     "esbuild-sass-plugin": "3.7.0",
     "esbuild": "0.28.1",
