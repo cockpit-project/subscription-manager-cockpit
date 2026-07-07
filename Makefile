@@ -164,7 +164,7 @@ $(TARFILE): $(DIST_TEST) $(SPEC)
 		dist/
 
 $(NODE_CACHE): $(NODE_MODULES_TEST)
-	tar --xz $(TAR_ARGS) -cf $@ node_modules
+	tools/node-modules runtime-tar $(NODE_CACHE)
 
 node-cache: $(NODE_CACHE)
 
