@@ -18,6 +18,7 @@ actions:
   get-current-version: make print-version
 
 srpm_build_deps:
+  - jq
   - make
   - npm
 
