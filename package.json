@@ -38,7 +38,7 @@
     "argparse": "2.0.1",
     "esbuild-sass-plugin": "3.7.0",
     "esbuild": "0.28.1",
-    "gettext-parser": "9.0.2"
+    "gettext-parser": "9.1.1"
   },
   "engines": {
     "npm": "*"
