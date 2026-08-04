@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
-"PO-Revision-Date: 2026-07-15 17:16+0000\n"
+"POT-Creation-Date: 2026-07-31 05:52+0000\n"
+"PO-Revision-Date: 2026-07-31 19:17+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit/"
 "subscription-manager-cockpit/ru/>\n"
@@ -39,7 +39,7 @@ msgstr "Доступ запрещен"
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
 #: src/subscriptions-register.jsx:161
 msgid "Account"
-msgstr "Учетная запись"
+msgstr "Учётная запись"
 
 #: src/subscriptions-register.jsx:119
 msgid "Activation Key"
@@ -226,7 +226,7 @@ msgid "Not subscribed ($0)"
 msgstr "Не подписано ($0)"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "Организация"
 
@@ -423,7 +423,7 @@ msgstr "Эта система не подключена к $0."
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
 #: src/subscriptions-register.jsx:141
 msgid "URL"
-msgstr "URL-адрес"
+msgstr "URL"
 
 #: src/subscriptions-view.jsx:526
 msgid "Unable to connect"
@@ -435,8 +435,8 @@ msgid "Unable to the reach the rhsm service."
 msgstr "Невозможно связаться со службой rhsm."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
-#: src/subscriptions-client.js:34
+#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:75
+#: src/subscriptions-view.jsx:81
 msgid "Unknown"
 msgstr "Неизвестно"
 
@@ -449,7 +449,7 @@ msgstr "Неизвестный статус"
 msgid "Unregister"
 msgstr "Удалить регистрацию"
 
-#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
+#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:310
 msgid "Unregistering"
 msgstr "Отмена регистрации"
 
