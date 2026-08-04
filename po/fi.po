@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-31 05:52+0000\n"
 "PO-Revision-Date: 2026-04-16 08:59+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -226,7 +226,7 @@ msgstr "Ei tilattu"
 msgid "Not subscribed ($0)"
 msgstr "Ei tilattu ($0)"
 
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "Organisaatio"
 
@@ -428,8 +428,8 @@ msgstr "Yhteyttä ei voi muodostaa"
 msgid "Unable to the reach the rhsm service."
 msgstr "rhsm-palveluun ei saada yhteyttä."
 
-#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
-#: src/subscriptions-client.js:34
+#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:75
+#: src/subscriptions-view.jsx:81
 msgid "Unknown"
 msgstr "Tuntematon"
 
@@ -441,7 +441,7 @@ msgstr "Tuntematon tila"
 msgid "Unregister"
 msgstr "Poista rekisteröinti"
 
-#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
+#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:310
 msgid "Unregistering"
 msgstr "Poistetaan rekisteröinti"
 

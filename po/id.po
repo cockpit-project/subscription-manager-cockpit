@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-31 05:52+0000\n"
 "PO-Revision-Date: 2026-06-25 07:17+0000\n"
 "Last-Translator: eko ikhyar <ikhyar.com@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -222,7 +222,7 @@ msgstr "Tidak berlangganan"
 msgid "Not subscribed ($0)"
 msgstr "Tidak berlangganan ($0)"
 
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "Organisasi"
 
@@ -423,8 +423,8 @@ msgstr "Tidak dapat terhubung"
 msgid "Unable to the reach the rhsm service."
 msgstr "Tidak dapat menjangkau layanan rhsm."
 
-#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
-#: src/subscriptions-client.js:34
+#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:75
+#: src/subscriptions-view.jsx:81
 msgid "Unknown"
 msgstr "Tidak diketahui"
 
@@ -436,7 +436,7 @@ msgstr "Status tidak diketahui"
 msgid "Unregister"
 msgstr "Batalkan pendaftaran"
 
-#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
+#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:310
 msgid "Unregistering"
 msgstr "Membatalkan pendaftaran"
 

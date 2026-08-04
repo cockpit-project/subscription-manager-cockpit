@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-31 05:52+0000\n"
 "PO-Revision-Date: 2026-05-16 16:59+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -212,7 +212,7 @@ msgstr "არაა გამოწერილი"
 msgid "Not subscribed ($0)"
 msgstr "გამოწერილი არაა ($0)"
 
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "ორგანიზაცია"
 
@@ -405,8 +405,8 @@ msgstr "კავშირის შეცდომა"
 msgid "Unable to the reach the rhsm service."
 msgstr "სერვისთან rhsm დაკავშირება შეუძლებელია."
 
-#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
-#: src/subscriptions-client.js:34
+#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:75
+#: src/subscriptions-view.jsx:81
 msgid "Unknown"
 msgstr "უცნობი"
 
@@ -418,7 +418,7 @@ msgstr "უცნობი სტატუსი"
 msgid "Unregister"
 msgstr "რეგისტრაციის მოხსნა"
 
-#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
+#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:310
 msgid "Unregistering"
 msgstr "რეგისტრაციის მოხსნა"
 
