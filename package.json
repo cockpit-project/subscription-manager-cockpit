@@ -14,7 +14,7 @@
     "eslint:fix": "eslint --fix --ext .jsx --ext .js src/"
   },
   "devDependencies": {
-    "esbuild-wasm": "0.28.1",
+    "esbuild-wasm": "0.28.2",
     "eslint": "8.57.1",
     "eslint-config-standard": "17.1.0",
     "eslint-config-standard-jsx": "11.0.0",
@@ -37,7 +37,7 @@
     "@patternfly/react-tokens": "6.6.0",
     "argparse": "3.0.0",
     "esbuild-sass-plugin": "3.7.0",
-    "esbuild": "0.28.1",
+    "esbuild": "0.28.2",
     "gettext-parser": "9.1.1"
   },
   "engines": {
