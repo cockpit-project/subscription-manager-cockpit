@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:07+0000\n"
+"POT-Creation-Date: 2026-09-10 07:31+0000\n"
 "PO-Revision-Date: 2026-05-16 16:59+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -154,7 +154,7 @@ msgstr ""
 "Eğer bu sistemin Insights ile olan bağlantısını keserseniz, sistem artık "
 "Insights durumunu Red Hat Cloud veya Satellite'a raporlamayacaktır."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -226,7 +226,7 @@ msgstr "Abone olunmadı"
 msgid "Not subscribed ($0)"
 msgstr "Abone olunmadı ($0)"
 
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "Kuruluş"
 
@@ -375,7 +375,7 @@ msgstr[1] "$0 paketi ve $1 diğer paket kurulacaktır."
 msgid "The $0 package is not available from any repository."
 msgstr "$0 paketi hiçbir depoda yok."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "$0 paketi kurulacaktır."
 

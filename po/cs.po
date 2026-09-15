@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:07+0000\n"
+"POT-Creation-Date: 2026-09-10 07:31+0000\n"
 "PO-Revision-Date: 2026-05-25 20:01+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
@@ -154,7 +154,7 @@ msgstr ""
 "Pokud tento systém odpojíte od Insights, nebude už hlásit svůj Insights stav "
 "v Red Hat Cloud nebo Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -227,7 +227,7 @@ msgstr "Nepokryto předplatným"
 msgid "Not subscribed ($0)"
 msgstr "Nepokryto předplatným ($0)"
 
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "Organizace"
 
@@ -376,7 +376,7 @@ msgstr[2] "Bude nainstalován balíček $0 a $1 dalších balíčků."
 msgid "The $0 package is not available from any repository."
 msgstr "Balíček $0 není k dispozici v žádném z repozitářů."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "Balíček $0 bude nainstalován."
 
