@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:07+0000\n"
+"POT-Creation-Date: 2026-09-10 07:31+0000\n"
 "PO-Revision-Date: 2026-05-07 03:59+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/cockpit/"
@@ -153,7 +153,7 @@ msgstr ""
 "ຖ້າທ່ານຕັດການເຊື່ອມຕໍ່ລະບົບນີ້ຈາກ Insights, ມັນຈະບໍ່ລາຍງານສະຖານະ Insights ໃນ Red Hat "
 "Cloud ຫຼື Satellite ອີກຕໍ່ໄປ."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -224,7 +224,7 @@ msgstr "ບໍ່ໄດ້ສະໝັກໃຊ້"
 msgid "Not subscribed ($0)"
 msgstr "ບໍ່ໄດ້ສະໝັກໃຊ້ ($0)"
 
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "ອົງກອນ"
 
@@ -371,7 +371,7 @@ msgstr[0] "ແພັກເກດ $0 ແລະ ອີກ $1 ແພັກເກດ
 msgid "The $0 package is not available from any repository."
 msgstr "ແພັກເກັດ $0 ບໍ່ມີໃຫ້ໃຊ້ຈາກ repository ໃດໆ."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "ແພັກເກດ $0 ຈະຖືກຕິດຕັ້ງ."
 

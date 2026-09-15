@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:07+0000\n"
+"POT-Creation-Date: 2026-09-10 07:31+0000\n"
 "PO-Revision-Date: 2026-05-22 07:01+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -146,7 +146,7 @@ msgstr ""
 "Se você desconectar este sistema do Insights, ele deixará de relatar seu "
 "status no Insights no Red Hat Cloud ou no Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -225,7 +225,7 @@ msgid "Not subscribed ($0)"
 msgstr "Não subscrito ($0)"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "Organização"
 
@@ -386,7 +386,7 @@ msgstr[1] "O pacote $0 e $1 pacotes adicionais serão instalados."
 msgid "The $0 package is not available from any repository."
 msgstr "O pacote $0 não está disponível em nenhum repositório."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "O pacote $0 será instalado."
 

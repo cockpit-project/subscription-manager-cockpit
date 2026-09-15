@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:07+0000\n"
+"POT-Creation-Date: 2026-09-10 07:31+0000\n"
 "PO-Revision-Date: 2026-06-20 10:11+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -147,7 +147,7 @@ msgstr ""
 "如果您断开此系统与 Insights 的连接，它将不会在红帽云或 Satellite 中报告其 "
 "Insights 状态。"
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -220,7 +220,7 @@ msgid "Not subscribed ($0)"
 msgstr "未订阅($0)"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "机构"
 
@@ -378,7 +378,7 @@ msgstr[0] "$0 软件包和 $1 个其他软件包将被安装。"
 msgid "The $0 package is not available from any repository."
 msgstr "所有仓库都不提供 $0。"
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "$0 软件包将被安装。"
 

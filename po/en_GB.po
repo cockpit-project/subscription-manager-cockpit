@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:07+0000\n"
+"POT-Creation-Date: 2026-09-10 07:31+0000\n"
 "PO-Revision-Date: 2026-08-23 19:19+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
@@ -154,7 +154,7 @@ msgstr ""
 "If you disconnect this system from Insights, it will no longer report its "
 "Insights status in Red Hat Cloud or Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -224,7 +224,7 @@ msgstr "Not subscribed"
 msgid "Not subscribed ($0)"
 msgstr "Not subscribed ($0)"
 
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "Organisation"
 
@@ -372,7 +372,7 @@ msgstr[1] "The $0 package and $1 other packages will be installed."
 msgid "The $0 package is not available from any repository."
 msgstr "The $0 package is not available from any repository."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "The $0 package will be installed."
 

@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:07+0000\n"
+"POT-Creation-Date: 2026-09-10 07:31+0000\n"
 "PO-Revision-Date: 2026-06-25 07:17+0000\n"
 "Last-Translator: eko ikhyar <ikhyar.com@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -153,7 +153,7 @@ msgstr ""
 "Jika Anda memutuskan sistem ini dari Insights, sistem ini tidak akan lagi "
 "melaporkan status Insights-nya di Red Hat Cloud atau Satellite."
 
-#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+#: src/subscriptions-register.jsx:71 src/insights.jsx:506
 msgid "Insights"
 msgstr "Insights"
 
@@ -222,7 +222,7 @@ msgstr "Tidak berlangganan"
 msgid "Not subscribed ($0)"
 msgstr "Tidak berlangganan ($0)"
 
-#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
 msgid "Organization"
 msgstr "Organisasi"
 
@@ -370,7 +370,7 @@ msgstr[0] "Paket $0 dan $1 paket lainnya akan dipasang."
 msgid "The $0 package is not available from any repository."
 msgstr "Paket $0 tidak tersedia dari repositori mana pun."
 
-#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+#: src/subscriptions-register.jsx:81 src/insights.jsx:152
 msgid "The $0 package will be installed."
 msgstr "Paket $0 akan dipasang."
 
