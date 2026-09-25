@@ -72,13 +72,15 @@ $(COCKPIT_REPO_STAMP): Makefile
 LINGUAS=$(basename $(notdir $(wildcard po/*.po)))
 
 po/$(PACKAGE_NAME).js.pot:
-	xgettext --default-domain=$(PACKAGE_NAME) --output=$@ --language=C --keyword= \
+	xgettext --default-domain=$(PACKAGE_NAME) --output=- --language=C --keyword= \
 		--keyword=_:1,1t --keyword=_:1c,2,2t --keyword=C_:1c,2 \
 		--keyword=N_ --keyword=NC_:1c,2 \
 		--keyword=gettext:1,1t --keyword=gettext:1c,2,2t \
 		--keyword=ngettext:1,2,3t --keyword=ngettext:1c,2,3,4t \
 		--keyword=gettextCatalog.getString:1,3c --keyword=gettextCatalog.getPlural:2,3,4c \
-		--from-code=UTF-8 $$(find src/ -name '*.js' -o -name '*.jsx')
+		--from-code=UTF-8 $$(find src/ -name '*.[jt]s' -o -name '*.[jt]sx') | \
+		sed '/^#/ s/, c-format//' | \
+		sed 's/charset=CHARSET/charset=UTF-8/g' > $@
 
 po/$(PACKAGE_NAME).html.pot: $(COCKPIT_REPO_STAMP)
 	pkg/lib/html2po -o $@ $$(find src -name '*.html')
@@ -87,13 +89,15 @@ po/$(PACKAGE_NAME).manifest.pot: $(COCKPIT_REPO_STAMP)
 	pkg/lib/manifest2po -o $@ src/manifest.json
 
 po/$(PACKAGE_NAME).metainfo.pot: $(APPSTREAMFILE)
-	xgettext --default-domain=$(PACKAGE_NAME) --output=$@ $<
+	xgettext --default-domain=$(PACKAGE_NAME) --output=- $< | \
+	sed 's/charset=CHARSET/charset=UTF-8/g' > $@
 
 po/$(PACKAGE_NAME).desktop.pot: $(DESKTOPFILE)
-	xgettext --default-domain=$(PACKAGE_NAME) --language=Desktop --output=$@ $<
+	xgettext --default-domain=$(PACKAGE_NAME) --output=- --language=Desktop $< | \
+	sed 's/charset=CHARSET/charset=UTF-8/g' > $@
 
 po/$(PACKAGE_NAME).pot: po/$(PACKAGE_NAME).html.pot po/$(PACKAGE_NAME).js.pot po/$(PACKAGE_NAME).manifest.pot po/$(PACKAGE_NAME).metainfo.pot po/$(PACKAGE_NAME).desktop.pot
-	msgcat --sort-output --output-file=$@ $^
+	xgettext --output=$@ $^
 
 po/LINGUAS:
 	echo $(LINGUAS) | tr ' ' '\n' > $@
