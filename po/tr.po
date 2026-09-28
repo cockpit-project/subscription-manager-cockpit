@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-10 07:31+0000\n"
+"POT-Creation-Date: 2026-09-28 08:58+0000\n"
 "PO-Revision-Date: 2026-05-16 16:59+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -420,8 +420,8 @@ msgstr "Bağlanamıyor"
 msgid "Unable to the reach the rhsm service."
 msgstr "Rhsm hizmetine ulaşılamıyor."
 
-#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:75
-#: src/subscriptions-view.jsx:81
+#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "Bilinmiyor"
 
@@ -433,7 +433,7 @@ msgstr "Bilinmeyen durum"
 msgid "Unregister"
 msgstr "Kaydı kaldır"
 
-#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:310
+#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
 msgid "Unregistering"
 msgstr "Kayıt kaldırılıyor"
 

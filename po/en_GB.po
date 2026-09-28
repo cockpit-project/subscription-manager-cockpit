@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-10 07:31+0000\n"
+"POT-Creation-Date: 2026-09-28 08:58+0000\n"
 "PO-Revision-Date: 2026-08-23 19:19+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
@@ -416,8 +416,8 @@ msgstr "Unable to connect"
 msgid "Unable to the reach the rhsm service."
 msgstr "Unable to the reach the rhsm service."
 
-#: src/subscriptions-client.js:34 src/subscriptions-view.jsx:75
-#: src/subscriptions-view.jsx:81
+#: src/subscriptions-view.jsx:75 src/subscriptions-view.jsx:81
+#: src/subscriptions-client.js:34
 msgid "Unknown"
 msgstr "Unknown"
 
@@ -429,7 +429,7 @@ msgstr "Unknown status"
 msgid "Unregister"
 msgstr "Unregister"
 
-#: src/subscriptions-client.js:433 src/subscriptions-view.jsx:310
+#: src/subscriptions-view.jsx:310 src/subscriptions-client.js:433
 msgid "Unregistering"
 msgstr "Unregistering"
 
