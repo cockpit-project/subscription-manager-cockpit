@@ -14,7 +14,11 @@ if [ -e .git ]; then
 fi
 
 . /run/host/usr/lib/os-release
-export TEST_OS="${ID}-${VERSION_ID/./-}"
+if [ "${VARIANT_ID:-}" = "eln" ]; then
+    export TEST_OS="fedora-eln"
+else
+    export TEST_OS="${ID}-${VERSION_ID/./-}"
+fi
 
 # Chromium sometimes gets OOM killed on testing farm
 export TEST_BROWSER=firefox
