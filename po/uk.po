@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 10:21+0000\n"
+"POT-Creation-Date: 2026-11-22 10:20+0000\n"
 "PO-Revision-Date: 2026-05-16 16:59+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -36,86 +36,6 @@ msgstr ""
 #: src/index.html:9 src/manifest.json:0
 msgid "Subscriptions"
 msgstr "Підписки"
-
-#: src/subscriptions-register.jsx:45
-msgid "Proxy Location"
-msgstr "Розташування проксі"
-
-#: src/subscriptions-register.jsx:47
-msgid "hostname:port"
-msgstr "назва_вузла:порт"
-
-#: src/subscriptions-register.jsx:52
-msgid "Proxy Username"
-msgstr "Користувач проксі"
-
-#: src/subscriptions-register.jsx:59
-msgid "Proxy Password"
-msgstr "Пароль до проксі"
-
-#: src/subscriptions-register.jsx:71 src/insights.jsx:506
-msgid "Insights"
-msgstr "Огляди"
-
-#: src/subscriptions-register.jsx:74
-msgid "Connect this system to $0."
-msgstr "З'єднати цю систему із $0."
-
-#: src/subscriptions-register.jsx:81 src/insights.jsx:152
-msgid "The $0 package will be installed."
-msgstr "Пакунок $0 буде встановлено."
-
-#: src/subscriptions-register.jsx:94
-msgid "Username"
-msgstr "Користувач"
-
-#: src/subscriptions-register.jsx:100
-msgid "Password"
-msgstr "Пароль"
-
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
-msgid "Organization"
-msgstr "Організація"
-
-#: src/subscriptions-register.jsx:119
-msgid "Activation Key"
-msgstr "Ключ активації"
-
-#: src/subscriptions-register.jsx:121
-msgid "key_one,key_two"
-msgstr "ключ_один,ключ_два"
-
-#: src/subscriptions-register.jsx:125
-msgid "Organization ID"
-msgstr "Ід. організації"
-
-#: src/subscriptions-register.jsx:136
-msgid "Default"
-msgstr "Типовий"
-
-#: src/subscriptions-register.jsx:137
-msgid "Custom URL"
-msgstr "Нетипова адреса"
-
-#: src/subscriptions-register.jsx:141
-msgid "URL"
-msgstr "Адреса"
-
-#: src/subscriptions-register.jsx:152
-msgid "Use proxy server"
-msgstr "Використовувати проксі-сервер"
-
-#: src/subscriptions-register.jsx:157
-msgid "Method"
-msgstr "Метод"
-
-#: src/subscriptions-register.jsx:161
-msgid "Account"
-msgstr "Обліковий запис"
-
-#: src/subscriptions-register.jsx:167
-msgid "Activation key"
-msgstr "Ключ активації"
 
 #: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
@@ -230,6 +150,10 @@ msgstr "Знятись з реєстрації"
 msgid "Overview"
 msgstr "Огляд"
 
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+msgid "Organization"
+msgstr "Організація"
+
 #: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "Зареєструвати систему"
@@ -274,6 +198,56 @@ msgstr ""
 "Не вдалося отримати стан передплати системи. Будь ласка, переконайтеся, що "
 "встановлено subscription-manager. Повідомлення щодо стану: $0 ($1)"
 
+#: src/subscriptions-client.js:213
+msgid "'Organization' is required when using activation keys"
+msgstr "При використанні ключів активації слід вказати «Organization»"
+
+#: src/subscriptions-client.js:237
+msgid ""
+"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"Помилкове форматування адреси сервера; не можна одночасно використовувати "
+"синтаксис адреси IPv6 і назву вузла"
+
+#: src/subscriptions-client.js:272
+msgid ""
+"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"Помилкове форматування адреси проксі-сервера; не можна одночасно "
+"використовувати синтаксис адреси IPv6 і назву вузла"
+
+#: src/subscriptions-client.js:308
+msgid "Starting registration service ..."
+msgstr "Запуск служби реєстрації…"
+
+#: src/subscriptions-client.js:327
+msgid "Registering using activation key ..."
+msgstr "Реєстрація за допомогою ключа активації…"
+
+#: src/subscriptions-client.js:348
+msgid "Registering using username and password ..."
+msgstr "Реєстрація з використанням імені користувача і пароля…"
+
+#: src/subscriptions-client.js:377
+msgid "Stopping registration service ..."
+msgstr "Зупинення служби реєстрації…"
+
+#: src/subscriptions-client.js:401
+msgid "Saving configuration ..."
+msgstr "Збереження налаштувань…"
+
+#: src/subscriptions-client.js:421
+msgid "Updating status ..."
+msgstr "Оновлюємо стан…"
+
+#: src/subscriptions-client.js:454
+msgid "not-found"
+msgstr "не знайдено"
+
+#: src/subscriptions-client.js:490
+msgid "Corrupted JSON with status"
+msgstr "Пошкоджений JSON за станом"
+
 #: src/insights.jsx:76
 msgid "Error"
 msgstr "Помилка"
@@ -303,6 +277,10 @@ msgstr ""
 "Активно виявляйте та усувайте загрози безпеці, продуктивності, доступності "
 "та стабільності за допомогою Red Hat Insights — завдяки прогнозній аналітиці "
 "уникайте проблем і незапланованих простоїв у вашому середовищі Red Hat."
+
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+msgid "The $0 package will be installed."
+msgstr "Пакунок $0 буде встановлено."
 
 #: src/insights.jsx:154
 msgid "The $0 package and $1 other package will be installed."
@@ -410,55 +388,77 @@ msgstr "З'єднано з Insights"
 msgid "Not connected"
 msgstr "Не з'єднано"
 
-#: src/subscriptions-client.js:213
-msgid "'Organization' is required when using activation keys"
-msgstr "При використанні ключів активації слід вказати «Organization»"
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+msgid "Insights"
+msgstr "Огляди"
 
-#: src/subscriptions-client.js:237
-msgid ""
-"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"Помилкове форматування адреси сервера; не можна одночасно використовувати "
-"синтаксис адреси IPv6 і назву вузла"
+#: src/subscriptions-register.jsx:45
+msgid "Proxy Location"
+msgstr "Розташування проксі"
 
-#: src/subscriptions-client.js:272
-msgid ""
-"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"Помилкове форматування адреси проксі-сервера; не можна одночасно "
-"використовувати синтаксис адреси IPv6 і назву вузла"
+#: src/subscriptions-register.jsx:47
+msgid "hostname:port"
+msgstr "назва_вузла:порт"
 
-#: src/subscriptions-client.js:308
-msgid "Starting registration service ..."
-msgstr "Запуск служби реєстрації…"
+#: src/subscriptions-register.jsx:52
+msgid "Proxy Username"
+msgstr "Користувач проксі"
 
-#: src/subscriptions-client.js:327
-msgid "Registering using activation key ..."
-msgstr "Реєстрація за допомогою ключа активації…"
+#: src/subscriptions-register.jsx:59
+msgid "Proxy Password"
+msgstr "Пароль до проксі"
 
-#: src/subscriptions-client.js:348
-msgid "Registering using username and password ..."
-msgstr "Реєстрація з використанням імені користувача і пароля…"
+#: src/subscriptions-register.jsx:74
+msgid "Connect this system to $0."
+msgstr "З'єднати цю систему із $0."
 
-#: src/subscriptions-client.js:377
-msgid "Stopping registration service ..."
-msgstr "Зупинення служби реєстрації…"
+#: src/subscriptions-register.jsx:94
+msgid "Username"
+msgstr "Користувач"
 
-#: src/subscriptions-client.js:401
-msgid "Saving configuration ..."
-msgstr "Збереження налаштувань…"
+#: src/subscriptions-register.jsx:100
+msgid "Password"
+msgstr "Пароль"
 
-#: src/subscriptions-client.js:421
-msgid "Updating status ..."
-msgstr "Оновлюємо стан…"
+#: src/subscriptions-register.jsx:119
+msgid "Activation Key"
+msgstr "Ключ активації"
 
-#: src/subscriptions-client.js:454
-msgid "not-found"
-msgstr "не знайдено"
+#: src/subscriptions-register.jsx:121
+msgid "key_one,key_two"
+msgstr "ключ_один,ключ_два"
 
-#: src/subscriptions-client.js:490
-msgid "Corrupted JSON with status"
-msgstr "Пошкоджений JSON за станом"
+#: src/subscriptions-register.jsx:125
+msgid "Organization ID"
+msgstr "Ід. організації"
+
+#: src/subscriptions-register.jsx:136
+msgid "Default"
+msgstr "Типовий"
+
+#: src/subscriptions-register.jsx:137
+msgid "Custom URL"
+msgstr "Нетипова адреса"
+
+#: src/subscriptions-register.jsx:141
+msgid "URL"
+msgstr "Адреса"
+
+#: src/subscriptions-register.jsx:152
+msgid "Use proxy server"
+msgstr "Використовувати проксі-сервер"
+
+#: src/subscriptions-register.jsx:157
+msgid "Method"
+msgstr "Метод"
+
+#: src/subscriptions-register.jsx:161
+msgid "Account"
+msgstr "Обліковий запис"
+
+#: src/subscriptions-register.jsx:167
+msgid "Activation key"
+msgstr "Ключ активації"
 
 #: src/manifest.json:0
 msgid "subscriptions"
@@ -486,6 +486,6 @@ msgid ""
 msgstr ""
 "Керування передплатами на модуль Candlepin, зокрема для продуктів Red Hat."
 
-#: data/subscription-manager-cockpit.desktop:3
+#: data/subscription-manager-cockpit.desktop:2
 msgid "Red Hat Subscription Manager"
 msgstr "Керування передплатами Red Hat"

@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 10:21+0000\n"
+"POT-Creation-Date: 2026-11-22 10:20+0000\n"
 "PO-Revision-Date: 2026-05-17 10:15+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
@@ -36,86 +36,6 @@ msgstr ""
 #: src/index.html:9 src/manifest.json:0
 msgid "Subscriptions"
 msgstr "Abonamente"
-
-#: src/subscriptions-register.jsx:45
-msgid "Proxy Location"
-msgstr "Locația proxy-ului"
-
-#: src/subscriptions-register.jsx:47
-msgid "hostname:port"
-msgstr "nume-gazdă: port"
-
-#: src/subscriptions-register.jsx:52
-msgid "Proxy Username"
-msgstr "Nume utilizator proxy"
-
-#: src/subscriptions-register.jsx:59
-msgid "Proxy Password"
-msgstr "Parola proxy"
-
-#: src/subscriptions-register.jsx:71 src/insights.jsx:506
-msgid "Insights"
-msgstr "Insights"
-
-#: src/subscriptions-register.jsx:74
-msgid "Connect this system to $0."
-msgstr "Conectează acest sistem la $0."
-
-#: src/subscriptions-register.jsx:81 src/insights.jsx:152
-msgid "The $0 package will be installed."
-msgstr "Pachetul $0 va fi instalat."
-
-#: src/subscriptions-register.jsx:94
-msgid "Username"
-msgstr "Numele utilizatorului"
-
-#: src/subscriptions-register.jsx:100
-msgid "Password"
-msgstr "Parola"
-
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
-msgid "Organization"
-msgstr "Organizație"
-
-#: src/subscriptions-register.jsx:119
-msgid "Activation Key"
-msgstr "Cheia de activare"
-
-#: src/subscriptions-register.jsx:121
-msgid "key_one,key_two"
-msgstr "cheia_unu,cheia_doi"
-
-#: src/subscriptions-register.jsx:125
-msgid "Organization ID"
-msgstr "ID organizație"
-
-#: src/subscriptions-register.jsx:136
-msgid "Default"
-msgstr "Implicită"
-
-#: src/subscriptions-register.jsx:137
-msgid "Custom URL"
-msgstr "URL personalizat"
-
-#: src/subscriptions-register.jsx:141
-msgid "URL"
-msgstr "Adresa URL"
-
-#: src/subscriptions-register.jsx:152
-msgid "Use proxy server"
-msgstr "Utilizează server proxy"
-
-#: src/subscriptions-register.jsx:157
-msgid "Method"
-msgstr "Metodă"
-
-#: src/subscriptions-register.jsx:161
-msgid "Account"
-msgstr "Cont"
-
-#: src/subscriptions-register.jsx:167
-msgid "Activation key"
-msgstr "Cheia de activare"
 
 #: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
@@ -230,6 +150,10 @@ msgstr "Anulează înregistrarea"
 msgid "Overview"
 msgstr "Vedere de ansamblu"
 
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+msgid "Organization"
+msgstr "Organizație"
+
 #: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "Înregistrați sistemul"
@@ -276,6 +200,59 @@ msgstr ""
 "Nu s-a putut obține starea abonamentului de sistem. Asigurați-vă că este "
 "instalat programul de gestionare a abonamentelor. Starea raportată: $0 ($1)"
 
+#: src/subscriptions-client.js:213
+msgid "'Organization' is required when using activation keys"
+msgstr ""
+"Câmpul „Organizația” este obligatoriu atunci când se utilizează chei de "
+"activare"
+
+#: src/subscriptions-client.js:237
+msgid ""
+"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"Adresa URL a serverului este incorectă; sintaxa adresei IPv6 și numele de "
+"gazdă se exclud reciproc"
+
+#: src/subscriptions-client.js:272
+msgid ""
+"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"Adresa URL a proxy-ului este incorectă; sintaxa adresei IPv6 și numele de "
+"gazdă se exclud reciproc"
+
+#: src/subscriptions-client.js:308
+msgid "Starting registration service ..."
+msgstr "Se inițializează serviciul de înregistrare ..."
+
+#: src/subscriptions-client.js:327
+msgid "Registering using activation key ..."
+msgstr "Se efectuează înregistrarea folosind cheia de activare ..."
+
+#: src/subscriptions-client.js:348
+msgid "Registering using username and password ..."
+msgstr ""
+"Se efectuează înregistrarea folosind numele de utilizator și parola ..."
+
+#: src/subscriptions-client.js:377
+msgid "Stopping registration service ..."
+msgstr "Se oprește serviciul de înregistrare ..."
+
+#: src/subscriptions-client.js:401
+msgid "Saving configuration ..."
+msgstr "Se salvează configurația ..."
+
+#: src/subscriptions-client.js:421
+msgid "Updating status ..."
+msgstr "Se actualizează starea ..."
+
+#: src/subscriptions-client.js:454
+msgid "not-found"
+msgstr "nu a fost găsit"
+
+#: src/subscriptions-client.js:490
+msgid "Corrupted JSON with status"
+msgstr "JSON corupt cu starea"
+
 #: src/insights.jsx:76
 msgid "Error"
 msgstr "Eroare"
@@ -306,6 +283,10 @@ msgstr ""
 "performanței, disponibilității și stabilității cu ajutorul Red Hat Insights "
 "— grație analizelor predictive, evită problemele și întreruperile "
 "neplanificate în mediul dvs. Red Hat."
+
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+msgid "The $0 package will be installed."
+msgstr "Pachetul $0 va fi instalat."
 
 #: src/insights.jsx:154
 msgid "The $0 package and $1 other package will be installed."
@@ -413,58 +394,77 @@ msgstr "Conectat la Insights"
 msgid "Not connected"
 msgstr "Nu este conectat"
 
-#: src/subscriptions-client.js:213
-msgid "'Organization' is required when using activation keys"
-msgstr ""
-"Câmpul „Organizația” este obligatoriu atunci când se utilizează chei de "
-"activare"
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+msgid "Insights"
+msgstr "Insights"
 
-#: src/subscriptions-client.js:237
-msgid ""
-"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"Adresa URL a serverului este incorectă; sintaxa adresei IPv6 și numele de "
-"gazdă se exclud reciproc"
+#: src/subscriptions-register.jsx:45
+msgid "Proxy Location"
+msgstr "Locația proxy-ului"
 
-#: src/subscriptions-client.js:272
-msgid ""
-"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"Adresa URL a proxy-ului este incorectă; sintaxa adresei IPv6 și numele de "
-"gazdă se exclud reciproc"
+#: src/subscriptions-register.jsx:47
+msgid "hostname:port"
+msgstr "nume-gazdă: port"
 
-#: src/subscriptions-client.js:308
-msgid "Starting registration service ..."
-msgstr "Se inițializează serviciul de înregistrare ..."
+#: src/subscriptions-register.jsx:52
+msgid "Proxy Username"
+msgstr "Nume utilizator proxy"
 
-#: src/subscriptions-client.js:327
-msgid "Registering using activation key ..."
-msgstr "Se efectuează înregistrarea folosind cheia de activare ..."
+#: src/subscriptions-register.jsx:59
+msgid "Proxy Password"
+msgstr "Parola proxy"
 
-#: src/subscriptions-client.js:348
-msgid "Registering using username and password ..."
-msgstr ""
-"Se efectuează înregistrarea folosind numele de utilizator și parola ..."
+#: src/subscriptions-register.jsx:74
+msgid "Connect this system to $0."
+msgstr "Conectează acest sistem la $0."
 
-#: src/subscriptions-client.js:377
-msgid "Stopping registration service ..."
-msgstr "Se oprește serviciul de înregistrare ..."
+#: src/subscriptions-register.jsx:94
+msgid "Username"
+msgstr "Numele utilizatorului"
 
-#: src/subscriptions-client.js:401
-msgid "Saving configuration ..."
-msgstr "Se salvează configurația ..."
+#: src/subscriptions-register.jsx:100
+msgid "Password"
+msgstr "Parola"
 
-#: src/subscriptions-client.js:421
-msgid "Updating status ..."
-msgstr "Se actualizează starea ..."
+#: src/subscriptions-register.jsx:119
+msgid "Activation Key"
+msgstr "Cheia de activare"
 
-#: src/subscriptions-client.js:454
-msgid "not-found"
-msgstr "nu a fost găsit"
+#: src/subscriptions-register.jsx:121
+msgid "key_one,key_two"
+msgstr "cheia_unu,cheia_doi"
 
-#: src/subscriptions-client.js:490
-msgid "Corrupted JSON with status"
-msgstr "JSON corupt cu starea"
+#: src/subscriptions-register.jsx:125
+msgid "Organization ID"
+msgstr "ID organizație"
+
+#: src/subscriptions-register.jsx:136
+msgid "Default"
+msgstr "Implicită"
+
+#: src/subscriptions-register.jsx:137
+msgid "Custom URL"
+msgstr "URL personalizat"
+
+#: src/subscriptions-register.jsx:141
+msgid "URL"
+msgstr "Adresa URL"
+
+#: src/subscriptions-register.jsx:152
+msgid "Use proxy server"
+msgstr "Utilizează server proxy"
+
+#: src/subscriptions-register.jsx:157
+msgid "Method"
+msgstr "Metodă"
+
+#: src/subscriptions-register.jsx:161
+msgid "Account"
+msgstr "Cont"
+
+#: src/subscriptions-register.jsx:167
+msgid "Activation key"
+msgstr "Cheia de activare"
 
 #: src/manifest.json:0
 msgid "subscriptions"
@@ -493,6 +493,6 @@ msgstr ""
 "Gestionează abonamentele la un server Candlepin, cum ar fi pentru produsele "
 "Red Hat."
 
-#: data/subscription-manager-cockpit.desktop:3
+#: data/subscription-manager-cockpit.desktop:2
 msgid "Red Hat Subscription Manager"
 msgstr "Gestionarul de abonamente Red Hat"

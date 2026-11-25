@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 10:21+0000\n"
+"POT-Creation-Date: 2026-11-22 10:20+0000\n"
 "PO-Revision-Date: 2026-05-22 07:01+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
@@ -28,90 +28,6 @@ msgstr ""
 #: src/index.html:9 src/manifest.json:0
 msgid "Subscriptions"
 msgstr "서브스크립션"
-
-#: src/subscriptions-register.jsx:45
-msgid "Proxy Location"
-msgstr "프락시 위치"
-
-#: src/subscriptions-register.jsx:47
-msgid "hostname:port"
-msgstr "호스트이름:포트"
-
-#: src/subscriptions-register.jsx:52
-msgid "Proxy Username"
-msgstr "프락시 사용자이름"
-
-#: src/subscriptions-register.jsx:59
-msgid "Proxy Password"
-msgstr "프락시 비밀번호"
-
-#: src/subscriptions-register.jsx:71 src/insights.jsx:506
-msgid "Insights"
-msgstr "Insights"
-
-#: src/subscriptions-register.jsx:74
-msgid "Connect this system to $0."
-msgstr "이 시스템을 $0 에 연결합니다."
-
-#: src/subscriptions-register.jsx:81 src/insights.jsx:152
-msgid "The $0 package will be installed."
-msgstr "$0 꾸러미가 설치됩니다."
-
-#: src/subscriptions-register.jsx:94
-msgid "Username"
-msgstr "사용자 이름"
-
-#: src/subscriptions-register.jsx:100
-msgid "Password"
-msgstr "비밀번호"
-
-# translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
-msgid "Organization"
-msgstr "조직"
-
-#: src/subscriptions-register.jsx:119
-msgid "Activation Key"
-msgstr "활성키"
-
-#: src/subscriptions-register.jsx:121
-msgid "key_one,key_two"
-msgstr "키_하나,키_둘"
-
-# translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-register.jsx:125
-msgid "Organization ID"
-msgstr "조직 ID"
-
-#: src/subscriptions-register.jsx:136
-msgid "Default"
-msgstr "기본값"
-
-#: src/subscriptions-register.jsx:137
-msgid "Custom URL"
-msgstr "사용자 설정 URL"
-
-# translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-register.jsx:141
-msgid "URL"
-msgstr "URL"
-
-#: src/subscriptions-register.jsx:152
-msgid "Use proxy server"
-msgstr "프락시 서버 사용"
-
-#: src/subscriptions-register.jsx:157
-msgid "Method"
-msgstr "방식"
-
-# translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: src/subscriptions-register.jsx:161
-msgid "Account"
-msgstr "계정"
-
-#: src/subscriptions-register.jsx:167
-msgid "Activation key"
-msgstr "활성키"
 
 #: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
@@ -243,6 +159,11 @@ msgid "Overview"
 msgstr "개요"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+msgid "Organization"
+msgstr "조직"
+
+# translation auto-copied from project subscription-manager, version 1.11.X, document keys
 #: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "시스템 등록"
@@ -288,6 +209,54 @@ msgstr ""
 "시스템 서브스크립션 상태를 가져올 수 없습니다. subscription-manager가 설치되"
 "어 있는지 확인하세요. 보고된 상태: $0 ($1)"
 
+#: src/subscriptions-client.js:213
+msgid "'Organization' is required when using activation keys"
+msgstr "'조직'은 활성화 키를 사용 할 때 필요합니다"
+
+#: src/subscriptions-client.js:237
+msgid ""
+"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"잘못된 서버 URL; IPV6 주소 구문과 호스트이름은 상호 배타적이어야 합니다"
+
+#: src/subscriptions-client.js:272
+msgid ""
+"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"잘못된 프락시 URL; IPV6 주소 구문과 호스트이름은 상호 배타적이어야 합니다"
+
+#: src/subscriptions-client.js:308
+msgid "Starting registration service ..."
+msgstr "등록 서비스 시작 중..."
+
+#: src/subscriptions-client.js:327
+msgid "Registering using activation key ..."
+msgstr "활성키를 사용하여 등록 중..."
+
+#: src/subscriptions-client.js:348
+msgid "Registering using username and password ..."
+msgstr "사용자 이름과 비밀번호를 사용하여 등록 중..."
+
+#: src/subscriptions-client.js:377
+msgid "Stopping registration service ..."
+msgstr "등록 서비스 중지 중..."
+
+#: src/subscriptions-client.js:401
+msgid "Saving configuration ..."
+msgstr "설정 저장 중..."
+
+#: src/subscriptions-client.js:421
+msgid "Updating status ..."
+msgstr "상태 최신화 중 ..."
+
+#: src/subscriptions-client.js:454
+msgid "not-found"
+msgstr "찾을 수 없음"
+
+#: src/subscriptions-client.js:490
+msgid "Corrupted JSON with status"
+msgstr "손상된 상태 포함 JSON"
+
 #: src/insights.jsx:76
 msgid "Error"
 msgstr "오류"
@@ -317,6 +286,10 @@ msgstr ""
 "Red Hat Insights에서 예측 분석을 통해 보안, 성능, 가용성 및 안정성에 대한 위"
 "협을 사전에 식별하고 해결하여 Red Hat 환경에서 문제 및 계획되지 않은 다운 타"
 "임을 방지합니다."
+
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+msgid "The $0 package will be installed."
+msgstr "$0 꾸러미가 설치됩니다."
 
 #: src/insights.jsx:154
 msgid "The $0 package and $1 other package will be installed."
@@ -422,53 +395,80 @@ msgstr "Insights 에 연결되었습니다"
 msgid "Not connected"
 msgstr "연결되지 않음"
 
-#: src/subscriptions-client.js:213
-msgid "'Organization' is required when using activation keys"
-msgstr "'조직'은 활성화 키를 사용 할 때 필요합니다"
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+msgid "Insights"
+msgstr "Insights"
 
-#: src/subscriptions-client.js:237
-msgid ""
-"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"잘못된 서버 URL; IPV6 주소 구문과 호스트이름은 상호 배타적이어야 합니다"
+#: src/subscriptions-register.jsx:45
+msgid "Proxy Location"
+msgstr "프락시 위치"
 
-#: src/subscriptions-client.js:272
-msgid ""
-"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"잘못된 프락시 URL; IPV6 주소 구문과 호스트이름은 상호 배타적이어야 합니다"
+#: src/subscriptions-register.jsx:47
+msgid "hostname:port"
+msgstr "호스트이름:포트"
 
-#: src/subscriptions-client.js:308
-msgid "Starting registration service ..."
-msgstr "등록 서비스 시작 중..."
+#: src/subscriptions-register.jsx:52
+msgid "Proxy Username"
+msgstr "프락시 사용자이름"
 
-#: src/subscriptions-client.js:327
-msgid "Registering using activation key ..."
-msgstr "활성키를 사용하여 등록 중..."
+#: src/subscriptions-register.jsx:59
+msgid "Proxy Password"
+msgstr "프락시 비밀번호"
 
-#: src/subscriptions-client.js:348
-msgid "Registering using username and password ..."
-msgstr "사용자 이름과 비밀번호를 사용하여 등록 중..."
+#: src/subscriptions-register.jsx:74
+msgid "Connect this system to $0."
+msgstr "이 시스템을 $0 에 연결합니다."
 
-#: src/subscriptions-client.js:377
-msgid "Stopping registration service ..."
-msgstr "등록 서비스 중지 중..."
+#: src/subscriptions-register.jsx:94
+msgid "Username"
+msgstr "사용자 이름"
 
-#: src/subscriptions-client.js:401
-msgid "Saving configuration ..."
-msgstr "설정 저장 중..."
+#: src/subscriptions-register.jsx:100
+msgid "Password"
+msgstr "비밀번호"
 
-#: src/subscriptions-client.js:421
-msgid "Updating status ..."
-msgstr "상태 최신화 중 ..."
+#: src/subscriptions-register.jsx:119
+msgid "Activation Key"
+msgstr "활성키"
 
-#: src/subscriptions-client.js:454
-msgid "not-found"
-msgstr "찾을 수 없음"
+#: src/subscriptions-register.jsx:121
+msgid "key_one,key_two"
+msgstr "키_하나,키_둘"
 
-#: src/subscriptions-client.js:490
-msgid "Corrupted JSON with status"
-msgstr "손상된 상태 포함 JSON"
+# translation auto-copied from project subscription-manager, version 1.11.X, document keys
+#: src/subscriptions-register.jsx:125
+msgid "Organization ID"
+msgstr "조직 ID"
+
+#: src/subscriptions-register.jsx:136
+msgid "Default"
+msgstr "기본값"
+
+#: src/subscriptions-register.jsx:137
+msgid "Custom URL"
+msgstr "사용자 설정 URL"
+
+# translation auto-copied from project subscription-manager, version 1.11.X, document keys
+#: src/subscriptions-register.jsx:141
+msgid "URL"
+msgstr "URL"
+
+#: src/subscriptions-register.jsx:152
+msgid "Use proxy server"
+msgstr "프락시 서버 사용"
+
+#: src/subscriptions-register.jsx:157
+msgid "Method"
+msgstr "방식"
+
+# translation auto-copied from project subscription-manager, version 1.11.X, document keys
+#: src/subscriptions-register.jsx:161
+msgid "Account"
+msgstr "계정"
+
+#: src/subscriptions-register.jsx:167
+msgid "Activation key"
+msgstr "활성키"
 
 #: src/manifest.json:0
 msgid "subscriptions"
@@ -499,7 +499,7 @@ msgid ""
 msgstr "Red Hat 제품과 같은 Candlepin 백엔드에 대한 서브스크립션을 관리합니다."
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
-#: data/subscription-manager-cockpit.desktop:3
+#: data/subscription-manager-cockpit.desktop:2
 msgid "Red Hat Subscription Manager"
 msgstr "Red Hat 서브스크립션 관리자"
 
