@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhsm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 10:21+0000\n"
+"POT-Creation-Date: 2026-11-22 10:20+0000\n"
 "PO-Revision-Date: 2026-05-16 16:59+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -24,90 +24,6 @@ msgstr ""
 #: src/index.html:9 src/manifest.json:0
 msgid "Subscriptions"
 msgstr "Suscripciones"
-
-#: src/subscriptions-register.jsx:45
-msgid "Proxy Location"
-msgstr "Lugar del Proxy"
-
-#: src/subscriptions-register.jsx:47
-msgid "hostname:port"
-msgstr "nombrehost:puerto"
-
-#: src/subscriptions-register.jsx:52
-msgid "Proxy Username"
-msgstr "Nombre de usuario de Proxy"
-
-#: src/subscriptions-register.jsx:59
-msgid "Proxy Password"
-msgstr "Contraseña de Proxy"
-
-#: src/subscriptions-register.jsx:71 src/insights.jsx:506
-msgid "Insights"
-msgstr "Insights"
-
-#: src/subscriptions-register.jsx:74
-msgid "Connect this system to $0."
-msgstr "Conectar este sistema a $0."
-
-#: src/subscriptions-register.jsx:81 src/insights.jsx:152
-msgid "The $0 package will be installed."
-msgstr "Se instalará el paquete $0."
-
-#: src/subscriptions-register.jsx:94
-msgid "Username"
-msgstr "Usuario"
-
-#: src/subscriptions-register.jsx:100
-msgid "Password"
-msgstr "Contraseña"
-
-# translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
-msgid "Organization"
-msgstr "Organización"
-
-#: src/subscriptions-register.jsx:119
-msgid "Activation Key"
-msgstr "Clave de activación"
-
-#: src/subscriptions-register.jsx:121
-msgid "key_one,key_two"
-msgstr "clave_uno,clave_dos"
-
-# translation auto-copied from project subscription-manager, version 1.9.X, document keys, author gguerrer
-#: src/subscriptions-register.jsx:125
-msgid "Organization ID"
-msgstr "ID de organización"
-
-#: src/subscriptions-register.jsx:136
-msgid "Default"
-msgstr "Predeterminado"
-
-#: src/subscriptions-register.jsx:137
-msgid "Custom URL"
-msgstr "URL personalizada"
-
-# translation auto-copied from project subscription-manager, version 1.9.X, document keys, author gguerrer
-#: src/subscriptions-register.jsx:141
-msgid "URL"
-msgstr "URL"
-
-#: src/subscriptions-register.jsx:152
-msgid "Use proxy server"
-msgstr "Usar servidor proxy"
-
-#: src/subscriptions-register.jsx:157
-msgid "Method"
-msgstr "Método"
-
-# translation auto-copied from project subscription-manager, version 1.9.X, document keys, author gguerrer
-#: src/subscriptions-register.jsx:161
-msgid "Account"
-msgstr "Cuenta"
-
-#: src/subscriptions-register.jsx:167
-msgid "Activation key"
-msgstr "Clave de activación"
 
 #: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
@@ -239,6 +155,11 @@ msgid "Overview"
 msgstr "Vista general"
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+msgid "Organization"
+msgstr "Organización"
+
+# translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "Registrar sistema"
@@ -286,6 +207,56 @@ msgstr ""
 "No pudo obtener el estado de la suscripción del sistema. Asegure que "
 "subscription-manager está instalado. Informe el estado: $0 ($1)"
 
+#: src/subscriptions-client.js:213
+msgid "'Organization' is required when using activation keys"
+msgstr "'Organización' es requerido cuando utilizando claves de activación"
+
+#: src/subscriptions-client.js:237
+msgid ""
+"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"URL de servidor malformada; sintaxis de dirección IPv6 y nombre de host son "
+"mutuamente exclusivos"
+
+#: src/subscriptions-client.js:272
+msgid ""
+"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"URL proxy malformada; sintaxis de dirección IPv6 y nombre de host son "
+"mutuamente excluyentes"
+
+#: src/subscriptions-client.js:308
+msgid "Starting registration service ..."
+msgstr "Iniciando el servicio de registro ..."
+
+#: src/subscriptions-client.js:327
+msgid "Registering using activation key ..."
+msgstr "Registrar utilizando clave de activación ..."
+
+#: src/subscriptions-client.js:348
+msgid "Registering using username and password ..."
+msgstr "Registrar usando nombre de usuario y contraseña ..."
+
+#: src/subscriptions-client.js:377
+msgid "Stopping registration service ..."
+msgstr "Deteniendo servicio de registro ..."
+
+#: src/subscriptions-client.js:401
+msgid "Saving configuration ..."
+msgstr "Guardando configuración ..."
+
+#: src/subscriptions-client.js:421
+msgid "Updating status ..."
+msgstr "Actualizando el estado ..."
+
+#: src/subscriptions-client.js:454
+msgid "not-found"
+msgstr "no encontrado"
+
+#: src/subscriptions-client.js:490
+msgid "Corrupted JSON with status"
+msgstr "JSON corrompido con estado"
+
 #: src/insights.jsx:76
 msgid "Error"
 msgstr "Error"
@@ -316,6 +287,10 @@ msgstr ""
 "rendimiento, la disponibilidad y la estabilidad con Insights Red Hat — con "
 "los análisis predictivos, evite problemas y tiempos de inactividad no "
 "planeados en su entorno Red Hat."
+
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+msgid "The $0 package will be installed."
+msgstr "Se instalará el paquete $0."
 
 #: src/insights.jsx:154
 msgid "The $0 package and $1 other package will be installed."
@@ -423,55 +398,80 @@ msgstr "Conectado a Insights"
 msgid "Not connected"
 msgstr "No conectado"
 
-#: src/subscriptions-client.js:213
-msgid "'Organization' is required when using activation keys"
-msgstr "'Organización' es requerido cuando utilizando claves de activación"
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+msgid "Insights"
+msgstr "Insights"
 
-#: src/subscriptions-client.js:237
-msgid ""
-"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"URL de servidor malformada; sintaxis de dirección IPv6 y nombre de host son "
-"mutuamente exclusivos"
+#: src/subscriptions-register.jsx:45
+msgid "Proxy Location"
+msgstr "Lugar del Proxy"
 
-#: src/subscriptions-client.js:272
-msgid ""
-"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"URL proxy malformada; sintaxis de dirección IPv6 y nombre de host son "
-"mutuamente excluyentes"
+#: src/subscriptions-register.jsx:47
+msgid "hostname:port"
+msgstr "nombrehost:puerto"
 
-#: src/subscriptions-client.js:308
-msgid "Starting registration service ..."
-msgstr "Iniciando el servicio de registro ..."
+#: src/subscriptions-register.jsx:52
+msgid "Proxy Username"
+msgstr "Nombre de usuario de Proxy"
 
-#: src/subscriptions-client.js:327
-msgid "Registering using activation key ..."
-msgstr "Registrar utilizando clave de activación ..."
+#: src/subscriptions-register.jsx:59
+msgid "Proxy Password"
+msgstr "Contraseña de Proxy"
 
-#: src/subscriptions-client.js:348
-msgid "Registering using username and password ..."
-msgstr "Registrar usando nombre de usuario y contraseña ..."
+#: src/subscriptions-register.jsx:74
+msgid "Connect this system to $0."
+msgstr "Conectar este sistema a $0."
 
-#: src/subscriptions-client.js:377
-msgid "Stopping registration service ..."
-msgstr "Deteniendo servicio de registro ..."
+#: src/subscriptions-register.jsx:94
+msgid "Username"
+msgstr "Usuario"
 
-#: src/subscriptions-client.js:401
-msgid "Saving configuration ..."
-msgstr "Guardando configuración ..."
+#: src/subscriptions-register.jsx:100
+msgid "Password"
+msgstr "Contraseña"
 
-#: src/subscriptions-client.js:421
-msgid "Updating status ..."
-msgstr "Actualizando el estado ..."
+#: src/subscriptions-register.jsx:119
+msgid "Activation Key"
+msgstr "Clave de activación"
 
-#: src/subscriptions-client.js:454
-msgid "not-found"
-msgstr "no encontrado"
+#: src/subscriptions-register.jsx:121
+msgid "key_one,key_two"
+msgstr "clave_uno,clave_dos"
 
-#: src/subscriptions-client.js:490
-msgid "Corrupted JSON with status"
-msgstr "JSON corrompido con estado"
+# translation auto-copied from project subscription-manager, version 1.9.X, document keys, author gguerrer
+#: src/subscriptions-register.jsx:125
+msgid "Organization ID"
+msgstr "ID de organización"
+
+#: src/subscriptions-register.jsx:136
+msgid "Default"
+msgstr "Predeterminado"
+
+#: src/subscriptions-register.jsx:137
+msgid "Custom URL"
+msgstr "URL personalizada"
+
+# translation auto-copied from project subscription-manager, version 1.9.X, document keys, author gguerrer
+#: src/subscriptions-register.jsx:141
+msgid "URL"
+msgstr "URL"
+
+#: src/subscriptions-register.jsx:152
+msgid "Use proxy server"
+msgstr "Usar servidor proxy"
+
+#: src/subscriptions-register.jsx:157
+msgid "Method"
+msgstr "Método"
+
+# translation auto-copied from project subscription-manager, version 1.9.X, document keys, author gguerrer
+#: src/subscriptions-register.jsx:161
+msgid "Account"
+msgstr "Cuenta"
+
+#: src/subscriptions-register.jsx:167
+msgid "Activation key"
+msgstr "Clave de activación"
 
 #: src/manifest.json:0
 msgid "subscriptions"
@@ -503,7 +503,7 @@ msgstr ""
 "Gestiona suscripciones para un backend Candlepin, tal como productos Red Hat."
 
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
-#: data/subscription-manager-cockpit.desktop:3
+#: data/subscription-manager-cockpit.desktop:2
 msgid "Red Hat Subscription Manager"
 msgstr "Gestor de suscripción de Red Hat"
 

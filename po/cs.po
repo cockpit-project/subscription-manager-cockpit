@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 10:21+0000\n"
+"POT-Creation-Date: 2026-11-22 10:20+0000\n"
 "PO-Revision-Date: 2026-05-25 20:01+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
@@ -34,86 +34,6 @@ msgstr ""
 #: src/index.html:9 src/manifest.json:0
 msgid "Subscriptions"
 msgstr "Předplatná"
-
-#: src/subscriptions-register.jsx:45
-msgid "Proxy Location"
-msgstr "Umístění proxy"
-
-#: src/subscriptions-register.jsx:47
-msgid "hostname:port"
-msgstr "nazevhostitele:port"
-
-#: src/subscriptions-register.jsx:52
-msgid "Proxy Username"
-msgstr "Uživatelské jméno pro proxy"
-
-#: src/subscriptions-register.jsx:59
-msgid "Proxy Password"
-msgstr "Heslo k proxy"
-
-#: src/subscriptions-register.jsx:71 src/insights.jsx:506
-msgid "Insights"
-msgstr "Insights"
-
-#: src/subscriptions-register.jsx:74
-msgid "Connect this system to $0."
-msgstr "Připojit tento systém do $0."
-
-#: src/subscriptions-register.jsx:81 src/insights.jsx:152
-msgid "The $0 package will be installed."
-msgstr "Balíček $0 bude nainstalován."
-
-#: src/subscriptions-register.jsx:94
-msgid "Username"
-msgstr "Uživatelské jméno"
-
-#: src/subscriptions-register.jsx:100
-msgid "Password"
-msgstr "Heslo"
-
-#: src/subscriptions-register.jsx:108 src/subscriptions-view.jsx:331
-msgid "Organization"
-msgstr "Organizace"
-
-#: src/subscriptions-register.jsx:119
-msgid "Activation Key"
-msgstr "Aktivační klíč"
-
-#: src/subscriptions-register.jsx:121
-msgid "key_one,key_two"
-msgstr "klic_jedna,klic_dva"
-
-#: src/subscriptions-register.jsx:125
-msgid "Organization ID"
-msgstr "Identif. organizace"
-
-#: src/subscriptions-register.jsx:136
-msgid "Default"
-msgstr "Výchozí"
-
-#: src/subscriptions-register.jsx:137
-msgid "Custom URL"
-msgstr "Uživatelsky určená URL"
-
-#: src/subscriptions-register.jsx:141
-msgid "URL"
-msgstr "URL"
-
-#: src/subscriptions-register.jsx:152
-msgid "Use proxy server"
-msgstr "Použít proxy server"
-
-#: src/subscriptions-register.jsx:157
-msgid "Method"
-msgstr "Metoda"
-
-#: src/subscriptions-register.jsx:161
-msgid "Account"
-msgstr "Účet"
-
-#: src/subscriptions-register.jsx:167
-msgid "Activation key"
-msgstr "Aktivační klíč"
 
 #: src/subscriptions-view.jsx:39 src/subscriptions-view.jsx:119
 msgid "Product name"
@@ -228,6 +148,10 @@ msgstr "Zrušit registraci"
 msgid "Overview"
 msgstr "Přehled"
 
+#: src/subscriptions-view.jsx:331 src/subscriptions-register.jsx:108
+msgid "Organization"
+msgstr "Organizace"
+
 #: src/subscriptions-view.jsx:466
 msgid "Register System"
 msgstr "Zaregistrovat systém"
@@ -273,6 +197,56 @@ msgstr ""
 "Nebylo možné získat stav předplatného pro systém. Zajistěte, aby byl "
 "nainstalován subscription-manager. Hlášený stav: $0 ($1)"
 
+#: src/subscriptions-client.js:213
+msgid "'Organization' is required when using activation keys"
+msgstr "Při použití aktivačních klíčů je zapotřebí „Organizace“"
+
+#: src/subscriptions-client.js:237
+msgid ""
+"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"Nesprávný formát URL serveru – není možné použít IPv6 adresu a název stroje "
+"současně"
+
+#: src/subscriptions-client.js:272
+msgid ""
+"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
+msgstr ""
+"Nesprávný formát URL proxy – není možné použít IPv6 adresu a název stroje "
+"současně"
+
+#: src/subscriptions-client.js:308
+msgid "Starting registration service ..."
+msgstr "Spouštění registrační služby …"
+
+#: src/subscriptions-client.js:327
+msgid "Registering using activation key ..."
+msgstr "Registruje se pomocí aktivačního klíče …"
+
+#: src/subscriptions-client.js:348
+msgid "Registering using username and password ..."
+msgstr "Registruje se pomocí uživatelského jména a hesla …"
+
+#: src/subscriptions-client.js:377
+msgid "Stopping registration service ..."
+msgstr "Zastavování registrační služby …"
+
+#: src/subscriptions-client.js:401
+msgid "Saving configuration ..."
+msgstr "Ukládání nastavení …"
+
+#: src/subscriptions-client.js:421
+msgid "Updating status ..."
+msgstr "Aktualizace stavu …"
+
+#: src/subscriptions-client.js:454
+msgid "not-found"
+msgstr "nenalezeno"
+
+#: src/subscriptions-client.js:490
+msgid "Corrupted JSON with status"
+msgstr "Porušený JSON se stavem"
+
 #: src/insights.jsx:76
 msgid "Error"
 msgstr "Chyba"
@@ -302,6 +276,10 @@ msgstr ""
 "Proaktivně identifikujte a napravujte ohrožení zabezpečení, výkonu, "
 "dostupnosti a stability s Red Hat Insights – pomocí prediktivní analýzy se "
 "vyhněte problémům a neplánovaným výpadkům ve svém Red Hat prostředí."
+
+#: src/insights.jsx:152 src/subscriptions-register.jsx:81
+msgid "The $0 package will be installed."
+msgstr "Balíček $0 bude nainstalován."
 
 #: src/insights.jsx:154
 msgid "The $0 package and $1 other package will be installed."
@@ -409,55 +387,77 @@ msgstr "Připojeno k Insights"
 msgid "Not connected"
 msgstr "Nepřipojeno"
 
-#: src/subscriptions-client.js:213
-msgid "'Organization' is required when using activation keys"
-msgstr "Při použití aktivačních klíčů je zapotřebí „Organizace“"
+#: src/insights.jsx:506 src/subscriptions-register.jsx:71
+msgid "Insights"
+msgstr "Insights"
 
-#: src/subscriptions-client.js:237
-msgid ""
-"Malformed server URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"Nesprávný formát URL serveru – není možné použít IPv6 adresu a název stroje "
-"současně"
+#: src/subscriptions-register.jsx:45
+msgid "Proxy Location"
+msgstr "Umístění proxy"
 
-#: src/subscriptions-client.js:272
-msgid ""
-"Malformed proxy URL; IPv6 address syntax and hostname are mutually exclusive"
-msgstr ""
-"Nesprávný formát URL proxy – není možné použít IPv6 adresu a název stroje "
-"současně"
+#: src/subscriptions-register.jsx:47
+msgid "hostname:port"
+msgstr "nazevhostitele:port"
 
-#: src/subscriptions-client.js:308
-msgid "Starting registration service ..."
-msgstr "Spouštění registrační služby …"
+#: src/subscriptions-register.jsx:52
+msgid "Proxy Username"
+msgstr "Uživatelské jméno pro proxy"
 
-#: src/subscriptions-client.js:327
-msgid "Registering using activation key ..."
-msgstr "Registruje se pomocí aktivačního klíče …"
+#: src/subscriptions-register.jsx:59
+msgid "Proxy Password"
+msgstr "Heslo k proxy"
 
-#: src/subscriptions-client.js:348
-msgid "Registering using username and password ..."
-msgstr "Registruje se pomocí uživatelského jména a hesla …"
+#: src/subscriptions-register.jsx:74
+msgid "Connect this system to $0."
+msgstr "Připojit tento systém do $0."
 
-#: src/subscriptions-client.js:377
-msgid "Stopping registration service ..."
-msgstr "Zastavování registrační služby …"
+#: src/subscriptions-register.jsx:94
+msgid "Username"
+msgstr "Uživatelské jméno"
 
-#: src/subscriptions-client.js:401
-msgid "Saving configuration ..."
-msgstr "Ukládání nastavení …"
+#: src/subscriptions-register.jsx:100
+msgid "Password"
+msgstr "Heslo"
 
-#: src/subscriptions-client.js:421
-msgid "Updating status ..."
-msgstr "Aktualizace stavu …"
+#: src/subscriptions-register.jsx:119
+msgid "Activation Key"
+msgstr "Aktivační klíč"
 
-#: src/subscriptions-client.js:454
-msgid "not-found"
-msgstr "nenalezeno"
+#: src/subscriptions-register.jsx:121
+msgid "key_one,key_two"
+msgstr "klic_jedna,klic_dva"
 
-#: src/subscriptions-client.js:490
-msgid "Corrupted JSON with status"
-msgstr "Porušený JSON se stavem"
+#: src/subscriptions-register.jsx:125
+msgid "Organization ID"
+msgstr "Identif. organizace"
+
+#: src/subscriptions-register.jsx:136
+msgid "Default"
+msgstr "Výchozí"
+
+#: src/subscriptions-register.jsx:137
+msgid "Custom URL"
+msgstr "Uživatelsky určená URL"
+
+#: src/subscriptions-register.jsx:141
+msgid "URL"
+msgstr "URL"
+
+#: src/subscriptions-register.jsx:152
+msgid "Use proxy server"
+msgstr "Použít proxy server"
+
+#: src/subscriptions-register.jsx:157
+msgid "Method"
+msgstr "Metoda"
+
+#: src/subscriptions-register.jsx:161
+msgid "Account"
+msgstr "Účet"
+
+#: src/subscriptions-register.jsx:167
+msgid "Activation key"
+msgstr "Aktivační klíč"
 
 #: src/manifest.json:0
 msgid "subscriptions"
@@ -486,7 +486,7 @@ msgstr ""
 "Spravujte předplatná k podpůrné vrstvě Candlepin, jako například pro "
 "produkty Red Hat."
 
-#: data/subscription-manager-cockpit.desktop:3
+#: data/subscription-manager-cockpit.desktop:2
 msgid "Red Hat Subscription Manager"
 msgstr "Správa Red Hat předplatného"
 
